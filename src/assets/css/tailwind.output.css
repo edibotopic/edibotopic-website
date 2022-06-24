@@ -1000,11 +1000,14 @@ video {
 .h-screen {
   height: 100vh;
 }
-.h-full {
-  height: 100%;
+.h-auto {
+  height: auto;
 }
 .h-12 {
   height: 3rem;
+}
+.h-full {
+  height: 100%;
 }
 .h-8 {
   height: 2rem;
@@ -1029,6 +1032,9 @@ video {
 }
 .max-w-md {
   max-width: 28rem;
+}
+.max-w-full {
+  max-width: 100%;
 }
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));

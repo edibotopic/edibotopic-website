@@ -1,7 +1,7 @@
 ---
 title: Moving from WordPress to GitHub 
 desc: Why I moved from Wordpress to GitHub
-date: 2022-06-22
+date: 2022-06-26
 tags:
     - blogging
     - academia
@@ -62,7 +62,7 @@ console.log(b / a)
 // returns 3
 ```
 
-I ended up installing three different plugins before I found something that worked and the results _still_ looked bad. Every time I sat down to write something there was a little bit of dread associated with the publishing stage. As writing is already difficult enough, the friction introduced by the WordPress editor was a problem As writing is already difficult enough, the friction introduced by the WordPress editor was a problem.
+I ended up installing three different plugins before I found something that worked and the results _still_ looked bad. Every time I sat down to write something there was a little bit of dread associated with the publishing stage. As writing is already difficult enough, the friction introduced by the WordPress editor was a problem.
 
 ### **Good Friction**
 
