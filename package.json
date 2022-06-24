@@ -35,7 +35,8 @@
         "build": "npm run clean build:vite && npm run build:eleventy",
         "build:eleventy": "NODE_ENV=production eleventy",
         "build:vite": "NODE_ENV=production vite build",
-        "prod": "NODE_ENV=production npm run build && serve docs"
+        "prod": "NODE_ENV=production npm run build && serve docs",
+        "dev": "npm run prestart && ELEVENTY_ENV=dev npx eleventy --serve"
     },
     "devDependencies": {
         "@11ty/eleventy": "^1.0.1",
