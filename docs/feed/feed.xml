@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>edibotopic</title>
+	<subtitle>Project website and blog to share knowledge and connect ideas</subtitle>
+	
+	<link href="https://edibotopic.com/feed/feed.xml" rel="self"/>
+	<link href="https://edibotopic.com/"/>
+	<updated>2022-06-22T00:00:00Z</updated>
+	<id>https://edibotopic.com/</id>
+	<author>
+		<name>Shane Crowley</name>
+		<email>edibotopic@gmail.com</email>
+	</author>
+	
+		
+		<entry>
+			<title>Moving from WordPress to GitHub</title>
+			<link href="https://edibotopic.com/posts/000-site-migrated/"/>
+			<updated>2022-06-22T00:00:00Z</updated>
+			<id>https://edibotopic.com/posts/000-site-migrated/</id>
+			<content type="html">&lt;style&gt;
+  p&gt;img {
+    margin: auto;
+  }
+&lt;/style&gt;
+&lt;p&gt;I made a website when my academic job began to require more online teaching. The idea was to craft a space for exploring my personal and scholarly interests in a more integrated and informal way. Under time pressure, with little programming experience and a minimal amount of research, I chose &lt;em&gt;Wordpress&lt;/em&gt; as a publishing platform. This choice made it quick and easy to get a functioning site up-and-running, but creating the content soon became a chore. In parallel, I became a more proficient user of GitHub. For every incomplete blog post there was a new software project in a GitHub repository. For these and other reasons I have decided to migrate the website to GitHub. This post serves to outline my motivations and get this blog started.&lt;/p&gt;
+&lt;!-- TODO add links --&gt;
+&lt;h3 id=&quot;why-a-website%3F&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Why a Website?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;I developed a &lt;em&gt;somewhat&lt;/em&gt; undeserved reputation as a “tech person” during the era of Covid lockdowns. Admittedly, it was a period of frantic digital exploration. I sunk countless hours into music, programming and 3D design, among other activities. This was partially motivated by a sense of deep panic: having previously been an occasionally boring lecturer in some of my in-person classes, how could I now avoid giving boring online lectures? The blurry ambition was to model myself on the content creators that I had come to recognise as effective teachers (at least for me &lt;em&gt;personally&lt;/em&gt;). There were plans for Youtube videos, personal blogs, bespoke soundtracks, software tools for teaching and a food-themed podcast. &lt;em&gt;Some&lt;/em&gt; of these things materialised, and of those that &lt;em&gt;did&lt;/em&gt; the website was probably the least successful.&lt;/p&gt;
+&lt;p&gt;The website — in some way — was an attempt to (re)integrate aspects of my own personality that had been cut adrift during the intense and specialised work characteristic of early-stage academia. My pre-academic life was defined mostly by writing &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.66666em;vertical-align:-0.08333em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; music (creatively) and sport &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.66666em;vertical-align:-0.08333em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; gaming (casually). If the creative projects were materially &lt;em&gt;unsuccessful&lt;/em&gt; and the casual hobbies undeniable &lt;em&gt;time sinks&lt;/em&gt; they were still incredibly rewarding. During the initial years in my academic position (&lt;em&gt;in food science&lt;/em&gt;) I studied philosophy part-time, much to the confusion of my colleagues. I believe there are many productive and enlightening connections to be made between ideas across different domains of human knowledge, and I needed a place to explore these connections when the structures of academia did not make that possible.&lt;/p&gt;
+&lt;h3 id=&quot;bad-friction&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Bad Friction&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Wordpress is often recommended to beginners who want to make a website. It has a lot to offer. Choose a name, choose a theme and you’re on your way. There is a large ecosystem of &lt;strong&gt;plugins&lt;/strong&gt;, which is also very attractive. For example, I was exploring the &lt;a href=&quot;https://edibotopic.com/posts/000-site-migrated/&quot;&gt;Babylon.js&lt;/a&gt; game engine for making 3D content for the web and Wordpress had a plugin for displaying those scenes. I thought that people might comment on my blog posts and there was a plugin for handling those user interactions. &lt;em&gt;What if someone wanted to make a donation&lt;/em&gt; I thought and - sure enough - there was a plugin for that too.&lt;/p&gt;
+&lt;p&gt;Later, I began to find these plugins more troublesome for a few reasons:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Some of the features these plugins add are relatively trivial to implement in a standard website, &lt;em&gt;if&lt;/em&gt; you know what you’re doing. How they often seem to function on Wordpress is overcoming the constraints imposed by Wordpress itself.Adding interactivity (through scripts) or styling (through CSS) is routine practice when tweaking a website but it is decidedly &lt;em&gt;awkward&lt;/em&gt; on Wordpress. Plugins overcome this awkwardness but at a cost.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Plugins often reduce site performance. Say you want to add support for a photo gallery. As a beginner, you might find some code samples online where this feature is implemented in a few lines of JavaScript and CSS. WordPress, however, makes it difficult to add the necessary code. So, someone recommends a gallery plugin, which you then install. Several weeks later you notice a dip in site performance. The common practice at this point is to uninstall each plugin one-by-one to identify the root cause. Even if this time-consuming, iterative process leads you to identify the culprit you are then left with the hard decision of whether to cull the offending plugin(s) to benefit performance, or sacrifice that performance for functionality.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The plugin ecosystem is very much a marketplace. You will be surprised to find that seemingly basic features are behind a paywall. You will be prompted for reviews. Your choice to stop using a plugin will be queried. The creators of these plugins are entitled to seek feedback and remuneration for their efforts but if you are using multiple plugins this process can add unnecessary friction to the simple act of writing a blog post.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Many of the plugins that are attractive may not be necessary for meagre use-cases like my own. I wasn’t likely to get donations. There was unlikely to be a large community of commentators. The ease with which you can add functionality can very easily lead to you overpowering your website.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The answer to these problems is often simply to “use less plugins”, but if the diversity and easy-implementation of plugins were what attracted you in the first place then a major benefit of the platform seems to be undermined by this line of reasoning.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;All this I know with the benefit of hindsight. The “trivial implementations” I refer to were not trivial for me &lt;em&gt;at the time&lt;/em&gt;. I did not know what functionality my site would require. In retrospect, I could only ever have started with a tool like WordPress and if I had more complex requirements (e-commerce) then maybe I never would have left.&lt;/p&gt;
+&lt;p&gt;The alternative was building a site from scratch or using a static site generator. These options were beyond my skill-set at the time, or at least beyond my capacity to understand what I was directly manipulating. So I maintained my unproductive blog, which largely involved updating plugins to prevent security problems. At the same time I was increasingly productive with small software projects on GitHub. Creating these projects on GitHub was &lt;em&gt;more difficult&lt;/em&gt; on its face (it involved actual coding), yet it was where I seemed to be making the most ground.&lt;/p&gt;
+&lt;h3 id=&quot;the-decision-to-change&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;The Decision to Change&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;My personal grievances with WordPress came to head when I was writing my final blog post, which was a summary of recent software projects.&lt;/p&gt;
+&lt;p&gt;In the intervening years I had become a fan of editing plain text/markdown using (Neo)Vim as my text editor. I would then copy the text and paste it into the WordPress editor. Inevitably this would cause unforeseen formatting issues that would take a considerable amount of time to fix. I had enabled markdown editing in WordPress &lt;em&gt;via&lt;/em&gt; a plugin but the post still came out jumbled. I had specific, enraging problems with adding a code block, a feature common to most markdown editors/previewers that looks like this:&lt;/p&gt;
+&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// code goes here&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; b &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;b &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token comment&quot;&gt;// returns 3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I ended up installing three different plugins before I found something that worked and the results &lt;em&gt;still&lt;/em&gt; looked bad. Every time I sat down to write something there was a little bit of dread associated with the publishing stage. As writing is already difficult enough, the friction introduced by the WordPress editor was a problem As writing is already difficult enough, the friction introduced by the WordPress editor was a problem.&lt;/p&gt;
+&lt;h3 id=&quot;good-friction&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Good Friction&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Plain text. The terminal. Text editors. Version control.&lt;/p&gt;
+&lt;p&gt;Terms that are superficially bland but that are known to excite many programmers. Like most &lt;em&gt;non-programmers&lt;/em&gt;, I was originally mystified as to why these were interesting or useful, not to mind &lt;em&gt;exciting&lt;/em&gt;. I gradually came to understand their appeal, and I hope to discuss these topics in more depth on this blog in future. For now, it is enough to say that I greatly value the customisability and speed of a good text editor, as well as the structured and transparent nature of a version-controlled project. When creating material for a website I wanted to leverage these tools.&lt;/p&gt;
+&lt;p&gt;This website took longer to setup than if I was using WordPress. Like most static site generators the idea is simple: to take content written in markdown and convert it into web pages. In principle, this means that most of my interaction with the site should proceed in simple terms as follows:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open terminal&lt;/li&gt;
+&lt;li&gt;Write markdown in Neovim&lt;/li&gt;
+&lt;li&gt;Run &lt;code&gt;npm run build&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Push&lt;/code&gt; changes to GitHub&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The markdown is a straightforward way of formatting text:&lt;/p&gt;
+&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;&lt;span class=&quot;token title important&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;###&lt;/span&gt; Good Friction&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;Plain text. The terminal...&lt;br /&gt;&lt;br /&gt;Terms that are...&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token list punctuation&quot;&gt;1.&lt;/span&gt; Open terminal&lt;br /&gt;&lt;span class=&quot;token list punctuation&quot;&gt;2.&lt;/span&gt; Write markdown...&lt;br /&gt;&lt;br /&gt;The markdown is a straightforward way of formatting text:&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;build&lt;/code&gt; process, however, involves multiple interacting parts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Site generator&lt;/strong&gt;: eleventy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bundler&lt;/strong&gt;: Vite&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Markdown converter&lt;/strong&gt;: markdown-it&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CSS tools/frameworks&lt;/strong&gt;: tailwind, PostCSS&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Package manager&lt;/strong&gt;: NPM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Besides obvious tasks like styling the website to my preferences, there were innumerable tiny problems to solve associated with these different parts.&lt;/p&gt;
+&lt;p&gt;The original bundler had been deprecated so I had to migrate to Vite. List numbers/bullets were being rendered incorrectly and I needed to learn Tailwind configuration to fix them. Several issues were associated with outdated dependencies that needed to be updated or upgraded through &lt;code&gt;NPM&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Even when addressing these issues took time the solution usually &lt;em&gt;made sense&lt;/em&gt;, rather than being a &lt;em&gt;deus ex machina&lt;/em&gt; in the form of a plugin. While I &lt;em&gt;do&lt;/em&gt; use plugins on this site they are less abundant and often merely implement small adjustments to how an &lt;code&gt;.md&lt;/code&gt; file is converted into &lt;code&gt;.html&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;My major gripe with static site generators is how they appear &lt;em&gt;as a code base&lt;/em&gt; to the uninitiated. In the other software projects I have worked on I like the idea that someone can look at the code and see a simple directory structure like so:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;+--scripts
++--styles
++--index.html
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Static site generators create relatively complex directory structures. In addition, different people use different JAM (JavaScript APIs Markup) stacks. While I use Eleventy another will use Hugo, with subtly different APIs, dependencies and directory structures in each case. If you like a feature of a static site and want to study it there can be a lot of detective work involved. From a pedagogical standpoint this is undesirable, especially if a prospective student is not already a web developer.&lt;/p&gt;
+&lt;p&gt;Regardless, I needed something compact that I could manage and understand &lt;em&gt;if only in principle&lt;/em&gt;. When something breaks it would be within my power to investigate and fix it.&lt;/p&gt;
+&lt;p&gt;While my instinct for colour schemes might not be perfect — you be the judge — this site looks at least as good as the WordPress one to my eyes, and I am in more control of how that might change in the future.&lt;/p&gt;
+&lt;h3 id=&quot;the-current-plan&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;The Current Plan&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Many people have a difficulty with &lt;em&gt;starting writing&lt;/em&gt;, while I have a difficulty &lt;em&gt;stopping writing&lt;/em&gt;. I have a natural tendency to write articles that are long, verbose and that try to do too much.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;: my final blog on the previous site, which attempted to summarise 6-7 software projects I had worked on. Of course, this could have simply been 6-7 shorter and more self-contained blog posts.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;: this very post&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Coming from academia, I am also a prodigious editor. An article requiring 5 or even 12 drafts is &lt;em&gt;normal&lt;/em&gt; to me. This, however, is not sustainable when maintaining a “casual” blog. The whole idea here is to write more freely and fluently, even if a post ends up on &lt;em&gt;Hacker News&lt;/em&gt; and its exacting users decry the state of internet writing.&lt;/p&gt;
+&lt;p&gt;A major goal of mine with this site is to write more regularly but also more concisely, with this blog perhaps being a bad start in that respect! In addition, it will function as a reference for my recent and active projects in music, software and technology. Lastly, if my nascent multimedia projects (video, podcasting) come to fruition then I will incorporate them into this site.&lt;/p&gt;
+&lt;p&gt;More soon 😉&lt;/p&gt;
+</content>
+		</entry>
+	
+</feed>

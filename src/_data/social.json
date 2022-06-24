@@ -1,0 +1,17 @@
+[
+    {
+        "url": "https://github.com/edibotopic",
+        "icon": "/assets/img/github.png",
+        "alt": "Github"
+    },
+    {
+        "url": "https://scholar.social/@edibotopic ",
+        "icon": "/assets/img/twot.png",
+        "alt": "Mastodon"
+    },
+    {
+        "url": "mailto:edibotopic@gmail.com?subject=Update the Subject",
+        "icon": "/assets/img/mail.png",
+        "alt": "Email"
+    }
+]
