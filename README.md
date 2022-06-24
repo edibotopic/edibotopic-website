@@ -8,6 +8,7 @@ This is a work in progress.
 
 ## To-do
 
+- [ ] Work on performance (e.g., img in About)
 - [ ] Add license (MIT?)
 - [ ] Add credits (e.g., site template)
 - [x] Add cname (check addresses)
