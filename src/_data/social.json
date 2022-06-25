@@ -10,6 +10,11 @@
         "alt": "Mastodon"
     },
     {
+        "url": "https://edibotopic.com/feed/feed.xml",
+        "icon": "/assets/img/rss.png",
+        "alt": "RSS"
+    },
+    {
         "url": "mailto:edibotopic@gmail.com?subject=Update the Subject",
         "icon": "/assets/img/mail.png",
         "alt": "Email"
