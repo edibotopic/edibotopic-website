@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-      <loc>https://edibotopic.com/about/</loc>
-      <lastmod>Wed, 15 Jun 2022 19:05:55 GMT</lastmod>
-    </url>
-    
-    <url>
       <loc>https://edibotopic.com/blog/</loc>
       <lastmod>Wed, 15 Jun 2022 19:05:55 GMT</lastmod>
     </url>
@@ -49,6 +44,11 @@
     <url>
       <loc>https://edibotopic.com/projects/</loc>
       <lastmod>Wed, 15 Jun 2022 21:08:16 GMT</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://edibotopic.com/about/</loc>
+      <lastmod>Fri, 24 Jun 2022 16:17:08 GMT</lastmod>
     </url>
     
     <url>

@@ -112,9 +112,19 @@ module.exports = function (eleventyConfig) {
         typographer: true,
     })
         .use(markdownItAnchor, {
-            // permalink: true,
-            permalinkClass: 'direct-link',
-            permalinkSymbol: '&#128279',
+            // permalink: markdownItAnchor.permalink.linkAfterHeader({
+            //     class: 'header-anchor',
+            //     symbol: '&#128279',
+            //     placement: 'after',
+            //     style: 'visually-hidden',
+            //     assistiveText: (title) => `Permalink to “${title}”`,
+            //     visuallyHiddenClass: 'visually-hidden',
+            permalink: markdownItAnchor.permalink.linkInsideHeader({
+                symbol: `
+                  <span class="direct-link" aria-hidden="true">#</span>
+                    `,
+                placement: 'after',
+            }),
         })
         .use(latex, {
             minRuleThickness: 0.06,
@@ -139,7 +149,6 @@ module.exports = function (eleventyConfig) {
     })
 
     return {
-        // pathPrefix: '/edibotopic-website/',
         passthroughFileCopy: true,
         templateFormats: ['njk', 'md', 'html'],
         htmlTemplateEngine: 'njk',

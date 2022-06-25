@@ -8,7 +8,7 @@ This is a work in progress.
 
 ## To-do
 
-- [ ] Work on performance (e.g., img in About)
+- [x] Work on performance (e.g., img in About)
 - [ ] Add license (MIT?)
 - [ ] Add credits (e.g., site template)
 - [x] Add cname (check addresses)
@@ -16,3 +16,4 @@ This is a work in progress.
 - [ ] Edit initial post (conclude, comments on build)
 - [ ] Clean git history
 - [ ] Add RSS icon
+- [ ] Add permalinks

@@ -74,9 +74,9 @@ module.exports = {
                             'border-color': 'black !important',
                         },
 
-                        '.direct-link': {
-                            'text-decoration': 'none !important',
-                        },
+                        // '.direct-link': {
+                        //     'text-decoration': 'none !important',
+                        // },
                     },
                 },
             }),
