@@ -42,26 +42,26 @@
         "@11ty/eleventy": "^1.0.1",
         "@11ty/eleventy-navigation": "^0.3.3",
         "@11ty/eleventy-plugin-rss": "^1.2.0",
-        "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
-        "@tailwindcss/typography": "^0.5.2",
-        "@vitejs/plugin-legacy": "^1.8.2",
-        "autoprefixer": "^10.4.7",
+        "@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0",
+        "@tailwindcss/typography": "^0.5.4",
+        "@vitejs/plugin-legacy": "^2.0.0",
+        "autoprefixer": "^10.4.8",
         "cssnano": "^5.1.12",
-        "dayjs": "^1.11.3",
+        "dayjs": "^1.11.4",
         "eleventy-plugin-lazyimages": "^2.1.2",
-        "eleventy-plugin-youtube-embed": "^1.7.0",
+        "eleventy-plugin-youtube-embed": "^1.7.1",
         "html-minifier": "^4.0.0",
         "markdown-it": "^13.0.1",
         "markdown-it-anchor": "^8.6.4",
         "postcss": "^8.4.14",
-        "postcss-cli": "^9.1.0",
+        "postcss-cli": "^10.0.0",
         "rimraf": "^3.0.2",
-        "tailwindcss": "^3.1.4",
-        "vite": "^2.9.12"
+        "tailwindcss": "^3.1.8",
+        "vite": "^3.0.4"
     },
     "dependencies": {
         "@iktakahiro/markdown-it-katex": "^4.0.1",
-        "eleventy-plugin-footnotes": "^0.10.0",
-        "serve": "^13.0.2"
+        "eleventy-plugin-footnotes": "^0.11.0",
+        "serve": "^14.0.1"
     }
 }

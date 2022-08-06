@@ -13,12 +13,13 @@ Individual blog posts are written with the title `YYYY-MM-DD-<title>`.
 - [x] Add credits (e.g., site template)
 - [x] Add cname (check addresses)
 - [ ] Clean up package.json
-- [ ] Edit initial post (conclude, comments on build)
+- [x] Edit initial post (conclude, comments on build)
 - [ ] Clean git history
 - [x] Add RSS icon
 - [x] Add permalinks
-- [ ] Meta tab for archive/about/topics
-- [ ] Add sketchfab icon
+- [ ] Meta tab for archive/about/topics?
+- [ ] Add sketchfab icon?
+- [ ] Add css for users who use darkmode 
 
 ## Credit
 
