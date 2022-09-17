@@ -2,87 +2,102 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+      <loc>https://edibotopic.com/blog/</loc>
+      <lastmod>Wed, 15 Jun 2022 19:05:55 GMT</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://edibotopic.com/</loc>
+      <lastmod>Wed, 15 Jun 2022 19:05:55 GMT</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://edibotopic.com/posts/</loc>
+      <lastmod>Wed, 15 Jun 2022 19:05:55 GMT</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://edibotopic.com/tags/</loc>
+      <lastmod>Wed, 15 Jun 2022 19:05:55 GMT</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://edibotopic.com/tags/blogging/</loc>
+      <lastmod>Wed, 15 Jun 2022 19:05:55 GMT</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://edibotopic.com/tags/academia/</loc>
+      <lastmod>Wed, 15 Jun 2022 19:05:55 GMT</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://edibotopic.com/tags/experience/</loc>
+      <lastmod>Wed, 15 Jun 2022 19:05:55 GMT</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://edibotopic.com/tags/science/</loc>
+      <lastmod>Wed, 15 Jun 2022 19:05:55 GMT</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://edibotopic.com/tags/animation/</loc>
+      <lastmod>Wed, 15 Jun 2022 19:05:55 GMT</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://edibotopic.com/tags/teaching/</loc>
+      <lastmod>Wed, 15 Jun 2022 19:05:55 GMT</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://edibotopic.com/tags/programming/</loc>
+      <lastmod>Wed, 15 Jun 2022 19:05:55 GMT</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://edibotopic.com/tags/dispersed%20systems/</loc>
+      <lastmod>Wed, 15 Jun 2022 19:05:55 GMT</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://edibotopic.com/tags/writing/</loc>
+      <lastmod>Wed, 15 Jun 2022 19:05:55 GMT</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://edibotopic.com/tags/plagiarism/</loc>
+      <lastmod>Wed, 15 Jun 2022 19:05:55 GMT</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://edibotopic.com/feed/feed.xml</loc>
+      <lastmod>Wed, 15 Jun 2022 19:05:55 GMT</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://edibotopic.com/projects/</loc>
+      <lastmod>Wed, 15 Jun 2022 21:08:16 GMT</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://edibotopic.com/about/</loc>
+      <lastmod>Fri, 24 Jun 2022 16:17:08 GMT</lastmod>
+    </url>
+    
+    <url>
       <loc>https://edibotopic.com/posts/2022-06-26-site-migrated/</loc>
       <lastmod>Sun, 26 Jun 2022 00:00:00 GMT</lastmod>
     </url>
     
     <url>
-      <loc>https://edibotopic.com/about/</loc>
-      <lastmod>Sat, 30 Jul 2022 16:05:06 GMT</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://edibotopic.com/blog/</loc>
-      <lastmod>Sat, 30 Jul 2022 16:05:06 GMT</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://edibotopic.com/feed/feed.xml</loc>
-      <lastmod>Sat, 30 Jul 2022 16:05:06 GMT</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://edibotopic.com/</loc>
-      <lastmod>Sat, 30 Jul 2022 16:05:06 GMT</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://edibotopic.com/posts/</loc>
-      <lastmod>Sat, 30 Jul 2022 16:05:06 GMT</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://edibotopic.com/projects/</loc>
-      <lastmod>Sat, 30 Jul 2022 16:05:06 GMT</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://edibotopic.com/tags/</loc>
-      <lastmod>Sat, 30 Jul 2022 16:05:06 GMT</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://edibotopic.com/tags/blogging/</loc>
-      <lastmod>Sat, 30 Jul 2022 16:05:06 GMT</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://edibotopic.com/tags/academia/</loc>
-      <lastmod>Sat, 30 Jul 2022 16:05:06 GMT</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://edibotopic.com/tags/experience/</loc>
-      <lastmod>Sat, 30 Jul 2022 16:05:06 GMT</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://edibotopic.com/tags/science/</loc>
-      <lastmod>Sat, 30 Jul 2022 16:05:06 GMT</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://edibotopic.com/tags/animation/</loc>
-      <lastmod>Sat, 30 Jul 2022 16:05:06 GMT</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://edibotopic.com/tags/teaching/</loc>
-      <lastmod>Sat, 30 Jul 2022 16:05:06 GMT</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://edibotopic.com/tags/programming/</loc>
-      <lastmod>Sat, 30 Jul 2022 16:05:06 GMT</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://edibotopic.com/tags/dispersed%20systems/</loc>
-      <lastmod>Sat, 30 Jul 2022 16:05:06 GMT</lastmod>
-    </url>
-    
-    <url>
       <loc>https://edibotopic.com/posts/2022-08-06-stokes-law/</loc>
       <lastmod>Sat, 06 Aug 2022 00:00:00 GMT</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://edibotopic.com/posts/2022-09-17-on-plagiarism/</loc>
+      <lastmod>Sat, 17 Sep 2022 00:00:00 GMT</lastmod>
     </url>
 </urlset>
