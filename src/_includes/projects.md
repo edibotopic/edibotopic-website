@@ -20,21 +20,13 @@ All my music is available *for free* on my [Bandcamp page](https://curtsyrehears
 
 ## Software
 
-[Tier List](https://edibotopic.github.io/tier-list/) | June 2022
-
-*A minimal interface for content creators who want to create tier lists using images and gifs*
-
-[Write Height](https://edibotopic.github.io/write-height/) | May 2022
-
-*An easy-to-use application for converting 2D grayscale images to 3D models that can be downloaded in various file formats*
-
-[Cook Labs](https://edibotopic.github.io/cook-labs/) | May 2022
-
-*Prototype of a recipe documentation site where recipe data is parsed from local files written in the [Cooklang](https://cooklang.org/) markup language*
-
-[Stoke's Law](https://edibotopic.github.io/stokes-law/) | April 2022
+[Stoke's Law](https://edibotopic.github.io/stokes-law/) | April 2023
 
 *Animated simulation of Stoke's law, a mathematical equation used commonly in food science to explain separation phenomena*
+
+[Write Height](https://edibotopic.github.io/write-height/) | January 2022
+
+*An easy-to-use application for converting 2D grayscale images to 3D models that can be downloaded in various file formats*
 
 All my software projects are free and open-source. They can be found on my [GitHub profile](https://github.com/edibotopic).
 
@@ -61,4 +53,4 @@ The most up-to-date lists of my publications can be found on [Google Scholar](ht
 
 ---
 
-I am committed in my scholarly and creative work to connecting ideas, approaches and techniques across domains. If you are interested in collaborating please reach out to [edibotopic@gmail.com](mailto:edibotopic@gmail.com).
+If you are interested in collaborating in science, art or philosophy reach out to [edibotopic@gmail.com](mailto:edibotopic@gmail.com).
