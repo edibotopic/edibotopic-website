@@ -100,9 +100,7 @@ The act/art of sampling is more of a contested issue than direct reproduction an
 
 I am reminded also of the phenomenon of [mondegreens](https://www.nme.com/blogs/nme-blogs/misheard-song-lyrics-6787), where a lyric, poem or quote is mis-read/heard or misinterpreted, yielding an original result — this is maybe the most likely route to originality for the scientific novice who is bewildered by a learned professor. Unfortunately, while a misinterpreted poem might lead to an interesting phrase, a misinterpreted scientific fact is likely to yield a falsity. This is perhaps reminiscent of the situation of the student in the exam hall, who interpolates source material and introduces new imperfections in the process.
 
-Lastly, there is the relatively new concept of the [demake](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameDemake), which is a remake of an original work within significant constraints. For example, a 3D videogame produced with a multi-million budget and a team of hundreds that is designed to run on the latest hardware will be demade into a 2D game by one person so that it runs on hardware from the 1980s. The student — who doesn't have a personal laboratory or a team of researchers — operates within constraints that the academic scientist does not. A question then is: how can the student produce something original from within their definite constraints.
-
-The search continues...
+Lastly, there is the relatively new concept of the [demake](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameDemake), which is a remake of an original work within significant constraints. For example, a 3D videogame produced with a multi-million budget and a team of hundreds that is designed to run on the latest hardware will be demade into a 2D game by one person so that it runs on hardware from the 1980s. The student — who doesn't have a personal laboratory or a team of researchers — operates within constraints that the academic scientist does not. A question then is: how can the student produce something original from within the definite constraints that have been defined?
 
 # Links
 
