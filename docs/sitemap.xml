@@ -72,6 +72,11 @@
     </url>
     
     <url>
+      <loc>https://edibotopic.com/tags/interestingness/</loc>
+      <lastmod>Wed, 15 Jun 2022 19:05:55 GMT</lastmod>
+    </url>
+    
+    <url>
       <loc>https://edibotopic.com/feed/feed.xml</loc>
       <lastmod>Wed, 15 Jun 2022 19:05:55 GMT</lastmod>
     </url>
@@ -99,5 +104,10 @@
     <url>
       <loc>https://edibotopic.com/posts/2022-09-17-on-plagiarism/</loc>
       <lastmod>Sat, 17 Sep 2022 00:00:00 GMT</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://edibotopic.com/posts/2023-04-23-on-interestingness/</loc>
+      <lastmod>Sun, 23 Apr 2023 00:00:00 GMT</lastmod>
     </url>
 </urlset>
