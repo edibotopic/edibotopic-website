@@ -1,0 +1,29 @@
+[[project]]
+name = "Stokes's Law"
+desc = "An interactive visualiser and calculator for Stoke's Law, which describes the factors that influence how particles sink and float in liquids."
+links = [
+	{name = "website", url = "https://edibotopic.github.io/stokes-law/"},
+	{name = "source", url = "https://github.com/edibotopic/stokes-law/"}
+]
+
+[[project]]
+name = "Dereferenced"
+desc = "Most recent music release from Curtsy Rehearsed, sample-based music about memories, nature, irishness and technology (free or pay-what-you-want)."
+links = [
+	{name = "bandcamp", url = "https://curtsyrehearsed.bandcamp.com/album/dereferenced"},
+]
+
+[[project]]
+name = "Food Metaphors"
+desc = "Philosophical work that was written for the recent book Metaphors, Sustainability, Transformation."
+links = [
+	{name = "website", url = "https://www.taylorfrancis.com/chapters/edit/10.4324/9781003143567-5/alchemical-cyborgian-imaginings-technoscientific-discourse-relating-holistic-turns-food-processing-personalised-nutrition-shane-crowley"},
+]
+
+[[project]]
+name = "Food Science"
+desc = "General projects on the science and technology of food systems (too numerous to list)."
+links = [
+	{name = "GoogleScholar", url = "https://scholar.google.com/citations?user=aw1EnaIAAAAJ&hl=en"},
+	{name = "ResearchGate", url = "https://www.researchgate.net/profile/Shane-Crowley"},
+]
