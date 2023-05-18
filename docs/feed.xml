@@ -10,11 +10,11 @@
 		<title>Merely Interesting</title>
 		<published>2023-04-23T00:00:00+00:00</published>
 		<updated>2023-04-23T00:00:00+00:00</updated>
-        <summary>&lt;p&gt;I&#x27;ve been contemplating whether there a place for the &lt;em&gt;merely&lt;&#x2F;em&gt; interesting in research and teaching.&lt;&#x2F;p&gt;
+        <summary>&lt;p&gt;I&#x27;ve been contemplating whether there is a place for the &lt;em&gt;merely&lt;&#x2F;em&gt; interesting in research and teaching.&lt;&#x2F;p&gt;
 </summary>
 		<link href="https://edibotopic.com/blog/on-interestingness/" type="text/html"/>
 		<id>https://edibotopic.com/blog/on-interestingness/</id>
-		<content type="html">&lt;p&gt;I&#x27;ve been contemplating whether there a place for the &lt;em&gt;merely&lt;&#x2F;em&gt; interesting in research and teaching.&lt;&#x2F;p&gt;
+		<content type="html">&lt;p&gt;I&#x27;ve been contemplating whether there is a place for the &lt;em&gt;merely&lt;&#x2F;em&gt; interesting in research and teaching.&lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
 &lt;p&gt;A few years ago an academic journal named &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.journalofcontroversialideas.org&quot;&gt;The Journal of Controversial Ideas&lt;&#x2F;a&gt; was created. It offers a platform for authors to explore ideas that traditional outlets might reject due to their controversial nature. That a &lt;em&gt;merely&lt;&#x2F;em&gt; controversial idea would not necessarily warrant academic publication seems unproblematic. We can assume, however, that this new journal is not intended to platform &lt;em&gt;merely&lt;&#x2F;em&gt; controversial ideas. The editors are likely seeking presentations of ideas that are both controversial &lt;em&gt;and&lt;&#x2F;em&gt; valuable in some way. The &lt;em&gt;merely&lt;&#x2F;em&gt; qualifier does a lot of work here and elsewhere. Take the philosopher Kant&#x27;s &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;plato.stanford.edu&#x2F;entries&#x2F;kant-moral&quot;&gt;second formulation of his categorical imperative&lt;&#x2F;a&gt;:&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
@@ -46,7 +46,7 @@
         
         &lt;p&gt;&lt;strong&gt;Caution&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
         
-        &lt;p&gt;This was written shortly after the educational sector returned to relative normalcy after the Covid-19 pandemic and just before ChatGPT sent it back into a doom spiral.&lt;&#x2F;p&gt;
+        &lt;p&gt;This was written shortly after the educational sector returned to relative normalcy following the Covid-19 pandemic and just before ChatGPT sent it back into a doom spiral.&lt;&#x2F;p&gt;
 
     &lt;&#x2F;div&gt;
 &lt;&#x2F;blockquote&gt;
@@ -153,7 +153,7 @@ Plagiarism norms reflect the public and communal nature of scholarly work but �
         
         &lt;p&gt;&lt;strong&gt;Update&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
         
-        &lt;p&gt;This was originally about switching from WordPress to GitHub but --- by extension --- also a Static Site Generator (SSG) in the form of Eleventy. In 2023 I changed SSG from Eleventy (JavaScript) to Zola (Rust).&lt;&#x2F;p&gt;
+        &lt;p&gt;This was originally about switching from WordPress to GitHub but also —  by extension — to a Static Site Generator (SSG) in the form of Eleventy. In 2023 I changed from the SSG discussed here — Eleventy (JavaScript) — to Zola (Rust).&lt;&#x2F;p&gt;
 
     &lt;&#x2F;div&gt;
 &lt;&#x2F;blockquote&gt;
