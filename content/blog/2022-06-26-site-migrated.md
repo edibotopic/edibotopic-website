@@ -22,7 +22,7 @@ I moved from WordPress to GitHub to host my blog.
 
 <!-- more -->
 
-{% info(header="Update") %} This was originally about switching from WordPress to GitHub but --- by extension --- also a Static Site Generator (SSG) in the form of Eleventy. In 2023 I changed SSG from Eleventy (JavaScript) to Zola (Rust). {% end %}
+{% info(header="Update") %} This was originally about switching from WordPress to GitHub but also —  by extension — to a Static Site Generator (SSG) in the form of Eleventy. In 2023 I changed from the SSG discussed here — Eleventy (JavaScript) — to Zola (Rust). {% end %}
 
 I made a website when my academic job began to require more online teaching. The idea was to craft a space for exploring my personal and scholarly interests in a more integrated and informal way. Under time pressure, with little programming experience and a minimal amount of research, I chose _WordPress_ as a publishing platform. This choice made it quick and easy to get a functioning site up-and-running, but creating the content soon became a chore. In parallel, I became a more proficient user of GitHub. For every incomplete blog post there was a new software project in a GitHub repository. For these and other reasons I have decided to migrate the website to GitHub. This post serves to outline my motivations and get this blog started.
 

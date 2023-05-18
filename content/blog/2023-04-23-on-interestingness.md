@@ -17,7 +17,7 @@ cc_license = false
 outdate_warn = false
 +++
 
-I've been contemplating whether there a place for the *merely* interesting in research and teaching.
+I've been contemplating whether there is a place for the *merely* interesting in research and teaching.
 
 <!-- more -->
 
