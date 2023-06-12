@@ -1,10 +1,10 @@
 +++
-title = "Merely Interesting"
+title = "Valuing the Merely Interesting"
 date = 2023-04-23
 draft = false
 
 [taxonomies]
-categories = ["academia"]
+categories = ["notes"]
 tags = ["writing", "science", "philosophy"]
 
 [extra]
