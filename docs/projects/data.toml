@@ -7,10 +7,10 @@ links = [
 ]
 
 [[project]]
-name = "Dereferenced"
-desc = "Most recent music release from Curtsy Rehearsed, sample-based music about memories, nature, irishness and technology (free or pay-what-you-want)."
+name = "Curtsy Rehearsed"
+desc = "Sample-based music about memories, nature and technology (free or pay-what-you-want)."
 links = [
-	{name = "bandcamp", url = "https://curtsyrehearsed.bandcamp.com/album/dereferenced"},
+	{name = "bandcamp", url = "https://curtsyrehearsed.bandcamp.com"},
 ]
 
 [[project]]
@@ -18,6 +18,21 @@ name = "Food Metaphors"
 desc = "Philosophical work that was written for the recent book Metaphors, Sustainability, Transformation."
 links = [
 	{name = "website", url = "https://www.taylorfrancis.com/chapters/edit/10.4324/9781003143567-5/alchemical-cyborgian-imaginings-technoscientific-discourse-relating-holistic-turns-food-processing-personalised-nutrition-shane-crowley"},
+]
+
+[[project]]
+name = "Sqong"
+desc = "A simple Pong-clone written in the Odin programming language using the Raylib library."
+links = [
+	{name = "source", url = "https://github.com/edibotopic/sqong/"}
+]
+
+[[project]]
+name = "WriteHeight"
+desc = "A web-based tool for converting heightmaps to 3D models (work-in-progress)."
+links = [
+	{name = "website", url = "https://edibotopic.github.io/write-height/"},
+	{name = "source", url = "https://github.com/edibotopic/write-height/"}
 ]
 
 [[project]]
