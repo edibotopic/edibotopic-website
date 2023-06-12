@@ -1,5 +1,5 @@
 +++
-title = "Edibotopic | Blog"
+title = "edibotopic | blog"
 description = "Writing on food, technology and philosophy"
 sort_by = "date"
 template = "blog.html"
