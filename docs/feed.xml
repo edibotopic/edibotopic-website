@@ -16,7 +16,7 @@
 		<id>https://edibotopic.com/blog/write-height/</id>
 		<content type="html">&lt;p&gt;I made a simple web-based tool for converting grayscale images to 3D models.&lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
-&lt;p&gt;Far more powerful software than this tool — &lt;em&gt;WriteHeight&lt;&#x2F;em&gt; — exist but their complexity often presents a significant barrier to newcomers.
+&lt;p&gt;Far more powerful software than this tool — &lt;em&gt;WriteHeight&lt;&#x2F;em&gt; — exists but their complexity often presents a significant barrier to newcomers.
 Based solely on heightmaps, WriteHeight only requires the user to upload or draw grayscale images.
 The 2D image is then converted into a 3D model that can be inspected or downloaded.
 This post explains the motivation behind WriteHeight, what it can do and why it still needs a lot of work.&lt;&#x2F;p&gt;
