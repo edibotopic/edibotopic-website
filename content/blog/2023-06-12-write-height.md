@@ -21,7 +21,7 @@ I made a simple web-based tool for converting grayscale images to 3D models.
 
 <!-- more -->
 
-Far more powerful software than this tool — *WriteHeight* — exist but their complexity often presents a significant barrier to newcomers.
+Far more powerful software than this tool — *WriteHeight* — exists but their complexity often presents a significant barrier to newcomers.
 Based solely on heightmaps, WriteHeight only requires the user to upload or draw grayscale images.
 The 2D image is then converted into a 3D model that can be inspected or downloaded.
 This post explains the motivation behind WriteHeight, what it can do and why it still needs a lot of work.
