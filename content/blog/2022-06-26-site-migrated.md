@@ -1,12 +1,12 @@
 +++
-title = "Moving from WordPress to GitHub"
+title = "Moving from WordPress"
 date = 2022-01-01
 updated = 2023-05-17
 draft = false
 
 [taxonomies]
-categories = ["technology"]
-tags = ["writing", "academia", "experience"]
+categories = ["notes"]
+tags = ["writing", "web", "experience"]
 
 [extra]
 lang = "en"
@@ -27,13 +27,13 @@ I moved from WordPress to GitHub to host my blog.
 I made a website when my academic job began to require more online teaching. The idea was to craft a space for exploring my personal and scholarly interests in a more integrated and informal way. Under time pressure, with little programming experience and a minimal amount of research, I chose _WordPress_ as a publishing platform. This choice made it quick and easy to get a functioning site up-and-running, but creating the content soon became a chore. In parallel, I became a more proficient user of GitHub. For every incomplete blog post there was a new software project in a GitHub repository. For these and other reasons I have decided to migrate the website to GitHub. This post serves to outline my motivations and get this blog started.
 
 
-### **Why a Website?**
+# **Why a Website?**
 
 I developed a _somewhat_ undeserved reputation as a "tech person" among my university colleagues during the era of Covid lockdowns. Admittedly, it was a period of frantic digital exploration. I sunk countless hours into music, programming and 3D design, among other activities. This was partially motivated by a sense of deep panic: having previously been an _occasionally_ boring lecturer in some of my in-person classes, how could I now avoid giving boring online lectures? The blurry ambition was to model myself on the content creators that I had come to recognise as _effective_ teachers (at least for me _personally_). There were plans for Youtube videos, personal blogs, bespoke soundtracks, software tools for teaching and a food-themed podcast. _Some_ of these things materialised, and of those that _did_ the website was probably the least successful.
 
 The original [edibotopic.com](https://edibotopic.com) — in some way — was an attempt to (re)integrate aspects of my own personality that had been cut adrift during the intense and specialised work characteristic of early-stage academia. My pre-academic life was defined mostly by writing $+$ music (creatively) and sport $+$ gaming (casually). If the creative projects were materially _unsuccessful_ and the casual hobbies pleasant _distractions_ they were still rewarding. During the initial years in my academic position (_in food science_) I earned a philosophy degree — much to the confusion of my colleagues — adding another node in my web of interests. I believe there are many productive and enlightening connections to be made between ideas across different domains of human knowledge, and I needed a place to explore these connections when the structures of academia did not make that possible.
 
-### **Bad Friction**
+# **Bad Friction**
 
 [WordPress](https://wordpress.org) is often recommended to beginners who want to make a website. It has a lot to offer. Choose a name, choose a theme and you're on your way. There is a large ecosystem of **plugins**, which is also very attractive. For example, I was exploring the [Babylon.js](https://www.babylonjs.com/) game engine for making 3D content for the web and WordPress had a plugin for displaying those scenes. I thought that people might comment on my blog posts and there was a plugin for handling those user interactions. _What if someone wanted to make a donation_ I thought and — sure enough — there was a plugin for that too.
 
@@ -53,7 +53,7 @@ All this I know with the benefit of hindsight. The "trivial implementations" I r
 
 The alternative for *me-as-beginner* was building a site from scratch or using a static site generator. These options were beyond my skill-set at the time, or at least beyond my capacity to understand what I was directly manipulating when building the site. So I maintained my unproductive blog, which largely involved the drudgery of updating plugins to prevent security problems. At the same time I was increasingly productive with small software projects on GitHub. Creating these projects on GitHub was _more difficult_ on its face (it involved actual coding), yet it was where I seemed to be making the most ground.
 
-### **Plugging Out**
+# **Plugging Out**
 
 My personal grievances with WordPress came to head when I was writing my final blog post, which was a summary of some recent software projects.
 
@@ -70,7 +70,7 @@ console.log(b / a)
 
 I ended up installing three different plugins before I found something that worked and the results _still_ looked bad. Due to these and other issues, every time I sat down to write something there was a little bit of dread associated with the publishing stage. As writing is already difficult enough, the (bad) friction introduced by the WordPress editor was a problem.
 
-### **Good Friction**
+# **Good Friction**
 
 Plain text. The terminal. Text editors. Version control.
 
@@ -86,7 +86,7 @@ This website took longer to setup than if I was using WordPress. Like most stati
 The markdown is a straightforward way of formatting text:
 
 ```markdown
-### Good Friction
+# Good Friction
 
 Plain text. The terminal...
 
@@ -126,7 +126,7 @@ Regardless, I needed something compact that I could manage and understand _if on
 
 While my instinct for colour schemes might not be perfect — you can be the judge — this site looks _at least as good_ as the WordPress one to my eyes, and I am in more control of how that might change in the future.
 
-### **The Current Plan**
+# **The Plan**
 
 Many people have a difficulty with _starting writing_, while I have a difficulty _stopping writing_. I have a natural tendency to write articles that are long, verbose and that try to do too much.
 
