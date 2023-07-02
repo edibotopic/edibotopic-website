@@ -94,7 +94,7 @@ Clicking the `walking` button opens a random walk visualisation that algorithmic
 I am a self-taught programmer and try to learn by making projects.
 My academic job involves no programming and also leaves me with little time to actually write programs.
 While I would not say that *I am a programmer* it is the case that *I do programming*.
-In general, I find it more productive and therapeutic to focus on what I *do* rather than what I *am* when working on hard problems.
+In general, I find it more productive to focus on what I *do* rather than what I *am* when working on hard problems.
 
 One of the things I like about programming as an activity is the immediacy of the feedback loop.
 It is satisfying to see a nice output like a rendered 3D object but finding bugs can also be a salient reminder that there is much left to learn.
@@ -128,7 +128,7 @@ It is just a modest clone of [Pong](https://en.wikipedia.org/wiki/Pong), which n
 It has been quite therapeutic writing code for a small project without needing to think about how the application will run on different browsers and devices.
 It is almost certain that Sqong has issues that I am not aware of that I will soon learn from.
 
-Most of my messy, self-directed journey through programming has involved web-based projects.
+Most of my journey through programming to date has involved web-based projects.
 This has yielded some nice, shareable projects.
 I increasingly think — however — that my work could be improved with a stronger handle on fundamentals like memory management.
 That may require forgetting about the web as a target for a while.
