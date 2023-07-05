@@ -125,14 +125,14 @@ appropriate procedure (peeling, mixing, heating).
 However, a cooking procedure may yield different
 outputs dependent on context.
 For example, two people may have varying degrees
-of competence or may interpret the instructions
+of skill and/or may interpret the instructions
 differently.
 On this limited account, a cooking procedure is further
 from the Platonic ideal of a mathematical function than a computer
 program, assuming that such programs consist strictly of *pure* functions 
 (and most — in fact — do not).
 
-$$recipe \xrightarrow{understanding \ \\& \ interpretation} meal$$
+$$recipe \xrightarrow{interpret \ \\& \ act} meal$$
 
 As an aside, it should be noted that the distinction between technical
 (computational) and nontechnical (culinary) procedures that
@@ -214,7 +214,9 @@ A two-step process (or loop) can be imagined, in which the familiar is made
 strange (conceptually) before we return to the familiar (in
 reality) and appreciate it in a new aspect.
 
-$$familiar \xrightarrow{defamiliarisation} strange \xrightarrow{enrichment} familiar$$
+$$1. \ familiar \xrightarrow{defamiliarisation} strange$$
+
+$$2. \ familiar \xleftarrow{enrichment} strange$$
 
 The scientific and the everyday coexist and interact productively.
 
