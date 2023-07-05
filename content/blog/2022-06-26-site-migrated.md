@@ -5,8 +5,8 @@ updated = 2023-05-17
 draft = false
 
 [taxonomies]
-categories = ["notes"]
-tags = ["writing", "web", "experience"]
+categories = ["technical"]
+tags = ["writing", "web", "experience", "reflection"]
 
 [extra]
 lang = "en"

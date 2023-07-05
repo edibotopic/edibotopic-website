@@ -1,5 +1,5 @@
 +++
-title = "Valuing the Merely Interesting"
+title = "On Valuing the Merely Interesting"
 date = 2023-04-23
 draft = false
 
