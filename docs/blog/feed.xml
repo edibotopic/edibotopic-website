@@ -4,8 +4,229 @@
 	<subtitle>Writing on food, technology and philosophy</subtitle>
 	<link href="https://edibotopic.com/blog/feed.xml" rel="self" type="application/atom+xml"/>
     <link href="https://edibotopic.com/blog/"/>
-	<updated>2023-07-02T00:00:00+00:00</updated>
+	<updated>2023-07-05T00:00:00+00:00</updated>
 	<id>https://edibotopic.com/blog/feed.xml</id>
+	<entry xml:lang="en">
+		<title>Making Things Strange: An Inverse Problem in Teaching</title>
+		<published>2023-07-05T00:00:00+00:00</published>
+		<updated>2023-07-05T00:00:00+00:00</updated>
+        <summary>&lt;p&gt;It is common to explain the unfamiliar by reference to the
+familiar, but when teaching a quotidian science (&lt;em&gt;of the everyday&lt;&#x2F;em&gt;) this explanatory mode is
+inverted.&lt;&#x2F;p&gt;
+</summary>
+		<link href="https://edibotopic.com/blog/strange-food-pedagogy/" type="text/html"/>
+		<id>https://edibotopic.com/blog/strange-food-pedagogy/</id>
+		<content type="html">&lt;p&gt;It is common to explain the unfamiliar by reference to the
+familiar, but when teaching a quotidian science (&lt;em&gt;of the everyday&lt;&#x2F;em&gt;) this explanatory mode is
+inverted.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h1 id=&quot;strange-ideas&quot;&gt;Strange Ideas&lt;&#x2F;h1&gt;
+&lt;p&gt;Many are mystified and threatened by the &lt;em&gt;algorithm&lt;&#x2F;em&gt;.
+This word is most typically invoked in discussions about 
+the black boxes that digest our data and spit out personalised
+feeds, advertisements and recommendations.
+The inner workings of the black box are complex
+and often proprietary, maintaining their distance
+and strangeness.&lt;&#x2F;p&gt;
+&lt;p&gt;$$input \xrightarrow{black \ box} output$$&lt;&#x2F;p&gt;
+&lt;p&gt;The &lt;em&gt;algorithm&lt;&#x2F;em&gt; is a more general tool than the discourse suggests,
+with applications that extend far beyond e-commerce and social media.
+Students of programming usually take a course in algorithms.
+Here they learn how to write code that prints sequences of
+characters to the screen or calculates statistics for a dataset.
+Later they encounter more complex algorithms that can help
+simulate enemy movement in video games or — indeed — generate
+personalised recommendations for a vast social network.&lt;&#x2F;p&gt;
+&lt;p&gt;The generality of a tool like the algorithm lies in its abstractness.
+Conceptual and underspecified, its implementations apply to a broad
+class of particular cases.
+Mathematical operations like &lt;code&gt;sum&lt;&#x2F;code&gt; are similarly abstract.
+We can conceive of summing a collection of physical objects, summing
+a set of
+integers or a summing millilitres of liquid.
+In a computer program, a simple algorithm
+would be employed to implement the
+concept of a&lt;code&gt;sum&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;When teaching there is tendency to appeal first to concrete 
+instances rather than directly engaging with an abstract concept.
+The first model of the algorithm that many encounter is the recipe.
+To develop an understanding we direct knowledge
+from a familiar, concrete &lt;em&gt;source&lt;&#x2F;em&gt; (recipes) to an unfamiliar, abstract &lt;em&gt;target&lt;&#x2F;em&gt;
+(algorithms)
+through the invocation of metaphor (or analogy):&lt;&#x2F;p&gt;
+&lt;p&gt;$$source \xrightarrow{metaphor} target$$&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;appealing-to-the-familiar&quot;&gt;Appealing to the Familiar&lt;&#x2F;h1&gt;
+&lt;p&gt;In &lt;em&gt;The Art of Computer Programming&lt;&#x2F;em&gt; the computer scientist
+Donald Knuth (1968) explained how an algorithm is analogous to a recipe.
+Just like a recipe, it takes a finite amount of inputs and produces
+a specific output.
+This transformation requires that a sequence of steps be first
+defined and then carried out in a particular order.
+It can be expected that Knuth&#x27;s analogy (like all analogies) will
+crumble at some point; for now, it is enough for us to &amp;quot;grasp&amp;quot;
+at the abstract concept in a useful way.&lt;&#x2F;p&gt;
+&lt;p&gt;Just as a cook follows a recipe to produce a meal, a computer
+processes code to produce a desired output, which could be a
+successful calculation or a graphical representation.
+For some computer scientists, the salient distinction between these
+two kinds of procedures is the degree to which the instructions can 
+be said to have precision.
+A recipe — they assume — is prone to ambiguity and may yield
+different results depending on who interprets its steps.
+The education of a programmer then places a strong emphasis on
+achieving precision when defining the goals of a program,
+articulating clearly the structure of the requisite code and
+testing effectively the reliability of its performance.
+As a teacher I am fascinated by this bait-and-switch
+as pedagogical rhetoric.
+&lt;em&gt;Coding is like cooking.&lt;&#x2F;em&gt;
+&lt;em&gt;This is a model of cooking and how it maps to our concept of programming.&lt;&#x2F;em&gt;
+&lt;em&gt;You are programmers not cooks&lt;&#x2F;em&gt;.
+&lt;em&gt;Here is why our programs must never be merely like recipes.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Most programs are composed of functions,
+small self-contained procedures that transform
+a set of inputs into an output.
+A calculator is a program that can perform
+different kinds of mathematical operations,
+each defined by an appropriate function (sum, multiply, divide).
+&amp;quot;Pure&amp;quot; functions in programming are essentially
+the same as mathematical functions.
+They map a set of inputs from a source domain
+to a target codomain.
+In a pure function, like &lt;code&gt;sum_two_numbers&lt;&#x2F;code&gt;,
+given multiple inputs (&lt;code&gt;2, 3&lt;&#x2F;code&gt;) there is only
+one output (&lt;code&gt;5&lt;&#x2F;code&gt;).
+The function &lt;code&gt;sum_two_numbers&lt;&#x2F;code&gt; should achieve
+the same transformation in all contexts.
+It will always map the same two numbers
+in the source domain to one number in the
+codomain.&lt;&#x2F;p&gt;
+&lt;p&gt;$$domain \xrightarrow{function} codomain$$&lt;&#x2F;p&gt;
+&lt;p&gt;The process of cooking a meal can also be understood
+as being composed of smaller procedures.
+A meal consists a combination of materials,
+each of which has been transformed by an
+appropriate procedure (peeling, mixing, heating).
+However, a cooking procedure may yield different
+outputs dependent on context.
+For example, two people may have varying degrees
+of competence or may interpret the instructions
+differently.
+On this limited account, a cooking procedure is further
+from the Platonic ideal of a mathematical function than a computer
+program, assuming that such programs consist strictly of &lt;em&gt;pure&lt;&#x2F;em&gt; functions 
+(and most — in fact — do not).&lt;&#x2F;p&gt;
+&lt;p&gt;$$recipe \xrightarrow{understanding \ \&amp;amp; \ interpretation} meal$$&lt;&#x2F;p&gt;
+&lt;p&gt;As an aside, it should be noted that the distinction between technical
+(computational) and nontechnical (culinary) procedures that
+privileges the former as more &lt;strong&gt;effective&lt;&#x2F;strong&gt; has been challenged by
+some theoretical computer scientists (see Cleland, 2001).
+In addition, practitioners in fields like molecular
+gastronomy assert that great precision
+can be achieved when cooking, if certain rules and principles are
+followed, perhaps resulting in a more &lt;em&gt;algorithmic&lt;&#x2F;em&gt; cookery.
+As Dan Cox suggests in a blog in
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;videlais.com&#x2F;2020&#x2F;08&#x2F;15&#x2F;code-stories-recipe&#x2F;&quot;&gt;Digital
+Ephemera&lt;&#x2F;a&gt;,
+understanding through metaphor might
+operate in a bidirectional manner, rather
+than the strictly unidirectional $source \to target$ scheme:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Across the &lt;strong&gt;bridge&lt;&#x2F;strong&gt; of metaphor,
+recipe and algorithm might have
+more to &lt;strong&gt;offer each other&lt;&#x2F;strong&gt; in comparison 
+than appears at first glance.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;The &lt;em&gt;bridge&lt;&#x2F;em&gt; here is an apt (meta)metaphor itself, in that
+we may return from a destination via the
+same route that we have travelled there.
+Thinking of &lt;em&gt;algorithms as recipes&lt;&#x2F;em&gt; prompts
+us to consider &lt;em&gt;recipes as algorithms&lt;&#x2F;em&gt;.
+Laying a metaphor between two domains
+implies the formation of a
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Hermeneutic_circle&quot;&gt;loop of interpretation&lt;&#x2F;a&gt; through which there is 
+the possibility of better understanding both. &lt;&#x2F;p&gt;
+&lt;h1 id=&quot;making-things-weird&quot;&gt;Making Things Weird&lt;&#x2F;h1&gt;
+&lt;p&gt;The challenge for the teacher of abstract concepts
+is the translation of the strange to the familiar (at least initially).
+Food, ingredients and recipes are common sources of analogy and
+metaphor in these cases, and not only with algorithms as the target (Crowley, 2022).
+An everyday concept is leveraged to transform
+the strange or abstract new idea into something
+more familiar.&lt;&#x2F;p&gt;
+&lt;p&gt;$$strange \xrightarrow{pedagogy} familiar$$&lt;&#x2F;p&gt;
+&lt;p&gt;I think that this transformation is often inverted when teaching a 
+quotidian science.
+By &amp;quot;quotidian science&amp;quot; I mean a science that has an everyday
+object as its focus.
+My specialisation — food science — is such a quotidian science.
+The inverse problem involves transforming the
+familiar objects of daily life into something
+strange and new.
+Achieving this transformation may coincide
+with the overcoming of significant resistance,
+due to these familiar ideas being so &lt;em&gt;baked in&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;A novice student of food science has a high degree of familiarity
+with the material that they intend to study.
+Eating, cooking and dieting are mundane concepts.
+When learning the science of food they experience the familiar becoming
+strange, which can be a disturbing process.
+While explaining the strange in terms of the familiar is
+a common pedagogical tool, a disturbing rendering of the familiar as
+strange has more often been associated with artistic work. 
+On one interpretation (Shklovsky, 1917), this is the fundamental goal of art: to show 
+us the objects of reality in an altered form, such that we return
+to the world with a more enriched sense of the objects &lt;em&gt;as they are&lt;&#x2F;em&gt;. &lt;&#x2F;p&gt;
+&lt;p&gt;Shklovsky&#x27;s idea — known as &lt;strong&gt;defamiliarisation&lt;&#x2F;strong&gt; — is an arcane concept borrowed from
+art criticism, yet I think it is close in spirit
+to how many scientific educators and communicators conceive of their role.
+Scientists can be sensitive to the claim (scientism) that they are iconoclasts,
+who destroy everyday symbols that comfort and enthrall us.
+Richard Feynman famously rejected the idea that his scientific
+worldview ruined the beauty of a flower, suggesting instead that
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.themarginalian.org&#x2F;2013&#x2F;01&#x2F;01&#x2F;ode-to-a-flower-richard-feynman&#x2F;&quot;&gt;science only served to enrich his appreciation of that beauty&lt;&#x2F;a&gt;.
+This is a useful reminder that new theoretical knowledge can
+enrich — rather than displace — everyday intuition.
+A two-step process (or loop) can be imagined, in which the familiar is made
+strange (conceptually) before we return to the familiar (in
+reality) and appreciate it in a new aspect.&lt;&#x2F;p&gt;
+&lt;p&gt;$$familiar \xrightarrow{defamiliarisation} strange \xrightarrow{enrichment} familiar$$&lt;&#x2F;p&gt;
+&lt;p&gt;The scientific and the everyday coexist and interact productively.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;defamiliarisers&quot;&gt;Defamiliarisers&lt;&#x2F;h1&gt;
+&lt;p&gt;Scientists, like artists, can alter how we perceive the world.
+As communicators, they often play the role of defamiliarisers.
+Their lessons can enrich our experience and intellect, or they can 
+damage our sense of how we relate to reality, leading to a rejection
+of science or even a descent into conspiracy theories.
+The outcome may depend on how effectively the scientist
+communicates and how their audience understands their motives.&lt;&#x2F;p&gt;
+&lt;p&gt;Tools that move us between the familiar and the strange — like
+metaphor and analogy — are
+central to explanation, whether through artistic epiphany or
+scientific discovery.
+Understanding art as a force for defamiliarisation does not necessarily
+mean that artists destroy everyday conceptions of the
+world.
+Instead, through art (and science) such intuitions can be retained while being enriched.
+It is possible to know the pain of bureaucracy without reading
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Franz_Kafka&quot;&gt;Kafka&lt;&#x2F;a&gt;, but reading 
+&lt;em&gt;The Trial&lt;&#x2F;em&gt; will certainly make you experience
+that same pain in new and interesting ways!&lt;&#x2F;p&gt;
+&lt;p&gt;In science communication, there is perhaps a greater
+rhetorical emphasis on actively changing minds and
+correcting falsities.
+Sometimes this clarity of focus is demanded in the
+context of a live crisis.
+In more normal times, it might be wise to use our scientific truths
+to enrich the everyday and mundane and not seek to displace them.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;references&quot;&gt;References&lt;&#x2F;h1&gt;
+&lt;p&gt;Cleland, C. (2001). Recipes, algorithms, and programs. &lt;em&gt;Minds and
+Machines&lt;&#x2F;em&gt;, 11, 219-237.&lt;&#x2F;p&gt;
+&lt;p&gt;Crowley, S. V. (2022). Alchemical and cyborgian imaginings in technoscientific discourse relating to holistic turns in food processing and personalised nutrition. In &lt;em&gt;Metaphor, Sustainability, Transformation&lt;&#x2F;em&gt;. I. Hughes, E. Byrne, G. Mullaly., &amp;amp; C. Sage (Eds.). Routledge. 65-97.&lt;&#x2F;p&gt;
+&lt;p&gt;Knuth, D. E. (1997&#x2F;1968). &lt;em&gt;The Art of Computer Programming&lt;&#x2F;em&gt; (3rd ed). Addison-Wesley.&lt;&#x2F;p&gt;
+&lt;p&gt;Shklovsky, V. (1988&#x2F;1917). Art as Device. In &lt;em&gt;Modern Criticism and Theory:
+A Reader&lt;&#x2F;em&gt;. L. T. Lemon and M. J. Reis (Trans.), David Lodge (Ed.). Longmans. 16-30.&lt;&#x2F;p&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title>Resolving Wi-fi Adapter Issues After a Linux Upgrade</title>
 		<published>2023-07-02T00:00:00+00:00</published>
@@ -252,7 +473,7 @@ That may require forgetting about the web as a target for a while.&lt;&#x2F;p&gt
 </content>
 	</entry>
 	<entry xml:lang="en">
-		<title>Valuing the Merely Interesting</title>
+		<title>On Valuing the Merely Interesting</title>
 		<published>2023-04-23T00:00:00+00:00</published>
 		<updated>2023-04-23T00:00:00+00:00</updated>
         <summary>&lt;p&gt;I&#x27;ve been contemplating whether there is a place for the &lt;em&gt;merely&lt;&#x2F;em&gt; interesting in research and teaching.&lt;&#x2F;p&gt;
