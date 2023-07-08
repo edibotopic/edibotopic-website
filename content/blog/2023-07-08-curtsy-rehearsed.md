@@ -159,8 +159,9 @@ They are — perhaps — tools for introspection.
 
 This project has a lot of baggage, forged as it was in a crisis.
 I still associate the making of music with the job of doing lectures.
-As background music I didn't want to foreground myself too much,
-which is one of the reasons vocals are either absent or obscured.
+As it was originally intended as "background music" I didn't want
+to foreground myself too much, which is one of the reasons vocals
+are either absent or obscured.
 
 One of the first Curtsy Rehearsed songs does include me singing,
 albeit filtered through a fairly heavy vocoder:
@@ -183,7 +184,7 @@ quality has increase dramatically.
 With better audio fidelity it is time again to experiment with vocals
 and lyrics in a serious way for the first time since my
 school years (see the 
-[deMake project where I revisit these early demos](https://curtsyrehearsed.bandcamp.com/album/demake-1-food-rocks-early-demos) ).
+[deMake project where I revisit these early demos](https://curtsyrehearsed.bandcamp.com/album/demake-1-food-rocks-early-demos)).
 So I am retiring Curtsy Rehearsed to create a new
 secret alias. This is to encourage as much
 experimentation as possible without concern for how a
