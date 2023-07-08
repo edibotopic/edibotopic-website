@@ -196,29 +196,17 @@ One benefit of trying hard to make and release music is the
 sense of empathy it creates for those who do this with even
 greater seriousness.
 
-For example, I hate mastering.
-Roughly speaking, the process
-of making a song consists of:
-
-1. Recording audio and sampling sources
-2. Composing and arranging the sounds
-3. Mixing the audio levels
-4. Mastering the mix
-
-For me **1-3** are absorbing tasks that I enjoy while
-**4** is a painful ordeal.
-If I ever made any worthwhile money from music
-this would be the first task I would off-load.
-
 Mastering is a complex, technical and artful process,
 which I know very little about.
-I associate mastering with the goal of ensuring that the
-sounds have an optimal quality across the broadest
-possible range of devices and listening situations.
+Doing it well ensures that the collection of
+sounds have an optimal quality across a 
+range of devices, platforms and listening situations.
 
 It reminds me of the least fun part of my other
-hobby: web app development.
-So you've made an interesting game or animation but:
+hobby — app development — where you try to ensure
+that the app is available/accessible to the broadest
+group of people.
+Say you've made an interesting game or animation but now:
 
 > Does it run on Windows, Mac and Linux?
 > If it runs in a browser does it run on
