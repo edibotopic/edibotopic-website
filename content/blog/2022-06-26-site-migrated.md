@@ -5,7 +5,7 @@ updated = 2023-05-17
 draft = false
 
 [taxonomies]
-categories = ["technical"]
+categories = ["meta"]
 tags = ["writing", "web", "experience", "reflection"]
 
 [extra]
