@@ -249,6 +249,6 @@ its practitioners must overcome.
 ---
 
 **[Dereferenced](https://curtsyrehearsed.bandcamp.com/album/dereferenced) is the final release from Curtsy Rehearsed.**
-**Curtsy's entire discography can be purchase at a reduced price of 16
+**Curtsy's entire discography can be purchased at a reduced price of 16
 euro from the [Bandcamp page](https://curtsyrehearsed.bandcamp.com/).**
 **Several individual releases are available for free, including [Transitive Nostalgia](https://curtsyrehearsed.bandcamp.com/album/transitive-nostalgia).**
