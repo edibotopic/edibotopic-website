@@ -4,8 +4,254 @@
 	<subtitle>Writing on food, technology and philosophy</subtitle>
 	<link href="https://edibotopic.com/blog/feed.xml" rel="self" type="application/atom+xml"/>
     <link href="https://edibotopic.com/blog/"/>
-	<updated>2023-07-08T00:00:00+00:00</updated>
+	<updated>2023-07-15T00:00:00+00:00</updated>
 	<id>https://edibotopic.com/blog/feed.xml</id>
+	<entry xml:lang="en">
+		<title>Versioning Student Work to Emphasise Process</title>
+		<published>2023-07-15T00:00:00+00:00</published>
+		<updated>2023-07-15T00:00:00+00:00</updated>
+        <summary>&lt;p&gt;Version control is a powerful tool commonly used in large software
+projects.
+It is valuable for other types of project too, including student
+writing.&lt;&#x2F;p&gt;
+</summary>
+		<link href="https://edibotopic.com/blog/versioning-student-work/" type="text/html"/>
+		<id>https://edibotopic.com/blog/versioning-student-work/</id>
+		<content type="html">&lt;p&gt;Version control is a powerful tool commonly used in large software
+projects.
+It is valuable for other types of project too, including student
+writing.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h1 id=&quot;motivation&quot;&gt;Motivation&lt;&#x2F;h1&gt;
+&lt;p&gt;Here I will outline how versioning can be used for student writing projects.
+The version control system I recommend comes built-in with 
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;docs.google.com&#x2F;&quot;&gt;Google Docs&lt;&#x2F;a&gt;.
+It is probably not &lt;em&gt;the best&lt;&#x2F;em&gt; system — compared to something
+like &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;git-scm.com&#x2F;&quot;&gt;Git&lt;&#x2F;a&gt; — but it works and is easy-to-use.
+Two advantages of versioning student work can be identified at the
+outset:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Structure:&lt;&#x2F;strong&gt; the expectation that writing projects should have
+multiple, dated versions can reduce the tendency of students to write
+(or copy) everything in one rushed draft, encouraging instead a more 
+deliberate approach to writing.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Transparency:&lt;&#x2F;strong&gt; for group-work, the contributions of individual group
+members will be highlighted clearly, alerting the group and the teacher to
+any disparaties in effort.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;I am not suggesting that versioning is a general solution for plagiarism, AI and laziness.
+It is just one hurdle (to be combined with others) against ineffective approaches to writing.&lt;&#x2F;p&gt;
+&lt;p&gt;Using Google Docs also exposes students to one of the major Cloud-based
+writing platforms, which are increasingly common in collaborative projects.
+While students might be more familiar with Microsoft Word, Google Docs
+is virtually indistinguishable at a functional level, and arguably simpler
+in design.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;how-to&quot;&gt;How-To&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;student&quot;&gt;Student&lt;&#x2F;h2&gt;
+&lt;p&gt;Create a new Google Docs file and give it an appropriate name,
+such as &lt;code&gt;AIandFoodPaper&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Decide what your first task will be; for example, it could be
+&lt;em&gt;write a rough draft of the project structure&lt;&#x2F;em&gt;.
+When you have written this draft, select:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;File &amp;gt; Version History &amp;gt; Name Current Version&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Give a &lt;strong&gt;descriptive name&lt;&#x2F;strong&gt; to the version.
+In this case, it could be:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Drafted a project structure for AI and Food paper&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;While every writing project is different, the principle of
+&lt;em&gt;divide-and-conquer&lt;&#x2F;em&gt; usually applies.
+In many cases, your next version will likely be:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Drafted an introduction, focusing on AI in data analysis&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Each time you create a version it is saved to the &lt;em&gt;version history&lt;&#x2F;em&gt;.
+This can be viewed by you or anyone who you share the file with:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;File &amp;gt; Version History &amp;gt; View Version History&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Versions are grouped by month and include details, such as
+the version name, date&#x2F;time saved and version author.
+Contributions by different authors to the same file will
+be highlighted in a unique colour.&lt;&#x2F;p&gt;
+&lt;p&gt;When you select a version then any edits (additions, deletions) will
+be displayed; if necessary, a previous version can be restored for
+editing.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;examples&quot;&gt;Examples&lt;&#x2F;h3&gt;
+&lt;p&gt;Named versions should typically involve a substantial,
+self-contained change.&lt;&#x2F;p&gt;
+&lt;p&gt;Here are some &lt;strong&gt;good&lt;&#x2F;strong&gt; examples:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;Drafted a structure for the project&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;diff&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-diff &quot;&gt;&lt;code class=&quot;language-diff&quot; data-lang=&quot;diff&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ Title: AI Technology in the food industry
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ 1. Introduction
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ 2. Data Analysis
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ 3. Product Design
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ 4. Computer Vision
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ 5. Conclusions
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;code&gt;Clarified and developed statement regarding new AI technology&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;diff&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-diff &quot;&gt;&lt;code class=&quot;language-diff&quot; data-lang=&quot;diff&quot;&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;- AI technologies like ChatGPT display human-like intelligence
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;- and may allow the automation of tasks normally done by humans.
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ AI technologies like ChatGPT are based on Large Language Models
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ (LLMs), which — although powerful — have limitations.
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ Currently, for example, they have limited capacity
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ to problem-solve when presented with novel scenarios (TODO: add ref).
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;code&gt;Added reference to support claim regarding AI limitations&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;diff&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-diff &quot;&gt;&lt;code class=&quot;language-diff&quot; data-lang=&quot;diff&quot;&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;- Currently, for example, they have limited capacity
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;- to problem-solve when presented with novel scenarios (TODO: add ref).
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ For example, Crowley (2042), compared humans with an AI in a
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ series of problem-solving activities and found that humans
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ out-performed the AI in 20% of the activities.
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;strong&gt;Bad&lt;&#x2F;strong&gt; examples come in broadly two forms.&lt;&#x2F;p&gt;
+&lt;p&gt;The first is a large set of trivial versions.
+For example, 10 different versions that correct
+individual typos, which could have been grouped
+into one version if handled together.
+Every individual change or new sentence does
+not necessarily warrant its own version.&lt;&#x2F;p&gt;
+&lt;p&gt;The previous example above could well have been longer,
+containing more sentences while still being self-contained:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;diff&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-diff &quot;&gt;&lt;code class=&quot;language-diff&quot; data-lang=&quot;diff&quot;&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;- Currently, for example, they have limited capacity
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;- to problem-solve when presented with novel scenarios (TODO: add ref).
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ For example, Crowley (2042), compared humans with an AI in a
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ series of problem-solving activities and found that humans
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ out-performed the AI in 20% of the activities.
+&lt;&#x2F;span&gt;&lt;mark style=&quot;background-color:#44475a;&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ This suggests that there is still a role for
+&lt;&#x2F;span&gt;&lt;&#x2F;mark&gt;&lt;mark style=&quot;background-color:#44475a;&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ humans in the performance of these tasks.
+&lt;&#x2F;span&gt;&lt;&#x2F;mark&gt;&lt;mark style=&quot;background-color:#44475a;&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ However, there was one key limitation of Crowley&amp;#39;s work...
+&lt;&#x2F;span&gt;&lt;&#x2F;mark&gt;&lt;mark style=&quot;background-color:#44475a;&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ ...
+&lt;&#x2F;span&gt;&lt;&#x2F;mark&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The second &lt;strong&gt;bad&lt;&#x2F;strong&gt; example is a single version with
+a complex set of unrelated changes.
+This might be a version that includes the deletion of
+one section, the addition of two others, a change in
+the title, the addition of images, and so on.
+These changes could probably have been sub-divided
+and given their own versions.&lt;&#x2F;p&gt;
+&lt;p&gt;Inevitably there will be occasions where different types
+of change will have been made, which can be named appropriately:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;Updated figure 3 and corrected typos in main text&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;However, an effort should be made to avoid doing
+a substantial amount of unstructured work across 
+the entire paper that is then grouped into one version.
+Each time you approach your project you should be thinking:
+&amp;quot;What specific task will I focus on now&amp;quot;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;teacher&quot;&gt;Teacher&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;submission&quot;&gt;Submission&lt;&#x2F;h3&gt;
+&lt;p&gt;Students can be asked to submit their project in two forms.
+For access to the version history they will need to share 
+the actual Google Docs file.
+If the file needs to be passed through a plagiarism-detector they can
+download the file in an appropriate format suitable for upload.&lt;&#x2F;p&gt;
+&lt;p&gt;To share the Docs file select:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;File &amp;gt; Share &amp;gt; Share with Others&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;To ensure there are no issues with file access the &lt;em&gt;General Access&lt;&#x2F;em&gt;
+setting in the popup dialog should be changed from &amp;quot;Restricted&amp;quot;
+to &amp;quot;Anyone with a Link&amp;quot;.
+This is important primarily for cases where a teacher does not
+have a Gmail account.&lt;&#x2F;p&gt;
+&lt;p&gt;When you receive this link you should be able to access the version
+history as described earlier.&lt;&#x2F;p&gt;
+&lt;p&gt;If you also require students to upload the file to an LMS like Canvas
+or Blackboard then they will first need to download the file in a
+suitable format.&lt;&#x2F;p&gt;
+&lt;p&gt;In &lt;code&gt;File &amp;gt; Download&lt;&#x2F;code&gt; both Word (.docx) and .pdf formats are available.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;review&quot;&gt;Review&lt;&#x2F;h3&gt;
+&lt;p&gt;The version history is a supplement to the assessment process.
+A good version history might include:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Consistent work on the project over time&lt;&#x2F;li&gt;
+&lt;li&gt;Evidence of iteration and editing of own writing&lt;&#x2F;li&gt;
+&lt;li&gt;Descriptive version names that identify major changes&lt;&#x2F;li&gt;
+&lt;li&gt;Multiple aspects of writing (references, logic, organisation, editing)&lt;&#x2F;li&gt;
+&lt;li&gt;Balance of workload in group projects (where relevant)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;If you are suspicious that a project has been plagiarised or
+AI-generated then the version history is another tool for you to
+evaluate the process by which the writing was generated.&lt;&#x2F;p&gt;
+&lt;p&gt;When feedback on student writing is a part of your assessment
+process the version history — again — provides a useful means
+of inspecting how the student(s) approached their writing.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;how-many-versions&quot;&gt;&amp;quot;How Many Versions?&amp;quot;&lt;&#x2F;h3&gt;
+&lt;p&gt;It can be expected that students will ask the question:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;How many versions will I need to get a good mark?&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Similar questions are often asked about numbers of citations and
+numbers of words — they usually miss the point.
+Any significant writing project will consist of more than
+one version, usually many more, but a precise number cannot
+be given.
+It is possible for there to be 100 versions that each only make
+trivial changes (typos, spelling) — the high number does not
+reflect good practice in this case.
+In comparison, 10 or 20 versions, which showcase a range of
+activities, including additions, deletions, rewordings, citations
+and clarifications, is preferable.
+If the students get the impression that they are trying to
+hit a number, rather than approach their writing in a structured
+manner, then the exercise will be futile for all involved.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;background&quot;&gt;Background&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;version-control-systems&quot;&gt;Version Control Systems&lt;&#x2F;h2&gt;
+&lt;p&gt;There are version control &lt;em&gt;systems&lt;&#x2F;em&gt;, &lt;em&gt;tools&lt;&#x2F;em&gt; and &lt;em&gt;philosophies&lt;&#x2F;em&gt;.
+To keep things simple: version control involves assigning a unique
+number to different versions of your project.&lt;&#x2F;p&gt;
+&lt;p&gt;When you update your computer or phone you move from an older to
+a newer version of the operating system.
+A move from Windows 10 to 11 or Android 12 to 13 usually involves
+several major changes to the underlying code that users are advised
+to adopt.
+Behind-the-scenes, programmers usually have more intricate versioning
+systems, with many minor versions existing between major releases.&lt;&#x2F;p&gt;
+&lt;p&gt;Git is probably the most popular version control system among writers
+of computer programs and technical documentation.
+Git is typically used in conjunction with GitHub, a web-based
+platform for hosting versioned projects and structuring collaboration.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;projects-are-iterative&quot;&gt;Projects are Iterative&lt;&#x2F;h2&gt;
+&lt;p&gt;Working on any large project often demands working with versions.
+If writing a paper you will typically have multiple drafts.
+It can be useful to distinguish these with appropriate names.
+For example: myDraft1.docx, myDraft2.docx, and so on.
+This is a simple form of version control, even if it is
+not referred to as such, although it can get quite
+messy as the drafts accumulate in a folder.&lt;&#x2F;p&gt;
+&lt;p&gt;It is also possible to just modify a single file but this can cause problems.
+At some point, you might need to reduce the wordcount by 500 words, so you decide
+to delete a section in myDraftTheOnlyVersion.docx, only to later realise it is
+absolutely crucial to the project.
+In such cases it is helpful if the retrieval of an earlier version is possible.
+The undo button can usually only take us so far.&lt;&#x2F;p&gt;
+&lt;p&gt;Version control systems — in simple terms — allow you to edit only a single
+file while storing a recoverable history of the different versions of that file.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h1&gt;
+&lt;p&gt;Students are asked to write because writing is considered useful.
+Muddled thoughts can be clarified once an attempt is made to write them down.
+Extracting key information on a topic and combining them into an overview
+is often far more effective than merely reading about the topic.&lt;&#x2F;p&gt;
+&lt;p&gt;Although writing is a process, student work is often corrected as a static artifact.
+The final version is assessed and deemed a reflection of that underlying process.
+In an era of Large Language Models, there is an increasing probability that this
+final version is the only version and it was drafted by an undetectable AI.&lt;&#x2F;p&gt;
+&lt;p&gt;Perhaps then the &lt;strong&gt;process of writing&lt;&#x2F;strong&gt; — what is often valued — needs to be re-emphasised.
+An analog solution is simply to require students to perform their writing in-person.
+However, this is not always a fair, accessible or practical approach.
+Serious essays, literature reviews and group projects often
+involve many hours of work, dead-ends and revisions.
+It is not feasible to migrate such projects to the classroom, and
+it is also not aligned with an increasingly digitalised and
+distributed workplace.&lt;&#x2F;p&gt;
+&lt;p&gt;To be implemented effectively versioning has to be explained to students and to teachers.
+Students have to approach their work in a disciplined, considered manner.
+Teachers need to account for how the work was produced and
+not merely how it appears in its final form.
+The structure and transparency that this can introduce
+may create more clear expectations for student writing and
+improve how it is assessed.&lt;&#x2F;p&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title>Music By Curtsy Rehearsed</title>
 		<published>2023-07-08T00:00:00+00:00</published>

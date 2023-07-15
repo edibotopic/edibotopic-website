@@ -21,6 +21,13 @@ links = [
 ]
 
 [[project]]
+name = "DSF-racket"
+desc = "A tool for visualising topologies represented in symbolic notation "
+links = [
+	{name = "source", url = "https://github.com/edibotopic/dsf-racket/"}
+]
+
+[[project]]
 name = "Sqong"
 desc = "A simple Pong-clone written in the Odin programming language using the Raylib library."
 links = [
