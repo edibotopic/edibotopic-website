@@ -28,7 +28,8 @@ the topology of physical systems.
 ## Dispersed Systems
 
 A lot of science and engineering concerns _dispersed systems_.
-In this context, a **system** relates to their being many parts.
+In this context, **system** relates to there being 
+many parts comprising the whole.
 **Dispersed** refers to sets of parts that are distributed
 randomly in space, usually in large number.
 
