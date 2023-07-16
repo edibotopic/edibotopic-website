@@ -4,8 +4,331 @@
 	<subtitle>food | technology | philosophy</subtitle>
 	<link href="https://edibotopic.com/feed.xml" rel="self" type="application/atom+xml"/>
     <link href="https://edibotopic.com"/>
-	<updated>2023-07-15T00:00:00+00:00</updated>
+	<updated>2023-07-16T00:00:00+00:00</updated>
 	<id>https://edibotopic.com/feed.xml</id>
+	<entry xml:lang="en">
+		<title>Drawing Structures from Notation</title>
+		<published>2023-07-16T00:00:00+00:00</published>
+		<updated>2023-07-16T00:00:00+00:00</updated>
+        <summary>&lt;p&gt;I created a program in the Racket programming language
+to draw diagrams based on a symbolic notation that describes
+the topology of physical systems.&lt;&#x2F;p&gt;
+</summary>
+		<link href="https://edibotopic.com/blog/dsf-racket/" type="text/html"/>
+		<id>https://edibotopic.com/blog/dsf-racket/</id>
+		<content type="html">&lt;p&gt;I created a program in the Racket programming language
+to draw diagrams based on a symbolic notation that describes
+the topology of physical systems.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h1 id=&quot;background&quot;&gt;Background&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;dispersed-systems&quot;&gt;Dispersed Systems&lt;&#x2F;h2&gt;
+&lt;p&gt;A lot of science and engineering concerns &lt;em&gt;dispersed systems&lt;&#x2F;em&gt;.
+In this context, a &lt;strong&gt;system&lt;&#x2F;strong&gt; relates to their being many parts.
+&lt;strong&gt;Dispersed&lt;&#x2F;strong&gt; refers to sets of parts that are distributed
+randomly in space, usually in large number.&lt;&#x2F;p&gt;
+&lt;p&gt;Important materials are often &lt;strong&gt;dispersions&lt;&#x2F;strong&gt;, in which there
+is one set of parts dispersed in a continuous matrix.
+These include liquid foams (e.g., gas bubbles in water),
+emulsions (e.g., oil droplets in water) and gels (e.g.,
+water droplets in solid).&lt;&#x2F;p&gt;
+&lt;p&gt;These dispersion often have characteristic qualities
+that are useful to us.
+In food, emulsions can simultaneously carry water-
+and oil-soluble nutrients, and opacity is generated
+by the thousands of oil droplets scattering light.
+Dispersions like emulsions and suspensions are also
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;edibotopic.github.io&#x2F;stokes-law&#x2F;&quot;&gt;intrinsically unstable&lt;&#x2F;a&gt;,
+separating over time depending on
+properties like particle size and
+solvent viscosity.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;dsf-formalism&quot;&gt;DSF Formalism&lt;&#x2F;h2&gt;
+&lt;p&gt;Talking about dispersed systems can get difficult quickly.
+This is because many of them contain sub-systems with their
+own distinct topologies.
+At one level, bread crumb is a solid foam, with gas bubbles
+dispersed in a solid matrix.
+Zooming out, this foam is enclosed in a solid crust.
+Zooming back in, the solid matrix is itself a dispersion
+of starch granules.
+The following is a mouthful:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A dispersion of bubbles in a dispersion of starch granules
+enclosed in a solid container&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;For this reason, the Dispersed System Formalism (DSF) was
+invented by the French scientist
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Herv%C3%A9_This&quot;&gt;Hervé This&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;For decades scientists have referred to oil-in-water
+emulsions using the following notation:&lt;&#x2F;p&gt;
+&lt;p&gt;$$O&#x2F;W$$&lt;&#x2F;p&gt;
+&lt;p&gt;The letters refer to physical phases: &lt;em&gt;O&lt;&#x2F;em&gt;(il) and &lt;em&gt;W&lt;&#x2F;em&gt;(ater) and
+the forward slash refers the relation &lt;em&gt;dispersed in&lt;&#x2F;em&gt;.
+In most cases, DSF simply extends this notation to encompass a
+broader class of phases and larger set of relations.
+Obviously, a liquid foam could be represented as:&lt;&#x2F;p&gt;
+&lt;p&gt;$$G&#x2F;L$$&lt;&#x2F;p&gt;
+&lt;p&gt;If a foam is enclosed in a solid we need an additional character
+for S(olid) and an additional operator for enclosure (@):&lt;&#x2F;p&gt;
+&lt;p&gt;$$(G&#x2F;L)@S$$&lt;&#x2F;p&gt;
+&lt;p&gt;The apparatus of DSF has further intricacies, elaborated in
+academic papers Prof This has written on the topic.
+For now, this is enough to get started.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;dsf-racket&quot;&gt;DSF-racket&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;dsf-racket&quot;&gt;DSF-racket&lt;&#x2F;a&gt;
+is a racket module (more correctly: two modules)
+that can be imported into racket projects.
+It allows diagrams to be drawn using DSF notation with &lt;code&gt;dsf.rkt&lt;&#x2F;code&gt;
+and tree representations of DSF structures to be drawn with &lt;code&gt;tree.rkt&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;&#x2F;h2&gt;
+&lt;p&gt;When DSF notation is used it is often necessary to include diagrams.
+People might not be familiar with the notation and visualisation helps.
+This is also common in similar fields like spatial logic,
+mereotopology and formal ontology.
+Philosophers, ontologists and computer scientists in these areas
+rely on symbolic tools like formal logic and set theory to represent
+space, but their papers are also filled with explanatory diagrams.&lt;&#x2F;p&gt;
+&lt;p&gt;It seems to me that a tighter coupling between the
+symbolic and diagrammatic representations could be fruitful
+for three reasons:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;It reduces the workload on the communicator, as diagrams
+do not have to be created separately from the notation.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;It creates a learning tool, as manipulation of the
+symbols generates diagrams as feedback for the learner.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;It ensures consistency, as two individuals writing
+the same notation should always generated an equivalent
+diagram.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;how-it-works&quot;&gt;How it Works&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;symbolising-regions-of-space&quot;&gt;Symbolising Regions of Space&lt;&#x2F;h3&gt;
+&lt;p&gt;The &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;racket-lang.org&#x2F;&quot;&gt;Racket language&lt;&#x2F;a&gt;,
+like most &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.britannica.com&#x2F;technology&#x2F;LISP-computer-language&quot;&gt;Lisp&lt;&#x2F;a&gt;
+dialects, uses prefix notation.
+Instead of writing the expression &lt;code&gt;2 + 3&lt;&#x2F;code&gt; to get the value &lt;code&gt;5&lt;&#x2F;code&gt;,
+we write:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(+ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bd93f9;&quot;&gt;2 3&lt;&#x2F;span&gt;&lt;span&gt;)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Individual expressions are wrapped in parentheses.&lt;&#x2F;p&gt;
+&lt;p&gt;In DSF, &lt;code&gt;O+W&lt;&#x2F;code&gt; means effectively:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Take oil and take water&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;or&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The mixture of oil and water&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Topologically, it means that the two phases are
+disconnected from each other in the system.
+Here and a few other replaces I deviate from
+the DSF notation slightly, preferring the symbol
+$:$ to signify disconnection:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(: o w)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;If &lt;code&gt;(+ 2 3)&lt;&#x2F;code&gt; returns &lt;code&gt;5&lt;&#x2F;code&gt; what does &lt;code&gt;(: o w)&lt;&#x2F;code&gt; do?
+It draws a diagram showing two circles with
+different colours that are disconnected.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;dsf-racket&#x2F;blob&#x2F;master&#x2F;out&#x2F;mixture.png?raw=true&quot; alt=&quot;Mixture&quot; title=&quot;mixture (: o w)&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;To enclose the structure in a solid:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(@ (: o w) S)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;If you are unfamiliar with prefix notation this
+might seem confusing, but it is not that difficult.
+Taking the inner-most parentheses, we have:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;(mix oil with water)&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;The $@$ takes this mixture and encloses it
+in a container (signified by capital letter):&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;(enclose (mix oil with water) in Solid)&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Again, this yields a diagram representing the structure:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;dsf-racket&#x2F;blob&#x2F;master&#x2F;out&#x2F;mix-enclose.png?raw=true&quot; alt=&quot;Enclose&quot; title=&quot;Enclosed mixture (@ (: o w) S)&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;processes-as-trees&quot;&gt;Processes as Trees&lt;&#x2F;h3&gt;
+&lt;p&gt;One of the advantages of prefix notation is that
+it closely maps to a tree-like representation.
+The previous example of &lt;code&gt;(@ (: o w) S)&lt;&#x2F;code&gt; can be
+thought of as a process, consisting of nodes
+and connections between those nodes.
+Starting at the bottom of the tree,
+we would have nodes for oil (o) and water (w)
+which together connect to a mix node (:).
+This mix node then connects with the
+S(olid) container through an enclosure node (@).&lt;&#x2F;p&gt;
+&lt;p&gt;A function is included in DSF-racket to draw
+such trees from notation.
+A structure can be stored as a list in a variable
+and then fed into the draw function:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;define &lt;&#x2F;span&gt;&lt;span&gt;myStructure &amp;#39;(@ (: o w) S)) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;;; store in variable
+&lt;&#x2F;span&gt;&lt;span&gt;(draw-tree myStructure) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;;; call the draw function
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;dsf-racket&#x2F;blob&#x2F;master&#x2F;out&#x2F;tree-example.png?raw=true&quot; alt=&quot;Tree&quot; title=&quot;Tree (@ (: o w) S)&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This can be especially useful when interpreting complex
+symbolic&#x2F;diagrammatic representations,
+such as the following:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(: s (@ (@ (: o (&amp;amp; w g)) S) S))
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;dsf-racket&#x2F;blob&#x2F;master&#x2F;out&#x2F;complex.png?raw=true&quot; alt=&quot;Complex&quot; title=&quot;Complex example ((: s (@ (@ (: o (&amp;amp; w g)) S) S)))&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;conceptual-aside-dispersion&quot;&gt;Conceptual Aside: Dispersion&lt;&#x2F;h3&gt;
+&lt;p&gt;What is dispersion?
+It is a discrete set of particles in a container.
+What is dispersed is by definition a multiplicity:
+there has to be at least two regions of that material
+that are mutually disconnected from each other.&lt;&#x2F;p&gt;
+&lt;p&gt;This means that to define and draw a dispersion we
+just need the $:$ and $@$ operators.
+For example, an emulsion of oil droplets in water is:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(@ (: o o) W)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;dsf-racket&#x2F;blob&#x2F;master&#x2F;out&#x2F;emulsion.png?raw=true&quot; alt=&quot;Emulsion&quot; title=&quot;Emulsion (@ (: o o) W)&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Of course, many emulsions physically consist of thousands of oil droplets.
+We do not, however, need to represent thousands (or even three) droplets
+because the critical distinction is that between the continuous (one) and
+the discrete (two or more).&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;operators-in-dsf-racket&quot;&gt;Operators in DSF-racket&lt;&#x2F;h3&gt;
+&lt;p&gt;Currently the following operators are defined (as functions):&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;Symbol&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Alias&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;:&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;mix&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;σ&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;connect&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;@&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;enclose&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&amp;amp;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;overlap&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;^&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;m-connect&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;Aliases are provided for more explicit formula definitions.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(equal? (mix oil gas) (: o g)) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;;; #t
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h4 id=&quot;binary&quot;&gt;Binary&lt;&#x2F;h4&gt;
+&lt;p&gt;The operations briefly defined:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Mix (&lt;code&gt;: x y&lt;&#x2F;code&gt;) — x is disconnected from y&lt;&#x2F;li&gt;
+&lt;li&gt;Connect (&lt;code&gt;σ x y&lt;&#x2F;code&gt;) — x is externally connected from y&lt;&#x2F;li&gt;
+&lt;li&gt;Enclose (&lt;code&gt;@ x Y&lt;&#x2F;code&gt;) — x is enclose in a container y&lt;&#x2F;li&gt;
+&lt;li&gt;Overlap (&lt;code&gt;&amp;amp; x y&lt;&#x2F;code&gt;) — x overlaps with y&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h4 id=&quot;ternary&quot;&gt;Ternary&lt;&#x2F;h4&gt;
+&lt;p&gt;The idea of M(ediate)-connection was mentioned in
+Whitehead&#x27;s
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;archive.org&#x2F;details&#x2F;AlfredNorthWhiteheadProcessAndReality&quot;&gt;Process &amp;amp; Reality&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;M-connect (&lt;code&gt;^ x y z&lt;&#x2F;code&gt;): x is connected to y through z&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h3 id=&quot;primitives&quot;&gt;Primitives&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;atoms&quot;&gt;Atoms&lt;&#x2F;h4&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;Symbol&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Alias&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;g&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;gas&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;o&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;oil&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;s&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;solid&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;w&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;water&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h4 id=&quot;containers&quot;&gt;Containers&lt;&#x2F;h4&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;Symbol&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Alias&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;G&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Gas&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;O&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Oil&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;S&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Solid&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;W&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Water&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;infix-notation&quot;&gt;Infix Notation&lt;&#x2F;h2&gt;
+&lt;p&gt;Racket supports a (somewhat verbose) form of infix notation.
+This involves the use of periods between an operation and its arguments:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(equal? (mix o g) (o . mix . g)) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;;; #t
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h1 id=&quot;why-racket&quot;&gt;Why Racket?&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;rapid-prototyping&quot;&gt;Rapid Prototyping&lt;&#x2F;h2&gt;
+&lt;p&gt;I don&#x27;t have much experience with Racket or Lisp.
+Despite this, I found it remarkably simple to get
+this project functioning in a single afternoon.&lt;&#x2F;p&gt;
+&lt;p&gt;Racket installs with an IDE called DrRacket and
+several built-in libraries.
+Writing the following into the editor is sufficient
+to generate an image of a circle:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;#lang racket &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;;;specify the language being used
+&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;require &lt;&#x2F;span&gt;&lt;span&gt;2htdp&#x2F;image) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;;;use a built-in image library
+&lt;&#x2F;span&gt;&lt;span&gt;(circle &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bd93f9;&quot;&gt;20 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;&amp;quot;solid&amp;quot; &amp;quot;red&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;;;circle with 20 px radius and solid red fill
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;I&#x27;ve played around a lot with programmatic graphics, and this
+is easily one of the quickest ways to get up and running.
+DrRacket has a REPL in the editor, making it convenient
+to quickly test any graphics that you define.
+There is an
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;docs.racket-lang.org&#x2F;quick&#x2F;index.html&quot;&gt;excellent tutorial&lt;&#x2F;a&gt;
+for beginners that introduces basic programming concepts using
+Racket with pictures.&lt;&#x2F;p&gt;
+&lt;p&gt;Early on, I opened a REPL and did something like this:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;define &lt;&#x2F;span&gt;&lt;span&gt;thing (circle &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bd93f9;&quot;&gt;20 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;&amp;quot;solid&amp;quot; &amp;quot;red&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;))
+&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;define &lt;&#x2F;span&gt;&lt;span&gt;otherThing (circle &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bd93f9;&quot;&gt;20 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;&amp;quot;solid&amp;quot; &amp;quot;blue&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;))
+&lt;&#x2F;span&gt;&lt;span&gt;(beside thing otherThing)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The &lt;code&gt;beside&lt;&#x2F;code&gt; function from &lt;code&gt;2htdp&#x2F;image&lt;&#x2F;code&gt; puts two
+shapes — as you might suspect — beside each other.
+This could easily be redefined using language closer
+to DSF:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;define &lt;&#x2F;span&gt;&lt;span&gt;mix x y
+&lt;&#x2F;span&gt;&lt;span&gt;   (beside x y))
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;It got a little more complicated than this, but
+that was the basic idea.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;easy-distribution&quot;&gt;Easy Distribution&lt;&#x2F;h2&gt;
+&lt;p&gt;Sharing a Racket program is not as convenient
+as sending a link to a web app, but it is
+compatible with different user environments.&lt;&#x2F;p&gt;
+&lt;p&gt;It is trivial to use the DSF module if you have racket installed.
+After a &lt;code&gt;git clone&lt;&#x2F;code&gt; of the repository, the &lt;code&gt;dsf&lt;&#x2F;code&gt; folder can be
+copied to a racket project and then imported:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;require &lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;dsf&#x2F;base.rkt&amp;quot;)
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;(@ w S) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;;; will draw a diagram
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;If you are not using DrRacket then Emacs
+with Racket Mode installed&#x2F;activated is
+a straight replacement.&lt;&#x2F;p&gt;
+&lt;p&gt;Using the terminal or (Neo)Vim requires
+more work to preview images as you code.&lt;&#x2F;p&gt;
+&lt;p&gt;Start a REPL in your terminal with:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;racket
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;To draw some diagrams you will need &lt;code&gt;dsf&#x2F;base.rkt&lt;&#x2F;code&gt;
+and to render them to a frame you will need
+&lt;code&gt;racket&#x2F;gui&#x2F;base&lt;&#x2F;code&gt; and &lt;code&gt;pict&lt;&#x2F;code&gt;.
+Require them in the REPL:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;require &lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;dsf&#x2F;base.rkt&amp;quot;)
+&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;require &lt;&#x2F;span&gt;&lt;span&gt;racket&#x2F;gui&#x2F;base pict)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Now, entering the below code in the REPL will
+define a DSF formula and render the diagram in a separate frame:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;define &lt;&#x2F;span&gt;&lt;span&gt;myStructure (@ (@ (σ w o) S) W))
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;(show-pict myStructure)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Lastly, there is a &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;rmculpepper&#x2F;iracket&quot;&gt;Jupyter kernel for Racket&lt;&#x2F;a&gt; — IRacket — that can be used to run Racket code in a Jupyter notebook.&lt;&#x2F;p&gt;
+&lt;p&gt;If you have Jupyter and IRacket installed then DSF modules can be
+required as described previously and used to draw diagrams.
+Make sure that the kernel is set to Racket in your Jupyter instance.&lt;&#x2F;p&gt;
+&lt;p&gt;Examples of how the module can be used in
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;dsf-racket&#x2F;tree&#x2F;master&#x2F;docs&quot;&gt;slide presentations (via Racket)&lt;&#x2F;a&gt;
+and &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;dsf-racket&#x2F;tree&#x2F;master&#x2F;nb&quot;&gt;notebooks (via Jupyter)&lt;&#x2F;a&gt;
+are included in the repo.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;next-steps&quot;&gt;Next Steps&lt;&#x2F;h1&gt;
+&lt;p&gt;I have been fascinated with the general area
+of representing space (or more abstract &lt;em&gt;regions&lt;&#x2F;em&gt;)
+using symbolic languages for several years.&lt;&#x2F;p&gt;
+&lt;p&gt;There are many people in disparate fields working
+on such problems, and I have been privately trying
+to connect ideas across these fields for some time.&lt;&#x2F;p&gt;
+&lt;p&gt;DSF-racket is primarily focused on coupling
+symbolic and diagrammatic representations.
+I would like to extend the systems it can
+represent and to improve the quality of its
+diagrams, but it is largely feature-complete.&lt;&#x2F;p&gt;
+&lt;p&gt;This post really only touches the surface on
+my thoughts on these formalisms, and I will
+likely revisit the area in the future.&lt;&#x2F;p&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title>Versioning Student Work to Emphasise Process</title>
 		<published>2023-07-15T00:00:00+00:00</published>
