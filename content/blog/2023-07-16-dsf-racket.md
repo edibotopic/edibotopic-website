@@ -73,21 +73,22 @@ emulsions using the following notation:
 
 $$O/W$$
 
-The letters refer to physical phases: _O_(il) and _W_(ater) and
-the forward slash refers the relation _dispersed in_.
+The letters refer to physical phases — _O_(il) and _W_(ater) — and
+the forward slash refers to the relation _dispersed in_.
 In most cases, DSF simply extends this notation to encompass a
 broader class of phases and larger set of relations.
 Obviously, a liquid foam could be represented as:
 
-$$G/L$$
+$$G/W$$
 
 If a foam is enclosed in a solid we need an additional character
 for S(olid) and an additional operator for enclosure (@):
 
-$$(G/L)@S$$
+$$(G/W)@S$$
 
 The apparatus of DSF has further intricacies, elaborated in
-academic papers Prof This has written on the topic.
+[academic papers](https://pubmed.ncbi.nlm.nih.gov/17875375/) 
+Prof This has written on the topic.
 For now, this is enough to get started.
 
 # DSF-racket
@@ -221,7 +222,7 @@ such as the following:
 ### Conceptual Aside: Dispersion
 
 What is dispersion?
-It is a discrete set of particles in a container.
+It is a discrete set of particles in an enclosing container.
 What is dispersed is by definition a multiplicity:
 there has to be at least two regions of that material
 that are mutually disconnected from each other.
@@ -343,11 +344,10 @@ Early on, I opened a REPL and did something like this:
 
 The `beside` function from `2htdp/image` puts two
 shapes — as you might suspect — beside each other.
-This could easily be redefined using language closer
-to DSF:
+In this case, the shapes **connect** (σ) at their boundary.
 
 ```rkt
-(define mix x y
+(define σ x y
    (beside x y))
 ```
 
