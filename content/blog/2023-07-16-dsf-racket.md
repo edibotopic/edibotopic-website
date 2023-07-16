@@ -28,7 +28,7 @@ the topology of physical systems.
 ## Dispersed Systems
 
 A lot of science and engineering concerns _dispersed systems_.
-In this context, **system** relates to there being 
+In this context, **system** relates to there being
 many parts comprising the whole.
 **Dispersed** refers to sets of parts that are distributed
 randomly in space, usually in large number.
@@ -88,7 +88,7 @@ for S(olid) and an additional operator for enclosure (@):
 $$(G/W)@S$$
 
 The apparatus of DSF has further intricacies, elaborated in
-[academic papers](https://pubmed.ncbi.nlm.nih.gov/17875375/) 
+[academic papers](https://pubmed.ncbi.nlm.nih.gov/17875375/)
 Prof This has written on the topic.
 For now, this is enough to get started.
 
@@ -150,7 +150,7 @@ or
 
 Topologically, it means that the two phases are
 disconnected from each other in the system.
-Here and a few other replaces I deviate from
+Here and a few other places I deviate from
 the DSF notation slightly, preferring the symbol
 $:$ to signify disconnection:
 
