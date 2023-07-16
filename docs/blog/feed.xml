@@ -60,17 +60,18 @@ invented by the French scientist
 &lt;p&gt;For decades scientists have referred to oil-in-water
 emulsions using the following notation:&lt;&#x2F;p&gt;
 &lt;p&gt;$$O&#x2F;W$$&lt;&#x2F;p&gt;
-&lt;p&gt;The letters refer to physical phases: &lt;em&gt;O&lt;&#x2F;em&gt;(il) and &lt;em&gt;W&lt;&#x2F;em&gt;(ater) and
-the forward slash refers the relation &lt;em&gt;dispersed in&lt;&#x2F;em&gt;.
+&lt;p&gt;The letters refer to physical phases — &lt;em&gt;O&lt;&#x2F;em&gt;(il) and &lt;em&gt;W&lt;&#x2F;em&gt;(ater) — and
+the forward slash refers to the relation &lt;em&gt;dispersed in&lt;&#x2F;em&gt;.
 In most cases, DSF simply extends this notation to encompass a
 broader class of phases and larger set of relations.
 Obviously, a liquid foam could be represented as:&lt;&#x2F;p&gt;
-&lt;p&gt;$$G&#x2F;L$$&lt;&#x2F;p&gt;
+&lt;p&gt;$$G&#x2F;W$$&lt;&#x2F;p&gt;
 &lt;p&gt;If a foam is enclosed in a solid we need an additional character
 for S(olid) and an additional operator for enclosure (@):&lt;&#x2F;p&gt;
-&lt;p&gt;$$(G&#x2F;L)@S$$&lt;&#x2F;p&gt;
+&lt;p&gt;$$(G&#x2F;W)@S$$&lt;&#x2F;p&gt;
 &lt;p&gt;The apparatus of DSF has further intricacies, elaborated in
-academic papers Prof This has written on the topic.
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;pubmed.ncbi.nlm.nih.gov&#x2F;17875375&#x2F;&quot;&gt;academic papers&lt;&#x2F;a&gt; 
+Prof This has written on the topic.
 For now, this is enough to get started.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;dsf-racket&quot;&gt;DSF-racket&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;dsf-racket&quot;&gt;DSF-racket&lt;&#x2F;a&gt;
@@ -176,7 +177,7 @@ such as the following:&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;dsf-racket&#x2F;blob&#x2F;master&#x2F;out&#x2F;complex.png?raw=true&quot; alt=&quot;Complex&quot; title=&quot;Complex example ((: s (@ (@ (: o (&amp;amp; w g)) S) S)))&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;conceptual-aside-dispersion&quot;&gt;Conceptual Aside: Dispersion&lt;&#x2F;h3&gt;
 &lt;p&gt;What is dispersion?
-It is a discrete set of particles in a container.
+It is a discrete set of particles in an enclosing container.
 What is dispersed is by definition a multiplicity:
 there has to be at least two regions of that material
 that are mutually disconnected from each other.&lt;&#x2F;p&gt;
@@ -265,9 +266,8 @@ Racket with pictures.&lt;&#x2F;p&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;The &lt;code&gt;beside&lt;&#x2F;code&gt; function from &lt;code&gt;2htdp&#x2F;image&lt;&#x2F;code&gt; puts two
 shapes — as you might suspect — beside each other.
-This could easily be redefined using language closer
-to DSF:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;define &lt;&#x2F;span&gt;&lt;span&gt;mix x y
+In this case, the shapes &lt;strong&gt;connect&lt;&#x2F;strong&gt; (σ) at their boundary.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;define &lt;&#x2F;span&gt;&lt;span&gt;σ x y
 &lt;&#x2F;span&gt;&lt;span&gt;   (beside x y))
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;It got a little more complicated than this, but
