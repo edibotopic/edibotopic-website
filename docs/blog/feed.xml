@@ -22,7 +22,7 @@ the topology of physical systems.&lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h1 id=&quot;background&quot;&gt;Background&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;dispersed-systems&quot;&gt;Dispersed Systems&lt;&#x2F;h2&gt;
 &lt;p&gt;A lot of science and engineering concerns &lt;em&gt;dispersed systems&lt;&#x2F;em&gt;.
-In this context, &lt;strong&gt;system&lt;&#x2F;strong&gt; relates to there being 
+In this context, &lt;strong&gt;system&lt;&#x2F;strong&gt; relates to there being
 many parts comprising the whole.
 &lt;strong&gt;Dispersed&lt;&#x2F;strong&gt; refers to sets of parts that are distributed
 randomly in space, usually in large number.&lt;&#x2F;p&gt;
@@ -71,7 +71,7 @@ Obviously, a liquid foam could be represented as:&lt;&#x2F;p&gt;
 for S(olid) and an additional operator for enclosure (@):&lt;&#x2F;p&gt;
 &lt;p&gt;$$(G&#x2F;W)@S$$&lt;&#x2F;p&gt;
 &lt;p&gt;The apparatus of DSF has further intricacies, elaborated in
-&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;pubmed.ncbi.nlm.nih.gov&#x2F;17875375&#x2F;&quot;&gt;academic papers&lt;&#x2F;a&gt; 
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;pubmed.ncbi.nlm.nih.gov&#x2F;17875375&#x2F;&quot;&gt;academic papers&lt;&#x2F;a&gt;
 Prof This has written on the topic.
 For now, this is enough to get started.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;dsf-racket&quot;&gt;DSF-racket&lt;&#x2F;h1&gt;
@@ -126,7 +126,7 @@ we write:&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;Topologically, it means that the two phases are
 disconnected from each other in the system.
-Here and a few other replaces I deviate from
+Here and a few other places I deviate from
 the DSF notation slightly, preferring the symbol
 $:$ to signify disconnection:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(: o w)
