@@ -1,5 +1,5 @@
 +++
-title = "Virtual machines: configuration, sharing and running"
+title = "Virtual machines: configure, share and automate"
 date = 2023-07-31
 # updated = 2023-05-18
 draft = false
