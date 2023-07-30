@@ -4,8 +4,251 @@
 	<subtitle>Writing on food, technology and philosophy</subtitle>
 	<link href="https://edibotopic.com/blog/feed.xml" rel="self" type="application/atom+xml"/>
     <link href="https://edibotopic.com/blog/"/>
-	<updated>2023-07-16T00:00:00+00:00</updated>
+	<updated>2023-07-31T00:00:00+00:00</updated>
 	<id>https://edibotopic.com/blog/feed.xml</id>
+	<entry xml:lang="en">
+		<title>Virtual machines: configuration, sharing and running</title>
+		<published>2023-07-31T00:00:00+00:00</published>
+		<updated>2023-07-31T00:00:00+00:00</updated>
+        <summary>&lt;p&gt;Creating and using virtual machines is 
+pretty easy with Vagrant, VirtualBox and
+Ansible.&lt;&#x2F;p&gt;
+</summary>
+		<link href="https://edibotopic.com/blog/vagrant-virtualbox-ansible/" type="text/html"/>
+		<id>https://edibotopic.com/blog/vagrant-virtualbox-ansible/</id>
+		<content type="html">&lt;p&gt;Creating and using virtual machines is 
+pretty easy with Vagrant, VirtualBox and
+Ansible.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;&#x2F;h1&gt;
+&lt;p&gt;This how-to will explain how to use
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.vagrantup.com&#x2F;&quot;&gt;Vagrant&lt;&#x2F;a&gt;, 
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.virtualbox.org&#x2F;&quot;&gt;VirtualBox&lt;&#x2F;a&gt; and 
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.ansible.com&#x2F;&quot;&gt;Ansible&lt;&#x2F;a&gt; to
+create and manage a virtual machine (VM)
+on Linux.&lt;&#x2F;p&gt;
+&lt;p&gt;After reading, you will be able to
+run a command that generates a VM
+that shares files with your computer
+and comes with a game pre-installed.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;install-vagrant&quot;&gt;Install Vagrant&lt;&#x2F;h1&gt;
+&lt;p&gt;Vagrant makes the process of setting up and managing
+VMs quick and painless.
+On a Debian-based distribution — like Ubuntu — run the following
+commands to install:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;wget&lt;&#x2F;span&gt;&lt;span&gt; https:&#x2F;&#x2F;releases.hashicorp.com&#x2F;vagrant&#x2F;2.2.19&#x2F;vagrant_2.2.19_x86_64.deb
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span&gt; apt install .&#x2F;vagrant_2.2.19_x86_64.deb
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;vagrant&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#ffb86c;&quot;&gt; --version &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# Vagrant 2.2.19
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h1 id=&quot;install-virtualbox&quot;&gt;Install VirtualBox&lt;&#x2F;h1&gt;
+&lt;p&gt;VirtualBox will provide the virtual environments that
+Vagrant initialises and configures:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span&gt; apt install virtualbox
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h1 id=&quot;install-ansible&quot;&gt;Install Ansible&lt;&#x2F;h1&gt;
+&lt;p&gt;Ansible will enable automation of tasks in the VM.
+It can be run on the host or guest machine.
+If it is to be run on the host it will need
+to be installed first.&lt;&#x2F;p&gt;
+&lt;p&gt;The &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;docs.ansible.com&#x2F;ansible&#x2F;latest&#x2F;installation_guide&#x2F;intro_installation.html&quot;&gt;Ansible documentation&lt;&#x2F;a&gt; 
+states that a regular &lt;code&gt;pip install&lt;&#x2F;code&gt; may not work and this was true for
+me on Ubuntu.
+In this is the case, first install &lt;code&gt;pipx&lt;&#x2F;code&gt; before invoking it
+to install Ansible as follows:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;python3&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#ffb86c;&quot;&gt; -m&lt;&#x2F;span&gt;&lt;span&gt; pip install&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#ffb86c;&quot;&gt; --user&lt;&#x2F;span&gt;&lt;span&gt; pipx
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;pipx&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#ffb86c;&quot;&gt; --version
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;pipx&lt;&#x2F;span&gt;&lt;span&gt; install&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#ffb86c;&quot;&gt; --include-deps&lt;&#x2F;span&gt;&lt;span&gt; ansible
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h1 id=&quot;create-a-vm&quot;&gt;Create a VM&lt;&#x2F;h1&gt;
+&lt;p&gt;To set up a VM first create some directories
+to organise your VM(s).
+The VMs on my computer are kept in &lt;code&gt;&#x2F;vagrant_projects&#x2F;&lt;&#x2F;code&gt;.
+I will be using &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.centos.org&#x2F;&quot;&gt;CentOS&lt;&#x2F;a&gt;
+for this test project so
+the working directory is named &lt;code&gt;&#x2F;centOS_test&#x2F;&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;mkdir&lt;&#x2F;span&gt;&lt;span&gt; vagrant_projects &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;&amp;amp;&amp;amp; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8be9fd;&quot;&gt;cd&lt;&#x2F;span&gt;&lt;span&gt; vagrant_projects
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;mkdir&lt;&#x2F;span&gt;&lt;span&gt; centOS_test &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;&amp;amp;&amp;amp; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8be9fd;&quot;&gt;cd&lt;&#x2F;span&gt;&lt;span&gt; centOS_test
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Running the following commands will first
+initialise a Vagrant environment, generating
+a &lt;code&gt;Vagrantfile&lt;&#x2F;code&gt;, and then create the CentOS
+VM according to the configuration specified
+in that file.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;vagrant&lt;&#x2F;span&gt;&lt;span&gt; init generic&#x2F;centos7
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;vagrant&lt;&#x2F;span&gt;&lt;span&gt; up
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Note that the &lt;code&gt;generic&#x2F;centos7&lt;&#x2F;code&gt; is one of many
+&amp;quot;Vagrant Boxes&amp;quot; that can be found at the link below:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;app.vagrantup.com&#x2F;boxes&#x2F;search&quot;&gt;https:&#x2F;&#x2F;app.vagrantup.com&#x2F;boxes&#x2F;search&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;run-the-vm&quot;&gt;Run the VM&lt;&#x2F;h1&gt;
+&lt;p&gt;To use the VM run Vagrants&#x27;s &lt;code&gt;ssh&lt;&#x2F;code&gt; command
+and a centos7 prompt should appear:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;vagrant&lt;&#x2F;span&gt;&lt;span&gt; ssh
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# [vagrant@centos7 ~]$
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;It should now be possible to update packages using
+the default package manager YUM:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# [vagrant@centos7 ~]$
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;yum&lt;&#x2F;span&gt;&lt;span&gt; update
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Python is installed by default
+and should work right away:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# [vagrant@centos7 ~]$
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8be9fd;&quot;&gt;echo &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;&amp;quot;print(2+3)&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt; test.py
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;ls &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# test.py
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;python&lt;&#x2F;span&gt;&lt;span&gt; test.py &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# prints 5
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;You can also install additional packages like
+the classic text adventure &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Zork&quot;&gt;Zork&lt;&#x2F;a&gt;. 
+&lt;em&gt;This task will later be automated using Ansible.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# [vagrant@centos7 ~]$
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span&gt; yum install zork
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;zork
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# Welcome to Dungeon.			This version created 11-MAR-91.
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# You are in an open field west of a big white house with a boarded
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# front door.
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# There is a small mailbox here.
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;If you have trouble using regular terminal commands like &lt;code&gt;clear&lt;&#x2F;code&gt; then you
+might need to change the active terminal type.
+This was the case with my default &lt;code&gt;Kitty&lt;&#x2F;code&gt; terminal
+but was easily resolved with:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# [vagrant@centos7 ~]$
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffffff;&quot;&gt;TERM&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;xterm-256color
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h1 id=&quot;exit-and-destroy&quot;&gt;Exit and Destroy&lt;&#x2F;h1&gt;
+&lt;p&gt;To exit CentOS press &lt;strong&gt;&amp;lt;ctrl&amp;gt;&lt;&#x2F;strong&gt;+&lt;strong&gt;&amp;lt;D&amp;gt;&lt;&#x2F;strong&gt; or
+type &lt;code&gt;exit&lt;&#x2F;code&gt; and press &lt;strong&gt;&amp;lt;return&amp;gt;&lt;&#x2F;strong&gt;.
+The VM can be re-entered at any time
+from the vagrant environment
+using &lt;code&gt;vagrant ssh&lt;&#x2F;code&gt;.
+The state upon exiting will be preserved, 
+including any installed packages and saved files.&lt;&#x2F;p&gt;
+&lt;p&gt;If you want to destroy the VM to free
+up space on your host machine then run 
+&lt;code&gt;vagrant destroy&lt;&#x2F;code&gt; after exiting the VM.&lt;&#x2F;p&gt;
+&lt;p&gt;Note, that the &lt;code&gt;Vagrantfile&lt;&#x2F;code&gt; will remain
+in the &lt;code&gt;&#x2F;centOS_test&#x2F;&lt;&#x2F;code&gt; directory.
+This means that if you &lt;code&gt;cd&lt;&#x2F;code&gt; into that vagrant environment
+and run &lt;code&gt;vagrant up&lt;&#x2F;code&gt; you will again create the VM
+according to the configuration &lt;code&gt;Vagrantfile&lt;&#x2F;code&gt; specifies.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;configure-the-vm-with-vagrant&quot;&gt;Configure the VM with Vagrant&lt;&#x2F;h1&gt;
+&lt;p&gt;Each time &lt;code&gt;vagrant up&lt;&#x2F;code&gt; is run the VM is
+created according to the configuration 
+specified in the &lt;code&gt;Vagrantfile&lt;&#x2F;code&gt;.
+By default this file is documented with
+helpful comments that explain several useful
+configuration options.&lt;&#x2F;p&gt;
+&lt;p&gt;For the purpose of this article the
+configuration will be modified to
+achieve two basic things:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Share&lt;&#x2F;strong&gt; files between the host and guest in a dedicated folder&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Automate&lt;&#x2F;strong&gt; a YUM package installation with Ansible&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h1 id=&quot;share-between-guest-and-host&quot;&gt;Share between guest and host&lt;&#x2F;h1&gt;
+&lt;p&gt;This is an example of the current directory structure on
+the host machine:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;tree&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-tree &quot;&gt;&lt;code class=&quot;language-tree&quot; data-lang=&quot;tree&quot;&gt;&lt;span&gt;vagrant_projects
+&lt;&#x2F;span&gt;&lt;span&gt;├── centOS_test
+&lt;&#x2F;span&gt;&lt;span&gt;│   └── Vagrantfile
+&lt;&#x2F;span&gt;&lt;span&gt;└── shared
+&lt;&#x2F;span&gt;&lt;span&gt;    └── hello.md
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;I created a &lt;code&gt;shared&lt;&#x2F;code&gt; folder containing
+a markdown file with a basic greeting.
+To access this file in the virtual machine
+add the following line to &lt;code&gt;Vagrantfile&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;ruby&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-ruby &quot;&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# Vagrantfile
+&lt;&#x2F;span&gt;&lt;span&gt;config&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;vm&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;synced_folder &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;&amp;quot;..&#x2F;shared&#x2F;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;&amp;quot;&#x2F;home&#x2F;vagrant&#x2F;shared_data&amp;quot;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The first argument string is the relative path to the shared folder
+on the host machine.
+The second argument is the name of the shared folder that
+will be placed in the home directory in the virtual machine.&lt;&#x2F;p&gt;
+&lt;p&gt;Run &lt;code&gt;vagrant up&lt;&#x2F;code&gt;, check that you are in the home directory
+and display its contents:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# [vagrant@centos7 ~]$
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8be9fd;&quot;&gt;pwd &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# &#x2F;home&#x2F;vagrant&#x2F;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;ls &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# shared_data
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;cat&lt;&#x2F;span&gt;&lt;span&gt; shared_data&#x2F;hello.md &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# Hello from the host machine!!!
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Still in the VM, change the name of the file 
+and edit its contents in &lt;code&gt;Vim&lt;&#x2F;code&gt;.
+The changes you make in the file should be
+reflected in the &lt;code&gt;&#x2F;shared&#x2F;&lt;&#x2F;code&gt; folder on your
+host machine.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# [vagrant@centos7 ~]$
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;mv&lt;&#x2F;span&gt;&lt;span&gt; shared_data&#x2F;hello.md shared_data&#x2F;zorkNotes.md
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;vim&lt;&#x2F;span&gt;&lt;span&gt; shared_data&#x2F;zorkNotes
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# write notes on zork and save with :wq
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# this will update the file on host
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;If the VM is later destroyed and recreated
+the contents of the file will remain as they
+will be shared from the host.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;automate-with-ansible&quot;&gt;Automate with Ansible&lt;&#x2F;h1&gt;
+&lt;p&gt;If there is a specific task that needs to be run
+each time that the VM is created Ansible will help.&lt;&#x2F;p&gt;
+&lt;p&gt;In &lt;code&gt;centOS_test&lt;&#x2F;code&gt; create &lt;code&gt;playbook.yml&lt;&#x2F;code&gt; and reference it
+in &lt;code&gt;Vagrantfile&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;ruby&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-ruby &quot;&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# Vagrantfile
+&lt;&#x2F;span&gt;&lt;span&gt;config&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;vm&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;provision &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;&amp;quot;ansible&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;do &lt;&#x2F;span&gt;&lt;span&gt;|&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#ffb86c;&quot;&gt;ansible&lt;&#x2F;span&gt;&lt;span&gt;|
+&lt;&#x2F;span&gt;&lt;span&gt;  ansible&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;playbook &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;&amp;quot;playbook.yml&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;end
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Imagine you want a VM specifically for the purpose
+of playing Zork but you want to destroy the VM after
+each game to free up space on your computer.
+For convenience, you want Zork to be automatically installed every
+time you (re)create that VM.&lt;&#x2F;p&gt;
+&lt;p&gt;In &lt;code&gt;playbook.yml&lt;&#x2F;code&gt; a task is defined that checks
+if a &lt;strong&gt;YUM&lt;&#x2F;strong&gt; package with the &lt;strong&gt;NAME&lt;&#x2F;strong&gt; Zork is &lt;strong&gt;PRESENT&lt;&#x2F;strong&gt; in the VM.
+When the user logs in to the VM, it will &lt;strong&gt;BECOME&lt;&#x2F;strong&gt; a
+user with &lt;code&gt;sudo&lt;&#x2F;code&gt; privileges.
+If the package &lt;em&gt;is not&lt;&#x2F;em&gt; present it will be sudo installed using yum.
+If it &lt;em&gt;is&lt;&#x2F;em&gt; installed then no installation will be performed.
+This is the playbook:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;yml&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-yml &quot;&gt;&lt;code class=&quot;language-yml&quot; data-lang=&quot;yml&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# playbook.yml
+&lt;&#x2F;span&gt;&lt;span&gt;---
+&lt;&#x2F;span&gt;&lt;span&gt;- &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;name&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;Testing Ansible Automation with Zork
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;hosts&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;all
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;become&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bd93f9;&quot;&gt;yes
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;tasks&lt;&#x2F;span&gt;&lt;span&gt;:
+&lt;&#x2F;span&gt;&lt;span&gt;    - &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;name&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;Ensure Zork is installed
+&lt;&#x2F;span&gt;&lt;span&gt;      &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;yum&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;name=zork state=present
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;After &lt;code&gt;vagrant up&lt;&#x2F;code&gt; is run check if Zork has been automatically installed:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;which&lt;&#x2F;span&gt;&lt;span&gt; zork &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# &#x2F;usr&#x2F;bin&#x2F;zork
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Success! You can run &lt;code&gt;zork&lt;&#x2F;code&gt; and start playing:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# [vagrant@centos7 ~]$
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# You are in an open field west of a big white house with a boarded
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# front door.
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# There is a small mailbox here.
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# &amp;gt; mailbox
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# What should I do with the mailbox?
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# &amp;gt; open
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# Opening the mailbox reveals:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# A leaflet.
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# &amp;gt; leaflet
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# What should I do with the leaflet?
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# &amp;gt; take
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# Taken.
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# &amp;gt; eat leaflet
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# I don&amp;#39;t think that the leaflet would agree with you.
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# &amp;gt; take
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# You already have it.
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# ...
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Dispose of the VM as usual with &lt;code&gt;vagrant destroy&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Both &lt;code&gt;playbook.yml&lt;&#x2F;code&gt; and &lt;code&gt;Vagrantfile&lt;&#x2F;code&gt;
+still remain in the &lt;code&gt;&#x2F;centOS_test&#x2F;&lt;&#x2F;code&gt; directory.
+Each time &lt;code&gt;vagrant up&lt;&#x2F;code&gt; is run subsequently the VM
+will be created with the shared folder
+and with Zork pre-installed.&lt;&#x2F;p&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title>Drawing Structures from Notation</title>
 		<published>2023-07-16T00:00:00+00:00</published>

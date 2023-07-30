@@ -39,6 +39,10 @@
         <lastmod>2023-07-05</lastmod>
     </url>
     <url>
+        <loc>https://edibotopic.com/blog/vagrant-virtualbox-ansible/</loc>
+        <lastmod>2023-07-31</lastmod>
+    </url>
+    <url>
         <loc>https://edibotopic.com/blog/versioning-student-work/</loc>
         <lastmod>2023-07-15</lastmod>
     </url>
@@ -69,6 +73,9 @@
     </url>
     <url>
         <loc>https://edibotopic.com/tags/3d/</loc>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/tags/ansible/</loc>
     </url>
     <url>
         <loc>https://edibotopic.com/tags/art/</loc>
@@ -119,6 +126,9 @@
         <loc>https://edibotopic.com/tags/science/</loc>
     </url>
     <url>
+        <loc>https://edibotopic.com/tags/software/</loc>
+    </url>
+    <url>
         <loc>https://edibotopic.com/tags/spatial-logic/</loc>
     </url>
     <url>
@@ -126,6 +136,9 @@
     </url>
     <url>
         <loc>https://edibotopic.com/tags/troubleshooting/</loc>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/tags/virtualisation/</loc>
     </url>
     <url>
         <loc>https://edibotopic.com/tags/web/</loc>
