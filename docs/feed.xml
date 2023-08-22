@@ -1352,7 +1352,7 @@ name taken from the output of &lt;code&gt;apt list --installed | grep linux-imag
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;After a fresh &lt;code&gt;reboot&lt;&#x2F;code&gt;, checking the active kernel again with &lt;code&gt;uname -r&lt;&#x2F;code&gt;
 confirmed that the 5.15 kernel was still being used.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;to-solve-your-internet-problem-first-download-x-from-the-internet&quot;&gt;&amp;quot;To Solve Your Internet Problem, First Download X from the Internet&amp;quot;?&lt;a class=&quot;zola-anchor&quot; href=&quot;#to-solve-your-internet-problem-first-download-x-from-the-internet&quot; aria-label=&quot;Anchor link for: to-solve-your-internet-problem-first-download-x-from-the-internet&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;first-download-x&quot;&gt;&amp;quot;First Download X&amp;quot;&lt;a class=&quot;zola-anchor&quot; href=&quot;#first-download-x&quot; aria-label=&quot;Anchor link for: first-download-x&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;If trying to troubleshoot this kind of problem yourself you might be
 frustrated to find that many of the available help guides require you to have
 internet access on your device.
