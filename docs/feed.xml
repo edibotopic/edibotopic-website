@@ -35,14 +35,14 @@ and comes with a game pre-installed.&lt;&#x2F;p&gt;
 VMs quick and painless.
 On a Debian-based distribution — like Ubuntu — run the following
 commands to install:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;wget&lt;&#x2F;span&gt;&lt;span&gt; https:&#x2F;&#x2F;releases.hashicorp.com&#x2F;vagrant&#x2F;2.2.19&#x2F;vagrant_2.2.19_x86_64.deb
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span&gt; apt install .&#x2F;vagrant_2.2.19_x86_64.deb
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;vagrant&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#ffb86c;&quot;&gt; --version &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# Vagrant 2.2.19
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;wget&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; https:&#x2F;&#x2F;releases.hashicorp.com&#x2F;vagrant&#x2F;2.2.19&#x2F;vagrant_2.2.19_x86_64.deb&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; apt install .&#x2F;vagrant_2.2.19_x86_64.deb&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;vagrant&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; --&lt;&#x2F;span&gt;version &lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; Vagrant 2.2.19&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;h2 id=&quot;install-virtualbox&quot;&gt;Install VirtualBox&lt;a class=&quot;zola-anchor&quot; href=&quot;#install-virtualbox&quot; aria-label=&quot;Anchor link for: install-virtualbox&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;VirtualBox will provide the virtual environments that
 Vagrant initialises and configures:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span&gt; apt install virtualbox
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; apt install virtualbox&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;h2 id=&quot;install-ansible&quot;&gt;Install Ansible&lt;a class=&quot;zola-anchor&quot; href=&quot;#install-ansible&quot; aria-label=&quot;Anchor link for: install-ansible&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Ansible will enable automation of tasks in the VM.
@@ -54,9 +54,9 @@ states that a regular &lt;code&gt;pip install&lt;&#x2F;code&gt; may not work and
 me on Ubuntu.
 In this is the case, first install &lt;code&gt;pipx&lt;&#x2F;code&gt; before invoking it
 to install Ansible as follows:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;python3&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#ffb86c;&quot;&gt; -m&lt;&#x2F;span&gt;&lt;span&gt; pip install&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#ffb86c;&quot;&gt; --user&lt;&#x2F;span&gt;&lt;span&gt; pipx
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;pipx&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#ffb86c;&quot;&gt; --version
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;pipx&lt;&#x2F;span&gt;&lt;span&gt; install&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#ffb86c;&quot;&gt; --include-deps&lt;&#x2F;span&gt;&lt;span&gt; ansible
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;python3&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;m&lt;&#x2F;span&gt; pip install&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; --&lt;&#x2F;span&gt;user&lt;&#x2F;span&gt; pipx&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;pipx&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; --&lt;&#x2F;span&gt;version&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;pipx&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; install&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; --&lt;&#x2F;span&gt;include-deps&lt;&#x2F;span&gt; ansible&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;h2 id=&quot;create-a-vm&quot;&gt;Create a VM&lt;a class=&quot;zola-anchor&quot; href=&quot;#create-a-vm&quot; aria-label=&quot;Anchor link for: create-a-vm&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;To set up a VM first create some directories
@@ -65,16 +65,16 @@ The VMs on my computer are kept in &lt;code&gt;&#x2F;vagrant_projects&#x2F;&lt;&
 I will be using &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.centos.org&#x2F;&quot;&gt;CentOS&lt;&#x2F;a&gt;
 for this test project so
 the working directory is named &lt;code&gt;&#x2F;centOS_test&#x2F;&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;mkdir&lt;&#x2F;span&gt;&lt;span&gt; vagrant_projects &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;&amp;amp;&amp;amp; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8be9fd;&quot;&gt;cd&lt;&#x2F;span&gt;&lt;span&gt; vagrant_projects
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;mkdir&lt;&#x2F;span&gt;&lt;span&gt; centOS_test &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;&amp;amp;&amp;amp; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8be9fd;&quot;&gt;cd&lt;&#x2F;span&gt;&lt;span&gt; centOS_test
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;mkdir&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; vagrant_projects&lt;&#x2F;span&gt; &lt;span class=&quot;z-keyword z-operator z-logical z-and z-shell&quot;&gt;&amp;amp;&amp;amp;&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-support z-function z-cd z-shell&quot;&gt;cd&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; vagrant_projects&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;mkdir&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; centOS_test&lt;&#x2F;span&gt; &lt;span class=&quot;z-keyword z-operator z-logical z-and z-shell&quot;&gt;&amp;amp;&amp;amp;&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-support z-function z-cd z-shell&quot;&gt;cd&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; centOS_test&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Running the following commands will first
 initialise a Vagrant environment, generating
 a &lt;code&gt;Vagrantfile&lt;&#x2F;code&gt;, and then create the CentOS
 VM according to the configuration specified
 in that file.&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;vagrant&lt;&#x2F;span&gt;&lt;span&gt; init generic&#x2F;centos7
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;vagrant&lt;&#x2F;span&gt;&lt;span&gt; up
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;vagrant&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; init generic&#x2F;centos7&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;vagrant&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; up&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Note that the &lt;code&gt;generic&#x2F;centos7&lt;&#x2F;code&gt; is one of many
 &amp;quot;Vagrant Boxes&amp;quot; that can be found at the link below:&lt;&#x2F;p&gt;
@@ -82,39 +82,39 @@ in that file.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;run-the-vm&quot;&gt;Run the VM&lt;a class=&quot;zola-anchor&quot; href=&quot;#run-the-vm&quot; aria-label=&quot;Anchor link for: run-the-vm&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;To use the VM run Vagrants&#x27;s &lt;code&gt;ssh&lt;&#x2F;code&gt; command
 and a centos7 prompt should appear:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;vagrant&lt;&#x2F;span&gt;&lt;span&gt; ssh
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# [vagrant@centos7 ~]$
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;vagrant&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; ssh&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; [vagrant@centos7 ~]$&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;It should now be possible to update packages using
 the default package manager YUM:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# [vagrant@centos7 ~]$
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;yum&lt;&#x2F;span&gt;&lt;span&gt; update
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; [vagrant@centos7 ~]$&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;yum&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; update&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Python is installed by default
 and should work right away:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# [vagrant@centos7 ~]$
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8be9fd;&quot;&gt;echo &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;&amp;quot;print(2+3)&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt; test.py
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;ls &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# test.py
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;python&lt;&#x2F;span&gt;&lt;span&gt; test.py &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# prints 5
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; [vagrant@centos7 ~]$&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-support z-function z-echo z-shell&quot;&gt;echo&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; &lt;span class=&quot;z-string z-quoted z-double z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-shell&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;print(2+3)&lt;span class=&quot;z-punctuation z-definition z-string z-end z-shell&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-keyword z-operator z-assignment z-redirection z-shell&quot;&gt;&amp;gt;&lt;&#x2F;span&gt; test.py&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;ls &lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; test.py&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;python&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; test.py &lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; prints 5&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;You can also install additional packages like
 the classic text adventure &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Zork&quot;&gt;Zork&lt;&#x2F;a&gt;. 
 &lt;em&gt;This task will later be automated using Ansible.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# [vagrant@centos7 ~]$
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span&gt; yum install zork
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;zork
-&lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# Welcome to Dungeon.			This version created 11-MAR-91.
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# You are in an open field west of a big white house with a boarded
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# front door.
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# There is a small mailbox here.
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; [vagrant@centos7 ~]$&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; yum install zork&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;zork&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+
+&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; Welcome to Dungeon.			This version created 11-MAR-91.&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; You are in an open field west of a big white house with a boarded&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; front door.&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; There is a small mailbox here.&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;If you have trouble using regular terminal commands like &lt;code&gt;clear&lt;&#x2F;code&gt; then you
 might need to change the active terminal type.
 This was the case with my default &lt;code&gt;Kitty&lt;&#x2F;code&gt; terminal
 but was easily resolved with:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# [vagrant@centos7 ~]$
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffffff;&quot;&gt;TERM&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;xterm-256color
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; [vagrant@centos7 ~]$&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-assignment z-shell&quot;&gt;TERM&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-shell&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-unquoted z-shell&quot;&gt;xterm-256color&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;h2 id=&quot;exit-and-destroy&quot;&gt;Exit and Destroy&lt;a class=&quot;zola-anchor&quot; href=&quot;#exit-and-destroy&quot; aria-label=&quot;Anchor link for: exit-and-destroy&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;To exit CentOS press &lt;strong&gt;&amp;lt;ctrl&amp;gt;&lt;&#x2F;strong&gt;+&lt;strong&gt;&amp;lt;D&amp;gt;&lt;&#x2F;strong&gt; or
@@ -149,18 +149,18 @@ achieve two basic things:&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;share-between-guest-and-host&quot;&gt;Share between guest and host&lt;a class=&quot;zola-anchor&quot; href=&quot;#share-between-guest-and-host&quot; aria-label=&quot;Anchor link for: share-between-guest-and-host&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;This is an example of the current directory structure on
 the host machine:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;txt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-txt &quot;&gt;&lt;code class=&quot;language-txt&quot; data-lang=&quot;txt&quot;&gt;&lt;span&gt;vagrant_projects
-&lt;&#x2F;span&gt;&lt;span&gt;├── centOS_test
-&lt;&#x2F;span&gt;&lt;span&gt;│   └── Vagrantfile
-&lt;&#x2F;span&gt;&lt;span&gt;└── shared
-&lt;&#x2F;span&gt;&lt;span&gt;    └── hello.md
+&lt;pre data-lang=&quot;txt&quot; class=&quot;language-txt z-code&quot;&gt;&lt;code class=&quot;language-txt&quot; data-lang=&quot;txt&quot;&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;vagrant_projects
+├── centOS_test
+│   └── Vagrantfile
+└── shared
+    └── hello.md
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;I created a &lt;code&gt;shared&lt;&#x2F;code&gt; folder containing
 a markdown file with a basic greeting.
 To access this file in the virtual machine
 add the following line to &lt;code&gt;Vagrantfile&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;ruby&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-ruby &quot;&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# Vagrantfile
-&lt;&#x2F;span&gt;&lt;span&gt;config&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;vm&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;synced_folder &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;&amp;quot;..&#x2F;shared&#x2F;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;&amp;quot;&#x2F;home&#x2F;vagrant&#x2F;shared_data&amp;quot;
+&lt;pre data-lang=&quot;ruby&quot; class=&quot;language-ruby z-code&quot;&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;z-source z-ruby&quot;&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-ruby&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-ruby&quot;&gt;#&lt;&#x2F;span&gt; Vagrantfile
+&lt;&#x2F;span&gt;config&lt;span class=&quot;z-punctuation z-accessor z-dot z-ruby&quot;&gt;.&lt;&#x2F;span&gt;vm&lt;span class=&quot;z-punctuation z-accessor z-dot z-ruby&quot;&gt;.&lt;&#x2F;span&gt;synced_folder &lt;span class=&quot;z-meta z-string z-ruby&quot;&gt;&lt;span class=&quot;z-string z-quoted z-double z-ruby&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-ruby&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;..&#x2F;shared&#x2F;&lt;span class=&quot;z-punctuation z-definition z-string z-end z-ruby&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-sequence z-ruby&quot;&gt;,&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-string z-ruby&quot;&gt;&lt;span class=&quot;z-string z-quoted z-double z-ruby&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-ruby&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&#x2F;home&#x2F;vagrant&#x2F;shared_data&lt;span class=&quot;z-punctuation z-definition z-string z-end z-ruby&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;The first argument string is the relative path to the shared folder
 on the host machine.
@@ -168,22 +168,22 @@ The second argument is the name of the shared folder that
 will be placed in the home directory in the virtual machine.&lt;&#x2F;p&gt;
 &lt;p&gt;Run &lt;code&gt;vagrant up&lt;&#x2F;code&gt;, check that you are in the home directory
 and display its contents:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# [vagrant@centos7 ~]$
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8be9fd;&quot;&gt;pwd &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# &#x2F;home&#x2F;vagrant&#x2F;
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;ls &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# shared_data
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;cat&lt;&#x2F;span&gt;&lt;span&gt; shared_data&#x2F;hello.md &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# Hello from the host machine!!!
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; [vagrant@centos7 ~]$&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-support z-function z-pwd z-shell&quot;&gt;pwd&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; &#x2F;home&#x2F;vagrant&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;ls &lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; shared_data&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;cat&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; shared_data&#x2F;hello.md &lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; Hello from the host machine!!!&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Still in the VM, change the name of the file 
 and edit its contents in &lt;code&gt;Vim&lt;&#x2F;code&gt;.
 The changes you make in the file should be
 reflected in the &lt;code&gt;&#x2F;shared&#x2F;&lt;&#x2F;code&gt; folder on your
 host machine.&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# [vagrant@centos7 ~]$
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;mv&lt;&#x2F;span&gt;&lt;span&gt; shared_data&#x2F;hello.md shared_data&#x2F;zorkNotes.md
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;vim&lt;&#x2F;span&gt;&lt;span&gt; shared_data&#x2F;zorkNotes
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# write notes on zork and save with :wq
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# this will update the file on host
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; [vagrant@centos7 ~]$&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;mv&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; shared_data&#x2F;hello.md shared_data&#x2F;zorkNotes.md&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;vim&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; shared_data&#x2F;zorkNotes&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; write notes on zork and save with :wq&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; this will update the file on host&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;If the VM is later destroyed and recreated
 the contents of the file will remain as they
 will be shared from the host.&lt;&#x2F;p&gt;
@@ -192,10 +192,10 @@ will be shared from the host.&lt;&#x2F;p&gt;
 each time that the VM is created Ansible will help.&lt;&#x2F;p&gt;
 &lt;p&gt;In &lt;code&gt;centOS_test&lt;&#x2F;code&gt; create &lt;code&gt;playbook.yml&lt;&#x2F;code&gt; and reference it
 in &lt;code&gt;Vagrantfile&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;ruby&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-ruby &quot;&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# Vagrantfile
-&lt;&#x2F;span&gt;&lt;span&gt;config&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;vm&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;provision &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;&amp;quot;ansible&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;do &lt;&#x2F;span&gt;&lt;span&gt;|&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#ffb86c;&quot;&gt;ansible&lt;&#x2F;span&gt;&lt;span&gt;|
-&lt;&#x2F;span&gt;&lt;span&gt;  ansible&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;playbook &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;&amp;quot;playbook.yml&amp;quot;
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;end
+&lt;pre data-lang=&quot;ruby&quot; class=&quot;language-ruby z-code&quot;&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;z-source z-ruby&quot;&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-ruby&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-ruby&quot;&gt;#&lt;&#x2F;span&gt; Vagrantfile
+&lt;&#x2F;span&gt;config&lt;span class=&quot;z-punctuation z-accessor z-dot z-ruby&quot;&gt;.&lt;&#x2F;span&gt;vm&lt;span class=&quot;z-punctuation z-accessor z-dot z-ruby&quot;&gt;.&lt;&#x2F;span&gt;provision &lt;span class=&quot;z-meta z-string z-ruby&quot;&gt;&lt;span class=&quot;z-string z-quoted z-double z-ruby&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-ruby&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;ansible&lt;span class=&quot;z-punctuation z-definition z-string z-end z-ruby&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-keyword z-control z-start-block z-ruby&quot;&gt;do&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-block z-parameters z-ruby&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameters z-begin z-ruby&quot;&gt;|&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-block z-parameters z-ruby&quot;&gt;&lt;span class=&quot;z-variable z-parameter z-ruby&quot;&gt;ansible&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-block z-parameters z-ruby&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameters z-end z-ruby&quot;&gt;|&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+  ansible&lt;span class=&quot;z-punctuation z-accessor z-dot z-ruby&quot;&gt;.&lt;&#x2F;span&gt;playbook &lt;span class=&quot;z-keyword z-operator z-assignment z-ruby&quot;&gt;=&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-string z-ruby&quot;&gt;&lt;span class=&quot;z-string z-quoted z-double z-ruby&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-ruby&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;playbook.yml&lt;span class=&quot;z-punctuation z-definition z-string z-end z-ruby&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-keyword z-control z-ruby&quot;&gt;end&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Imagine you want a VM specifically for the purpose
 of playing Zork but you want to destroy the VM after
@@ -209,38 +209,38 @@ user with &lt;code&gt;sudo&lt;&#x2F;code&gt; privileges.
 If the package &lt;em&gt;is not&lt;&#x2F;em&gt; present it will be sudo installed using yum.
 If it &lt;em&gt;is&lt;&#x2F;em&gt; installed then no installation will be performed.
 This is the playbook:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;yml&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-yml &quot;&gt;&lt;code class=&quot;language-yml&quot; data-lang=&quot;yml&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# playbook.yml
-&lt;&#x2F;span&gt;&lt;span&gt;---
-&lt;&#x2F;span&gt;&lt;span&gt;- &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;name&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;Testing Ansible Automation with Zork
-&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;hosts&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;all
-&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;become&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bd93f9;&quot;&gt;yes
-&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;tasks&lt;&#x2F;span&gt;&lt;span&gt;:
-&lt;&#x2F;span&gt;&lt;span&gt;    - &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;name&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;Ensure Zork is installed
-&lt;&#x2F;span&gt;&lt;span&gt;      &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;yum&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;name=zork state=present
+&lt;pre data-lang=&quot;yml&quot; class=&quot;language-yml z-code&quot;&gt;&lt;code class=&quot;language-yml&quot; data-lang=&quot;yml&quot;&gt;&lt;span class=&quot;z-source z-yaml&quot;&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-yaml&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-line z-number-sign z-yaml&quot;&gt;#&lt;&#x2F;span&gt; playbook.yml
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-other z-document z-begin z-yaml&quot;&gt;---&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-punctuation z-definition z-block z-sequence z-item z-yaml&quot;&gt;-&lt;&#x2F;span&gt; &lt;span class=&quot;z-string z-unquoted z-plain z-out z-yaml&quot;&gt;&lt;span class=&quot;z-entity z-name z-tag z-yaml&quot;&gt;name&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-mapping z-yaml&quot;&gt;:&lt;&#x2F;span&gt; &lt;span class=&quot;z-string z-unquoted z-plain z-out z-yaml&quot;&gt;Testing Ansible Automation with Zork&lt;&#x2F;span&gt;
+  &lt;span class=&quot;z-string z-unquoted z-plain z-out z-yaml&quot;&gt;&lt;span class=&quot;z-entity z-name z-tag z-yaml&quot;&gt;hosts&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-mapping z-yaml&quot;&gt;:&lt;&#x2F;span&gt; &lt;span class=&quot;z-string z-unquoted z-plain z-out z-yaml&quot;&gt;all&lt;&#x2F;span&gt;
+  &lt;span class=&quot;z-string z-unquoted z-plain z-out z-yaml&quot;&gt;&lt;span class=&quot;z-entity z-name z-tag z-yaml&quot;&gt;become&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-mapping z-yaml&quot;&gt;:&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-language z-boolean z-yaml&quot;&gt;yes&lt;&#x2F;span&gt;
+  &lt;span class=&quot;z-string z-unquoted z-plain z-out z-yaml&quot;&gt;&lt;span class=&quot;z-entity z-name z-tag z-yaml&quot;&gt;tasks&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-mapping z-yaml&quot;&gt;:&lt;&#x2F;span&gt;
+    &lt;span class=&quot;z-punctuation z-definition z-block z-sequence z-item z-yaml&quot;&gt;-&lt;&#x2F;span&gt; &lt;span class=&quot;z-string z-unquoted z-plain z-out z-yaml&quot;&gt;&lt;span class=&quot;z-entity z-name z-tag z-yaml&quot;&gt;name&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-mapping z-yaml&quot;&gt;:&lt;&#x2F;span&gt; &lt;span class=&quot;z-string z-unquoted z-plain z-out z-yaml&quot;&gt;Ensure Zork is installed&lt;&#x2F;span&gt;
+      &lt;span class=&quot;z-string z-unquoted z-plain z-out z-yaml&quot;&gt;&lt;span class=&quot;z-entity z-name z-tag z-yaml&quot;&gt;yum&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-mapping z-yaml&quot;&gt;:&lt;&#x2F;span&gt; &lt;span class=&quot;z-string z-unquoted z-plain z-out z-yaml&quot;&gt;name=zork state=present&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;After &lt;code&gt;vagrant up&lt;&#x2F;code&gt; is run check if Zork has been automatically installed:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;which&lt;&#x2F;span&gt;&lt;span&gt; zork &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# &#x2F;usr&#x2F;bin&#x2F;zork
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;which&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; zork &lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; &#x2F;usr&#x2F;bin&#x2F;zork&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Success! You can run &lt;code&gt;zork&lt;&#x2F;code&gt; and start playing:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# [vagrant@centos7 ~]$
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# You are in an open field west of a big white house with a boarded
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# front door.
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# There is a small mailbox here.
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# &amp;gt; mailbox
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# What should I do with the mailbox?
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# &amp;gt; open
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# Opening the mailbox reveals:
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# A leaflet.
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# &amp;gt; leaflet
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# What should I do with the leaflet?
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# &amp;gt; take
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# Taken.
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# &amp;gt; eat leaflet
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# I don&amp;#39;t think that the leaflet would agree with you.
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# &amp;gt; take
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# You already have it.
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# ...
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; [vagrant@centos7 ~]$&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; You are in an open field west of a big white house with a boarded&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; front door.&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; There is a small mailbox here.&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; &amp;gt; mailbox&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; What should I do with the mailbox?&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; &amp;gt; open&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; Opening the mailbox reveals:&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; A leaflet.&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; &amp;gt; leaflet&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; What should I do with the leaflet?&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; &amp;gt; take&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; Taken.&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; &amp;gt; eat leaflet&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; I don&amp;#39;t think that the leaflet would agree with you.&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; &amp;gt; take&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; You already have it.&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; ...&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Dispose of the VM as usual with &lt;code&gt;vagrant destroy&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;Both &lt;code&gt;playbook.yml&lt;&#x2F;code&gt; and &lt;code&gt;Vagrantfile&lt;&#x2F;code&gt;
 still remain in the &lt;code&gt;&#x2F;centOS_test&#x2F;&lt;&#x2F;code&gt; directory.
@@ -356,7 +356,7 @@ like most &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F
 dialects, uses prefix notation.
 Instead of writing the expression &lt;code&gt;2 + 3&lt;&#x2F;code&gt; to get the value &lt;code&gt;5&lt;&#x2F;code&gt;,
 we write:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(+ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bd93f9;&quot;&gt;2 3&lt;&#x2F;span&gt;&lt;span&gt;)
+&lt;pre data-lang=&quot;rkt&quot; class=&quot;language-rkt z-code&quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span class=&quot;z-source z-racket&quot;&gt;(+ &lt;span class=&quot;z-constant z-numeric z-integer z-source z-racket&quot;&gt;2&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-numeric z-integer z-source z-racket&quot;&gt;3&lt;&#x2F;span&gt;)
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Individual expressions are wrapped in parentheses.&lt;&#x2F;p&gt;
 &lt;p&gt;In DSF, &lt;code&gt;O+W&lt;&#x2F;code&gt; means effectively:&lt;&#x2F;p&gt;
@@ -372,14 +372,14 @@ disconnected from each other in the system.
 Here and a few other places I deviate from
 the DSF notation slightly, preferring the symbol
 $:$ to signify disconnection:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(: o w)
+&lt;pre data-lang=&quot;rkt&quot; class=&quot;language-rkt z-code&quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span class=&quot;z-source z-racket&quot;&gt;(: o w)
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;If &lt;code&gt;(+ 2 3)&lt;&#x2F;code&gt; returns &lt;code&gt;5&lt;&#x2F;code&gt; what does &lt;code&gt;(: o w)&lt;&#x2F;code&gt; do?
 It draws a diagram showing two circles with
 different colours that are disconnected.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;dsf-racket&#x2F;blob&#x2F;master&#x2F;out&#x2F;mixture.png?raw=true&quot; alt=&quot;Mixture&quot; title=&quot;mixture (: o w)&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;To enclose the structure in a solid:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(@ (: o w) S)
+&lt;pre data-lang=&quot;rkt&quot; class=&quot;language-rkt z-code&quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span class=&quot;z-source z-racket&quot;&gt;(@ (: o w) S)
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;If you are unfamiliar with prefix notation this
 might seem confusing, but it is not that difficult.
@@ -409,14 +409,14 @@ S(olid) container through an enclosure node (@).&lt;&#x2F;p&gt;
 such trees from notation.
 A structure can be stored as a list in a variable
 and then fed into the draw function:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;define &lt;&#x2F;span&gt;&lt;span&gt;myStructure &amp;#39;(@ (: o w) S)) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;;; store in variable
-&lt;&#x2F;span&gt;&lt;span&gt;(draw-tree myStructure) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;;; call the draw function
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;rkt&quot; class=&quot;language-rkt z-code&quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span class=&quot;z-source z-racket&quot;&gt;&lt;span class=&quot;z-meta z-variable z-source z-racket&quot;&gt;(&lt;span class=&quot;z-keyword z-source z-racket&quot;&gt;define&lt;&#x2F;span&gt; &lt;span class=&quot;z-entity z-name z-variable z-source z-racket&quot;&gt;myStructure&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;&amp;#39;(@ (: o w) S)) &lt;span class=&quot;z-comment z-line z-documentation z-source z-racket&quot;&gt;;; store in variable
+&lt;&#x2F;span&gt;(draw-tree myStructure) &lt;span class=&quot;z-comment z-line z-documentation z-source z-racket&quot;&gt;;; call the draw function
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;dsf-racket&#x2F;blob&#x2F;master&#x2F;out&#x2F;tree-example.png?raw=true&quot; alt=&quot;Tree&quot; title=&quot;Tree (@ (: o w) S)&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;This can be especially useful when interpreting complex
 symbolic&#x2F;diagrammatic representations,
 such as the following:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(: s (@ (@ (: o (&amp;amp; w g)) S) S))
+&lt;pre data-lang=&quot;rkt&quot; class=&quot;language-rkt z-code&quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span class=&quot;z-source z-racket&quot;&gt;(: s (@ (@ (: o (&amp;amp; w g)) S) S))
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;dsf-racket&#x2F;blob&#x2F;master&#x2F;out&#x2F;complex.png?raw=true&quot; alt=&quot;Complex&quot; title=&quot;Complex example ((: s (@ (@ (: o (&amp;amp; w g)) S) S)))&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;conceptual-aside-dispersion&quot;&gt;Conceptual Aside: Dispersion&lt;a class=&quot;zola-anchor&quot; href=&quot;#conceptual-aside-dispersion&quot; aria-label=&quot;Anchor link for: conceptual-aside-dispersion&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
@@ -428,7 +428,7 @@ that are mutually disconnected from each other.&lt;&#x2F;p&gt;
 &lt;p&gt;This means that to define and draw a dispersion we
 just need the $:$ and $@$ operators.
 For example, an emulsion of oil droplets in water is:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(@ (: o o) W)
+&lt;pre data-lang=&quot;rkt&quot; class=&quot;language-rkt z-code&quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span class=&quot;z-source z-racket&quot;&gt;(@ (: o o) W)
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;dsf-racket&#x2F;blob&#x2F;master&#x2F;out&#x2F;emulsion.png?raw=true&quot; alt=&quot;Emulsion&quot; title=&quot;Emulsion (@ (: o o) W)&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Of course, many emulsions physically consist of thousands of oil droplets.
@@ -445,8 +445,8 @@ the discrete (two or more).&lt;&#x2F;p&gt;
 &lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;^&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;m-connect&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;p&gt;Aliases are provided for more explicit formula definitions.&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(equal? (mix oil gas) (: o g)) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;;; #t
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;rkt&quot; class=&quot;language-rkt z-code&quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span class=&quot;z-source z-racket&quot;&gt;(equal? (mix oil gas) (: o g)) &lt;span class=&quot;z-comment z-line z-documentation z-source z-racket&quot;&gt;;; #t
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;h4 id=&quot;binary&quot;&gt;Binary&lt;a class=&quot;zola-anchor&quot; href=&quot;#binary&quot; aria-label=&quot;Anchor link for: binary&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;p&gt;The operations briefly defined:&lt;&#x2F;p&gt;
 &lt;ol&gt;
@@ -480,8 +480,8 @@ Whitehead&#x27;s
 &lt;h3 id=&quot;infix-notation&quot;&gt;Infix Notation&lt;a class=&quot;zola-anchor&quot; href=&quot;#infix-notation&quot; aria-label=&quot;Anchor link for: infix-notation&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Racket supports a (somewhat verbose) form of infix notation.
 This involves the use of periods between an operation and its arguments:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(equal? (mix o g) (o . mix . g)) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;;; #t
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;rkt&quot; class=&quot;language-rkt z-code&quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span class=&quot;z-source z-racket&quot;&gt;(equal? (mix o g) (o . mix . g)) &lt;span class=&quot;z-comment z-line z-documentation z-source z-racket&quot;&gt;;; #t
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;h2 id=&quot;why-racket&quot;&gt;Why Racket?&lt;a class=&quot;zola-anchor&quot; href=&quot;#why-racket&quot; aria-label=&quot;Anchor link for: why-racket&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;h3 id=&quot;rapid-prototyping&quot;&gt;Rapid Prototyping&lt;a class=&quot;zola-anchor&quot; href=&quot;#rapid-prototyping&quot; aria-label=&quot;Anchor link for: rapid-prototyping&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;I don&#x27;t have much experience with Racket or Lisp.
@@ -491,10 +491,10 @@ this project functioning in a single afternoon.&lt;&#x2F;p&gt;
 several built-in libraries.
 Writing the following into the editor is sufficient
 to generate an image of a circle:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;#lang racket &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;;;specify the language being used
-&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;require &lt;&#x2F;span&gt;&lt;span&gt;2htdp&#x2F;image) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;;;use a built-in image library
-&lt;&#x2F;span&gt;&lt;span&gt;(circle &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bd93f9;&quot;&gt;20 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;&amp;quot;solid&amp;quot; &amp;quot;red&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;;;circle with 20 px radius and solid red fill
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;rkt&quot; class=&quot;language-rkt z-code&quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span class=&quot;z-source z-racket&quot;&gt;#lang racket &lt;span class=&quot;z-comment z-line z-documentation z-source z-racket&quot;&gt;;;specify the language being used
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-keywords z-source z-racket&quot;&gt;(&lt;span class=&quot;z-keyword z-source z-racket&quot;&gt;require&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;2htdp&#x2F;image) &lt;span class=&quot;z-comment z-line z-documentation z-source z-racket&quot;&gt;;;use a built-in image library
+&lt;&#x2F;span&gt;(circle &lt;span class=&quot;z-constant z-numeric z-integer z-source z-racket&quot;&gt;20&lt;&#x2F;span&gt; &lt;span class=&quot;z-string z-quoted z-double z-source z-racket&quot;&gt;&amp;quot;solid&amp;quot;&lt;&#x2F;span&gt; &lt;span class=&quot;z-string z-quoted z-double z-source z-racket&quot;&gt;&amp;quot;red&amp;quot;&lt;&#x2F;span&gt;) &lt;span class=&quot;z-comment z-line z-documentation z-source z-racket&quot;&gt;;;circle with 20 px radius and solid red fill
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;I&#x27;ve played around a lot with programmatic graphics, and this
 is easily one of the quickest ways to get up and running.
 DrRacket has a REPL in the editor, making it convenient
@@ -504,15 +504,15 @@ There is an
 for beginners that introduces basic programming concepts using
 Racket with pictures.&lt;&#x2F;p&gt;
 &lt;p&gt;Early on, I opened a REPL and did something like this:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;define &lt;&#x2F;span&gt;&lt;span&gt;thing (circle &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bd93f9;&quot;&gt;20 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;&amp;quot;solid&amp;quot; &amp;quot;red&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;))
-&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;define &lt;&#x2F;span&gt;&lt;span&gt;otherThing (circle &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bd93f9;&quot;&gt;20 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;&amp;quot;solid&amp;quot; &amp;quot;blue&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;))
-&lt;&#x2F;span&gt;&lt;span&gt;(beside thing otherThing)
+&lt;pre data-lang=&quot;rkt&quot; class=&quot;language-rkt z-code&quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span class=&quot;z-source z-racket&quot;&gt;&lt;span class=&quot;z-meta z-variable z-source z-racket&quot;&gt;(&lt;span class=&quot;z-keyword z-source z-racket&quot;&gt;define&lt;&#x2F;span&gt; &lt;span class=&quot;z-entity z-name z-variable z-source z-racket&quot;&gt;thing&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;(circle &lt;span class=&quot;z-constant z-numeric z-integer z-source z-racket&quot;&gt;20&lt;&#x2F;span&gt; &lt;span class=&quot;z-string z-quoted z-double z-source z-racket&quot;&gt;&amp;quot;solid&amp;quot;&lt;&#x2F;span&gt; &lt;span class=&quot;z-string z-quoted z-double z-source z-racket&quot;&gt;&amp;quot;red&amp;quot;&lt;&#x2F;span&gt;))
+&lt;span class=&quot;z-meta z-variable z-source z-racket&quot;&gt;(&lt;span class=&quot;z-keyword z-source z-racket&quot;&gt;define&lt;&#x2F;span&gt; &lt;span class=&quot;z-entity z-name z-variable z-source z-racket&quot;&gt;otherThing&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;(circle &lt;span class=&quot;z-constant z-numeric z-integer z-source z-racket&quot;&gt;20&lt;&#x2F;span&gt; &lt;span class=&quot;z-string z-quoted z-double z-source z-racket&quot;&gt;&amp;quot;solid&amp;quot;&lt;&#x2F;span&gt; &lt;span class=&quot;z-string z-quoted z-double z-source z-racket&quot;&gt;&amp;quot;blue&amp;quot;&lt;&#x2F;span&gt;))
+(beside thing otherThing)
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;The &lt;code&gt;beside&lt;&#x2F;code&gt; function from &lt;code&gt;2htdp&#x2F;image&lt;&#x2F;code&gt; puts two
 shapes — as you might suspect — beside each other.
 In this case, the shapes &lt;strong&gt;connect&lt;&#x2F;strong&gt; (σ) at their boundary.&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;define &lt;&#x2F;span&gt;&lt;span&gt;σ x y
-&lt;&#x2F;span&gt;&lt;span&gt;   (beside x y))
+&lt;pre data-lang=&quot;rkt&quot; class=&quot;language-rkt z-code&quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span class=&quot;z-source z-racket&quot;&gt;&lt;span class=&quot;z-meta z-keywords z-source z-racket&quot;&gt;(&lt;span class=&quot;z-keyword z-source z-racket&quot;&gt;define&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;σ x y
+   (beside x y))
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;It got a little more complicated than this, but
 that was the basic idea.&lt;&#x2F;p&gt;
@@ -523,30 +523,30 @@ compatible with different user environments.&lt;&#x2F;p&gt;
 &lt;p&gt;It is trivial to use the DSF module if you have racket installed.
 After a &lt;code&gt;git clone&lt;&#x2F;code&gt; of the repository, the &lt;code&gt;dsf&lt;&#x2F;code&gt; folder can be
 copied to a racket project and then imported:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;require &lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;dsf&#x2F;base.rkt&amp;quot;)
-&lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span&gt;(@ w S) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;;; will draw a diagram
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;rkt&quot; class=&quot;language-rkt z-code&quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span class=&quot;z-source z-racket&quot;&gt;&lt;span class=&quot;z-meta z-keywords z-source z-racket&quot;&gt;(&lt;span class=&quot;z-keyword z-source z-racket&quot;&gt;require&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;&amp;quot;dsf&#x2F;base.rkt&amp;quot;)
+
+(@ w S) &lt;span class=&quot;z-comment z-line z-documentation z-source z-racket&quot;&gt;;; will draw a diagram
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;If you are not using DrRacket then Emacs
 with Racket Mode installed&#x2F;activated is
 a straight replacement.&lt;&#x2F;p&gt;
 &lt;p&gt;Using the terminal or (Neo)Vim requires
 more work to preview images as you code.&lt;&#x2F;p&gt;
 &lt;p&gt;Start a REPL in your terminal with:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;racket
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;racket&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;To draw some diagrams you will need &lt;code&gt;dsf&#x2F;base.rkt&lt;&#x2F;code&gt;
 and to render them to a frame you will need
 &lt;code&gt;racket&#x2F;gui&#x2F;base&lt;&#x2F;code&gt; and &lt;code&gt;pict&lt;&#x2F;code&gt;.
 Require them in the REPL:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;require &lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;dsf&#x2F;base.rkt&amp;quot;)
-&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;require &lt;&#x2F;span&gt;&lt;span&gt;racket&#x2F;gui&#x2F;base pict)
+&lt;pre data-lang=&quot;rkt&quot; class=&quot;language-rkt z-code&quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span class=&quot;z-source z-racket&quot;&gt;&lt;span class=&quot;z-meta z-keywords z-source z-racket&quot;&gt;(&lt;span class=&quot;z-keyword z-source z-racket&quot;&gt;require&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;&amp;quot;dsf&#x2F;base.rkt&amp;quot;)
+&lt;span class=&quot;z-meta z-keywords z-source z-racket&quot;&gt;(&lt;span class=&quot;z-keyword z-source z-racket&quot;&gt;require&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;racket&#x2F;gui&#x2F;base pict)
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Now, entering the below code in the REPL will
 define a DSF formula and render the diagram in a separate frame:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;define &lt;&#x2F;span&gt;&lt;span&gt;myStructure (@ (@ (σ w o) S) W))
-&lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span&gt;(show-pict myStructure)
+&lt;pre data-lang=&quot;rkt&quot; class=&quot;language-rkt z-code&quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span class=&quot;z-source z-racket&quot;&gt;&lt;span class=&quot;z-meta z-variable z-source z-racket&quot;&gt;(&lt;span class=&quot;z-keyword z-source z-racket&quot;&gt;define&lt;&#x2F;span&gt; &lt;span class=&quot;z-entity z-name z-variable z-source z-racket&quot;&gt;myStructure&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;(@ (@ (σ w o) S) W))
+
+(show-pict myStructure)
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Lastly, there is a &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;rmculpepper&#x2F;iracket&quot;&gt;Jupyter kernel for Racket&lt;&#x2F;a&gt; — IRacket — that can be used to run Racket code in a Jupyter notebook.&lt;&#x2F;p&gt;
 &lt;p&gt;If you have Jupyter and IRacket installed then DSF modules can be
@@ -646,30 +646,30 @@ editing.&lt;&#x2F;p&gt;
 self-contained change.&lt;&#x2F;p&gt;
 &lt;p&gt;Here are some &lt;strong&gt;good&lt;&#x2F;strong&gt; examples:&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;code&gt;Drafted a structure for the project&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;diff&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-diff &quot;&gt;&lt;code class=&quot;language-diff&quot; data-lang=&quot;diff&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ Title: AI Technology in the food industry
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ 1. Introduction
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ 2. Data Analysis
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ 3. Product Design
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ 4. Computer Vision
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ 5. Conclusions
-&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;pre data-lang=&quot;diff&quot; class=&quot;language-diff z-code&quot;&gt;&lt;code class=&quot;language-diff&quot; data-lang=&quot;diff&quot;&gt;&lt;span class=&quot;z-source z-diff&quot;&gt;&lt;span class=&quot;z-markup z-inserted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-inserted z-diff&quot;&gt;+&lt;&#x2F;span&gt; Title: AI Technology in the food industry
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-inserted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-inserted z-diff&quot;&gt;+&lt;&#x2F;span&gt; 1. Introduction
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-inserted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-inserted z-diff&quot;&gt;+&lt;&#x2F;span&gt; 2. Data Analysis
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-inserted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-inserted z-diff&quot;&gt;+&lt;&#x2F;span&gt; 3. Product Design
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-inserted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-inserted z-diff&quot;&gt;+&lt;&#x2F;span&gt; 4. Computer Vision
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-inserted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-inserted z-diff&quot;&gt;+&lt;&#x2F;span&gt; 5. Conclusions
+&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;&lt;code&gt;Clarified and developed statement regarding new AI technology&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;diff&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-diff &quot;&gt;&lt;code class=&quot;language-diff&quot; data-lang=&quot;diff&quot;&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;- AI technologies like ChatGPT display human-like intelligence
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;- and may allow the automation of tasks normally done by humans.
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ AI technologies like ChatGPT are based on Large Language Models
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ (LLMs), which — although powerful — have limitations.
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ Currently, for example, they have limited capacity
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ to problem-solve when presented with novel scenarios (TODO: add ref).
-&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;pre data-lang=&quot;diff&quot; class=&quot;language-diff z-code&quot;&gt;&lt;code class=&quot;language-diff&quot; data-lang=&quot;diff&quot;&gt;&lt;span class=&quot;z-source z-diff&quot;&gt;&lt;span class=&quot;z-markup z-deleted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-deleted z-diff&quot;&gt;-&lt;&#x2F;span&gt; AI technologies like ChatGPT display human-like intelligence
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-deleted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-deleted z-diff&quot;&gt;-&lt;&#x2F;span&gt; and may allow the automation of tasks normally done by humans.
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-inserted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-inserted z-diff&quot;&gt;+&lt;&#x2F;span&gt; AI technologies like ChatGPT are based on Large Language Models
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-inserted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-inserted z-diff&quot;&gt;+&lt;&#x2F;span&gt; (LLMs), which — although powerful — have limitations.
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-inserted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-inserted z-diff&quot;&gt;+&lt;&#x2F;span&gt; Currently, for example, they have limited capacity
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-inserted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-inserted z-diff&quot;&gt;+&lt;&#x2F;span&gt; to problem-solve when presented with novel scenarios (TODO: add ref).
+&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;&lt;code&gt;Added reference to support claim regarding AI limitations&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;diff&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-diff &quot;&gt;&lt;code class=&quot;language-diff&quot; data-lang=&quot;diff&quot;&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;- Currently, for example, they have limited capacity
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;- to problem-solve when presented with novel scenarios (TODO: add ref).
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ For example, Crowley (2042), compared humans with an AI in a
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ series of problem-solving activities and found that humans
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ out-performed the AI in 20% of the activities.
-&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;pre data-lang=&quot;diff&quot; class=&quot;language-diff z-code&quot;&gt;&lt;code class=&quot;language-diff&quot; data-lang=&quot;diff&quot;&gt;&lt;span class=&quot;z-source z-diff&quot;&gt;&lt;span class=&quot;z-markup z-deleted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-deleted z-diff&quot;&gt;-&lt;&#x2F;span&gt; Currently, for example, they have limited capacity
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-deleted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-deleted z-diff&quot;&gt;-&lt;&#x2F;span&gt; to problem-solve when presented with novel scenarios (TODO: add ref).
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-inserted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-inserted z-diff&quot;&gt;+&lt;&#x2F;span&gt; For example, Crowley (2042), compared humans with an AI in a
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-inserted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-inserted z-diff&quot;&gt;+&lt;&#x2F;span&gt; series of problem-solving activities and found that humans
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-inserted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-inserted z-diff&quot;&gt;+&lt;&#x2F;span&gt; out-performed the AI in 20% of the activities.
+&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;&lt;strong&gt;Bad&lt;&#x2F;strong&gt; examples come in broadly two forms.&lt;&#x2F;p&gt;
 &lt;p&gt;The first is a large set of trivial versions.
@@ -680,16 +680,16 @@ Every individual change or new sentence does
 not necessarily warrant its own version.&lt;&#x2F;p&gt;
 &lt;p&gt;The previous example above could well have been longer,
 containing more sentences while still being self-contained:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;diff&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-diff &quot;&gt;&lt;code class=&quot;language-diff&quot; data-lang=&quot;diff&quot;&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;- Currently, for example, they have limited capacity
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;- to problem-solve when presented with novel scenarios (TODO: add ref).
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ For example, Crowley (2042), compared humans with an AI in a
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ series of problem-solving activities and found that humans
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ out-performed the AI in 20% of the activities.
-&lt;&#x2F;span&gt;&lt;mark style=&quot;background-color:#44475a;&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ This suggests that there is still a role for
-&lt;&#x2F;span&gt;&lt;&#x2F;mark&gt;&lt;mark style=&quot;background-color:#44475a;&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ humans in the performance of these tasks.
-&lt;&#x2F;span&gt;&lt;&#x2F;mark&gt;&lt;mark style=&quot;background-color:#44475a;&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ However, there was one key limitation of Crowley&amp;#39;s work...
-&lt;&#x2F;span&gt;&lt;&#x2F;mark&gt;&lt;mark style=&quot;background-color:#44475a;&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;+ ...
-&lt;&#x2F;span&gt;&lt;&#x2F;mark&gt;&lt;span&gt;
+&lt;pre data-lang=&quot;diff&quot; class=&quot;language-diff z-code&quot;&gt;&lt;code class=&quot;language-diff&quot; data-lang=&quot;diff&quot;&gt;&lt;span class=&quot;z-source z-diff&quot;&gt;&lt;span class=&quot;z-markup z-deleted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-deleted z-diff&quot;&gt;-&lt;&#x2F;span&gt; Currently, for example, they have limited capacity
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-deleted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-deleted z-diff&quot;&gt;-&lt;&#x2F;span&gt; to problem-solve when presented with novel scenarios (TODO: add ref).
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-inserted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-inserted z-diff&quot;&gt;+&lt;&#x2F;span&gt; For example, Crowley (2042), compared humans with an AI in a
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-inserted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-inserted z-diff&quot;&gt;+&lt;&#x2F;span&gt; series of problem-solving activities and found that humans
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-inserted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-inserted z-diff&quot;&gt;+&lt;&#x2F;span&gt; out-performed the AI in 20% of the activities.
+&lt;&#x2F;span&gt;&lt;mark&gt;&lt;span class=&quot;z-markup z-inserted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-inserted z-diff&quot;&gt;+&lt;&#x2F;span&gt; This suggests that there is still a role for
+&lt;&#x2F;span&gt;&lt;&#x2F;mark&gt;&lt;mark&gt;&lt;span class=&quot;z-markup z-inserted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-inserted z-diff&quot;&gt;+&lt;&#x2F;span&gt; humans in the performance of these tasks.
+&lt;&#x2F;span&gt;&lt;&#x2F;mark&gt;&lt;mark&gt;&lt;span class=&quot;z-markup z-inserted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-inserted z-diff&quot;&gt;+&lt;&#x2F;span&gt; However, there was one key limitation of Crowley&amp;#39;s work...
+&lt;&#x2F;span&gt;&lt;&#x2F;mark&gt;&lt;mark&gt;&lt;span class=&quot;z-markup z-inserted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-inserted z-diff&quot;&gt;+&lt;&#x2F;span&gt; ...
+&lt;&#x2F;span&gt;&lt;&#x2F;mark&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;The second &lt;strong&gt;bad&lt;&#x2F;strong&gt; example is a single version with
 a complex set of unrelated changes.
@@ -1268,16 +1268,16 @@ I had several remote meetings scheduled for the following
 Monday, so I needed a relatively quick solution.&lt;&#x2F;p&gt;
 &lt;p&gt;Eventually I took the approach of downgrading my &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;ubuntu.com&#x2F;kernel&quot;&gt;kernel&lt;&#x2F;a&gt;.
 A summary of the relevant terminal commands is included below:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# check what kernel is used by the system
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;uname&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#ffb86c;&quot;&gt; -r
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# list all installed kernels
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;apt&lt;&#x2F;span&gt;&lt;span&gt; list&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#ffb86c;&quot;&gt; --installed &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;| &lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;grep&lt;&#x2F;span&gt;&lt;span&gt; linux-image
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# find info on the kernel module for your wi-fi adapter
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;dkms&lt;&#x2F;span&gt;&lt;span&gt; status
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# reboot, hold SHIFT and change kernel from the Grub menu
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;reboot
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# remove unneeded kernel to persist the change
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span&gt; apt remove linux-image-your-unneeded-kernel-id-here
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; check what kernel is used by the system&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;uname&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;r&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; list all installed kernels&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;apt&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; list&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; --&lt;&#x2F;span&gt;installed&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-keyword z-operator z-logical z-pipe z-shell&quot;&gt;|&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;grep&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; linux-image&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; find info on the kernel module for your wi-fi adapter&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;dkms&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; status&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; reboot, hold SHIFT and change kernel from the Grub menu&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;reboot&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt; remove unneeded kernel to persist the change&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; apt remove linux-image-your-unneeded-kernel-id-here&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;h2 id=&quot;troubleshooting&quot;&gt;Troubleshooting&lt;a class=&quot;zola-anchor&quot; href=&quot;#troubleshooting&quot; aria-label=&quot;Anchor link for: troubleshooting&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Initially, I went through a number of conventional troubleshooting steps that were unsuccessful:&lt;&#x2F;p&gt;
@@ -1313,23 +1313,23 @@ however, presumably because it was outdated.&lt;&#x2F;p&gt;
 &lt;&#x2F;ol&gt;
 &lt;h2 id=&quot;downgrading&quot;&gt;Downgrading&lt;a class=&quot;zola-anchor&quot; href=&quot;#downgrading&quot; aria-label=&quot;Anchor link for: downgrading&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;First I identified the active kernel on the system:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;uname&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#ffb86c;&quot;&gt; -r
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;uname&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;r&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;This outputted 5.19.
 The presence of any other installed kernel (images) could also be checked with:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;apt&lt;&#x2F;span&gt;&lt;span&gt; list&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#ffb86c;&quot;&gt; --installed &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;| &lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;grep&lt;&#x2F;span&gt;&lt;span&gt; linux-image
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;apt&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; list&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; --&lt;&#x2F;span&gt;installed&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-keyword z-operator z-logical z-pipe z-shell&quot;&gt;|&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;grep&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; linux-image&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;This showed that an older kernel — 5.15 — was installed, in addition to 5.19.
 &lt;em&gt;Note: the output was more verbose than stated above (i.e., 5.15.0-76-generic) but you get the idea.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;The following command listed the kernel modules and their installation status:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;dkms&lt;&#x2F;span&gt;&lt;span&gt; status
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;dkms&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; status&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;One of the modules was for a wi-fi adapter:
 &lt;code&gt;rtl8821CU&#x2F;5.4.1, 5.15.0-76-generic, x86_64: installed&lt;&#x2F;code&gt;.
 The code beginning &lt;code&gt;5.15&lt;&#x2F;code&gt; indicated that the module was built for the older
 kernel, which was not currently running on my system.&lt;&#x2F;p&gt;
 &lt;p&gt;To downgrade the kernel the computer first needed to be rebooted:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;reboot
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;reboot&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Holding &lt;code&gt;shift&lt;&#x2F;code&gt; during the reboot opened the 
 &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;adamtheautomator.com&#x2F;ubuntu-grub&#x2F;&quot;&gt;Grub&lt;&#x2F;a&gt; menu.
@@ -1348,7 +1348,7 @@ relief — the wi-fi connected automatically after login.&lt;&#x2F;p&gt;
 at least for now.&lt;&#x2F;p&gt;
 &lt;p&gt;This was achieved using the following command, with the full kernel
 name taken from the output of &lt;code&gt;apt list --installed | grep linux-image&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span&gt; apt remove linux-image-5.19.0-46-generic
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; apt remove linux-image-5.19.0-46-generic&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;After a fresh &lt;code&gt;reboot&lt;&#x2F;code&gt;, checking the active kernel again with &lt;code&gt;uname -r&lt;&#x2F;code&gt;
 confirmed that the 5.15 kernel was still being used.&lt;&#x2F;p&gt;
@@ -1672,12 +1672,12 @@ Plagiarism norms reflect the public and communal nature of scholarly work but �
 &lt;h2 id=&quot;plugging-out&quot;&gt;Plugging Out&lt;a class=&quot;zola-anchor&quot; href=&quot;#plugging-out&quot; aria-label=&quot;Anchor link for: plugging-out&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;My personal grievances with WordPress came to head when I was writing my final blog post, which was a summary of some recent software projects.&lt;&#x2F;p&gt;
 &lt;p&gt;In the intervening years I had become a fan of editing plain text&#x2F;markdown using (Neo)Vim as my text editor. I would then copy the text and paste it into the WordPress editor. Inevitably this would cause unforeseen formatting issues that would take a considerable amount of time to fix. I had enabled markdown editing in WordPress &lt;em&gt;via&lt;&#x2F;em&gt; a plugin but the post still came out jumbled. I had specific, enraging problems while trying to add a code block, a feature common to most markdown editors&#x2F;previewers that looks like this:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;javascript&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-javascript &quot;&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;&#x2F;&#x2F; code goes here
-&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#8be9fd;&quot;&gt;let &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffffff;&quot;&gt;a &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bd93f9;&quot;&gt;2
-&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#8be9fd;&quot;&gt;let &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffffff;&quot;&gt;b &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bd93f9;&quot;&gt;6
-&lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#66d9ef;&quot;&gt;console&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8be9fd;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffffff;&quot;&gt;b &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;&#x2F; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffffff;&quot;&gt;a&lt;&#x2F;span&gt;&lt;span&gt;)
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;&#x2F;&#x2F; returns 3
+&lt;pre data-lang=&quot;javascript&quot; class=&quot;language-javascript z-code&quot;&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;z-source z-ts&quot;&gt;&lt;span class=&quot;z-comment z-line z-double-slash z-ts&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-ts&quot;&gt;&#x2F;&#x2F;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-double-slash z-ts&quot;&gt; code goes here&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-var z-expr z-ts&quot;&gt;&lt;span class=&quot;z-storage z-type z-ts&quot;&gt;let&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-var-single-variable z-expr z-ts&quot;&gt;&lt;span class=&quot;z-meta z-definition z-variable z-ts&quot;&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-ts&quot;&gt;a&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-ts&quot;&gt;=&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-numeric z-decimal z-ts&quot;&gt;2&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-var z-expr z-ts&quot;&gt;&lt;span class=&quot;z-storage z-type z-ts&quot;&gt;let&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-var-single-variable z-expr z-ts&quot;&gt;&lt;span class=&quot;z-meta z-definition z-variable z-ts&quot;&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-ts&quot;&gt;b&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-ts&quot;&gt;=&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-numeric z-decimal z-ts&quot;&gt;6&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+
+&lt;span class=&quot;z-meta z-function-call z-ts&quot;&gt;&lt;span class=&quot;z-support z-class z-console z-ts&quot;&gt;console&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-accessor z-ts&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-function z-console z-ts&quot;&gt;log&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-brace z-round z-ts&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-ts&quot;&gt;b&lt;&#x2F;span&gt; &lt;span class=&quot;z-keyword z-operator z-arithmetic z-ts&quot;&gt;&#x2F;&lt;&#x2F;span&gt; &lt;span class=&quot;z-variable z-other z-readwrite z-ts&quot;&gt;a&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-brace z-round z-ts&quot;&gt;)&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-comment z-line z-double-slash z-ts&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-ts&quot;&gt;&#x2F;&#x2F;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-double-slash z-ts&quot;&gt; returns 3&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;I ended up installing three different plugins before I found something that worked and the results &lt;em&gt;still&lt;&#x2F;em&gt; looked bad. Due to these and other issues, every time I sat down to write something there was a little bit of dread associated with the publishing stage. As writing is already difficult enough, the (bad) friction introduced by the WordPress editor was a problem.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;good-friction&quot;&gt;Good Friction&lt;a class=&quot;zola-anchor&quot; href=&quot;#good-friction&quot; aria-label=&quot;Anchor link for: good-friction&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
@@ -1691,17 +1691,17 @@ Plagiarism norms reflect the public and communal nature of scholarly work but �
 &lt;li&gt;&lt;code&gt;Push&lt;&#x2F;code&gt; changes to GitHub&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
 &lt;p&gt;The markdown is a straightforward way of formatting text:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;markdown&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-markdown &quot;&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#8be9fd;&quot;&gt;## Good Friction
-&lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span&gt;Plain text. The terminal...
-&lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span&gt;Terms that are...
-&lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;. &lt;&#x2F;span&gt;&lt;span&gt;Open terminal
-&lt;&#x2F;span&gt;&lt;span&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt; Write markdown...
-&lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span&gt;The markdown is a straightforward way of formatting text:
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;markdown&quot; class=&quot;language-markdown z-code&quot;&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;z-text z-html z-markdown&quot;&gt;&lt;span class=&quot;z-meta z-block-level z-markdown&quot;&gt;&lt;span class=&quot;z-markup z-heading z-2 z-markdown&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-heading z-begin z-markdown&quot;&gt;##&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-heading z-2 z-markdown&quot;&gt;&lt;span class=&quot;z-entity z-name z-section z-markdown&quot;&gt;Good Friction&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-whitespace z-newline z-markdown&quot;&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-paragraph z-markdown&quot;&gt;Plain text. The terminal...
+
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-paragraph z-markdown&quot;&gt;Terms that are...
+
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-list z-numbered z-bullet z-markdown&quot;&gt;1&lt;span class=&quot;z-punctuation z-definition z-list_item z-markdown&quot;&gt;.&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-list z-numbered z-markdown&quot;&gt; &lt;span class=&quot;z-meta z-paragraph z-list z-markdown&quot;&gt;Open terminal
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-list z-numbered z-bullet z-markdown&quot;&gt;2&lt;span class=&quot;z-punctuation z-definition z-list_item z-markdown&quot;&gt;.&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-list z-numbered z-markdown&quot;&gt;&lt;span class=&quot;z-meta z-paragraph z-list z-markdown&quot;&gt; Write markdown...
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-list z-numbered z-markdown&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-paragraph z-markdown&quot;&gt;The markdown is a straightforward way of formatting text:
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;The &lt;code&gt;build&lt;&#x2F;code&gt; process, however, involves multiple interacting parts:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Site generator&lt;&#x2F;strong&gt;: eleventy&lt;&#x2F;li&gt;
@@ -1714,9 +1714,9 @@ Plagiarism norms reflect the public and communal nature of scholarly work but �
 &lt;p&gt;The original bundler had been deprecated so I had to migrate to Vite. List numbers&#x2F;bullets were being rendered incorrectly and I needed to learn Tailwind configuration to fix them. Several issues were associated with outdated dependencies that needed to be updated or upgraded through &lt;code&gt;NPM&lt;&#x2F;code&gt;. My &lt;em&gt;production build&lt;&#x2F;em&gt; did not behave like my &lt;em&gt;development build&lt;&#x2F;em&gt; because of how GitHub handles relative paths.&lt;&#x2F;p&gt;
 &lt;p&gt;Even when addressing these issues took time the solution usually &lt;em&gt;made sense&lt;&#x2F;em&gt;, rather than being some &lt;em&gt;deus ex machina&lt;&#x2F;em&gt; in the form of a plugin. While I &lt;em&gt;do&lt;&#x2F;em&gt; use plugins on this site they are less abundant and often merely implement small adjustments to how an &lt;code&gt;.md&lt;&#x2F;code&gt; file is converted into &lt;code&gt;.html&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;My major gripe with static site generators is how they appear &lt;em&gt;as a code base&lt;&#x2F;em&gt; to the uninitiated. In the other software projects I have worked on I like the idea that someone can look at the code and see a simple directory structure like so:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#282a36;color:#f8f8f2;&quot;&gt;&lt;code&gt;&lt;span&gt;+--scripts
-&lt;&#x2F;span&gt;&lt;span&gt;+--styles
-&lt;&#x2F;span&gt;&lt;span&gt;+--index.html
+&lt;pre class=&quot;z-code&quot;&gt;&lt;code&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;+--scripts
++--styles
++--index.html
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Static site generators create relatively complex directory structures. In addition, different people use different JAM (JavaScript APIs Markup) &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;jamstack.org&#x2F;&quot;&gt;stacks&lt;&#x2F;a&gt;. While I use &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.11ty.dev&#x2F;&quot;&gt;Eleventy&lt;&#x2F;a&gt; another will use &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;gohugo.io&#x2F;&quot;&gt;Hugo&lt;&#x2F;a&gt;, with subtly different APIs, dependencies and directory structures in each case. If you like a feature of a static site and want to study it there can be a lot of detective work involved. From a pedagogical standpoint this is undesirable, especially if a prospective student is not already a web developer.&lt;&#x2F;p&gt;
 &lt;p&gt;Regardless, I needed something compact that I could manage and understand &lt;em&gt;if only in principle&lt;&#x2F;em&gt;. When something breaks it would be within my power to investigate and fix it, rather than endlessly searching forums for workarounds.&lt;&#x2F;p&gt;
