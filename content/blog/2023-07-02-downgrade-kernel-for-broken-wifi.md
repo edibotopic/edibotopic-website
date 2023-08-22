@@ -147,7 +147,7 @@ sudo apt remove linux-image-5.19.0-46-generic
 After a fresh `reboot`, checking the active kernel again with `uname -r`
 confirmed that the 5.15 kernel was still being used.
 
-## "To Solve Your Internet Problem, First Download X from the Internet"?
+## "First Download X"
 
 If trying to troubleshoot this kind of problem yourself you might be
 frustrated to find that many of the available help guides require you to have
