@@ -204,7 +204,7 @@ achieve two basic things:
 This is an example of the current directory structure on
 the host machine:
 
-```tree
+```txt
 vagrant_projects
 ├── centOS_test
 │   └── Vagrantfile
