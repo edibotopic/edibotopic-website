@@ -23,7 +23,7 @@ inverted.
 
 <!-- more -->
 
-# Strange Ideas
+## Strange Ideas
 
 Many are mystified and threatened by the *algorithm*.
 This word is most typically invoked in discussions about 
@@ -65,7 +65,7 @@ through the invocation of metaphor (or analogy):
 
 $$source \xrightarrow{metaphor} target$$
 
-# Appealing to the Familiar
+## Appealing to the Familiar
 
 In *The Art of Computer Programming* the computer scientist
 Donald Knuth (1968) explained how an algorithm is analogous to a recipe.
@@ -164,7 +164,7 @@ implies the formation of a
 [loop of interpretation](https://en.wikipedia.org/wiki/Hermeneutic_circle) through which there is 
 the possibility of better understanding both. 
 
-# Making Things Weird
+## Making Things Weird
 
 The challenge for the teacher of abstract concepts
 is the translation of the strange to the familiar (at least initially).
@@ -220,7 +220,7 @@ $$2. \ familiar \xleftarrow{enrichment} strange$$
 
 The scientific and the everyday coexist and interact productively.
 
-# Defamiliarisers
+## Defamiliarisers
 
 Scientists, like artists, can alter how we perceive the world.
 As communicators, they often play the role of defamiliarisers.
@@ -251,7 +251,7 @@ context of a live crisis.
 In more normal times, it might be wise to use our scientific truths
 to enrich the everyday and mundane and not seek to displace them.
 
-# References
+## References
 
 Cleland, C. (2001). Recipes, algorithms, and programs. *Minds and
 Machines*, 11, 219-237.

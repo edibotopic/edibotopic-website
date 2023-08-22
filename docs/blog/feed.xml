@@ -19,7 +19,7 @@ Ansible.&lt;&#x2F;p&gt;
 		<content type="html">&lt;p&gt;Creating and using virtual machines is 
 pretty easy with Vagrant, VirtualBox and
 Ansible.&lt;&#x2F;p&gt;
-&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;&#x2F;h1&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;a class=&quot;zola-anchor&quot; href=&quot;#introduction&quot; aria-label=&quot;Anchor link for: introduction&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;This how-to will explain how to use
 &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.vagrantup.com&#x2F;&quot;&gt;Vagrant&lt;&#x2F;a&gt;, 
 &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.virtualbox.org&#x2F;&quot;&gt;VirtualBox&lt;&#x2F;a&gt; and 
@@ -30,7 +30,7 @@ on Linux.&lt;&#x2F;p&gt;
 run a command that generates a VM
 that shares files with your computer
 and comes with a game pre-installed.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;install-vagrant&quot;&gt;Install Vagrant&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;install-vagrant&quot;&gt;Install Vagrant&lt;a class=&quot;zola-anchor&quot; href=&quot;#install-vagrant&quot; aria-label=&quot;Anchor link for: install-vagrant&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Vagrant makes the process of setting up and managing
 VMs quick and painless.
 On a Debian-based distribution — like Ubuntu — run the following
@@ -39,12 +39,12 @@ commands to install:&lt;&#x2F;p&gt;
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span&gt; apt install .&#x2F;vagrant_2.2.19_x86_64.deb
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;vagrant&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#ffb86c;&quot;&gt; --version &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# Vagrant 2.2.19
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;install-virtualbox&quot;&gt;Install VirtualBox&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;install-virtualbox&quot;&gt;Install VirtualBox&lt;a class=&quot;zola-anchor&quot; href=&quot;#install-virtualbox&quot; aria-label=&quot;Anchor link for: install-virtualbox&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;VirtualBox will provide the virtual environments that
 Vagrant initialises and configures:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span&gt; apt install virtualbox
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;install-ansible&quot;&gt;Install Ansible&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;install-ansible&quot;&gt;Install Ansible&lt;a class=&quot;zola-anchor&quot; href=&quot;#install-ansible&quot; aria-label=&quot;Anchor link for: install-ansible&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Ansible will enable automation of tasks in the VM.
 It can be run on the host or guest machine.
 If it is to be run on the host it will need
@@ -58,7 +58,7 @@ to install Ansible as follows:&lt;&#x2F;p&gt;
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;pipx&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#ffb86c;&quot;&gt; --version
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;pipx&lt;&#x2F;span&gt;&lt;span&gt; install&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#ffb86c;&quot;&gt; --include-deps&lt;&#x2F;span&gt;&lt;span&gt; ansible
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;create-a-vm&quot;&gt;Create a VM&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;create-a-vm&quot;&gt;Create a VM&lt;a class=&quot;zola-anchor&quot; href=&quot;#create-a-vm&quot; aria-label=&quot;Anchor link for: create-a-vm&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;To set up a VM first create some directories
 to organise your VM(s).
 The VMs on my computer are kept in &lt;code&gt;&#x2F;vagrant_projects&#x2F;&lt;&#x2F;code&gt;.
@@ -79,7 +79,7 @@ in that file.&lt;&#x2F;p&gt;
 &lt;p&gt;Note that the &lt;code&gt;generic&#x2F;centos7&lt;&#x2F;code&gt; is one of many
 &amp;quot;Vagrant Boxes&amp;quot; that can be found at the link below:&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;app.vagrantup.com&#x2F;boxes&#x2F;search&quot;&gt;https:&#x2F;&#x2F;app.vagrantup.com&#x2F;boxes&#x2F;search&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;run-the-vm&quot;&gt;Run the VM&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;run-the-vm&quot;&gt;Run the VM&lt;a class=&quot;zola-anchor&quot; href=&quot;#run-the-vm&quot; aria-label=&quot;Anchor link for: run-the-vm&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;To use the VM run Vagrants&#x27;s &lt;code&gt;ssh&lt;&#x2F;code&gt; command
 and a centos7 prompt should appear:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;vagrant&lt;&#x2F;span&gt;&lt;span&gt; ssh
@@ -116,7 +116,7 @@ but was easily resolved with:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# [vagrant@centos7 ~]$
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffffff;&quot;&gt;TERM&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f1fa8c;&quot;&gt;xterm-256color
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;exit-and-destroy&quot;&gt;Exit and Destroy&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;exit-and-destroy&quot;&gt;Exit and Destroy&lt;a class=&quot;zola-anchor&quot; href=&quot;#exit-and-destroy&quot; aria-label=&quot;Anchor link for: exit-and-destroy&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;To exit CentOS press &lt;strong&gt;&amp;lt;ctrl&amp;gt;&lt;&#x2F;strong&gt;+&lt;strong&gt;&amp;lt;D&amp;gt;&lt;&#x2F;strong&gt; or
 type &lt;code&gt;exit&lt;&#x2F;code&gt; and press &lt;strong&gt;&amp;lt;return&amp;gt;&lt;&#x2F;strong&gt;.
 The VM can be re-entered at any time
@@ -132,7 +132,7 @@ in the &lt;code&gt;&#x2F;centOS_test&#x2F;&lt;&#x2F;code&gt; directory.
 This means that if you &lt;code&gt;cd&lt;&#x2F;code&gt; into that vagrant environment
 and run &lt;code&gt;vagrant up&lt;&#x2F;code&gt; you will again create the VM
 according to the configuration &lt;code&gt;Vagrantfile&lt;&#x2F;code&gt; specifies.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;configure-the-vm-with-vagrant&quot;&gt;Configure the VM with Vagrant&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;configure-the-vm-with-vagrant&quot;&gt;Configure the VM with Vagrant&lt;a class=&quot;zola-anchor&quot; href=&quot;#configure-the-vm-with-vagrant&quot; aria-label=&quot;Anchor link for: configure-the-vm-with-vagrant&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Each time &lt;code&gt;vagrant up&lt;&#x2F;code&gt; is run the VM is
 created according to the configuration 
 specified in the &lt;code&gt;Vagrantfile&lt;&#x2F;code&gt;.
@@ -146,7 +146,7 @@ achieve two basic things:&lt;&#x2F;p&gt;
 &lt;li&gt;&lt;strong&gt;Share&lt;&#x2F;strong&gt; files between the host and guest in a dedicated folder&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;strong&gt;Automate&lt;&#x2F;strong&gt; a YUM package installation with Ansible&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;h1 id=&quot;share-between-guest-and-host&quot;&gt;Share between guest and host&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;share-between-guest-and-host&quot;&gt;Share between guest and host&lt;a class=&quot;zola-anchor&quot; href=&quot;#share-between-guest-and-host&quot; aria-label=&quot;Anchor link for: share-between-guest-and-host&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;This is an example of the current directory structure on
 the host machine:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;tree&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-tree &quot;&gt;&lt;code class=&quot;language-tree&quot; data-lang=&quot;tree&quot;&gt;&lt;span&gt;vagrant_projects
@@ -187,7 +187,7 @@ host machine.&lt;&#x2F;p&gt;
 &lt;p&gt;If the VM is later destroyed and recreated
 the contents of the file will remain as they
 will be shared from the host.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;automate-with-ansible&quot;&gt;Automate with Ansible&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;automate-with-ansible&quot;&gt;Automate with Ansible&lt;a class=&quot;zola-anchor&quot; href=&quot;#automate-with-ansible&quot; aria-label=&quot;Anchor link for: automate-with-ansible&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;If there is a specific task that needs to be run
 each time that the VM is created Ansible will help.&lt;&#x2F;p&gt;
 &lt;p&gt;In &lt;code&gt;centOS_test&lt;&#x2F;code&gt; create &lt;code&gt;playbook.yml&lt;&#x2F;code&gt; and reference it
@@ -262,8 +262,8 @@ the topology of physical systems.&lt;&#x2F;p&gt;
 		<content type="html">&lt;p&gt;I created a program in the Racket programming language
 to draw diagrams based on a symbolic notation that describes
 the topology of physical systems.&lt;&#x2F;p&gt;
-&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h1 id=&quot;background&quot;&gt;Background&lt;&#x2F;h1&gt;
-&lt;h2 id=&quot;dispersed-systems&quot;&gt;Dispersed Systems&lt;&#x2F;h2&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;background&quot;&gt;Background&lt;a class=&quot;zola-anchor&quot; href=&quot;#background&quot; aria-label=&quot;Anchor link for: background&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;dispersed-systems&quot;&gt;Dispersed Systems&lt;a class=&quot;zola-anchor&quot; href=&quot;#dispersed-systems&quot; aria-label=&quot;Anchor link for: dispersed-systems&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;A lot of science and engineering concerns &lt;em&gt;dispersed systems&lt;&#x2F;em&gt;.
 In this context, &lt;strong&gt;system&lt;&#x2F;strong&gt; relates to there being
 many parts comprising the whole.
@@ -284,7 +284,7 @@ Dispersions like emulsions and suspensions are also
 separating over time depending on
 properties like particle size and
 solvent viscosity.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;dsf-formalism&quot;&gt;DSF Formalism&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;dsf-formalism&quot;&gt;DSF Formalism&lt;a class=&quot;zola-anchor&quot; href=&quot;#dsf-formalism&quot; aria-label=&quot;Anchor link for: dsf-formalism&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Talking about dispersed systems can get difficult quickly.
 This is because many of them contain sub-systems with their
 own distinct topologies.
@@ -317,13 +317,13 @@ for S(olid) and an additional operator for enclosure (@):&lt;&#x2F;p&gt;
 &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;pubmed.ncbi.nlm.nih.gov&#x2F;17875375&#x2F;&quot;&gt;academic papers&lt;&#x2F;a&gt;
 Prof This has written on the topic.
 For now, this is enough to get started.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;dsf-racket&quot;&gt;DSF-racket&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;dsf-racket&quot;&gt;DSF-racket&lt;a class=&quot;zola-anchor&quot; href=&quot;#dsf-racket&quot; aria-label=&quot;Anchor link for: dsf-racket&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;dsf-racket&quot;&gt;DSF-racket&lt;&#x2F;a&gt;
 is a racket module (more correctly: two modules)
 that can be imported into racket projects.
 It allows diagrams to be drawn using DSF notation with &lt;code&gt;dsf.rkt&lt;&#x2F;code&gt;
 and tree representations of DSF structures to be drawn with &lt;code&gt;tree.rkt&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;motivation&quot;&gt;Motivation&lt;a class=&quot;zola-anchor&quot; href=&quot;#motivation&quot; aria-label=&quot;Anchor link for: motivation&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;When DSF notation is used it is often necessary to include diagrams.
 People might not be familiar with the notation and visualisation helps.
 This is also common in similar fields like spatial logic,
@@ -349,8 +349,8 @@ the same notation should always generated an equivalent
 diagram.&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;h2 id=&quot;how-it-works&quot;&gt;How it Works&lt;&#x2F;h2&gt;
-&lt;h3 id=&quot;symbolising-regions-of-space&quot;&gt;Symbolising Regions of Space&lt;&#x2F;h3&gt;
+&lt;h2 id=&quot;how-it-works&quot;&gt;How it Works&lt;a class=&quot;zola-anchor&quot; href=&quot;#how-it-works&quot; aria-label=&quot;Anchor link for: how-it-works&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;symbolising-regions-of-space&quot;&gt;Symbolising Regions of Space&lt;a class=&quot;zola-anchor&quot; href=&quot;#symbolising-regions-of-space&quot; aria-label=&quot;Anchor link for: symbolising-regions-of-space&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;The &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;racket-lang.org&#x2F;&quot;&gt;Racket language&lt;&#x2F;a&gt;,
 like most &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.britannica.com&#x2F;technology&#x2F;LISP-computer-language&quot;&gt;Lisp&lt;&#x2F;a&gt;
 dialects, uses prefix notation.
@@ -394,7 +394,7 @@ in a container (signified by capital letter):&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;Again, this yields a diagram representing the structure:&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;dsf-racket&#x2F;blob&#x2F;master&#x2F;out&#x2F;mix-enclose.png?raw=true&quot; alt=&quot;Enclose&quot; title=&quot;Enclosed mixture (@ (: o w) S)&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;processes-as-trees&quot;&gt;Processes as Trees&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;processes-as-trees&quot;&gt;Processes as Trees&lt;a class=&quot;zola-anchor&quot; href=&quot;#processes-as-trees&quot; aria-label=&quot;Anchor link for: processes-as-trees&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;One of the advantages of prefix notation is that
 it closely maps to a tree-like representation.
 The previous example of &lt;code&gt;(@ (: o w) S)&lt;&#x2F;code&gt; can be
@@ -419,7 +419,7 @@ such as the following:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(: s (@ (@ (: o (&amp;amp; w g)) S) S))
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;dsf-racket&#x2F;blob&#x2F;master&#x2F;out&#x2F;complex.png?raw=true&quot; alt=&quot;Complex&quot; title=&quot;Complex example ((: s (@ (@ (: o (&amp;amp; w g)) S) S)))&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;conceptual-aside-dispersion&quot;&gt;Conceptual Aside: Dispersion&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;conceptual-aside-dispersion&quot;&gt;Conceptual Aside: Dispersion&lt;a class=&quot;zola-anchor&quot; href=&quot;#conceptual-aside-dispersion&quot; aria-label=&quot;Anchor link for: conceptual-aside-dispersion&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;What is dispersion?
 It is a discrete set of particles in an enclosing container.
 What is dispersed is by definition a multiplicity:
@@ -435,7 +435,7 @@ For example, an emulsion of oil droplets in water is:&lt;&#x2F;p&gt;
 We do not, however, need to represent thousands (or even three) droplets
 because the critical distinction is that between the continuous (one) and
 the discrete (two or more).&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;operators-in-dsf-racket&quot;&gt;Operators in DSF-racket&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;operators-in-dsf-racket&quot;&gt;Operators in DSF-racket&lt;a class=&quot;zola-anchor&quot; href=&quot;#operators-in-dsf-racket&quot; aria-label=&quot;Anchor link for: operators-in-dsf-racket&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Currently the following operators are defined (as functions):&lt;&#x2F;p&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;Symbol&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Alias&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;:&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;mix&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -447,7 +447,7 @@ the discrete (two or more).&lt;&#x2F;p&gt;
 &lt;p&gt;Aliases are provided for more explicit formula definitions.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(equal? (mix oil gas) (: o g)) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;;; #t
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h4 id=&quot;binary&quot;&gt;Binary&lt;&#x2F;h4&gt;
+&lt;h4 id=&quot;binary&quot;&gt;Binary&lt;a class=&quot;zola-anchor&quot; href=&quot;#binary&quot; aria-label=&quot;Anchor link for: binary&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;p&gt;The operations briefly defined:&lt;&#x2F;p&gt;
 &lt;ol&gt;
 &lt;li&gt;Mix (&lt;code&gt;: x y&lt;&#x2F;code&gt;) — x is disconnected from y&lt;&#x2F;li&gt;
@@ -455,35 +455,35 @@ the discrete (two or more).&lt;&#x2F;p&gt;
 &lt;li&gt;Enclose (&lt;code&gt;@ x Y&lt;&#x2F;code&gt;) — x is enclose in a container y&lt;&#x2F;li&gt;
 &lt;li&gt;Overlap (&lt;code&gt;&amp;amp; x y&lt;&#x2F;code&gt;) — x overlaps with y&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;h4 id=&quot;ternary&quot;&gt;Ternary&lt;&#x2F;h4&gt;
+&lt;h4 id=&quot;ternary&quot;&gt;Ternary&lt;a class=&quot;zola-anchor&quot; href=&quot;#ternary&quot; aria-label=&quot;Anchor link for: ternary&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;p&gt;The idea of M(ediate)-connection was mentioned in
 Whitehead&#x27;s
 &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;archive.org&#x2F;details&#x2F;AlfredNorthWhiteheadProcessAndReality&quot;&gt;Process &amp;amp; Reality&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;ol start=&quot;5&quot;&gt;
 &lt;li&gt;M-connect (&lt;code&gt;^ x y z&lt;&#x2F;code&gt;): x is connected to y through z&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;h3 id=&quot;primitives&quot;&gt;Primitives&lt;&#x2F;h3&gt;
-&lt;h4 id=&quot;atoms&quot;&gt;Atoms&lt;&#x2F;h4&gt;
+&lt;h3 id=&quot;primitives&quot;&gt;Primitives&lt;a class=&quot;zola-anchor&quot; href=&quot;#primitives&quot; aria-label=&quot;Anchor link for: primitives&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;atoms&quot;&gt;Atoms&lt;a class=&quot;zola-anchor&quot; href=&quot;#atoms&quot; aria-label=&quot;Anchor link for: atoms&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;Symbol&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Alias&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;g&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;gas&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;o&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;oil&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;s&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;solid&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;w&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;water&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-&lt;h4 id=&quot;containers&quot;&gt;Containers&lt;&#x2F;h4&gt;
+&lt;h4 id=&quot;containers&quot;&gt;Containers&lt;a class=&quot;zola-anchor&quot; href=&quot;#containers&quot; aria-label=&quot;Anchor link for: containers&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;Symbol&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Alias&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;G&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Gas&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;O&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Oil&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;S&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Solid&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;W&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Water&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-&lt;h2 id=&quot;infix-notation&quot;&gt;Infix Notation&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;infix-notation&quot;&gt;Infix Notation&lt;a class=&quot;zola-anchor&quot; href=&quot;#infix-notation&quot; aria-label=&quot;Anchor link for: infix-notation&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Racket supports a (somewhat verbose) form of infix notation.
 This involves the use of periods between an operation and its arguments:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;rkt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-rkt &quot;&gt;&lt;code class=&quot;language-rkt&quot; data-lang=&quot;rkt&quot;&gt;&lt;span&gt;(equal? (mix o g) (o . mix . g)) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;;; #t
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;why-racket&quot;&gt;Why Racket?&lt;&#x2F;h1&gt;
-&lt;h2 id=&quot;rapid-prototyping&quot;&gt;Rapid Prototyping&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;why-racket&quot;&gt;Why Racket?&lt;a class=&quot;zola-anchor&quot; href=&quot;#why-racket&quot; aria-label=&quot;Anchor link for: why-racket&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;rapid-prototyping&quot;&gt;Rapid Prototyping&lt;a class=&quot;zola-anchor&quot; href=&quot;#rapid-prototyping&quot; aria-label=&quot;Anchor link for: rapid-prototyping&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;I don&#x27;t have much experience with Racket or Lisp.
 Despite this, I found it remarkably simple to get
 this project functioning in a single afternoon.&lt;&#x2F;p&gt;
@@ -516,7 +516,7 @@ In this case, the shapes &lt;strong&gt;connect&lt;&#x2F;strong&gt; (σ) at their
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;It got a little more complicated than this, but
 that was the basic idea.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;easy-distribution&quot;&gt;Easy Distribution&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;easy-distribution&quot;&gt;Easy Distribution&lt;a class=&quot;zola-anchor&quot; href=&quot;#easy-distribution&quot; aria-label=&quot;Anchor link for: easy-distribution&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Sharing a Racket program is not as convenient
 as sending a link to a web app, but it is
 compatible with different user environments.&lt;&#x2F;p&gt;
@@ -556,7 +556,7 @@ Make sure that the kernel is set to Racket in your Jupyter instance.&lt;&#x2F;p&
 &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;dsf-racket&#x2F;tree&#x2F;master&#x2F;docs&quot;&gt;slide presentations (via Racket)&lt;&#x2F;a&gt;
 and &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;dsf-racket&#x2F;tree&#x2F;master&#x2F;nb&quot;&gt;notebooks (via Jupyter)&lt;&#x2F;a&gt;
 are included in the repo.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;next-steps&quot;&gt;Next Steps&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps&lt;a class=&quot;zola-anchor&quot; href=&quot;#next-steps&quot; aria-label=&quot;Anchor link for: next-steps&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;I have been fascinated with the general area
 of representing space (or more abstract &lt;em&gt;regions&lt;&#x2F;em&gt;)
 using symbolic languages for several years.&lt;&#x2F;p&gt;
@@ -588,7 +588,7 @@ writing.&lt;&#x2F;p&gt;
 projects.
 It is valuable for other types of project too, including student
 writing.&lt;&#x2F;p&gt;
-&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h1 id=&quot;motivation&quot;&gt;Motivation&lt;&#x2F;h1&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h1 id=&quot;motivation&quot;&gt;Motivation&lt;a class=&quot;zola-anchor&quot; href=&quot;#motivation&quot; aria-label=&quot;Anchor link for: motivation&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Here I will outline how versioning can be used for student writing projects.
 The version control system I recommend comes built-in with 
 &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;docs.google.com&#x2F;&quot;&gt;Google Docs&lt;&#x2F;a&gt;.
@@ -612,8 +612,8 @@ writing platforms, which are increasingly common in collaborative projects.
 While students might be more familiar with Microsoft Word, Google Docs
 is virtually indistinguishable at a functional level, and arguably simpler
 in design.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;how-to&quot;&gt;How-To&lt;&#x2F;h1&gt;
-&lt;h2 id=&quot;student&quot;&gt;Student&lt;&#x2F;h2&gt;
+&lt;h1 id=&quot;how-to&quot;&gt;How-To&lt;a class=&quot;zola-anchor&quot; href=&quot;#how-to&quot; aria-label=&quot;Anchor link for: how-to&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;student&quot;&gt;Student&lt;a class=&quot;zola-anchor&quot; href=&quot;#student&quot; aria-label=&quot;Anchor link for: student&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Create a new Google Docs file and give it an appropriate name,
 such as &lt;code&gt;AIandFoodPaper&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;Decide what your first task will be; for example, it could be
@@ -641,7 +641,7 @@ be highlighted in a unique colour.&lt;&#x2F;p&gt;
 &lt;p&gt;When you select a version then any edits (additions, deletions) will
 be displayed; if necessary, a previous version can be restored for
 editing.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;examples&quot;&gt;Examples&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;examples&quot;&gt;Examples&lt;a class=&quot;zola-anchor&quot; href=&quot;#examples&quot; aria-label=&quot;Anchor link for: examples&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Named versions should typically involve a substantial,
 self-contained change.&lt;&#x2F;p&gt;
 &lt;p&gt;Here are some &lt;strong&gt;good&lt;&#x2F;strong&gt; examples:&lt;&#x2F;p&gt;
@@ -706,8 +706,8 @@ a substantial amount of unstructured work across
 the entire paper that is then grouped into one version.
 Each time you approach your project you should be thinking:
 &amp;quot;What specific task will I focus on now&amp;quot;.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;teacher&quot;&gt;Teacher&lt;&#x2F;h2&gt;
-&lt;h3 id=&quot;submission&quot;&gt;Submission&lt;&#x2F;h3&gt;
+&lt;h2 id=&quot;teacher&quot;&gt;Teacher&lt;a class=&quot;zola-anchor&quot; href=&quot;#teacher&quot; aria-label=&quot;Anchor link for: teacher&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;submission&quot;&gt;Submission&lt;a class=&quot;zola-anchor&quot; href=&quot;#submission&quot; aria-label=&quot;Anchor link for: submission&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Students can be asked to submit their project in two forms.
 For access to the version history they will need to share 
 the actual Google Docs file.
@@ -726,7 +726,7 @@ history as described earlier.&lt;&#x2F;p&gt;
 or Blackboard then they will first need to download the file in a
 suitable format.&lt;&#x2F;p&gt;
 &lt;p&gt;In &lt;code&gt;File &amp;gt; Download&lt;&#x2F;code&gt; both Word (.docx) and .pdf formats are available.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;review&quot;&gt;Review&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;review&quot;&gt;Review&lt;a class=&quot;zola-anchor&quot; href=&quot;#review&quot; aria-label=&quot;Anchor link for: review&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;The version history is a supplement to the assessment process.
 A good version history might include:&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -742,7 +742,7 @@ evaluate the process by which the writing was generated.&lt;&#x2F;p&gt;
 &lt;p&gt;When feedback on student writing is a part of your assessment
 process the version history — again — provides a useful means
 of inspecting how the student(s) approached their writing.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;how-many-versions&quot;&gt;&amp;quot;How Many Versions?&amp;quot;&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;how-many-versions&quot;&gt;&amp;quot;How Many Versions?&amp;quot;&lt;a class=&quot;zola-anchor&quot; href=&quot;#how-many-versions&quot; aria-label=&quot;Anchor link for: how-many-versions&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;It can be expected that students will ask the question:&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;How many versions will I need to get a good mark?&lt;&#x2F;p&gt;
@@ -761,8 +761,8 @@ and clarifications, is preferable.
 If the students get the impression that they are trying to
 hit a number, rather than approach their writing in a structured
 manner, then the exercise will be futile for all involved.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;background&quot;&gt;Background&lt;&#x2F;h1&gt;
-&lt;h2 id=&quot;version-control-systems&quot;&gt;Version Control Systems&lt;&#x2F;h2&gt;
+&lt;h1 id=&quot;background&quot;&gt;Background&lt;a class=&quot;zola-anchor&quot; href=&quot;#background&quot; aria-label=&quot;Anchor link for: background&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;version-control-systems&quot;&gt;Version Control Systems&lt;a class=&quot;zola-anchor&quot; href=&quot;#version-control-systems&quot; aria-label=&quot;Anchor link for: version-control-systems&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;There are version control &lt;em&gt;systems&lt;&#x2F;em&gt;, &lt;em&gt;tools&lt;&#x2F;em&gt; and &lt;em&gt;philosophies&lt;&#x2F;em&gt;.
 To keep things simple: version control involves assigning a unique
 number to different versions of your project.&lt;&#x2F;p&gt;
@@ -777,7 +777,7 @@ systems, with many minor versions existing between major releases.&lt;&#x2F;p&gt
 of computer programs and technical documentation.
 Git is typically used in conjunction with GitHub, a web-based
 platform for hosting versioned projects and structuring collaboration.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;projects-are-iterative&quot;&gt;Projects are Iterative&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;projects-are-iterative&quot;&gt;Projects are Iterative&lt;a class=&quot;zola-anchor&quot; href=&quot;#projects-are-iterative&quot; aria-label=&quot;Anchor link for: projects-are-iterative&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Working on any large project often demands working with versions.
 If writing a paper you will typically have multiple drafts.
 It can be useful to distinguish these with appropriate names.
@@ -793,7 +793,7 @@ In such cases it is helpful if the retrieval of an earlier version is possible.
 The undo button can usually only take us so far.&lt;&#x2F;p&gt;
 &lt;p&gt;Version control systems — in simple terms — allow you to edit only a single
 file while storing a recoverable history of the different versions of that file.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;a class=&quot;zola-anchor&quot; href=&quot;#conclusion&quot; aria-label=&quot;Anchor link for: conclusion&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Students are asked to write because writing is considered useful.
 Muddled thoughts can be clarified once an attempt is made to write them down.
 Extracting key information on a topic and combining them into an overview
@@ -837,7 +837,7 @@ You can find all music releases by Curtsy Rehearsed
 &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;curtsyrehearsed.bandcamp.com&#x2F;&quot;&gt;on the Bandcamp page&lt;&#x2F;a&gt;.
 Playable versions of several songs are included in this post.&lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;iframe style=&quot;border: 0; width: 350px; height: 350px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=1497359168&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;minimal=true&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;curtsyrehearsed.bandcamp.com&#x2F;album&#x2F;dereferenced&quot;&gt;Dereferenced by Curtsy Rehearsed&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
-&lt;h1 id=&quot;press-coverage&quot;&gt;Press Coverage&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;press-coverage&quot;&gt;Press Coverage&lt;a class=&quot;zola-anchor&quot; href=&quot;#press-coverage&quot; aria-label=&quot;Anchor link for: press-coverage&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;As I have made little to no effort at self-promotion
 I was surprised to find that the previous Curtsy Rehearsed
 project (released 12 months prior) had received some press 
@@ -865,7 +865,7 @@ is available for free on its
 motivated me to explain why I — an academic, non-musician
 who last &lt;em&gt;attempted&lt;&#x2F;em&gt; music in school — started this project and
 what I was trying to achieve.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;soundtracks-to-lectures&quot;&gt;Soundtracks to Lectures&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;soundtracks-to-lectures&quot;&gt;Soundtracks to Lectures&lt;a class=&quot;zola-anchor&quot; href=&quot;#soundtracks-to-lectures&quot; aria-label=&quot;Anchor link for: soundtracks-to-lectures&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;My original motivation was to soundtrack lectures.
 During the era of Covid-19 lockdowns I had to teach remotely.
 I wanted to create &lt;em&gt;good&lt;&#x2F;em&gt; lecture videos, which — for me —
@@ -890,7 +890,7 @@ The album art was my &amp;quot;garden&amp;quot; at the time, a network of
 pipes and vents inhabiting a forgotten space behind
 city apartments and businesses.&lt;&#x2F;p&gt;
 &lt;iframe style=&quot;border: 0; width: 350px; height: 350px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=3148889077&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;minimal=true&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;curtsyrehearsed.bandcamp.com&#x2F;album&#x2F;theory-of-parts-continua&quot;&gt;Theory of Parts: Continua by Curtsy Rehearsed&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
-&lt;h1 id=&quot;experiment-and-bricolage&quot;&gt;Experiment and Bricolage&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;experiment-and-bricolage&quot;&gt;Experiment and Bricolage&lt;a class=&quot;zola-anchor&quot; href=&quot;#experiment-and-bricolage&quot; aria-label=&quot;Anchor link for: experiment-and-bricolage&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;I am not a &lt;em&gt;real&lt;&#x2F;em&gt; musician, but I &lt;em&gt;do&lt;&#x2F;em&gt; music.
 Not being a musician I rely on whatever
 capacity I have &lt;em&gt;as a listener&lt;&#x2F;em&gt; and
@@ -923,7 +923,7 @@ poking at a MIDI keyboard in an amateurish manner until I
 captured something that sounded right.&lt;&#x2F;p&gt;
 &lt;p&gt;I have no universal recipe, partially due to
 my own impatience and inconsistency.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;music-for-what-exactly&quot;&gt;Music for What Exactly?&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;music-for-what-exactly&quot;&gt;Music for What Exactly?&lt;a class=&quot;zola-anchor&quot; href=&quot;#music-for-what-exactly&quot; aria-label=&quot;Anchor link for: music-for-what-exactly&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;I wouldn&#x27;t recommend the music for a dinner party.
 I don&#x27;t think it can be danced to.
 I am unsure if it will lull anyone to sleep.
@@ -944,7 +944,7 @@ In lighter moments, or when I needed to switch gears, I would play
 &lt;em&gt;How did I decide to give it that title?&lt;&#x2F;em&gt;
 They are — perhaps — tools for introspection.&lt;&#x2F;p&gt;
 &lt;iframe style=&quot;border: 0; width: 350px; height: 350px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=3047916957&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;minimal=true&#x2F;track=1884762271&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;curtsyrehearsed.bandcamp.com&#x2F;album&#x2F;theory-of-parts-disperse&quot;&gt;Theory of Parts: Disperse by Curtsy Rehearsed&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
-&lt;h1 id=&quot;goodbye-curtsy&quot;&gt;Goodbye Curtsy?&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;goodbye-curtsy&quot;&gt;Goodbye Curtsy?&lt;a class=&quot;zola-anchor&quot; href=&quot;#goodbye-curtsy&quot; aria-label=&quot;Anchor link for: goodbye-curtsy&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;This project has a lot of baggage, forged as it was in a crisis.
 I still associate the making of music with the job of doing lectures.
 As it was originally intended as &amp;quot;background music&amp;quot; I didn&#x27;t want
@@ -972,7 +972,7 @@ So I am retiring Curtsy Rehearsed to create a new
 secret alias. This is to encourage as much
 experimentation as possible without concern for how a
 wayward student or colleague might react.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;empathy-for-musicians&quot;&gt;Empathy for Musicians&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;empathy-for-musicians&quot;&gt;Empathy for Musicians&lt;a class=&quot;zola-anchor&quot; href=&quot;#empathy-for-musicians&quot; aria-label=&quot;Anchor link for: empathy-for-musicians&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;One benefit of trying hard to make and release music is the
 sense of empathy it creates for those who do this with even
 greater seriousness.&lt;&#x2F;p&gt;
@@ -1042,7 +1042,7 @@ inverted.&lt;&#x2F;p&gt;
 		<content type="html">&lt;p&gt;It is common to explain the unfamiliar by reference to the
 familiar, but when teaching a quotidian science (&lt;em&gt;of the everyday&lt;&#x2F;em&gt;) this explanatory mode is
 inverted.&lt;&#x2F;p&gt;
-&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h1 id=&quot;strange-ideas&quot;&gt;Strange Ideas&lt;&#x2F;h1&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;strange-ideas&quot;&gt;Strange Ideas&lt;a class=&quot;zola-anchor&quot; href=&quot;#strange-ideas&quot; aria-label=&quot;Anchor link for: strange-ideas&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Many are mystified and threatened by the &lt;em&gt;algorithm&lt;&#x2F;em&gt;.
 This word is most typically invoked in discussions about 
 the black boxes that digest our data and spit out personalised
@@ -1077,7 +1077,7 @@ from a familiar, concrete &lt;em&gt;source&lt;&#x2F;em&gt; (recipes) to an unfam
 (algorithms)
 through the invocation of metaphor (or analogy):&lt;&#x2F;p&gt;
 &lt;p&gt;$$source \xrightarrow{metaphor} target$$&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;appealing-to-the-familiar&quot;&gt;Appealing to the Familiar&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;appealing-to-the-familiar&quot;&gt;Appealing to the Familiar&lt;a class=&quot;zola-anchor&quot; href=&quot;#appealing-to-the-familiar&quot; aria-label=&quot;Anchor link for: appealing-to-the-familiar&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;In &lt;em&gt;The Art of Computer Programming&lt;&#x2F;em&gt; the computer scientist
 Donald Knuth (1968) explained how an algorithm is analogous to a recipe.
 Just like a recipe, it takes a finite amount of inputs and produces
@@ -1168,7 +1168,7 @@ Laying a metaphor between two domains
 implies the formation of a
 &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Hermeneutic_circle&quot;&gt;loop of interpretation&lt;&#x2F;a&gt; through which there is 
 the possibility of better understanding both. &lt;&#x2F;p&gt;
-&lt;h1 id=&quot;making-things-weird&quot;&gt;Making Things Weird&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;making-things-weird&quot;&gt;Making Things Weird&lt;a class=&quot;zola-anchor&quot; href=&quot;#making-things-weird&quot; aria-label=&quot;Anchor link for: making-things-weird&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;The challenge for the teacher of abstract concepts
 is the translation of the strange to the familiar (at least initially).
 Food, ingredients and recipes are common sources of analogy and
@@ -1215,7 +1215,7 @@ reality) and appreciate it in a new aspect.&lt;&#x2F;p&gt;
 &lt;p&gt;$$1. \ familiar \xrightarrow{defamiliarisation} strange$$&lt;&#x2F;p&gt;
 &lt;p&gt;$$2. \ familiar \xleftarrow{enrichment} strange$$&lt;&#x2F;p&gt;
 &lt;p&gt;The scientific and the everyday coexist and interact productively.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;defamiliarisers&quot;&gt;Defamiliarisers&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;defamiliarisers&quot;&gt;Defamiliarisers&lt;a class=&quot;zola-anchor&quot; href=&quot;#defamiliarisers&quot; aria-label=&quot;Anchor link for: defamiliarisers&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Scientists, like artists, can alter how we perceive the world.
 As communicators, they often play the role of defamiliarisers.
 Their lessons can enrich our experience and intellect, or they can 
@@ -1242,7 +1242,7 @@ Sometimes this clarity of focus is demanded in the
 context of a live crisis.
 In more normal times, it might be wise to use our scientific truths
 to enrich the everyday and mundane and not seek to displace them.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;references&quot;&gt;References&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;references&quot;&gt;References&lt;a class=&quot;zola-anchor&quot; href=&quot;#references&quot; aria-label=&quot;Anchor link for: references&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Cleland, C. (2001). Recipes, algorithms, and programs. &lt;em&gt;Minds and
 Machines&lt;&#x2F;em&gt;, 11, 219-237.&lt;&#x2F;p&gt;
 &lt;p&gt;Crowley, S. V. (2022). Alchemical and cyborgian imaginings in technoscientific discourse relating to holistic turns in food processing and personalised nutrition. In &lt;em&gt;Metaphor, Sustainability, Transformation&lt;&#x2F;em&gt;. I. Hughes, E. Byrne, G. Mullaly., &amp;amp; C. Sage (Eds.). Routledge. 65-97.&lt;&#x2F;p&gt;
@@ -1260,7 +1260,7 @@ A Reader&lt;&#x2F;em&gt;. L. T. Lemon and M. J. Reis (Trans.), David Lodge (Ed.)
 		<link href="https://edibotopic.com/blog/downgrade-kernel-for-broken-wifi/" type="text/html"/>
 		<id>https://edibotopic.com/blog/downgrade-kernel-for-broken-wifi/</id>
 		<content type="html">&lt;p&gt;Downgrading the kernel on Linux can help get your internet back.&lt;&#x2F;p&gt;
-&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;&#x2F;h2&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;a class=&quot;zola-anchor&quot; href=&quot;#problem&quot; aria-label=&quot;Anchor link for: problem&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;These days I do all of my work on Linux (Ubuntu).
 For wi-fi I use a cheap USB adapter.
 This last Friday the adapter stopped working.
@@ -1279,7 +1279,7 @@ A summary of the relevant terminal commands is included below:&lt;&#x2F;p&gt;
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;# remove unneeded kernel to persist the change
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span&gt; apt remove linux-image-your-unneeded-kernel-id-here
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h2 id=&quot;troubleshooting&quot;&gt;Troubleshooting&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;troubleshooting&quot;&gt;Troubleshooting&lt;a class=&quot;zola-anchor&quot; href=&quot;#troubleshooting&quot; aria-label=&quot;Anchor link for: troubleshooting&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Initially, I went through a number of conventional troubleshooting steps that were unsuccessful:&lt;&#x2F;p&gt;
 &lt;ol&gt;
 &lt;li&gt;Plug the adapter into different USB ports&lt;&#x2F;li&gt;
@@ -1311,7 +1311,7 @@ however, presumably because it was outdated.&lt;&#x2F;p&gt;
 &lt;ol start=&quot;5&quot;&gt;
 &lt;li&gt;&lt;strong&gt;Downgrade the Linux kernel&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;h2 id=&quot;downgrading&quot;&gt;Downgrading&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;downgrading&quot;&gt;Downgrading&lt;a class=&quot;zola-anchor&quot; href=&quot;#downgrading&quot; aria-label=&quot;Anchor link for: downgrading&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;First I identified the active kernel on the system:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;uname&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#ffb86c;&quot;&gt; -r
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
@@ -1341,7 +1341,7 @@ the two kernels were listed as expected — 5.19 (active) and 5.15 (desired).&lt
 with the &lt;code&gt;return&lt;&#x2F;code&gt; key.&lt;&#x2F;p&gt;
 &lt;p&gt;This booted me back into the login screen and — much to my
 relief — the wi-fi connected automatically after login.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;removing-a-kernel&quot;&gt;Removing a Kernel&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;removing-a-kernel&quot;&gt;Removing a Kernel&lt;a class=&quot;zola-anchor&quot; href=&quot;#removing-a-kernel&quot; aria-label=&quot;Anchor link for: removing-a-kernel&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Rebooting again at this point would have reverted the system to the newer kernel
 (in this case 5.19), which would cause the same wi-fi connection issues to recur.&lt;&#x2F;p&gt;
 &lt;p&gt;To prevent this from happening the newer kernel needed to be removed,
@@ -1352,7 +1352,7 @@ name taken from the output of &lt;code&gt;apt list --installed | grep linux-imag
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;After a fresh &lt;code&gt;reboot&lt;&#x2F;code&gt;, checking the active kernel again with &lt;code&gt;uname -r&lt;&#x2F;code&gt;
 confirmed that the 5.15 kernel was still being used.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;to-solve-your-internet-problem-first-download-x-from-the-internet&quot;&gt;&amp;quot;To Solve Your Internet Problem, First Download X from the Internet&amp;quot;?&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;to-solve-your-internet-problem-first-download-x-from-the-internet&quot;&gt;&amp;quot;To Solve Your Internet Problem, First Download X from the Internet&amp;quot;?&lt;a class=&quot;zola-anchor&quot; href=&quot;#to-solve-your-internet-problem-first-download-x-from-the-internet&quot; aria-label=&quot;Anchor link for: to-solve-your-internet-problem-first-download-x-from-the-internet&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;If trying to troubleshoot this kind of problem yourself you might be
 frustrated to find that many of the available help guides require you to have
 internet access on your device.
@@ -1373,7 +1373,7 @@ Bluetooth manager installed on my PC, so running &lt;code&gt;blueman-manager&lt;
 opened a GUI that included my phone as a selectable device.
 Once a connection was made wi-fi was now accessible on my PC through
 the phone (albeit with a crawlingly-slow internet speed).&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;alternative-solutions&quot;&gt;Alternative Solutions&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;alternative-solutions&quot;&gt;Alternative Solutions&lt;a class=&quot;zola-anchor&quot; href=&quot;#alternative-solutions&quot; aria-label=&quot;Anchor link for: alternative-solutions&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;The above solution was adequate for &lt;em&gt;me&lt;&#x2F;em&gt;, as I urgently needed a 
 quick fix over the weekend so that I could fulfill work 
 responsibilities by Monday morning.&lt;&#x2F;p&gt;
@@ -1410,7 +1410,7 @@ Based solely on heightmaps, WriteHeight only requires the user to upload or draw
 The 2D image is then converted into a 3D model that can be inspected or downloaded.
 This post explains the motivation behind WriteHeight, what it can do and why it still needs a lot of work.&lt;&#x2F;p&gt;
 &lt;p&gt;Play around with &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;edibotopic.github.io&#x2F;write-height&#x2F;&quot;&gt;WriteHeight&lt;&#x2F;a&gt; or &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;write-height&quot;&gt;read the source code&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;making-3d-easier&quot;&gt;Making 3D Easier&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;making-3d-easier&quot;&gt;Making 3D Easier&lt;a class=&quot;zola-anchor&quot; href=&quot;#making-3d-easier&quot; aria-label=&quot;Anchor link for: making-3d-easier&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;While not everyone self-identifies as an artist people still draw in a variety of contexts.
 I work mostly with scientists who — while not usually artistically-trained — routinely produce drawings in the form of flow diagrams and graphical abstracts.
 Whether generated on paper or on a screen, these drawings are an important method of thinking through our ideas and communicating them to others. Concepts can also be represented in 3D, but this traditionally requires a mastery of techniques like shading and perspective.
@@ -1433,7 +1433,7 @@ While this approach has its limitations, I think it is a good entry-point to 3D 
 A heightmap is simply a 2D greyscale image, with an x- and a y-axis.
 The relative lightness of pixels in that 2D image can be converted to vertex heights in a 3D model, yielding the third z-axis.
 Black pixels become the lowest regions in the model and white pixels the highest regions.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;existing-software&quot;&gt;Existing Software&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;existing-software&quot;&gt;Existing Software&lt;a class=&quot;zola-anchor&quot; href=&quot;#existing-software&quot; aria-label=&quot;Anchor link for: existing-software&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Most software with 3D capabilities, including dedicated modellers like Blender and game engines like &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;unity.com&#x2F;&quot;&gt;Unity&lt;&#x2F;a&gt;, can generate models from heightmaps; however, if this is all that you want to achieve they are probably overkill.&lt;&#x2F;p&gt;
 &lt;p&gt;A separate application is usually required to make the grayscale image that will be transformed into a 3D model.
 There are dedicated applications for generating heightmaps from real terrain elevation data, such as &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;tangrams.github.io&#x2F;heightmapper&#x2F;&quot;&gt;Tangram Heightmapper&lt;&#x2F;a&gt;. Another approach is that of
@@ -1448,7 +1448,7 @@ However, I am now a Linux-user and at time-of-writing Aerialod is only available
 &lt;li&gt;Accessible on any device (computer, tablet, phone)&lt;&#x2F;li&gt;
 &lt;li&gt;Useable in a browser with no download required&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;h1 id=&quot;writeheight&quot;&gt;WriteHeight&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;writeheight&quot;&gt;WriteHeight&lt;a class=&quot;zola-anchor&quot; href=&quot;#writeheight&quot; aria-label=&quot;Anchor link for: writeheight&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;As an application WriteHeight is simple.
 It opens with a viewport showing a random 3D model, which can be inspected using mouse, touch or arrow keys.
 The corresponding 2D image from which the model was generated is shown inset.
@@ -1459,7 +1459,7 @@ Models can then be downloaded in different formats, including &lt;code&gt;.stl&l
 &lt;p&gt;For convenience, two &lt;em&gt;very basic&lt;&#x2F;em&gt; tools are provided with WriteHeight to generate and download heightmaps.
 Clicking the &lt;code&gt;pencil&lt;&#x2F;code&gt; button opens a greyscale drawing tool — this reflects the initial goal of &lt;strong&gt;Write&lt;&#x2F;strong&gt;Height, which was to &lt;em&gt;write&lt;&#x2F;em&gt; heightmaps that could be converted into 3D.
 Clicking the &lt;code&gt;walking&lt;&#x2F;code&gt; button opens a random walk visualisation that algorithmically generates a grayscale image --- this reflects an ambition for WriteHeight to (eventually) offer a set of simple algorithms for the procedural design of 3D models.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;memory-problems&quot;&gt;Memory Problems&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;memory-problems&quot;&gt;Memory Problems&lt;a class=&quot;zola-anchor&quot; href=&quot;#memory-problems&quot; aria-label=&quot;Anchor link for: memory-problems&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;I am a self-taught programmer and try to learn by making projects.
 My academic job involves no programming and also leaves me with little time to actually write programs.
 While I would not say that &lt;em&gt;I am a programmer&lt;&#x2F;em&gt; it is the case that &lt;em&gt;I do programming&lt;&#x2F;em&gt;.
@@ -1530,8 +1530,11 @@ That may require forgetting about the web as a target for a while.&lt;&#x2F;p&gt
 		<link href="https://edibotopic.com/blog/on-plagiarism/" type="text/html"/>
 		<id>https://edibotopic.com/blog/on-plagiarism/</id>
 		<content type="html">&lt;p&gt;I&#x27;ve been thinking about student plagiarism since universities have mostly returned to normal following the Covid-19 pandemic.&lt;&#x2F;p&gt;
-&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;blockquote class=&quot;note warning&quot;&gt;
-    &lt;i class=&quot;ri-alarm-warning-line ri-lg&quot;&gt;&lt;&#x2F;i&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;blockquote class=&quot;callout warning&quot;&gt;
+    
+    &lt;div class=&quot;icon&quot;&gt;
+        &lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&lt;path d=&quot;M12.865 3.00017L22.3912 19.5002C22.6674 19.9785 22.5035 20.5901 22.0252 20.8662C21.8732 20.954 21.7008 21.0002 21.5252 21.0002H2.47266C1.92037 21.0002 1.47266 20.5525 1.47266 20.0002C1.47266 19.8246 1.51886 19.6522 1.60663 19.5002L11.1329 3.00017C11.4091 2.52187 12.0206 2.358 12.4989 2.63414C12.651 2.72191 12.7772 2.84815 12.865 3.00017ZM4.20471 19.0002H19.7932L11.9989 5.50017L4.20471 19.0002ZM10.9989 16.0002H12.9989V18.0002H10.9989V16.0002ZM10.9989 9.00017H12.9989V14.0002H10.9989V9.00017Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;
+    &lt;&#x2F;div&gt;
     &lt;div class=&quot;content&quot;&gt;
         
         &lt;p&gt;&lt;strong&gt;Caution&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
@@ -1541,10 +1544,10 @@ That may require forgetting about the web as a target for a while.&lt;&#x2F;p&gt
     &lt;&#x2F;div&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;Students plagiarise, professors get mad and universities draft policies. AI-based essay generators emerge and people begin to use them. Somewhere, an entrepreneur dreams of proctor drones monitoring online exams. What if many students &lt;em&gt;don&#x27;t want to plagiarise&lt;&#x2F;em&gt;, but they simply &lt;em&gt;do not know how&lt;&#x2F;em&gt; to write with originality? Maybe plagiarism is just a symptom of inadequate preparation rather than generational laziness or an emerging digital dystopia. Here I consider the particular case of science education.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;the-facts&quot;&gt;The Facts&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;the-facts&quot;&gt;The Facts&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-facts&quot; aria-label=&quot;Anchor link for: the-facts&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;In their first year at university students in a typical science degree are confronted with a bewildering array of &lt;em&gt;facts&lt;&#x2F;em&gt;. A student in a given discipline might be expected to develop a foundational knowledge in chemistry, physics and biology by the end of their first year. They are mostly taught about &lt;em&gt;what is known&lt;&#x2F;em&gt;: $x$ is a fact, $y$ is a law, $z$ is a method, and so on.&lt;&#x2F;p&gt;
 &lt;p&gt;When learning what it means &lt;em&gt;to do science&lt;&#x2F;em&gt; students learn primarily through group teaching labs. Here they are given recipes to prepare chemicals and instructions outlining the precise steps to follow. Increasingly, their scientific results must be written up according to a rigid &lt;em&gt;template&lt;&#x2F;em&gt;. Marks are awarded according to rubric that establishes in advance what what it means for an answer to be correct.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;mind-numbing-strategies&quot;&gt;Mind-numbing Strategies&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;mind-numbing-strategies&quot;&gt;Mind-numbing Strategies&lt;a class=&quot;zola-anchor&quot; href=&quot;#mind-numbing-strategies&quot; aria-label=&quot;Anchor link for: mind-numbing-strategies&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;The student at this point might be forgiven for assuming that science consists of reading procedures, reciting facts and following instructions. More cynical academics might even argue that this is true for those (majority of) scientists who subsequently find themselves with a career in industry. If some boss will one day give them precise instructions in how to do their job then their working life will resemble a template too.&lt;&#x2F;p&gt;
 &lt;p&gt;At times something &lt;em&gt;extra&lt;&#x2F;em&gt; is asked of the student, however. They might need to write essays or — more commonly — &lt;em&gt;literature reviews&lt;&#x2F;em&gt;. Literature reviews are useful for anyone seeking to understand a research area. If the popular notion of &lt;em&gt;doing your own research&lt;&#x2F;em&gt; meant &lt;em&gt;do your own literature review&lt;&#x2F;em&gt; we might be in a better place as a society. A &lt;em&gt;good&lt;&#x2F;em&gt; review is not merely a summary of facts but an integration of those facts into a balanced whole. It is not just a set of established answers but a base from which to &lt;em&gt;ask new interesting questions&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;A successful review then might allow us to &lt;em&gt;confirm&lt;&#x2F;em&gt; what is scientifically known, &lt;em&gt;integrate&lt;&#x2F;em&gt; ideas from different primary sources, and &lt;em&gt;design&lt;&#x2F;em&gt; new research programmes. Creativity is required to achieve these aims and to makes plans informed by this new knowledge. It is with this kind of project that students are warned most severely about plagiarism. Exhaustive tutorials are provided on how to appropriately cite and reference. Someone taps a finger on a scary policy document. Unfortunately, many students then come to view writing as — above all — an exercise in avoiding plagiarism. Mind-numbing strategies are adopted in response:&lt;&#x2F;p&gt;
@@ -1552,7 +1555,7 @@ That may require forgetting about the web as a target for a while.&lt;&#x2F;p&gt
 &lt;p&gt;To get below 20% on the plagiarism detection software I need to copy and paste a sentence but then re-arrange it, change 3-4 words and repeat this until I hit the word limit&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;The process barely resembles what we understand as &lt;em&gt;writing&lt;&#x2F;em&gt;, does not allow the student to develop their own ideas and results in an incoherent experience for the unfortunate reader. Yet, it might well be a rational and effective strategy if success is defined narrowly as the avoidance of a positive hit on the plagiarism detector. This leaves the academic with little recourse: the facts are &lt;em&gt;The Facts&lt;&#x2F;em&gt; after all, right?&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;templates-all-the-way-down&quot;&gt;Templates All the Way Down&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;templates-all-the-way-down&quot;&gt;Templates All the Way Down&lt;a class=&quot;zola-anchor&quot; href=&quot;#templates-all-the-way-down&quot; aria-label=&quot;Anchor link for: templates-all-the-way-down&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;In some ways these students are set up for failure (as writers).&lt;&#x2F;p&gt;
 &lt;p&gt;They have been drilled in the &lt;em&gt;recall&lt;&#x2F;em&gt; of facts but at some point they are expected to be astute and original thinkers. They are motivated &lt;em&gt;negatively&lt;&#x2F;em&gt; by warnings to avoid infringements on academic etiquette rather than being motivated &lt;em&gt;positively&lt;&#x2F;em&gt; by the opportunity to do original work and ask interesting questions.&lt;&#x2F;p&gt;
 &lt;p&gt;Do &lt;strong&gt;not&lt;&#x2F;strong&gt; state opinions.&lt;&#x2F;p&gt;
@@ -1560,13 +1563,13 @@ That may require forgetting about the web as a target for a while.&lt;&#x2F;p&gt
 &lt;p&gt;Plagiarism is &lt;strong&gt;not&lt;&#x2F;strong&gt; allowed.&lt;&#x2F;p&gt;
 &lt;p&gt;There are academics who think that these capacities are best developed at postgraduate level &lt;em&gt;once the foundations have been laid&lt;&#x2F;em&gt; (whatever that means). For them there is no &lt;em&gt;expectation&lt;&#x2F;em&gt; that an undergraduate might have an original insight. The notion that graduate-entry positions at companies are thought to involve merely &lt;em&gt;following orders&lt;&#x2F;em&gt; further disincentivises academics from exploring student creativity and innovation. Even if students in STEM pursue postgraduate work the projects themselves will typically have been conceived and funded by their prospective supervisor.&lt;&#x2F;p&gt;
 &lt;p&gt;It&#x27;s templates all the way down.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;syntax-games&quot;&gt;Syntax Games&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;syntax-games&quot;&gt;Syntax Games&lt;a class=&quot;zola-anchor&quot; href=&quot;#syntax-games&quot; aria-label=&quot;Anchor link for: syntax-games&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;The issue of plagiarism was discussed with renewed &lt;del&gt;rigour&lt;&#x2F;del&gt; vigour when universities closed because of Covid-19. Students who would normally do exams under supervision in a physical location were now doing them online. In many cases exams that were traditionally closed-book were now open-book, as students referring to their notes could not be (easily) policed. What transpired was that a significant number of students copied answers directly from reference materials. This ignited debates about digital proctoring technology that could prevent students from copying materials or collaborating on answers. Plagiarism came to be associated in the minds of many academics as an inherent flaw of the online exam.&lt;&#x2F;p&gt;
 &lt;p&gt;From my discussions with students at the time I gathered that they often simply &lt;em&gt;did not know how to write with originality&lt;&#x2F;em&gt;. To paraphrase a common query from students: &amp;quot;if a fact is a fact, then how am I supposed to write it differently?&amp;quot;. Students are commonly advised to read and then rewrite &amp;quot;in their own words&amp;quot; but this is a fatally vague instruction. Essentially it means: re-state what you have read with all of the essential facts intact and a few small insertions and removals. This tends to result in butchered writing that contains the same &lt;em&gt;semantic content&lt;&#x2F;em&gt; as the original but with drastically reduced readability. It is arguably more an exercise in syntax than science, which asks:&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;How good are you at re-arranging words while maintaining the meaning of a sentence?&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
-&lt;h1 id=&quot;does-plagiarism-exist-if-it-isn-t-detected&quot;&gt;Does Plagiarism Exist if it isn&#x27;t Detected?&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;does-plagiarism-exist-if-it-isn-t-detected&quot;&gt;Does Plagiarism Exist if it isn&#x27;t Detected?&lt;a class=&quot;zola-anchor&quot; href=&quot;#does-plagiarism-exist-if-it-isn-t-detected&quot; aria-label=&quot;Anchor link for: does-plagiarism-exist-if-it-isn-t-detected&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;The students who were most frustrated during this period were those that had developed exam preparation techniques that previously sufficed but were now considered plagiarism. A popular exam preparation technique is to memorise large sections of class notes and readings. In an exam hall, the student then identifies the question where a memorised chunk would be most relevant and reproduces it as faithfully as possible on paper. If plagiarism is the repurposing of original content without reference to the source materials then this would appear to be plagiarism. However, it is not usually considered plagiarism. Why? I have heard three responses given by academics:&lt;&#x2F;p&gt;
 &lt;ol&gt;
 &lt;li&gt;Answers written on paper are not put through a plagiarism detector&lt;&#x2F;li&gt;
@@ -1577,19 +1580,19 @@ That may require forgetting about the web as a target for a while.&lt;&#x2F;p&gt
 &lt;p&gt;The second point places great value on memorisation, which is certainly a useful skill. Few would argue, however, that rote memorisation develops in-depth knowledge of an area (which &lt;em&gt;is&lt;&#x2F;em&gt; surely the purpose of a university education). Furthermore, if we are simply evaluating students on their ability to reproduce ideas on command we should discard the notion of plagiarism altogether, given the prevalence of electronic tools that can augment human memory in most life situations.&lt;&#x2F;p&gt;
 &lt;p&gt;The third point seems to debase the notion of &amp;quot;originality&amp;quot;. We might expect that university prepares students to think originally with the &lt;em&gt;autonomous and intentional&lt;&#x2F;em&gt; application of reason. On this account, however, students are rewarded for imperfect memorisation that is muddled by &lt;em&gt;randomness and noise&lt;&#x2F;em&gt;. Students might be &lt;em&gt;original sometimes&lt;&#x2F;em&gt; but &lt;em&gt;always only by accident&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;The students who normally patched together chunks of material in memory to be recalled later in an exam hall were now patching the same chunks together in a file that could be copied during an online exam. In terms of how these students prepared for the exams and how their answers were composed there was little material difference. As a matter of policy, however, one was plagiarism and the other was not.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;performing-knowledge&quot;&gt;Performing Knowledge&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;performing-knowledge&quot;&gt;Performing Knowledge&lt;a class=&quot;zola-anchor&quot; href=&quot;#performing-knowledge&quot; aria-label=&quot;Anchor link for: performing-knowledge&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Subsequently there was a push to return to exams in physical exam halls, on the basis that this led to &amp;quot;better and fairer&amp;quot; exams. In reality, this likely reintroduced the tendency among many students to achieve astonishing feats of memorisation when plagiarising text under the watchful eye of invigilators.&lt;&#x2F;p&gt;
 &lt;p&gt;Plagiarism and its avoidance is evidently an important issue for academics but there is no clear conception of what constitutes plagiarism, why it is an intellectual vice or how students can be best prepared to avoid the practice. This seems especially true in STEM fields, where the art of writing well is frequently devalued and many of the solutions enacted by academics merely function to disguise or evade the problem. For example, if students are plagiarising in their essays then essays might be replaced by multiple choice questions where students do not have to formulate their own thoughts. If online exams have high amounts of plagiarism then they might be moved to an exam hall where the act of plagiarism becomes an impressive memory trick.&lt;&#x2F;p&gt;
 &lt;p&gt;The greatest tragedy in all of this is that generations of scientists are graduating without the instinct or ability to write. I expect that those of us who work in academia will continue to be distracted by new techno-dystopian spectres, like AI-generated student essays, when we might be best served addressing the age-old problem of teaching students that writing is a valuable activity &lt;em&gt;in itself&lt;&#x2F;em&gt;. For science undergraduates, writing has become an intricate act of performing knowledge according to academic conventions rather than a useful method of developing one&#x27;s own ideas. As Paul Graham wrote in &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;http:&#x2F;&#x2F;www.paulgraham.com&#x2F;essay.html&quot;&gt;The Age of the Essay&lt;&#x2F;a&gt;, to write an &lt;em&gt;essay&lt;&#x2F;em&gt; originally meant &lt;em&gt;to try&lt;&#x2F;em&gt; or &lt;em&gt;to attempt&lt;&#x2F;em&gt; (to figure something out). Such freedom of exploration is not facilitated within the confines of rigid templates and rubrics.&lt;&#x2F;p&gt;
 &lt;p&gt;One of the challenges in persuading students of the value of writing in the academic style is that it is not valued outside of academia. Most students will not become academic researchers and will therefore not need to satisfy the expectations of editors and peer-reviewers. In a research and development role in industry a graduate might be expected to write a literature review but it will not undergo a plagiarism check and is very unlikely to be submitted for publication.
 Plagiarism norms reflect the public and communal nature of scholarly work but — as legal scholar Brian Frye &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;deliverypdf.ssrn.com&#x2F;delivery.php?ID=659113087090031103002099105071071095007085007037003090100005000104097069091127067102026056048010010036110094098031094087118012104006091005020064009087030118075087090016005101007009110029066115100029123006089078011010090117031123002117074015081002026&amp;amp;EXT=pdf&amp;amp;INDEX=TRUE&quot;&gt;has pointed out&lt;&#x2F;a&gt; — most student work is evaluated by an academic within the context of a classroom (it is not a public work). There is therefore an apparent disconnect between what motivates the standards for academic plagiarism and the students who must act in accordance with those standards.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;appendix-searching-for-alternatives&quot;&gt;Appendix: Searching for Alternatives&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;appendix-searching-for-alternatives&quot;&gt;Appendix: Searching for Alternatives&lt;a class=&quot;zola-anchor&quot; href=&quot;#appendix-searching-for-alternatives&quot; aria-label=&quot;Anchor link for: appendix-searching-for-alternatives&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;To help students to think critically about the rights and wrongs of plagiarism we might need to provide them with alternative models and case-studies, or at least something other than a &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;deliverypdf.ssrn.com&#x2F;delivery.php?ID=659113087090031103002099105071071095007085007037003090100005000104097069091127067102026056048010010036110094098031094087118012104006091005020064009087030118075087090016005101007009110029066115100029123006089078011010090117031123002117074015081002026&amp;amp;EXT=pdf&amp;amp;INDEX=TRUE&quot;&gt;vaguely-written but extremely consequential&lt;&#x2F;a&gt; academic dishonesty policy document. Art, music and design are replete with examples that are less opaque than academia and definitely more immediately thought-provoking.&lt;&#x2F;p&gt;
 &lt;p&gt;Most people would agree that directly copying a song from another artist and profiting from that copy is morally wrong — the difficulty with applying this model to science is that established scientific facts are taken to be &amp;quot;fixed&amp;quot; in their correct form, which makes it difficult to imagine an alternative means for their expression. The important point for students here is probably that not all scientific statements are statements of established fact; for example, most research papers offer — at most — tentative conclusions and recommendations based on limited data.&lt;&#x2F;p&gt;
 &lt;p&gt;The act&#x2F;art of sampling is more of a contested issue than direct reproduction and in some jurisdictions (e.g., the US) &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.mondaq.com&#x2F;unitedstates&#x2F;music-and-the-arts&#x2F;899396&#x2F;drake39s-sampling-is-a-fair-use&quot;&gt;may hinge on the concept of &lt;em&gt;transformative use&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;. There have been many famous cases of musicians — especially in hip-hop — being sued for sampling music, even when the song is a distinct creation on its face. This legal threat has led to a chilling effect, with many artists now resorting to &lt;em&gt;interpolation&lt;&#x2F;em&gt; rather than sampling. In this way, an original work is re-performed rather than re-produced. A music student might well be praised for interpolating a melody on their instrument and incorporating it into an otherwise original composition; however, to some degree that student is being assessed on their mastery as an instrumentalist and composer. It is less clear to what extent a scientist is a scientist insofar as they can recite and compose.&lt;&#x2F;p&gt;
 &lt;p&gt;I am reminded also of the phenomenon of &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.nme.com&#x2F;blogs&#x2F;nme-blogs&#x2F;misheard-song-lyrics-6787&quot;&gt;mondegreens&lt;&#x2F;a&gt;, where a lyric, poem or quote is mis-read&#x2F;heard or misinterpreted, yielding an original result — this is maybe the most likely route to originality for the scientific novice who is bewildered by a learned professor. Unfortunately, while a misinterpreted poem might lead to an interesting phrase, a misinterpreted scientific fact is likely to yield a falsity. This is perhaps reminiscent of the situation of the student in the exam hall, who interpolates source material and introduces new imperfections in the process.&lt;&#x2F;p&gt;
 &lt;p&gt;Lastly, there is the relatively new concept of the &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;tvtropes.org&#x2F;pmwiki&#x2F;pmwiki.php&#x2F;Main&#x2F;VideoGameDemake&quot;&gt;demake&lt;&#x2F;a&gt;, which is a remake of an original work within significant constraints. For example, a 3D videogame produced with a multi-million budget and a team of hundreds that is designed to run on the latest hardware will be demade into a 2D game by one person so that it runs on hardware from the 1980s. The student — who doesn&#x27;t have a personal laboratory or a team of researchers — operates within constraints that the academic scientist does not.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;links&quot;&gt;Links&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;links&quot;&gt;Links&lt;a class=&quot;zola-anchor&quot; href=&quot;#links&quot; aria-label=&quot;Anchor link for: links&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;http:&#x2F;&#x2F;www.paulgraham.com&#x2F;essay.html&quot;&gt;Paul Graham&#x27;s blog on the essay&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=cmr5Qrf_Vn8&quot;&gt;Podcast on plagiarism with Brian Frye&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;papers.ssrn.com&#x2F;sol3&#x2F;papers.cfm?abstract_id=3462144&quot;&gt;Paper on plagiarism by Brian Frye&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
@@ -1606,13 +1609,13 @@ Plagiarism norms reflect the public and communal nature of scholarly work but �
 		<content type="html">&lt;p&gt;I built a simple application to teach factors affecting the floating and sedimentation of particles in liquid.&lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
 &lt;p&gt;Many food processes are designed to either promote &lt;em&gt;or&lt;&#x2F;em&gt; prevent the physical separation of particles from liquids. The behaviour governing such separation phenomena is described using an equation known as Stoke&#x27;s Law. Students of food science are familiar with this equation, although it is commonly misunderstood. Technical fixes for the physical instabilities in liquid foods are simple and long-standing, yet are sometimes mistrusted by the public. This short post discusses this equation and a simple interactive animation for developing intuition around the phenomena it describes.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;animating-stoke-s-law&quot;&gt;Animating Stoke&#x27;s Law&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;animating-stoke-s-law&quot;&gt;Animating Stoke&#x27;s Law&lt;a class=&quot;zola-anchor&quot; href=&quot;#animating-stoke-s-law&quot; aria-label=&quot;Anchor link for: animating-stoke-s-law&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;figs&#x2F;stokesLawUI.png&quot; alt=&quot;UI of Stoke&#x27;s Law&quot; title=&quot;UI of StokesLaw&quot; &#x2F;&gt; &lt;em&gt;User interface for Stoke&#x27;s Law simulation showing sliders (top), velocity graph (bottom-left) and statistics (bottom-right). View interactive simulation in &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;edibotopic.github.io&#x2F;stokes-law&#x2F;&quot;&gt;full screen&lt;&#x2F;a&gt; or read the &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;stokes-law&quot;&gt;source code&lt;&#x2F;a&gt; to see the JavaScript implementation (if you&#x27;re so inclined)&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Stoke&#x27;s Law describes the sedimentation of particles in suspensions (fruit pulp in orange juice) and the flotation of droplets in emulsions (creaming of milk fat). In food science it is invoked for a variety of purposes. One of the most simple techniques for measuring a liquid&#x27;s viscosity involves using Stoke&#x27;s Law to estimate the value from the rate at which a ball falls through the liquid. The equation is also used to identify the key parameters that influence how a group of particles fall or rise due to gravity, which can be used to develop strategies to make it happen quicker or slower. A version of the equation is shown below describing the separation velocity ($v$) of particles with diameter $D$ in a solvent with viscosity $\mu$ when subject to acceleration due to gravity $g$. The $\Delta \rho$ means the difference ($\Delta$) between the density ($\rho$) of the particle and the solvent.&lt;&#x2F;p&gt;
 &lt;p&gt;$$v = \frac{D^2 \cdot(\Delta \rho) \cdot g }{18 \cdot \mu}$$&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;techno-functionality&quot;&gt;Techno-functionality&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;techno-functionality&quot;&gt;Techno-functionality&lt;a class=&quot;zola-anchor&quot; href=&quot;#techno-functionality&quot; aria-label=&quot;Anchor link for: techno-functionality&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Some of the technological solutions informed by Stoke&#x27;s Law are the source of routine confusion when &amp;quot;homogenised&amp;quot; is found on a product label or &amp;quot;guar gum&amp;quot; in an ingredients list. Homogenisation is simply a way of physically reducing the size of particles. As the particle diameter value ($D$) in Stoke&#x27;s Law is raised to the power of $2$ it has a significant influence on separation speed. Guar gum is one of a variety of food ingredients that has a purely &lt;em&gt;techno-functional&lt;&#x2F;em&gt; role, which typically involves increasing viscosity ($\mu$) so that friction slows particles down as they move through the liquid. Sometimes it might be desirable to promote instability, such as when whole milk is centrifuged to create skim milk and cream, replacing the acceleration due to gravity ($g$) with that due to centrifugal force ($\omega ^2 r$). These factors become more obvious if you play around with the &lt;em&gt;particle diameter&lt;&#x2F;em&gt; and &lt;em&gt;solvent viscosity&lt;&#x2F;em&gt; sliders in the animation. Try the other sliders and you might find some other interesting effects.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;intuition-and-science&quot;&gt;Intuition and Science&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;intuition-and-science&quot;&gt;Intuition and Science&lt;a class=&quot;zola-anchor&quot; href=&quot;#intuition-and-science&quot; aria-label=&quot;Anchor link for: intuition-and-science&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Most of us have a good intuition for these phenomena in an everyday context. We expect large stones to sink faster than small pebbles. We know that the air pockets in a wine bottle cork means that it will tend to float on water. In food, the particles involved are often microscopic, making the behavior less &lt;em&gt;salient&lt;&#x2F;em&gt;. Showing a static photograph of particles on a microscope slide does not give us a feel for the dynamics involved. If we are uncomfortable with equations then the mathematics of Stoke&#x27;s Law might not help. That&#x27;s why I developed a simple simulation that allows students to manipulate all of the major variables using sliders. I hope this simple &amp;quot;virtual experiment&amp;quot; can improve the intuition of students for the phenomena but also the equation that helps explain them.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;figs&#x2F;cream_40X.jpg&quot; alt=&quot;Micrograph of shaving cream&quot; title=&quot;micrograph of cream&quot; &#x2F;&gt; &lt;em&gt;Micrograph of cream showing its emulsion structure. As the oil droplets are less dense than the water surrounding them they tend to float (credit: edibotopic).&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;In recent years it has become slightly more common for companies to avoid homogenising their products and to cease adding stabilising ingredients. This is not because of any demonstrable health benefit but rather because these products can be marketed as being &amp;quot;more natural&amp;quot;. This is an interesting case of a technological decision (whether to employ stabilising technology) being influenced by a metaphysical judgement (that technologies have degrees of naturalness) that has real business consequences (there is a market for &amp;quot;natural&amp;quot; foods). In any case, whether we buy a physically-unstable smoothie at a health food store or homogenised milk from the supermarket, we can understand both by appeal to Stoke&#x27;s law.&lt;&#x2F;p&gt;
@@ -1627,8 +1630,11 @@ Plagiarism norms reflect the public and communal nature of scholarly work but �
 		<link href="https://edibotopic.com/blog/site-migrated/" type="text/html"/>
 		<id>https://edibotopic.com/blog/site-migrated/</id>
 		<content type="html">&lt;p&gt;I moved from WordPress to GitHub to host my blog.&lt;&#x2F;p&gt;
-&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;blockquote class=&quot;note info&quot;&gt;
-    &lt;i class=&quot;ri-information-line ri-lg&quot;&gt;&lt;&#x2F;i&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;blockquote class=&quot;callout note&quot;&gt;
+    
+    &lt;div class=&quot;icon&quot;&gt;
+        &lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&lt;path d=&quot;M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM11 7H13V9H11V7ZM11 11H13V17H11V11Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;
+    &lt;&#x2F;div&gt;
     &lt;div class=&quot;content&quot;&gt;
         
         &lt;p&gt;&lt;strong&gt;Update&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
@@ -1638,10 +1644,10 @@ Plagiarism norms reflect the public and communal nature of scholarly work but �
     &lt;&#x2F;div&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;I made a website when my academic job began to require more online teaching. The idea was to craft a space for exploring my personal and scholarly interests in a more integrated and informal way. Under time pressure, with little programming experience and a minimal amount of research, I chose &lt;em&gt;WordPress&lt;&#x2F;em&gt; as a publishing platform. This choice made it quick and easy to get a functioning site up-and-running, but creating the content soon became a chore. In parallel, I became a more proficient user of GitHub. For every incomplete blog post there was a new software project in a GitHub repository. For these and other reasons I have decided to migrate the website to GitHub. This post serves to outline my motivations and get this blog started.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;why-a-website&quot;&gt;&lt;strong&gt;Why a Website?&lt;&#x2F;strong&gt;&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;why-a-website&quot;&gt;Why a Website?&lt;a class=&quot;zola-anchor&quot; href=&quot;#why-a-website&quot; aria-label=&quot;Anchor link for: why-a-website&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;I developed a &lt;em&gt;somewhat&lt;&#x2F;em&gt; undeserved reputation as a &amp;quot;tech person&amp;quot; among my university colleagues during the era of Covid lockdowns. Admittedly, it was a period of frantic digital exploration. I sunk countless hours into music, programming and 3D design, among other activities. This was partially motivated by a sense of deep panic: having previously been an &lt;em&gt;occasionally&lt;&#x2F;em&gt; boring lecturer in some of my in-person classes, how could I now avoid giving boring online lectures? The blurry ambition was to model myself on the content creators that I had come to recognise as &lt;em&gt;effective&lt;&#x2F;em&gt; teachers (at least for me &lt;em&gt;personally&lt;&#x2F;em&gt;). There were plans for Youtube videos, personal blogs, bespoke soundtracks, software tools for teaching and a food-themed podcast. &lt;em&gt;Some&lt;&#x2F;em&gt; of these things materialised, and of those that &lt;em&gt;did&lt;&#x2F;em&gt; the website was probably the least successful.&lt;&#x2F;p&gt;
 &lt;p&gt;The original &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;edibotopic.com&quot;&gt;edibotopic.com&lt;&#x2F;a&gt; — in some way — was an attempt to (re)integrate aspects of my own personality that had been cut adrift during the intense and specialised work characteristic of early-stage academia. My pre-academic life was defined mostly by writing $+$ music (creatively) and sport $+$ gaming (casually). If the creative projects were materially &lt;em&gt;unsuccessful&lt;&#x2F;em&gt; and the casual hobbies pleasant &lt;em&gt;distractions&lt;&#x2F;em&gt; they were still rewarding. During the initial years in my academic position (&lt;em&gt;in food science&lt;&#x2F;em&gt;) I earned a philosophy degree — much to the confusion of my colleagues — adding another node in my web of interests. I believe there are many productive and enlightening connections to be made between ideas across different domains of human knowledge, and I needed a place to explore these connections when the structures of academia did not make that possible.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;bad-friction&quot;&gt;&lt;strong&gt;Bad Friction&lt;&#x2F;strong&gt;&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;bad-friction&quot;&gt;Bad Friction&lt;a class=&quot;zola-anchor&quot; href=&quot;#bad-friction&quot; aria-label=&quot;Anchor link for: bad-friction&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;wordpress.org&quot;&gt;WordPress&lt;&#x2F;a&gt; is often recommended to beginners who want to make a website. It has a lot to offer. Choose a name, choose a theme and you&#x27;re on your way. There is a large ecosystem of &lt;strong&gt;plugins&lt;&#x2F;strong&gt;, which is also very attractive. For example, I was exploring the &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.babylonjs.com&#x2F;&quot;&gt;Babylon.js&lt;&#x2F;a&gt; game engine for making 3D content for the web and WordPress had a plugin for displaying those scenes. I thought that people might comment on my blog posts and there was a plugin for handling those user interactions. &lt;em&gt;What if someone wanted to make a donation&lt;&#x2F;em&gt; I thought and — sure enough — there was a plugin for that too.&lt;&#x2F;p&gt;
 &lt;p&gt;Later, I began to find these plugins more troublesome for a few reasons:&lt;&#x2F;p&gt;
 &lt;ol&gt;
@@ -1663,7 +1669,7 @@ Plagiarism norms reflect the public and communal nature of scholarly work but �
 &lt;&#x2F;ol&gt;
 &lt;p&gt;All this I know with the benefit of hindsight. The &amp;quot;trivial implementations&amp;quot; I refer to were not trivial for me &lt;em&gt;at the time&lt;&#x2F;em&gt;. I did not know what functionality my site would require. In retrospect, I could only ever have started with a tool like WordPress and if I had more complex requirements (e-commerce) then maybe I never would have left. I had chosen &lt;code&gt;wordpress.org&lt;&#x2F;code&gt; as opposed to &lt;code&gt;wordpress.com&lt;&#x2F;code&gt; as the former seemed to offer more immediate possibilities for customisation. This required me to &lt;strong&gt;pay for web hosting&lt;&#x2F;strong&gt;. Similar functionality can be accessed in the &lt;code&gt;.com&lt;&#x2F;code&gt; option if you enter one of WordPress.com&#x27;s &lt;strong&gt;paid tiers&lt;&#x2F;strong&gt;. While I was &lt;em&gt;paying&lt;&#x2F;em&gt; a significant amount of money for a website that was painful to customise and maintain, my &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&quot;&gt;GitHub profile&lt;&#x2F;a&gt; swelled with freely-hosted web applications.&lt;&#x2F;p&gt;
 &lt;p&gt;The alternative for &lt;em&gt;me-as-beginner&lt;&#x2F;em&gt; was building a site from scratch or using a static site generator. These options were beyond my skill-set at the time, or at least beyond my capacity to understand what I was directly manipulating when building the site. So I maintained my unproductive blog, which largely involved the drudgery of updating plugins to prevent security problems. At the same time I was increasingly productive with small software projects on GitHub. Creating these projects on GitHub was &lt;em&gt;more difficult&lt;&#x2F;em&gt; on its face (it involved actual coding), yet it was where I seemed to be making the most ground.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;plugging-out&quot;&gt;&lt;strong&gt;Plugging Out&lt;&#x2F;strong&gt;&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;plugging-out&quot;&gt;Plugging Out&lt;a class=&quot;zola-anchor&quot; href=&quot;#plugging-out&quot; aria-label=&quot;Anchor link for: plugging-out&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;My personal grievances with WordPress came to head when I was writing my final blog post, which was a summary of some recent software projects.&lt;&#x2F;p&gt;
 &lt;p&gt;In the intervening years I had become a fan of editing plain text&#x2F;markdown using (Neo)Vim as my text editor. I would then copy the text and paste it into the WordPress editor. Inevitably this would cause unforeseen formatting issues that would take a considerable amount of time to fix. I had enabled markdown editing in WordPress &lt;em&gt;via&lt;&#x2F;em&gt; a plugin but the post still came out jumbled. I had specific, enraging problems while trying to add a code block, a feature common to most markdown editors&#x2F;previewers that looks like this:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;javascript&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-javascript &quot;&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;&#x2F;&#x2F; code goes here
@@ -1674,7 +1680,7 @@ Plagiarism norms reflect the public and communal nature of scholarly work but �
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#6272a4;&quot;&gt;&#x2F;&#x2F; returns 3
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;I ended up installing three different plugins before I found something that worked and the results &lt;em&gt;still&lt;&#x2F;em&gt; looked bad. Due to these and other issues, every time I sat down to write something there was a little bit of dread associated with the publishing stage. As writing is already difficult enough, the (bad) friction introduced by the WordPress editor was a problem.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;good-friction&quot;&gt;&lt;strong&gt;Good Friction&lt;&#x2F;strong&gt;&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;good-friction&quot;&gt;Good Friction&lt;a class=&quot;zola-anchor&quot; href=&quot;#good-friction&quot; aria-label=&quot;Anchor link for: good-friction&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Plain text. The terminal. Text editors. Version control.&lt;&#x2F;p&gt;
 &lt;p&gt;Terms that are superficially bland but that are known to excite many programmers. Like most &lt;em&gt;non-programmers&lt;&#x2F;em&gt;, I was originally mystified as to why these were interesting or useful, not to mind &lt;em&gt;exciting&lt;&#x2F;em&gt;. I gradually came to understand their appeal, and I hope to discuss these topics in more depth in future posts. For now, it is enough to say that I greatly value the customisability and speed of a good text editor, as well as the structured and transparent nature of a version-controlled project. When creating material for a website I wanted to leverage these tools. Like &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;noelle.dev&#x2F;meta&#x2F;about&quot;&gt;others before me&lt;&#x2F;a&gt; I decided to make the switch from WordPress to a static site generator.&lt;&#x2F;p&gt;
 &lt;p&gt;This website took longer to setup than if I was using WordPress. Like most static site generators the idea is simple: to take content written in markdown and convert it into web pages. The site is &lt;em&gt;static&lt;&#x2F;em&gt; as opposed to &lt;em&gt;dynamic&lt;&#x2F;em&gt; because I want to show all users the same content rather than tailor the site based on data from individual users — as a result, the static version of &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;edibotopic.com&quot;&gt;edibotopic.com&lt;&#x2F;a&gt; is faster then the dynamic WordPress version and I am prevented from adding annoying&#x2F;unnecessary features that &amp;quot;personalise&amp;quot; the user experience. Most of my interaction with the site should basically proceed as follows:&lt;&#x2F;p&gt;
@@ -1685,7 +1691,7 @@ Plagiarism norms reflect the public and communal nature of scholarly work but �
 &lt;li&gt;&lt;code&gt;Push&lt;&#x2F;code&gt; changes to GitHub&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
 &lt;p&gt;The markdown is a straightforward way of formatting text:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;markdown&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-markdown &quot;&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#8be9fd;&quot;&gt;# Good Friction
+&lt;pre data-lang=&quot;markdown&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-markdown &quot;&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#8be9fd;&quot;&gt;## Good Friction
 &lt;&#x2F;span&gt;&lt;span&gt;
 &lt;&#x2F;span&gt;&lt;span&gt;Plain text. The terminal...
 &lt;&#x2F;span&gt;&lt;span&gt;
@@ -1715,7 +1721,7 @@ Plagiarism norms reflect the public and communal nature of scholarly work but �
 &lt;p&gt;Static site generators create relatively complex directory structures. In addition, different people use different JAM (JavaScript APIs Markup) &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;jamstack.org&#x2F;&quot;&gt;stacks&lt;&#x2F;a&gt;. While I use &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.11ty.dev&#x2F;&quot;&gt;Eleventy&lt;&#x2F;a&gt; another will use &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;gohugo.io&#x2F;&quot;&gt;Hugo&lt;&#x2F;a&gt;, with subtly different APIs, dependencies and directory structures in each case. If you like a feature of a static site and want to study it there can be a lot of detective work involved. From a pedagogical standpoint this is undesirable, especially if a prospective student is not already a web developer.&lt;&#x2F;p&gt;
 &lt;p&gt;Regardless, I needed something compact that I could manage and understand &lt;em&gt;if only in principle&lt;&#x2F;em&gt;. When something breaks it would be within my power to investigate and fix it, rather than endlessly searching forums for workarounds.&lt;&#x2F;p&gt;
 &lt;p&gt;While my instinct for colour schemes might not be perfect — you can be the judge — this site looks &lt;em&gt;at least as good&lt;&#x2F;em&gt; as the WordPress one to my eyes, and I am in more control of how that might change in the future.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;the-plan&quot;&gt;&lt;strong&gt;The Plan&lt;&#x2F;strong&gt;&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;the-plan&quot;&gt;The Plan&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-plan&quot; aria-label=&quot;Anchor link for: the-plan&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Many people have a difficulty with &lt;em&gt;starting writing&lt;&#x2F;em&gt;, while I have a difficulty &lt;em&gt;stopping writing&lt;&#x2F;em&gt;. I have a natural tendency to write articles that are long, verbose and that try to do too much.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;

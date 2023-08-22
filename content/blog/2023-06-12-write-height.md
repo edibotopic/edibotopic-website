@@ -28,7 +28,7 @@ This post explains the motivation behind WriteHeight, what it can do and why it 
 
 Play around with [WriteHeight](https://edibotopic.github.io/write-height/) or [read the source code](https://github.com/edibotopic/write-height).
 
-# Making 3D Easier
+## Making 3D Easier
 
 While not everyone self-identifies as an artist people still draw in a variety of contexts.
 I work mostly with scientists who — while not usually artistically-trained — routinely produce drawings in the form of flow diagrams and graphical abstracts.
@@ -56,7 +56,7 @@ A heightmap is simply a 2D greyscale image, with an x- and a y-axis.
 The relative lightness of pixels in that 2D image can be converted to vertex heights in a 3D model, yielding the third z-axis.
 Black pixels become the lowest regions in the model and white pixels the highest regions.
 
-# Existing Software
+## Existing Software
 
 Most software with 3D capabilities, including dedicated modellers like Blender and game engines like [Unity](https://unity.com/), can generate models from heightmaps; however, if this is all that you want to achieve they are probably overkill.
 
@@ -75,7 +75,7 @@ For my purposes, I wanted something that was:
 2. Accessible on any device (computer, tablet, phone)
 3. Useable in a browser with no download required
 
-# WriteHeight
+## WriteHeight
 
 As an application WriteHeight is simple.
 It opens with a viewport showing a random 3D model, which can be inspected using mouse, touch or arrow keys.
@@ -89,7 +89,7 @@ For convenience, two *very basic* tools are provided with WriteHeight to generat
 Clicking the `pencil` button opens a greyscale drawing tool — this reflects the initial goal of **Write**Height, which was to *write* heightmaps that could be converted into 3D.
 Clicking the `walking` button opens a random walk visualisation that algorithmically generates a grayscale image --- this reflects an ambition for WriteHeight to (eventually) offer a set of simple algorithms for the procedural design of 3D models.
 
-# Memory Problems
+## Memory Problems
 
 I am a self-taught programmer and try to learn by making projects.
 My academic job involves no programming and also leaves me with little time to actually write programs.

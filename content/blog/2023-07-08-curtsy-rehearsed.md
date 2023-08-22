@@ -27,7 +27,7 @@ Playable versions of several songs are included in this post.
 
 <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=1497359168/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/dereferenced">Dereferenced by Curtsy Rehearsed</a></iframe>
 
-# Press Coverage
+## Press Coverage
 
 As I have made little to no effort at self-promotion
 I was surprised to find that the previous Curtsy Rehearsed
@@ -60,7 +60,7 @@ motivated me to explain why I — an academic, non-musician
 who last *attempted* music in school — started this project and
 what I was trying to achieve.
 
-# Soundtracks to Lectures  
+## Soundtracks to Lectures  
 
 My original motivation was to soundtrack lectures.
 During the era of Covid-19 lockdowns I had to teach remotely.
@@ -90,7 +90,7 @@ city apartments and businesses.
 
 <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=3148889077/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/theory-of-parts-continua">Theory of Parts: Continua by Curtsy Rehearsed</a></iframe>
 
-# Experiment and Bricolage
+## Experiment and Bricolage
 
 I am not a *real* musician, but I *do* music.
 Not being a musician I rely on whatever
@@ -129,7 +129,7 @@ captured something that sounded right.
 I have no universal recipe, partially due to
 my own impatience and inconsistency.
 
-# Music for What Exactly?
+## Music for What Exactly?
 
 I wouldn't recommend the music for a dinner party.
 I don't think it can be danced to.
@@ -155,7 +155,7 @@ They are — perhaps — tools for introspection.
 
 <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=3047916957/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=1884762271/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/theory-of-parts-disperse">Theory of Parts: Disperse by Curtsy Rehearsed</a></iframe>
 
-# Goodbye Curtsy?
+## Goodbye Curtsy?
 
 This project has a lot of baggage, forged as it was in a crisis.
 I still associate the making of music with the job of doing lectures.
@@ -190,7 +190,7 @@ secret alias. This is to encourage as much
 experimentation as possible without concern for how a
 wayward student or colleague might react.
 
-# Empathy for Musicians
+## Empathy for Musicians
 
 One benefit of trying hard to make and release music is the
 sense of empathy it creates for those who do this with even
