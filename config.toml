@@ -16,7 +16,12 @@ taxonomies = [
 
 [markdown]
 highlight_code = true
-highlight_theme = "dracula"
+highlight_theme = "css"
+extra_syntaxes_and_themes = ["highlight_themes"]
+highlight_themes_css = [
+    { theme = "serene-light", filename = "hl-light.css"},
+    { theme = "serene-dark", filename = "hl-dark.css"},
+]
 render_emoji = true
 external_links_target_blank = false
 external_links_no_follow = true
