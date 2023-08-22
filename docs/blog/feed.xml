@@ -149,7 +149,7 @@ achieve two basic things:&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;share-between-guest-and-host&quot;&gt;Share between guest and host&lt;a class=&quot;zola-anchor&quot; href=&quot;#share-between-guest-and-host&quot; aria-label=&quot;Anchor link for: share-between-guest-and-host&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;This is an example of the current directory structure on
 the host machine:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;tree&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-tree &quot;&gt;&lt;code class=&quot;language-tree&quot; data-lang=&quot;tree&quot;&gt;&lt;span&gt;vagrant_projects
+&lt;pre data-lang=&quot;txt&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-txt &quot;&gt;&lt;code class=&quot;language-txt&quot; data-lang=&quot;txt&quot;&gt;&lt;span&gt;vagrant_projects
 &lt;&#x2F;span&gt;&lt;span&gt;├── centOS_test
 &lt;&#x2F;span&gt;&lt;span&gt;│   └── Vagrantfile
 &lt;&#x2F;span&gt;&lt;span&gt;└── shared
