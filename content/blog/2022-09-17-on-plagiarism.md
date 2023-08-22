@@ -26,13 +26,13 @@ I've been thinking about student plagiarism since universities have mostly retur
 
 Students plagiarise, professors get mad and universities draft policies. AI-based essay generators emerge and people begin to use them. Somewhere, an entrepreneur dreams of proctor drones monitoring online exams. What if many students _don't want to plagiarise_, but they simply _do not know how_ to write with originality? Maybe plagiarism is just a symptom of inadequate preparation rather than generational laziness or an emerging digital dystopia. Here I consider the particular case of science education.
 
-# The Facts
+## The Facts
 
 In their first year at university students in a typical science degree are confronted with a bewildering array of _facts_. A student in a given discipline might be expected to develop a foundational knowledge in chemistry, physics and biology by the end of their first year. They are mostly taught about _what is known_: $x$ is a fact, $y$ is a law, $z$ is a method, and so on.
 
 When learning what it means _to do science_ students learn primarily through group teaching labs. Here they are given recipes to prepare chemicals and instructions outlining the precise steps to follow. Increasingly, their scientific results must be written up according to a rigid _template_. Marks are awarded according to rubric that establishes in advance what what it means for an answer to be correct.
 
-# Mind-numbing Strategies
+## Mind-numbing Strategies
 
 The student at this point might be forgiven for assuming that science consists of reading procedures, reciting facts and following instructions. More cynical academics might even argue that this is true for those (majority of) scientists who subsequently find themselves with a career in industry. If some boss will one day give them precise instructions in how to do their job then their working life will resemble a template too.
 
@@ -44,7 +44,7 @@ A successful review then might allow us to _confirm_ what is scientifically know
 
 The process barely resembles what we understand as _writing_, does not allow the student to develop their own ideas and results in an incoherent experience for the unfortunate reader. Yet, it might well be a rational and effective strategy if success is defined narrowly as the avoidance of a positive hit on the plagiarism detector. This leaves the academic with little recourse: the facts are _The Facts_ after all, right?
 
-# Templates All the Way Down
+## Templates All the Way Down
 
 In some ways these students are set up for failure (as writers).
 
@@ -60,7 +60,7 @@ There are academics who think that these capacities are best developed at postgr
 
 It's templates all the way down.
 
-# Syntax Games
+## Syntax Games
 
 The issue of plagiarism was discussed with renewed ~~rigour~~ vigour when universities closed because of Covid-19. Students who would normally do exams under supervision in a physical location were now doing them online. In many cases exams that were traditionally closed-book were now open-book, as students referring to their notes could not be (easily) policed. What transpired was that a significant number of students copied answers directly from reference materials. This ignited debates about digital proctoring technology that could prevent students from copying materials or collaborating on answers. Plagiarism came to be associated in the minds of many academics as an inherent flaw of the online exam.
 
@@ -68,7 +68,7 @@ From my discussions with students at the time I gathered that they often simply 
 
 > How good are you at re-arranging words while maintaining the meaning of a sentence?
 
-# Does Plagiarism Exist if it isn't Detected?
+## Does Plagiarism Exist if it isn't Detected?
 
 The students who were most frustrated during this period were those that had developed exam preparation techniques that previously sufficed but were now considered plagiarism. A popular exam preparation technique is to memorise large sections of class notes and readings. In an exam hall, the student then identifies the question where a memorised chunk would be most relevant and reproduces it as faithfully as possible on paper. If plagiarism is the repurposing of original content without reference to the source materials then this would appear to be plagiarism. However, it is not usually considered plagiarism. Why? I have heard three responses given by academics:
 
@@ -84,7 +84,7 @@ The third point seems to debase the notion of "originality". We might expect tha
 
 The students who normally patched together chunks of material in memory to be recalled later in an exam hall were now patching the same chunks together in a file that could be copied during an online exam. In terms of how these students prepared for the exams and how their answers were composed there was little material difference. As a matter of policy, however, one was plagiarism and the other was not.
 
-# Performing Knowledge
+## Performing Knowledge
 
 Subsequently there was a push to return to exams in physical exam halls, on the basis that this led to "better and fairer" exams. In reality, this likely reintroduced the tendency among many students to achieve astonishing feats of memorisation when plagiarising text under the watchful eye of invigilators.
 
@@ -95,7 +95,7 @@ The greatest tragedy in all of this is that generations of scientists are gradua
 One of the challenges in persuading students of the value of writing in the academic style is that it is not valued outside of academia. Most students will not become academic researchers and will therefore not need to satisfy the expectations of editors and peer-reviewers. In a research and development role in industry a graduate might be expected to write a literature review but it will not undergo a plagiarism check and is very unlikely to be submitted for publication.
 Plagiarism norms reflect the public and communal nature of scholarly work but — as legal scholar Brian Frye [has pointed out](https://deliverypdf.ssrn.com/delivery.php?ID=659113087090031103002099105071071095007085007037003090100005000104097069091127067102026056048010010036110094098031094087118012104006091005020064009087030118075087090016005101007009110029066115100029123006089078011010090117031123002117074015081002026&EXT=pdf&INDEX=TRUE) — most student work is evaluated by an academic within the context of a classroom (it is not a public work). There is therefore an apparent disconnect between what motivates the standards for academic plagiarism and the students who must act in accordance with those standards.
 
-# Appendix: Searching for Alternatives 
+## Appendix: Searching for Alternatives 
 
 To help students to think critically about the rights and wrongs of plagiarism we might need to provide them with alternative models and case-studies, or at least something other than a [vaguely-written but extremely consequential](https://deliverypdf.ssrn.com/delivery.php?ID=659113087090031103002099105071071095007085007037003090100005000104097069091127067102026056048010010036110094098031094087118012104006091005020064009087030118075087090016005101007009110029066115100029123006089078011010090117031123002117074015081002026&EXT=pdf&INDEX=TRUE) academic dishonesty policy document. Art, music and design are replete with examples that are less opaque than academia and definitely more immediately thought-provoking.
 
@@ -107,7 +107,7 @@ I am reminded also of the phenomenon of [mondegreens](https://www.nme.com/blogs/
 
 Lastly, there is the relatively new concept of the [demake](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameDemake), which is a remake of an original work within significant constraints. For example, a 3D videogame produced with a multi-million budget and a team of hundreds that is designed to run on the latest hardware will be demade into a 2D game by one person so that it runs on hardware from the 1980s. The student — who doesn't have a personal laboratory or a team of researchers — operates within constraints that the academic scientist does not.
 
-# Links
+## Links
 
 [Paul Graham's blog on the essay](http://www.paulgraham.com/essay.html)
 

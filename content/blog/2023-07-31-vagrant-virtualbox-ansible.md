@@ -22,9 +22,10 @@ Creating and using virtual machines is
 pretty easy with Vagrant, VirtualBox and
 Ansible.
 
+
 <!-- more -->
 
-# Introduction
+## Introduction
 
 This how-to will explain how to use
 [Vagrant](https://www.vagrantup.com/), 
@@ -38,7 +39,7 @@ run a command that generates a VM
 that shares files with your computer
 and comes with a game pre-installed.
 
-# Install Vagrant
+## Install Vagrant
 
 Vagrant makes the process of setting up and managing
 VMs quick and painless.
@@ -51,7 +52,7 @@ sudo apt install ./vagrant_2.2.19_x86_64.deb
 vagrant --version # Vagrant 2.2.19
 ```
 
-# Install VirtualBox
+## Install VirtualBox
 
 VirtualBox will provide the virtual environments that
 Vagrant initialises and configures:
@@ -60,7 +61,7 @@ Vagrant initialises and configures:
 sudo apt install virtualbox
 ```
 
-# Install Ansible
+## Install Ansible
 
 Ansible will enable automation of tasks in the VM.
 It can be run on the host or guest machine.
@@ -79,7 +80,7 @@ pipx --version
 pipx install --include-deps ansible
 ```
 
-# Create a VM
+## Create a VM
 
 To set up a VM first create some directories
 to organise your VM(s).
@@ -109,7 +110,7 @@ Note that the `generic/centos7` is one of many
 
 [https://app.vagrantup.com/boxes/search](https://app.vagrantup.com/boxes/search)
 
-# Run the VM
+## Run the VM
 
 To use the VM run Vagrants's `ssh` command
 and a centos7 prompt should appear:
@@ -162,7 +163,7 @@ but was easily resolved with:
 TERM=xterm-256color
 ```
 
-# Exit and Destroy
+## Exit and Destroy
 
 To exit CentOS press **\<ctrl\>**+**\<D\>** or
 type `exit` and press **\<return\>**.
@@ -182,7 +183,7 @@ This means that if you `cd` into that vagrant environment
 and run `vagrant up` you will again create the VM
 according to the configuration `Vagrantfile` specifies.
 
-# Configure the VM with Vagrant
+## Configure the VM with Vagrant
 
 Each time `vagrant up` is run the VM is
 created according to the configuration 
@@ -198,7 +199,7 @@ achieve two basic things:
 1. **Share** files between the host and guest in a dedicated folder
 2. **Automate** a YUM package installation with Ansible
 
-# Share between guest and host
+## Share between guest and host
 
 This is an example of the current directory structure on
 the host machine:
@@ -254,7 +255,7 @@ If the VM is later destroyed and recreated
 the contents of the file will remain as they
 will be shared from the host.
 
-# Automate with Ansible
+## Automate with Ansible
 
 If there is a specific task that needs to be run
 each time that the VM is created Ansible will help.

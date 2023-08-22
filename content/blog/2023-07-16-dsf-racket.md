@@ -23,9 +23,9 @@ the topology of physical systems.
 
 <!-- more -->
 
-# Background
+## Background
 
-## Dispersed Systems
+### Dispersed Systems
 
 A lot of science and engineering concerns _dispersed systems_.
 In this context, **system** relates to there being
@@ -50,7 +50,7 @@ separating over time depending on
 properties like particle size and
 solvent viscosity.
 
-## DSF Formalism
+### DSF Formalism
 
 Talking about dispersed systems can get difficult quickly.
 This is because many of them contain sub-systems with their
@@ -92,7 +92,7 @@ The apparatus of DSF has further intricacies, elaborated in
 Prof This has written on the topic.
 For now, this is enough to get started.
 
-# DSF-racket
+## DSF-racket
 
 [DSF-racket](https://github.com/edibotopic/dsf-racket)
 is a racket module (more correctly: two modules)
@@ -100,7 +100,7 @@ that can be imported into racket projects.
 It allows diagrams to be drawn using DSF notation with `dsf.rkt`
 and tree representations of DSF structures to be drawn with `tree.rkt`.
 
-## Motivation
+### Motivation
 
 When DSF notation is used it is often necessary to include diagrams.
 People might not be familiar with the notation and visualisation helps.
@@ -298,7 +298,7 @@ Whitehead's
 |   S    | Solid |
 |   W    | Water |
 
-## Infix Notation
+### Infix Notation
 
 Racket supports a (somewhat verbose) form of infix notation.
 This involves the use of periods between an operation and its arguments:
@@ -307,9 +307,9 @@ This involves the use of periods between an operation and its arguments:
 (equal? (mix o g) (o . mix . g)) ;; #t
 ```
 
-# Why Racket?
+## Why Racket?
 
-## Rapid Prototyping
+### Rapid Prototyping
 
 I don't have much experience with Racket or Lisp.
 Despite this, I found it remarkably simple to get
@@ -355,7 +355,7 @@ In this case, the shapes **connect** (σ) at their boundary.
 It got a little more complicated than this, but
 that was the basic idea.
 
-## Easy Distribution
+### Easy Distribution
 
 Sharing a Racket program is not as convenient
 as sending a link to a web app, but it is
@@ -414,7 +414,7 @@ Examples of how the module can be used in
 and [notebooks (via Jupyter)](https://github.com/edibotopic/dsf-racket/tree/master/nb)
 are included in the repo.
 
-# Next Steps
+## Next Steps
 
 I have been fascinated with the general area
 of representing space (or more abstract _regions_)
