@@ -266,8 +266,8 @@ Aliases are provided for more explicit formula definitions.
 The operations briefly defined:
 
 1. Mix (`: x y`) — x is disconnected from y
-2. Connect (`σ x y`) — x is externally connected from y
-3. Enclose (`@ x Y`) — x is enclose in a container y
+2. Connect (`σ x y`) — x is externally connected to y
+3. Enclose (`@ x Y`) — x is enclosed in a container y
 4. Overlap (`& x y`) — x overlaps with y
 
 #### Ternary
