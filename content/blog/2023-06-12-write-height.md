@@ -87,7 +87,7 @@ Models can then be downloaded in different formats, including `.stl` (good for 3
 
 For convenience, two *very basic* tools are provided with WriteHeight to generate and download heightmaps.
 Clicking the `pencil` button opens a greyscale drawing tool — this reflects the initial goal of **Write**Height, which was to *write* heightmaps that could be converted into 3D.
-Clicking the `walking` button opens a random walk visualisation that algorithmically generates a grayscale image --- this reflects an ambition for WriteHeight to (eventually) offer a set of simple algorithms for the procedural design of 3D models.
+Clicking the `walking` button opens a random walk visualisation that algorithmically generates a grayscale image — this reflects an ambition for WriteHeight to (eventually) offer a set of simple algorithms for the procedural design of 3D models.
 
 ## Memory Problems
 
