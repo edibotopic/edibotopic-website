@@ -451,8 +451,8 @@ the discrete (two or more).&lt;&#x2F;p&gt;
 &lt;p&gt;The operations briefly defined:&lt;&#x2F;p&gt;
 &lt;ol&gt;
 &lt;li&gt;Mix (&lt;code&gt;: x y&lt;&#x2F;code&gt;) — x is disconnected from y&lt;&#x2F;li&gt;
-&lt;li&gt;Connect (&lt;code&gt;σ x y&lt;&#x2F;code&gt;) — x is externally connected from y&lt;&#x2F;li&gt;
-&lt;li&gt;Enclose (&lt;code&gt;@ x Y&lt;&#x2F;code&gt;) — x is enclose in a container y&lt;&#x2F;li&gt;
+&lt;li&gt;Connect (&lt;code&gt;σ x y&lt;&#x2F;code&gt;) — x is externally connected to y&lt;&#x2F;li&gt;
+&lt;li&gt;Enclose (&lt;code&gt;@ x Y&lt;&#x2F;code&gt;) — x is enclosed in a container y&lt;&#x2F;li&gt;
 &lt;li&gt;Overlap (&lt;code&gt;&amp;amp; x y&lt;&#x2F;code&gt;) — x overlaps with y&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
 &lt;h4 id=&quot;ternary&quot;&gt;Ternary&lt;a class=&quot;zola-anchor&quot; href=&quot;#ternary&quot; aria-label=&quot;Anchor link for: ternary&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
@@ -1458,7 +1458,7 @@ Another allows a user to upload their own heightmap image, which will then be re
 Models can then be downloaded in different formats, including &lt;code&gt;.stl&lt;&#x2F;code&gt; (good for 3D printing) and &lt;code&gt;.glb&lt;&#x2F;code&gt; (good for 3D rendering).&lt;&#x2F;p&gt;
 &lt;p&gt;For convenience, two &lt;em&gt;very basic&lt;&#x2F;em&gt; tools are provided with WriteHeight to generate and download heightmaps.
 Clicking the &lt;code&gt;pencil&lt;&#x2F;code&gt; button opens a greyscale drawing tool — this reflects the initial goal of &lt;strong&gt;Write&lt;&#x2F;strong&gt;Height, which was to &lt;em&gt;write&lt;&#x2F;em&gt; heightmaps that could be converted into 3D.
-Clicking the &lt;code&gt;walking&lt;&#x2F;code&gt; button opens a random walk visualisation that algorithmically generates a grayscale image --- this reflects an ambition for WriteHeight to (eventually) offer a set of simple algorithms for the procedural design of 3D models.&lt;&#x2F;p&gt;
+Clicking the &lt;code&gt;walking&lt;&#x2F;code&gt; button opens a random walk visualisation that algorithmically generates a grayscale image — this reflects an ambition for WriteHeight to (eventually) offer a set of simple algorithms for the procedural design of 3D models.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;memory-problems&quot;&gt;Memory Problems&lt;a class=&quot;zola-anchor&quot; href=&quot;#memory-problems&quot; aria-label=&quot;Anchor link for: memory-problems&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;I am a self-taught programmer and try to learn by making projects.
 My academic job involves no programming and also leaves me with little time to actually write programs.
