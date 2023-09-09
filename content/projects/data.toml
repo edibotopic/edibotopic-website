@@ -4,7 +4,7 @@ desc = "An interactive visualiser and calculator for Stokes' Law, which describe
 tags = ["software", "teaching"]
 links = [
 	{name = "website", url = "https://edibotopic.github.io/stokes-law/"},
-	{name = "source", url = "https://github.com/edibotopic/stokes-law/"}
+	{name = "source", url = "https://github.com/edibotopic/stokes-law/"},
 	{name = "paper", url = "https://pubs.acs.org/doi/10.1021/acs.jchemed.2c01201"}
 ]
 
