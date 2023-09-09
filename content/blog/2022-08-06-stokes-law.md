@@ -24,7 +24,7 @@ I built a simple application to teach factors affecting the floating and sedimen
 
 {% note(header="Update") %} Since this blog was posted I published an
 article on the Stokes' Law simulation in the *Journal of Chemical
-Education*. I've added a new section relating to the paper.{% end %}
+Education*. [Read it for free here](https://pubs.acs.org/doi/10.1021/acs.jchemed.2c01201).{% end %}
 
 Many food processes are designed to either promote *or* prevent the physical separation of particles from liquids. The behaviour governing such separation phenomena is described using an equation known as Stokes' Law. Students of food science are familiar with this equation, although it is commonly misunderstood. Technical fixes for the physical instabilities in liquid foods are simple and long-standing, yet are sometimes mistrusted by the public. This short post discusses this equation and a simple interactive animation for developing intuition around the phenomena it describes.
 
