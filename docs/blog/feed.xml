@@ -4,8 +4,94 @@
 	<subtitle>Writing on food, technology and philosophy</subtitle>
 	<link href="https://edibotopic.com/blog/feed.xml" rel="self" type="application/atom+xml"/>
     <link href="https://edibotopic.com/blog/"/>
-	<updated>2023-07-31T00:00:00+00:00</updated>
+	<updated>2023-09-10T00:00:00+00:00</updated>
 	<id>https://edibotopic.com/blog/feed.xml</id>
+	<entry xml:lang="en">
+		<title>Pore Generators in Membranes, Tissues and Food</title>
+		<published>2023-09-10T00:00:00+00:00</published>
+		<updated>2023-09-10T00:00:00+00:00</updated>
+        <summary>&lt;p&gt;Recently I encountered the concept of a &amp;quot;porogen&amp;quot; for the first time.
+It is an approach to forming pores in a solid medium that I have since
+seen applied in a variety of areas, including membrane fabrication,
+tissue engineering and food science.&lt;&#x2F;p&gt;
+</summary>
+		<link href="https://edibotopic.com/blog/pore-generators/" type="text/html"/>
+		<id>https://edibotopic.com/blog/pore-generators/</id>
+		<content type="html">&lt;p&gt;Recently I encountered the concept of a &amp;quot;porogen&amp;quot; for the first time.
+It is an approach to forming pores in a solid medium that I have since
+seen applied in a variety of areas, including membrane fabrication,
+tissue engineering and food science.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;Everyday physical objects often consist of a solid matrix in which
+pores are embedded.
+The porous nature of these materials can have a big impact on how well they
+function. 
+A sponge can be filled with water because of its network of pores.
+The porosity of wine corks allows them to be compressed
+into a narrow glass channel where the cork expands to form a seal.
+Many foods, like cakes, breads and meringues, owe some of their 
+characteristic texture to the presence of thousands of tiny pores.
+It&#x27;s useful then to know how to make such porous materials.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;pubs.acs.org&#x2F;doi&#x2F;10.1021&#x2F;acs.jchemed.6b00776&quot;&gt;In a paper&lt;&#x2F;a&gt; 
+in the &lt;em&gt;Journal of Chemical Education&lt;&#x2F;em&gt; a simple method was proposed to fabricate membranes.
+Membranes are semi-permeable — they allow the passage of some particles
+but not others — by virtue of their pores.
+Membrane technology is used in a vast number of applications, including the
+cleaning of water.
+To create a membrane the scientist used a polymer solution that formed a 
+gel (cellulose acetate and glycerol) and some insoluble particles that 
+were embedded in the gel.
+Once the gel was formed the embedded particles could be dissolved and leached
+out of the gel, leaving only pores behind.
+The particles were made of calcium carbonate, which is soluble in acid, so
+washing the gel with acid was sufficient to create the porous
+membrane.
+The method was developed for an undergraduate teaching laboratory and it
+definitely sounds like a cost-effective approach, as pre-fabricated
+membranes can be expensive (&lt;em&gt;from experience&lt;&#x2F;em&gt;).&lt;&#x2F;p&gt;
+&lt;p&gt;While the author did not use the term &amp;quot;porogen leaching&amp;quot;, such a
+process is typically described this way in other fields, specifically
+tissue engineering.
+Biological cells can be grown into specific biological forms to 
+repair or replace damaged tissues.
+Engineering these tissues usually requires a scaffold on which the
+cells can grow.
+Often a base material, such as a polymer, is mixed with a &amp;quot;porogen&amp;quot;
+that acts as a template for generating pores in the solidified polymer.
+The same approach &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.mdpi.com&#x2F;2076-3417&#x2F;12&#x2F;13&#x2F;6771&quot;&gt;can be used in the preparation of cultured meat&lt;&#x2F;a&gt;.
+Meat is itself a biological tissue and meat can also 
+benefit from a porous scaffold on which to grow.&lt;&#x2F;p&gt;
+&lt;p&gt;Using porogen technology does not necessarily require sophisticated
+materials.
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;pubmed.ncbi.nlm.nih.gov&#x2F;30174034&#x2F;&quot;&gt;One study used egg white and gelatin&lt;&#x2F;a&gt;, commonly found in kitchens.
+Egg white gels into a solid when heated — an irreversible process.
+Gelatin solutions, however, form reversible gels when cooled that melt close to body temperature.
+The researchers started by mixing egg white and gelatin.
+Heating the mixture solidified the egg and cooling solidified the
+gelatin.
+When this gel was immersed in warm water the gelatin leached into the
+water.
+After the gel was dried it was found to be highly porous.
+There are many potential food applications for such a material.
+It could hold a large volume of liquid vegetable oil in an
+effectively solid state, serving as a replacement for solid
+animal fat in a diet low in saturated fatty acids.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;m not certain about the origin of the term &amp;quot;porogen&amp;quot; but based on how a
+&lt;em&gt;porogen&lt;&#x2F;em&gt; functions I assume the word is a blend of &lt;em&gt;pore&lt;&#x2F;em&gt; and &lt;em&gt;generator&lt;&#x2F;em&gt;.
+Glancing at the literature in tissue engineering reveals some
+other interesting language choices.
+Particles used as porogens are frequently referred to as being
+&amp;quot;sacrificial&amp;quot;.
+Presumably this relates to how they are sacrificed (to waste) in order
+to generate pores.
+They are also sometimes referred to as &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.sciencedirect.com&#x2F;science&#x2F;article&#x2F;abs&#x2F;pii&#x2F;S1751616120302848&quot;&gt;&amp;quot;fugitive particles&amp;quot;&lt;&#x2F;a&gt;, perhaps
+because a particle &lt;em&gt;escapes&lt;&#x2F;em&gt; the confines of the solid matrix to leave 
+behind an empty cell, just like an escaped prisoner?
+I&#x27;m less sure about that one.&lt;&#x2F;p&gt;
+&lt;p&gt;It may not be immediately obvious how membrane fabrication, tissue engineering and 
+cultured meats are connected, but &lt;em&gt;one&lt;&#x2F;em&gt; connecting factor is the usefulness of porogens.&lt;&#x2F;p&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title>Virtual machines: configure, share and automate</title>
 		<published>2023-07-31T00:00:00+00:00</published>
@@ -1599,26 +1685,40 @@ Plagiarism norms reflect the public and communal nature of scholarly work but �
 </content>
 	</entry>
 	<entry xml:lang="en">
-		<title>Simulating Stoke&#x27;s Law Visually</title>
+		<title>Simulating Stokes&#x27; Law Visually</title>
 		<published>2022-08-06T00:00:00+00:00</published>
-		<updated>2022-08-06T00:00:00+00:00</updated>
+		<updated>2023-09-09T00:00:00+00:00</updated>
         <summary>&lt;p&gt;I built a simple application to teach factors affecting the floating and sedimentation of particles in liquid.&lt;&#x2F;p&gt;
 </summary>
 		<link href="https://edibotopic.com/blog/stokes-law/" type="text/html"/>
 		<id>https://edibotopic.com/blog/stokes-law/</id>
 		<content type="html">&lt;p&gt;I built a simple application to teach factors affecting the floating and sedimentation of particles in liquid.&lt;&#x2F;p&gt;
-&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
-&lt;p&gt;Many food processes are designed to either promote &lt;em&gt;or&lt;&#x2F;em&gt; prevent the physical separation of particles from liquids. The behaviour governing such separation phenomena is described using an equation known as Stoke&#x27;s Law. Students of food science are familiar with this equation, although it is commonly misunderstood. Technical fixes for the physical instabilities in liquid foods are simple and long-standing, yet are sometimes mistrusted by the public. This short post discusses this equation and a simple interactive animation for developing intuition around the phenomena it describes.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;animating-stoke-s-law&quot;&gt;Animating Stoke&#x27;s Law&lt;a class=&quot;zola-anchor&quot; href=&quot;#animating-stoke-s-law&quot; aria-label=&quot;Anchor link for: animating-stoke-s-law&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;figs&#x2F;stokesLawUI.png&quot; alt=&quot;UI of Stoke&#x27;s Law&quot; title=&quot;UI of StokesLaw&quot; &#x2F;&gt; &lt;em&gt;User interface for Stoke&#x27;s Law simulation showing sliders (top), velocity graph (bottom-left) and statistics (bottom-right). View interactive simulation in &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;edibotopic.github.io&#x2F;stokes-law&#x2F;&quot;&gt;full screen&lt;&#x2F;a&gt; or read the &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;stokes-law&quot;&gt;source code&lt;&#x2F;a&gt; to see the JavaScript implementation (if you&#x27;re so inclined)&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;Stoke&#x27;s Law describes the sedimentation of particles in suspensions (fruit pulp in orange juice) and the flotation of droplets in emulsions (creaming of milk fat). In food science it is invoked for a variety of purposes. One of the most simple techniques for measuring a liquid&#x27;s viscosity involves using Stoke&#x27;s Law to estimate the value from the rate at which a ball falls through the liquid. The equation is also used to identify the key parameters that influence how a group of particles fall or rise due to gravity, which can be used to develop strategies to make it happen quicker or slower. A version of the equation is shown below describing the separation velocity ($v$) of particles with diameter $D$ in a solvent with viscosity $\mu$ when subject to acceleration due to gravity $g$. The $\Delta \rho$ means the difference ($\Delta$) between the density ($\rho$) of the particle and the solvent.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;blockquote class=&quot;callout note&quot;&gt;
+    
+    &lt;div class=&quot;icon&quot;&gt;
+        &lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&lt;path d=&quot;M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM11 7H13V9H11V7ZM11 11H13V17H11V11Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;
+    &lt;&#x2F;div&gt;
+    &lt;div class=&quot;content&quot;&gt;
+        
+        &lt;p&gt;&lt;strong&gt;Update&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+        
+        &lt;p&gt;Since this blog was posted I published an
+article on the Stokes&#x27; Law simulation in the &lt;em&gt;Journal of Chemical
+Education&lt;&#x2F;em&gt;. &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;pubs.acs.org&#x2F;doi&#x2F;10.1021&#x2F;acs.jchemed.2c01201&quot;&gt;Read it for free here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+
+    &lt;&#x2F;div&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Many food processes are designed to either promote &lt;em&gt;or&lt;&#x2F;em&gt; prevent the physical separation of particles from liquids. The behaviour governing such separation phenomena is described using an equation known as Stokes&#x27; Law. Students of food science are familiar with this equation, although it is commonly misunderstood. Technical fixes for the physical instabilities in liquid foods are simple and long-standing, yet are sometimes mistrusted by the public. This short post discusses this equation and a simple interactive animation for developing intuition around the phenomena it describes.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;animating-stokes-law&quot;&gt;Animating Stokes&#x27; Law&lt;a class=&quot;zola-anchor&quot; href=&quot;#animating-stokes-law&quot; aria-label=&quot;Anchor link for: animating-stokes-law&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;figs&#x2F;stokesLawUI.png&quot; alt=&quot;UI of Stokes&#x27; Law&quot; title=&quot;UI of StokesLaw&quot; &#x2F;&gt; &lt;em&gt;User interface for Stokes&#x27; Law simulation showing sliders (top), velocity graph (bottom-left) and statistics (bottom-right). View interactive simulation in &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;edibotopic.github.io&#x2F;stokes-law&#x2F;&quot;&gt;full screen&lt;&#x2F;a&gt; or read the &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;stokes-law&quot;&gt;source code&lt;&#x2F;a&gt; to see the JavaScript implementation (if you&#x27;re so inclined)&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Stokes&#x27; Law describes the sedimentation of particles in suspensions (fruit pulp in orange juice) and the flotation of droplets in emulsions (creaming of milk fat). In food science it is invoked for a variety of purposes. One of the most simple techniques for measuring a liquid&#x27;s viscosity involves using Stokes&#x27; Law to estimate the value from the rate at which a ball falls through the liquid. The equation is also used to identify the key parameters that influence how a group of particles fall or rise due to gravity, which can be used to develop strategies to make it happen quicker or slower. A version of the equation is shown below describing the separation velocity ($v$) of particles with diameter $D$ in a solvent with viscosity $\mu$ when subject to acceleration due to gravity $g$. The $\Delta \rho$ means the difference ($\Delta$) between the density ($\rho$) of the particle and the solvent.&lt;&#x2F;p&gt;
 &lt;p&gt;$$v = \frac{D^2 \cdot(\Delta \rho) \cdot g }{18 \cdot \mu}$$&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;techno-functionality&quot;&gt;Techno-functionality&lt;a class=&quot;zola-anchor&quot; href=&quot;#techno-functionality&quot; aria-label=&quot;Anchor link for: techno-functionality&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
-&lt;p&gt;Some of the technological solutions informed by Stoke&#x27;s Law are the source of routine confusion when &amp;quot;homogenised&amp;quot; is found on a product label or &amp;quot;guar gum&amp;quot; in an ingredients list. Homogenisation is simply a way of physically reducing the size of particles. As the particle diameter value ($D$) in Stoke&#x27;s Law is raised to the power of $2$ it has a significant influence on separation speed. Guar gum is one of a variety of food ingredients that has a purely &lt;em&gt;techno-functional&lt;&#x2F;em&gt; role, which typically involves increasing viscosity ($\mu$) so that friction slows particles down as they move through the liquid. Sometimes it might be desirable to promote instability, such as when whole milk is centrifuged to create skim milk and cream, replacing the acceleration due to gravity ($g$) with that due to centrifugal force ($\omega ^2 r$). These factors become more obvious if you play around with the &lt;em&gt;particle diameter&lt;&#x2F;em&gt; and &lt;em&gt;solvent viscosity&lt;&#x2F;em&gt; sliders in the animation. Try the other sliders and you might find some other interesting effects.&lt;&#x2F;p&gt;
+&lt;p&gt;Some of the technological solutions informed by Stokes&#x27; Law are the source of routine confusion when &amp;quot;homogenised&amp;quot; is found on a product label or &amp;quot;guar gum&amp;quot; in an ingredients list. Homogenisation is simply a way of physically reducing the size of particles. As the particle diameter value ($D$) in Stokes&#x27; Law is raised to the power of $2$ it has a significant influence on separation speed. Guar gum is one of a variety of food ingredients that has a purely &lt;em&gt;techno-functional&lt;&#x2F;em&gt; role, which typically involves increasing viscosity ($\mu$) so that friction slows particles down as they move through the liquid. Sometimes it might be desirable to promote instability, such as when whole milk is centrifuged to create skim milk and cream, replacing the acceleration due to gravity ($g$) with that due to centrifugal force ($\omega ^2 r$). These factors become more obvious if you play around with the &lt;em&gt;particle diameter&lt;&#x2F;em&gt; and &lt;em&gt;solvent viscosity&lt;&#x2F;em&gt; sliders in the animation. Try the other sliders and you might find some other interesting effects.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;intuition-and-science&quot;&gt;Intuition and Science&lt;a class=&quot;zola-anchor&quot; href=&quot;#intuition-and-science&quot; aria-label=&quot;Anchor link for: intuition-and-science&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
-&lt;p&gt;Most of us have a good intuition for these phenomena in an everyday context. We expect large stones to sink faster than small pebbles. We know that the air pockets in a wine bottle cork means that it will tend to float on water. In food, the particles involved are often microscopic, making the behavior less &lt;em&gt;salient&lt;&#x2F;em&gt;. Showing a static photograph of particles on a microscope slide does not give us a feel for the dynamics involved. If we are uncomfortable with equations then the mathematics of Stoke&#x27;s Law might not help. That&#x27;s why I developed a simple simulation that allows students to manipulate all of the major variables using sliders. I hope this simple &amp;quot;virtual experiment&amp;quot; can improve the intuition of students for the phenomena but also the equation that helps explain them.&lt;&#x2F;p&gt;
+&lt;p&gt;Most of us have a good intuition for these phenomena in an everyday context. We expect large stones to sink faster than small pebbles. We know that the air pockets in a wine bottle cork means that it will tend to float on water. In food, the particles involved are often microscopic, making the behavior less &lt;em&gt;salient&lt;&#x2F;em&gt;. Showing a static photograph of particles on a microscope slide does not give us a feel for the dynamics involved. If we are uncomfortable with equations then the mathematics of Stokes&#x27; Law might not help. That&#x27;s why I developed a simple simulation that allows students to manipulate all of the major variables using sliders. I hope this simple &amp;quot;virtual experiment&amp;quot; can improve the intuition of students for the phenomena but also the equation that helps explain them.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;figs&#x2F;cream_40X.jpg&quot; alt=&quot;Micrograph of shaving cream&quot; title=&quot;micrograph of cream&quot; &#x2F;&gt; &lt;em&gt;Micrograph of cream showing its emulsion structure. As the oil droplets are less dense than the water surrounding them they tend to float (credit: edibotopic).&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;In recent years it has become slightly more common for companies to avoid homogenising their products and to cease adding stabilising ingredients. This is not because of any demonstrable health benefit but rather because these products can be marketed as being &amp;quot;more natural&amp;quot;. This is an interesting case of a technological decision (whether to employ stabilising technology) being influenced by a metaphysical judgement (that technologies have degrees of naturalness) that has real business consequences (there is a market for &amp;quot;natural&amp;quot; foods). In any case, whether we buy a physically-unstable smoothie at a health food store or homogenised milk from the supermarket, we can understand both by appeal to Stoke&#x27;s law.&lt;&#x2F;p&gt;
+&lt;p&gt;In recent years it has become slightly more common for companies to avoid homogenising their products and to cease adding stabilising ingredients. This is not because of any demonstrable health benefit but rather because these products can be marketed as being &amp;quot;more natural&amp;quot;. This is an interesting case of a technological decision (whether to employ stabilising technology) being influenced by a metaphysical judgement (that technologies have degrees of naturalness) that has real business consequences (there is a market for &amp;quot;natural&amp;quot; foods). In any case, whether we buy a physically-unstable smoothie at a health food store or homogenised milk from the supermarket, we can understand both by appeal to Stokes&#x27; law.&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
