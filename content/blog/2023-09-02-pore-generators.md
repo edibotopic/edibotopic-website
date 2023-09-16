@@ -1,5 +1,5 @@
 +++
-title = "Pore Generators in Membranes, Tissues and Food"
+title = "Pore Generators for Membranes, Tissues and Food"
 date = 2023-09-10
 # updated = 2023-05-18
 draft = false
