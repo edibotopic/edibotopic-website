@@ -4,7 +4,7 @@
 	<subtitle>food | technology | philosophy</subtitle>
 	<link href="https://edibotopic.com/feed.xml" rel="self" type="application/atom+xml"/>
     <link href="https://edibotopic.com"/>
-	<updated>2023-09-10T00:00:00+00:00</updated>
+	<updated>2023-09-16T00:00:00+00:00</updated>
 	<id>https://edibotopic.com/feed.xml</id>
 	<entry xml:lang="en">
 		<title>Pore Generators in Membranes, Tissues and Food</title>
@@ -662,74 +662,90 @@ likely revisit the area in the future.&lt;&#x2F;p&gt;
 	<entry xml:lang="en">
 		<title>Versioning Student Work to Emphasise Process</title>
 		<published>2023-07-15T00:00:00+00:00</published>
-		<updated>2023-07-15T00:00:00+00:00</updated>
+		<updated>2023-09-16T00:00:00+00:00</updated>
         <summary>&lt;p&gt;Version control is a powerful tool commonly used in large software
-projects.
-It is valuable for other types of project too, including student
-writing.&lt;&#x2F;p&gt;
+projects. It is valuable for other types of project too, including
+student writing.&lt;&#x2F;p&gt;
 </summary>
 		<link href="https://edibotopic.com/blog/versioning-student-work/" type="text/html"/>
 		<id>https://edibotopic.com/blog/versioning-student-work/</id>
 		<content type="html">&lt;p&gt;Version control is a powerful tool commonly used in large software
-projects.
-It is valuable for other types of project too, including student
-writing.&lt;&#x2F;p&gt;
-&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h1 id=&quot;motivation&quot;&gt;Motivation&lt;a class=&quot;zola-anchor&quot; href=&quot;#motivation&quot; aria-label=&quot;Anchor link for: motivation&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
-&lt;p&gt;Here I will outline how versioning can be used for student writing projects.
-The version control system I recommend comes built-in with 
-&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;docs.google.com&#x2F;&quot;&gt;Google Docs&lt;&#x2F;a&gt;.
-It is probably not &lt;em&gt;the best&lt;&#x2F;em&gt; system — compared to something
-like &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;git-scm.com&#x2F;&quot;&gt;Git&lt;&#x2F;a&gt; — but it works and is easy-to-use.
-Two advantages of versioning student work can be identified at the
-outset:&lt;&#x2F;p&gt;
+projects. It is valuable for other types of project too, including
+student writing.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;blockquote class=&quot;callout note&quot;&gt;
+    
+    &lt;div class=&quot;icon&quot;&gt;
+        &lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&lt;path d=&quot;M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM11 7H13V9H11V7ZM11 11H13V17H11V11Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;
+    &lt;&#x2F;div&gt;
+    &lt;div class=&quot;content&quot;&gt;
+        
+        &lt;p&gt;&lt;strong&gt;Update&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+        
+        &lt;p&gt;After publication this blog was cited in a
+short guide on &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.ucc.ie&#x2F;en&#x2F;cirtl&#x2F;resources&#x2F;shortguides&#x2F;shortguide9assessmentintheageofai&#x2F;&quot;&gt;Assessment in the Age of
+AI&lt;&#x2F;a&gt;
+by University College Cork.&lt;&#x2F;p&gt;
+&lt;p&gt;The blog was originally written in a &lt;em&gt;conceptual&lt;&#x2F;em&gt; style. If you want a
+more step-by-step explanation that includes some helpful images you
+can download the handout I give to my students
+&lt;a href=&quot;&#x2F;docs&#x2F;VersioningHandout.pdf&quot; title=&quot;Click to download pdf&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+
+    &lt;&#x2F;div&gt;
+&lt;&#x2F;blockquote&gt;&lt;h1 id=&quot;motivation&quot;&gt;Motivation&lt;a class=&quot;zola-anchor&quot; href=&quot;#motivation&quot; aria-label=&quot;Anchor link for: motivation&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Here I will outline how versioning can be used for student writing
+projects. The version control system I recommend comes built-in with
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;docs.google.com&#x2F;&quot;&gt;Google Docs&lt;&#x2F;a&gt;. It is probably not &lt;em&gt;the best&lt;&#x2F;em&gt;
+system — compared to a dedicated tool like &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;git-scm.com&#x2F;&quot;&gt;Git&lt;&#x2F;a&gt;
+— but it works and is easy-to-use. Two advantages of versioning
+student work can be identified at the outset:&lt;&#x2F;p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Structure:&lt;&#x2F;strong&gt; the expectation that writing projects should have
-multiple, dated versions can reduce the tendency of students to write
-(or copy) everything in one rushed draft, encouraging instead a more 
-deliberate approach to writing.&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;strong&gt;Transparency:&lt;&#x2F;strong&gt; for group-work, the contributions of individual group
-members will be highlighted clearly, alerting the group and the teacher to
-any disparaties in effort.&lt;&#x2F;li&gt;
+multiple, dated versions can reduce the tendency of students to
+write (or copy) everything in one rushed draft, encouraging instead
+a more deliberate approach to writing.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Transparency:&lt;&#x2F;strong&gt; for group-work, the contributions of individual
+group members will be highlighted clearly, alerting the group and
+the teacher to any disparaties in effort.&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;p&gt;I am not suggesting that versioning is a general solution for plagiarism, AI and laziness.
-It is just one hurdle (to be combined with others) against ineffective approaches to writing.&lt;&#x2F;p&gt;
-&lt;p&gt;Using Google Docs also exposes students to one of the major Cloud-based
-writing platforms, which are increasingly common in collaborative projects.
-While students might be more familiar with Microsoft Word, Google Docs
-is virtually indistinguishable at a functional level, and arguably simpler
-in design.&lt;&#x2F;p&gt;
+&lt;p&gt;I am not suggesting that versioning is a general solution for
+plagiarism, AI and laziness. It is just one hurdle (to be combined
+with others) against ineffective approaches to writing.&lt;&#x2F;p&gt;
+&lt;p&gt;Using Google Docs also exposes students to one of the major
+Cloud-based writing platforms, which are increasingly common in
+collaborative projects. While students might be more familiar with
+Microsoft Word, Google Docs is virtually indistinguishable at a
+functional level, and arguably simpler in design.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;how-to&quot;&gt;How-To&lt;a class=&quot;zola-anchor&quot; href=&quot;#how-to&quot; aria-label=&quot;Anchor link for: how-to&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;student&quot;&gt;Student&lt;a class=&quot;zola-anchor&quot; href=&quot;#student&quot; aria-label=&quot;Anchor link for: student&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
-&lt;p&gt;Create a new Google Docs file and give it an appropriate name,
-such as &lt;code&gt;AIandFoodPaper&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
-&lt;p&gt;Decide what your first task will be; for example, it could be
-&lt;em&gt;write a rough draft of the project structure&lt;&#x2F;em&gt;.
-When you have written this draft, select:&lt;&#x2F;p&gt;
+&lt;p&gt;Create a new Google Docs file and give it an appropriate name, such as
+&lt;code&gt;AIandFoodPaper&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Decide what your first task will be; for example, it could be &lt;em&gt;write a
+rough draft of the project structure&lt;&#x2F;em&gt;. When you have written this
+draft, select:&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;code&gt;File &amp;gt; Version History &amp;gt; Name Current Version&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;Give a &lt;strong&gt;descriptive name&lt;&#x2F;strong&gt; to the version.
-In this case, it could be:&lt;&#x2F;p&gt;
+&lt;p&gt;Give a &lt;strong&gt;descriptive name&lt;&#x2F;strong&gt; to the version &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;. In this case, it
+could be:&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Drafted a project structure for AI and Food paper&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;While every writing project is different, the principle of
-&lt;em&gt;divide-and-conquer&lt;&#x2F;em&gt; usually applies.
-In many cases, your next version will likely be:&lt;&#x2F;p&gt;
+&lt;em&gt;divide-and-conquer&lt;&#x2F;em&gt; usually applies. In many cases, your next version
+will likely be:&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Drafted an introduction, focusing on AI in data analysis&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;Each time you create a version it is saved to the &lt;em&gt;version history&lt;&#x2F;em&gt;.
 This can be viewed by you or anyone who you share the file with:&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;code&gt;File &amp;gt; Version History &amp;gt; View Version History&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;Versions are grouped by month and include details, such as
-the version name, date&#x2F;time saved and version author.
-Contributions by different authors to the same file will
-be highlighted in a unique colour.&lt;&#x2F;p&gt;
+&lt;p&gt;Versions are grouped by month and include details, such as the version
+name, date&#x2F;time saved and version author. Contributions by different
+authors to the same file will be highlighted in a unique colour &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#2&quot;&gt;2&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;When you select a version then any edits (additions, deletions) will
 be displayed; if necessary, a previous version can be restored for
 editing.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;examples&quot;&gt;Examples&lt;a class=&quot;zola-anchor&quot; href=&quot;#examples&quot; aria-label=&quot;Anchor link for: examples&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;Named versions should typically involve a substantial,
-self-contained change.&lt;&#x2F;p&gt;
+&lt;p&gt;Named versions should typically involve a substantial, self-contained
+change.&lt;&#x2F;p&gt;
 &lt;p&gt;Here are some &lt;strong&gt;good&lt;&#x2F;strong&gt; examples:&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;code&gt;Drafted a structure for the project&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;diff&quot; class=&quot;language-diff z-code&quot;&gt;&lt;code class=&quot;language-diff&quot; data-lang=&quot;diff&quot;&gt;&lt;span class=&quot;z-source z-diff&quot;&gt;&lt;span class=&quot;z-markup z-inserted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-inserted z-diff&quot;&gt;+&lt;&#x2F;span&gt; Title: AI Technology in the food industry
@@ -758,14 +774,12 @@ self-contained change.&lt;&#x2F;p&gt;
 &lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;&lt;strong&gt;Bad&lt;&#x2F;strong&gt; examples come in broadly two forms.&lt;&#x2F;p&gt;
-&lt;p&gt;The first is a large set of trivial versions.
-For example, 10 different versions that correct
-individual typos, which could have been grouped
-into one version if handled together.
-Every individual change or new sentence does
-not necessarily warrant its own version.&lt;&#x2F;p&gt;
-&lt;p&gt;The previous example above could well have been longer,
-containing more sentences while still being self-contained:&lt;&#x2F;p&gt;
+&lt;p&gt;The first is a large set of trivial versions. For example, 10
+different versions that correct individual typos, which could have
+been grouped into one version if handled together. Every individual
+change or new sentence does not necessarily warrant its own version.&lt;&#x2F;p&gt;
+&lt;p&gt;The previous example above could well have been longer, containing
+more sentences while still being self-contained:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;diff&quot; class=&quot;language-diff z-code&quot;&gt;&lt;code class=&quot;language-diff&quot; data-lang=&quot;diff&quot;&gt;&lt;span class=&quot;z-source z-diff&quot;&gt;&lt;span class=&quot;z-markup z-deleted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-deleted z-diff&quot;&gt;-&lt;&#x2F;span&gt; Currently, for example, they have limited capacity
 &lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-deleted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-deleted z-diff&quot;&gt;-&lt;&#x2F;span&gt; to problem-solve when presented with novel scenarios (TODO: add ref).
 &lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-inserted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-inserted z-diff&quot;&gt;+&lt;&#x2F;span&gt; For example, Crowley (2042), compared humans with an AI in a
@@ -777,35 +791,31 @@ containing more sentences while still being self-contained:&lt;&#x2F;p&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;mark&gt;&lt;mark&gt;&lt;span class=&quot;z-markup z-inserted z-diff&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-inserted z-diff&quot;&gt;+&lt;&#x2F;span&gt; ...
 &lt;&#x2F;span&gt;&lt;&#x2F;mark&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;The second &lt;strong&gt;bad&lt;&#x2F;strong&gt; example is a single version with
-a complex set of unrelated changes.
-This might be a version that includes the deletion of
-one section, the addition of two others, a change in
-the title, the addition of images, and so on.
-These changes could probably have been sub-divided
-and given their own versions.&lt;&#x2F;p&gt;
-&lt;p&gt;Inevitably there will be occasions where different types
-of change will have been made, which can be named appropriately:&lt;&#x2F;p&gt;
+&lt;p&gt;The second &lt;strong&gt;bad&lt;&#x2F;strong&gt; example is a single version with a complex set of
+unrelated changes. This might be a version that includes the deletion
+of one section, the addition of two others, a change in the title, the
+addition of images, and so on. These changes could probably have been
+sub-divided and given their own versions.&lt;&#x2F;p&gt;
+&lt;p&gt;Inevitably there will be occasions where different types of change
+will have been made, which can be named appropriately:&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;code&gt;Updated figure 3 and corrected typos in main text&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;However, an effort should be made to avoid doing
-a substantial amount of unstructured work across 
-the entire paper that is then grouped into one version.
-Each time you approach your project you should be thinking:
-&amp;quot;What specific task will I focus on now&amp;quot;.&lt;&#x2F;p&gt;
+&lt;p&gt;However, an effort should be made to avoid doing a substantial amount
+of unstructured work across the entire paper that is then grouped into
+one version. Each time you approach your project you should be
+thinking: &amp;quot;What specific task will I focus on now&amp;quot;.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;teacher&quot;&gt;Teacher&lt;a class=&quot;zola-anchor&quot; href=&quot;#teacher&quot; aria-label=&quot;Anchor link for: teacher&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;h3 id=&quot;submission&quot;&gt;Submission&lt;a class=&quot;zola-anchor&quot; href=&quot;#submission&quot; aria-label=&quot;Anchor link for: submission&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;Students can be asked to submit their project in two forms.
-For access to the version history they will need to share 
-the actual Google Docs file.
-If the file needs to be passed through a plagiarism-detector they can
-download the file in an appropriate format suitable for upload.&lt;&#x2F;p&gt;
+&lt;p&gt;Students can be asked to submit their project in two forms. For access
+to the version history they will need to share the actual Google Docs
+file. If the file needs to be passed through a plagiarism-detector
+they can download the file in an appropriate format suitable for
+upload.&lt;&#x2F;p&gt;
 &lt;p&gt;To share the Docs file select:&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;code&gt;File &amp;gt; Share &amp;gt; Share with Others&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;To ensure there are no issues with file access the &lt;em&gt;General Access&lt;&#x2F;em&gt;
-setting in the popup dialog should be changed from &amp;quot;Restricted&amp;quot;
-to &amp;quot;Anyone with a Link&amp;quot;.
-This is important primarily for cases where a teacher does not
-have a Gmail account.&lt;&#x2F;p&gt;
+setting in the popup dialog should be changed from &amp;quot;Restricted&amp;quot; to
+&amp;quot;Anyone with a Link&amp;quot;. This is important primarily for cases where a
+teacher does not have a Gmail account.&lt;&#x2F;p&gt;
 &lt;p&gt;When you receive this link you should be able to access the version
 history as described earlier.&lt;&#x2F;p&gt;
 &lt;p&gt;If you also require students to upload the file to an LMS like Canvas
@@ -813,96 +823,107 @@ or Blackboard then they will first need to download the file in a
 suitable format.&lt;&#x2F;p&gt;
 &lt;p&gt;In &lt;code&gt;File &amp;gt; Download&lt;&#x2F;code&gt; both Word (.docx) and .pdf formats are available.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;review&quot;&gt;Review&lt;a class=&quot;zola-anchor&quot; href=&quot;#review&quot; aria-label=&quot;Anchor link for: review&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;The version history is a supplement to the assessment process.
-A good version history might include:&lt;&#x2F;p&gt;
+&lt;p&gt;The version history is a supplement to the assessment process. A good
+version history might include:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Consistent work on the project over time&lt;&#x2F;li&gt;
 &lt;li&gt;Evidence of iteration and editing of own writing&lt;&#x2F;li&gt;
 &lt;li&gt;Descriptive version names that identify major changes&lt;&#x2F;li&gt;
-&lt;li&gt;Multiple aspects of writing (references, logic, organisation, editing)&lt;&#x2F;li&gt;
-&lt;li&gt;Balance of workload in group projects (where relevant)&lt;&#x2F;li&gt;
+&lt;li&gt;Solutions to different writing problems (referencing, logic,
+organisation, visualisations, editing)&lt;&#x2F;li&gt;
+&lt;li&gt;Balance of workload across collaborators (group projects)&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;If you are suspicious that a project has been plagiarised or
 AI-generated then the version history is another tool for you to
 evaluate the process by which the writing was generated.&lt;&#x2F;p&gt;
-&lt;p&gt;When feedback on student writing is a part of your assessment
-process the version history — again — provides a useful means
-of inspecting how the student(s) approached their writing.&lt;&#x2F;p&gt;
+&lt;p&gt;When feedback on student writing is a part of your assessment process
+the version history — again — provides a useful means of inspecting
+how the student(s) approached their writing.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;how-many-versions&quot;&gt;&amp;quot;How Many Versions?&amp;quot;&lt;a class=&quot;zola-anchor&quot; href=&quot;#how-many-versions&quot; aria-label=&quot;Anchor link for: how-many-versions&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;It can be expected that students will ask the question:&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;How many versions will I need to get a good mark?&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
-&lt;p&gt;Similar questions are often asked about numbers of citations and
-numbers of words — they usually miss the point.
-Any significant writing project will consist of more than
-one version, usually many more, but a precise number cannot
-be given.
-It is possible for there to be 100 versions that each only make
-trivial changes (typos, spelling) — the high number does not
-reflect good practice in this case.
-In comparison, 10 or 20 versions, which showcase a range of
-activities, including additions, deletions, rewordings, citations
-and clarifications, is preferable.
-If the students get the impression that they are trying to
-hit a number, rather than approach their writing in a structured
-manner, then the exercise will be futile for all involved.&lt;&#x2F;p&gt;
+&lt;p&gt;Similar questions are often asked about &lt;em&gt;numbers of citations&lt;&#x2F;em&gt; and
+&lt;em&gt;numbers of words&lt;&#x2F;em&gt; — they usually miss the point. Any significant
+writing project will consist of more than one version, usually many
+more, but a precise number cannot be given. It is possible for there
+to be 100 versions that each only make trivial changes (typos,
+spelling) — the high number does not necessarily reflect strong
+writing. In comparison, 10 or 20 versions, which showcase a range of
+activities, including additions, deletions, rewordings, citations and
+clarifications, might be more compelling evidence of effort. If the
+students get the impression that they are trying to hit a number,
+rather than approach their writing in a structured manner, then the
+exercise will be futile for all involved.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;background&quot;&gt;Background&lt;a class=&quot;zola-anchor&quot; href=&quot;#background&quot; aria-label=&quot;Anchor link for: background&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;version-control-systems&quot;&gt;Version Control Systems&lt;a class=&quot;zola-anchor&quot; href=&quot;#version-control-systems&quot; aria-label=&quot;Anchor link for: version-control-systems&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
-&lt;p&gt;There are version control &lt;em&gt;systems&lt;&#x2F;em&gt;, &lt;em&gt;tools&lt;&#x2F;em&gt; and &lt;em&gt;philosophies&lt;&#x2F;em&gt;.
-To keep things simple: version control involves assigning a unique
-number to different versions of your project.&lt;&#x2F;p&gt;
-&lt;p&gt;When you update your computer or phone you move from an older to
-a newer version of the operating system.
-A move from Windows 10 to 11 or Android 12 to 13 usually involves
-several major changes to the underlying code that users are advised
-to adopt.
-Behind-the-scenes, programmers usually have more intricate versioning
-systems, with many minor versions existing between major releases.&lt;&#x2F;p&gt;
+&lt;p&gt;There are version control &lt;em&gt;systems&lt;&#x2F;em&gt;, &lt;em&gt;tools&lt;&#x2F;em&gt; and &lt;em&gt;philosophies&lt;&#x2F;em&gt;. To
+keep things simple: version control involves assigning a unique number
+or identifier to different versions of your project.&lt;&#x2F;p&gt;
+&lt;p&gt;When you update your computer or phone you move from an older to a
+newer version of the operating system. A move from Windows 10 to 11 or
+Android 12 to 13 usually involves several major changes to the
+underlying code that users are advised to adopt. Behind-the-scenes,
+programmers usually have more intricate versioning systems, with many
+minor versions existing between major releases.&lt;&#x2F;p&gt;
 &lt;p&gt;Git is probably the most popular version control system among writers
-of computer programs and technical documentation.
-Git is typically used in conjunction with GitHub, a web-based
-platform for hosting versioned projects and structuring collaboration.&lt;&#x2F;p&gt;
+of computer programs and technical documentation. Git is typically
+used in conjunction with GitHub, a web-based platform for hosting
+versioned projects and structuring collaboration.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;projects-are-iterative&quot;&gt;Projects are Iterative&lt;a class=&quot;zola-anchor&quot; href=&quot;#projects-are-iterative&quot; aria-label=&quot;Anchor link for: projects-are-iterative&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
-&lt;p&gt;Working on any large project often demands working with versions.
-If writing a paper you will typically have multiple drafts.
-It can be useful to distinguish these with appropriate names.
-For example: myDraft1.docx, myDraft2.docx, and so on.
-This is a simple form of version control, even if it is
-not referred to as such, although it can get quite
-messy as the drafts accumulate in a folder.&lt;&#x2F;p&gt;
-&lt;p&gt;It is also possible to just modify a single file but this can cause problems.
-At some point, you might need to reduce the wordcount by 500 words, so you decide
-to delete a section in myDraftTheOnlyVersion.docx, only to later realise it is
-absolutely crucial to the project.
-In such cases it is helpful if the retrieval of an earlier version is possible.
-The undo button can usually only take us so far.&lt;&#x2F;p&gt;
-&lt;p&gt;Version control systems — in simple terms — allow you to edit only a single
-file while storing a recoverable history of the different versions of that file.&lt;&#x2F;p&gt;
+&lt;p&gt;Working on any large project often demands working with versions. If
+writing a paper you will typically have multiple drafts. It can be
+useful to distinguish these with appropriate names. For example:
+myDraft1.docx, myDraft2.docx, and so on. This is a simple form of
+version control, even if it is not referred to as such, although it
+can get quite messy as the drafts accumulate in a folder.&lt;&#x2F;p&gt;
+&lt;p&gt;It is also possible to just modify a single file but this can cause
+problems. At some point, you might need to reduce the wordcount by 500
+words, so you decide to delete a section in
+myDraftTheOnlyVersion.docx, only to later realise it is absolutely
+crucial to the project. In such cases it is helpful if the retrieval
+of an earlier version is possible. The undo button can usually only
+take us so far.&lt;&#x2F;p&gt;
+&lt;p&gt;Version control systems — in simple terms — allow you to edit only a
+single file while storing a recoverable history of the different
+versions of that file.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;a class=&quot;zola-anchor&quot; href=&quot;#conclusion&quot; aria-label=&quot;Anchor link for: conclusion&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Students are asked to write because writing is considered useful.
-Muddled thoughts can be clarified once an attempt is made to write them down.
-Extracting key information on a topic and combining them into an overview
-is often far more effective than merely reading about the topic.&lt;&#x2F;p&gt;
-&lt;p&gt;Although writing is a process, student work is often corrected as a static artifact.
-The final version is assessed and deemed a reflection of that underlying process.
-In an era of Large Language Models, there is an increasing probability that this
-final version is the only version and it was drafted by an undetectable AI.&lt;&#x2F;p&gt;
-&lt;p&gt;Perhaps then the &lt;strong&gt;process of writing&lt;&#x2F;strong&gt; — what is often valued — needs to be re-emphasised.
-An analog solution is simply to require students to perform their writing in-person.
-However, this is not always a fair, accessible or practical approach.
-Serious essays, literature reviews and group projects often
-involve many hours of work, dead-ends and revisions.
-It is not feasible to migrate such projects to the classroom, and
-it is also not aligned with an increasingly digitalised and
-distributed workplace.&lt;&#x2F;p&gt;
-&lt;p&gt;To be implemented effectively versioning has to be explained to students and to teachers.
-Students have to approach their work in a disciplined, considered manner.
-Teachers need to account for how the work was produced and
-not merely how it appears in its final form.
-The structure and transparency that this can introduce
-may create more clear expectations for student writing and
-improve how it is assessed.&lt;&#x2F;p&gt;
+Muddled thoughts can be clarified once an attempt is made to write
+them down. Extracting key information on a topic and combining them
+into an overview is often far more effective than merely reading about
+the topic.&lt;&#x2F;p&gt;
+&lt;p&gt;Although writing is a process, student work is often corrected as a
+static artifact. The final version is assessed and deemed a reflection
+of that underlying process. In an era of Large Language Models, there
+is an increasing probability that this final version is the only
+version and it was drafted by an undetectable AI.&lt;&#x2F;p&gt;
+&lt;p&gt;Perhaps then the &lt;strong&gt;process of writing&lt;&#x2F;strong&gt; — what is often valued — needs
+to be re-emphasised. An analog solution is simply to require students
+to perform their writing in-person. However, this is not always a
+fair, accessible or practical approach. Serious essays, literature
+reviews and group projects often involve many hours of work, dead-ends
+and revisions. It is not feasible to migrate such projects to the
+classroom, and it is also not aligned with an increasingly digitalised
+and distributed workplace.&lt;&#x2F;p&gt;
+&lt;p&gt;To be implemented effectively versioning has to be explained to
+students and to teachers. Students have to approach their work in a
+disciplined, considered manner. Teachers need to account for how the
+work was produced and not merely how it appears in its final form. The
+structure and transparency that this can introduce may create more
+clear expectations for student writing and improve how it is assessed.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;notes&quot;&gt;Notes&lt;a class=&quot;zola-anchor&quot; href=&quot;#notes&quot; aria-label=&quot;Anchor link for: notes&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;Google Docs limits users to &lt;em&gt;40 named versions&lt;&#x2F;em&gt;. They should be
+used judiciously, especially on collaborative projects.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;hr &#x2F;&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;2&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;2&lt;&#x2F;sup&gt;
+&lt;p&gt;Office365&#x27;s browser-based Word has version history features
+similar to Google Docs. At time-of-writing, however, Word does not
+support &lt;em&gt;named versions&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
