@@ -24,6 +24,17 @@ writing.
 
 <!-- more -->
 
+{% note(header="Update") %}
+After publication this blog was cited in a short guide on 
+[Assessment in the Age of AI](https://www.ucc.ie/en/cirtl/resources/shortguides/shortguide9assessmentintheageofai/) by University College Cork.
+
+The blog was originally written in a *conceptual* style.
+If you want a more step-by-step guide with explanatory 
+images you can download the handout I give
+to my students 
+[here](/docs/VersioningHandout.pdf "Click to download pdf").
+{% end %}
+
 # Motivation
 
 Here I will outline how versioning can be used for student writing projects.
