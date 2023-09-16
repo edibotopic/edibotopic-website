@@ -1,7 +1,7 @@
 +++
-title = "Virtual machines: configure, share and automate"
+title = "Virtual Machines: Configure, Share and Automate"
 date = 2023-07-31
-# updated = 2023-05-18
+updated = 2023-09-16
 draft = false
 
 [taxonomies]
@@ -25,21 +25,36 @@ Ansible.
 
 <!-- more -->
 
-## Introduction
+# Introduction
 
-This how-to will explain how to use
-[Vagrant](https://www.vagrantup.com/), 
-[VirtualBox](https://www.virtualbox.org/) and 
-[Ansible](https://www.ansible.com/) to
-create and manage a virtual machine (VM)
-on Linux.
+[Virtualisation](https://www.redhat.com/en/topics/virtualization/what-is-virtualization)
+describes a broad range of approaches to creating a simulated version
+of a computing environment. It is a key tool in modern software
+development, allowing the creation of virtual instances of file
+systems and even physical devices.
 
-After reading, you will be able to
-run a command that generates a VM
-that shares files with your computer
-and comes with a game pre-installed.
+On the _host_ computer a virtual operating system (OS) can be generated
+as _guest_, which is abstracted away from the computer's underlying
+hardware. This allows the development and testing of software in an
+isolated environment. 
 
-## Install Vagrant
+Virtualisation — and related technologies like containerisation — are
+often discussed in the context of large-scale, enterprise-level
+applications. For the prospective learner it can be difficult to know
+where to start. This how-to will demonstrate the use of
+[Vagrant](https://www.vagrantup.com/),
+[VirtualBox](https://www.virtualbox.org/) and
+[Ansible](https://www.ansible.com/) to create and manage a virtual
+machine (VM) on Linux.
+
+After reading, you will be able to run a command to generate a VM that
+shares files with your computer and comes with a game (the classic Zork)
+pre-installed. The general use-case is one in which it is necessary to
+repeatably create a computing environment that can run particular
+software, with optional sharing or logging of persistent information
+between the host and guest machine.
+
+# Install Vagrant
 
 Vagrant makes the process of setting up and managing
 VMs quick and painless.
@@ -52,7 +67,7 @@ sudo apt install ./vagrant_2.2.19_x86_64.deb
 vagrant --version # Vagrant 2.2.19
 ```
 
-## Install VirtualBox
+# Install VirtualBox
 
 VirtualBox will provide the virtual environments that
 Vagrant initialises and configures:
@@ -61,7 +76,7 @@ Vagrant initialises and configures:
 sudo apt install virtualbox
 ```
 
-## Install Ansible
+# Install Ansible
 
 Ansible will enable automation of tasks in the VM.
 It can be run on the host or guest machine.
@@ -80,7 +95,7 @@ pipx --version
 pipx install --include-deps ansible
 ```
 
-## Create a VM
+# Create a VM
 
 To set up a VM first create some directories
 to organise your VM(s).
@@ -110,7 +125,7 @@ Note that the `generic/centos7` is one of many
 
 [https://app.vagrantup.com/boxes/search](https://app.vagrantup.com/boxes/search)
 
-## Run the VM
+# Run the VM
 
 To use the VM run Vagrants's `ssh` command
 and a centos7 prompt should appear:
@@ -163,7 +178,7 @@ but was easily resolved with:
 TERM=xterm-256color
 ```
 
-## Exit and Destroy
+# Exit and Destroy
 
 To exit CentOS press **\<ctrl\>**+**\<D\>** or
 type `exit` and press **\<return\>**.
@@ -183,7 +198,7 @@ This means that if you `cd` into that vagrant environment
 and run `vagrant up` you will again create the VM
 according to the configuration `Vagrantfile` specifies.
 
-## Configure the VM with Vagrant
+# Configure the VM with Vagrant
 
 Each time `vagrant up` is run the VM is
 created according to the configuration 
@@ -199,7 +214,7 @@ achieve two basic things:
 1. **Share** files between the host and guest in a dedicated folder
 2. **Automate** a YUM package installation with Ansible
 
-## Share between guest and host
+# Share between guest and host
 
 This is an example of the current directory structure on
 the host machine:
@@ -238,7 +253,9 @@ cat shared_data/hello.md # Hello from the host machine!!!
 ```
 
 Still in the VM, change the name of the file 
-and edit its contents in `Vim`.
+and edit its contents in `Vim`;
+for example, you may want to save notes from old Zork
+runs that will help you in future adventures. 
 The changes you make in the file should be
 reflected in the `/shared/` folder on your
 host machine.
@@ -255,7 +272,7 @@ If the VM is later destroyed and recreated
 the contents of the file will remain as they
 will be shared from the host.
 
-## Automate with Ansible
+# Automate with Ansible
 
 If there is a specific task that needs to be run
 each time that the VM is created Ansible will help.
@@ -330,4 +347,4 @@ Both `playbook.yml` and `Vagrantfile`
 still remain in the `/centOS_test/` directory.
 Each time `vagrant up` is run subsequently the VM
 will be created with the shared folder
-and with Zork pre-installed.
+and a version of Zork pre-installed.
