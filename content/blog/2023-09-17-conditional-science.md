@@ -115,7 +115,7 @@ shape the perception of technology, among students, funders and the
 public. They therefore have some responsibility for considering the
 impact of their choices, in terms of public understanding of science,
 the effective use of resources and the perceived efficacy of their
-discipline[^3].
+discipline.
 
 I explained to the scientist[^3] that I was not interested. They later
 received funding for the project. It was probably a bad career move on
