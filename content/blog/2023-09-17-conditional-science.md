@@ -59,8 +59,8 @@ food scientists will study everything but those health effects.
 
 Funding proposals, press releases and lectures relating to such a
 project will then all start with the premise that the product under
-investigation has been claimed *could* be a major contributor to human
-disease, even if this claim is not to be tested.
+investigation *could* be a major contributor to human disease, even if
+this claim is not to be tested.
 
 Food science is an applied field. Even if the original claim was false
 it was certainly true that there was now a market interest in
@@ -86,7 +86,8 @@ funded somehow"), philosophy/misdirection ("Good science is found in
 the unlikeliest of places") or specialisation/ignorance ("Oh I'm not
 an expert in health so who is to know really").
 
-Let's consider now why this might be a problem.
+Let's consider now why this might not be a desirable set of
+circumstances.
 
 Other real problems of actual consequence exist and need to be solved.
 Given the existence of real problems that are known to affect people
@@ -110,7 +111,7 @@ how scientists choose their projects, especially when the scientific
 problems relate to a technology of potential commercial value. Food
 products making extraordinary claims come and go by the dozen. Some
 eventually shrink their claims in response to regulatory scrutiny[^2].
-In the intervening period — which can span decades — scientists help
+In the intervening period — which can span many years — scientists help
 shape the perception of technology, among students, funders and the
 public. They therefore have some responsibility for considering the
 impact of their choices, in terms of public understanding of science,
