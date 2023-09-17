@@ -59,7 +59,7 @@ food scientists will study everything but those health effects.
 
 Funding proposals, press releases and lectures relating to such a
 project will then all start with the premise that the product under
-investigation has been claimed to be a major contributor to human
+investigation has been claimed *could* be a major contributor to human
 disease, even if this claim is not to be tested.
 
 Food science is an applied field. Even if the original claim was false
