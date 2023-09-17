@@ -7,6 +7,10 @@
         <loc>https://edibotopic.com/blog/</loc>
     </url>
     <url>
+        <loc>https://edibotopic.com/blog/conditional-science/</loc>
+        <lastmod>2023-09-17</lastmod>
+    </url>
+    <url>
         <loc>https://edibotopic.com/blog/curtsy-rehearsed/</loc>
         <lastmod>2023-07-08</lastmod>
     </url>
@@ -97,6 +101,9 @@
         <loc>https://edibotopic.com/tags/documentation/</loc>
     </url>
     <url>
+        <loc>https://edibotopic.com/tags/ethics/</loc>
+    </url>
+    <url>
         <loc>https://edibotopic.com/tags/experience/</loc>
     </url>
     <url>
@@ -128,6 +135,9 @@
     </url>
     <url>
         <loc>https://edibotopic.com/tags/reflection/</loc>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/tags/research/</loc>
     </url>
     <url>
         <loc>https://edibotopic.com/tags/science/</loc>
