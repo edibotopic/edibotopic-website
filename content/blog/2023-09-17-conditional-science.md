@@ -126,4 +126,4 @@ my part but I am at peace with my decision.
 
 [^2]: A claim to treat a disease may become a promise of more "comfort".
 
-[^3]: Who is a lovely person and great scientists by the way.
+[^3]: Who is a lovely person and great scientist by the way.
