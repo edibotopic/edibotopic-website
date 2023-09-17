@@ -20,7 +20,7 @@ outdate_warn = false
 
 There's a kind of scientific project that bothers me. First, an
 extravagant claim is made by a researcher. Next, this encourages other
-researchers pursue a set of loosely-related questions that don't test
+researchers to pursue a set of loosely-related questions that don't test
 the original claim. The interestingness or importance of these
 questions are then *conditional* on the truth of the initial, 
 untested claim.
