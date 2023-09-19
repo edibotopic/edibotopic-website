@@ -10,7 +10,7 @@ tags = ["science", "research", "technology", "ethics"]
 
 [extra]
 lang = "en"
-toc = true
+toc = false
 show_comment = false
 math = false
 mermaid = false
