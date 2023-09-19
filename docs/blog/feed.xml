@@ -146,7 +146,7 @@ source when including a Mermaid diagram in a .qmd document, as this
 is made more explicit for .dot files in the current version of the
 docs.&lt;&#x2F;p&gt;
 &lt;p&gt;Mermaid and Graphviz diagrams can be included in .qmd documents from
-external files.https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;sqong&lt;&#x2F;p&gt;
+external files.&lt;&#x2F;p&gt;
 &lt;p&gt;In the docs an example is given for how to achieve this using a
 Graphviz diagram defined in a .dot file.&lt;&#x2F;p&gt;
 &lt;p&gt;This minor change makes it more explicit that an appropriate
@@ -204,7 +204,7 @@ style.&lt;&#x2F;p&gt;
 &lt;p&gt;In addition, a few phrases were given slight rewrites to increase
 clarity or remove typos.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
-&lt;p&gt;This last PR hasn&#x27;t been merged yet.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;odin-lang&#x2F;odin-lang.org&#x2F;pull&#x2F;153&quot;&gt;This last PR hasn&#x27;t been merged yet.&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;a class=&quot;zola-anchor&quot; href=&quot;#conclusion&quot; aria-label=&quot;Anchor link for: conclusion&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Most of my experience with open-source software has involved making my
 own projects and using software made by others. After getting a few
