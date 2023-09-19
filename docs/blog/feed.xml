@@ -4,8 +4,222 @@
 	<subtitle>Writing on food, technology and philosophy</subtitle>
 	<link href="https://edibotopic.com/blog/feed.xml" rel="self" type="application/atom+xml"/>
     <link href="https://edibotopic.com/blog/"/>
-	<updated>2023-09-17T00:00:00+00:00</updated>
+	<updated>2023-09-20T00:00:00+00:00</updated>
 	<id>https://edibotopic.com/blog/feed.xml</id>
+	<entry xml:lang="en">
+		<title>Get Started with a Few Simple Pull Requests</title>
+		<published>2023-09-20T00:00:00+00:00</published>
+		<updated>2023-09-20T00:00:00+00:00</updated>
+        <summary>&lt;p&gt;Making a Pull Request doesn&#x27;t have to be a complex or stressful process.&lt;&#x2F;p&gt;
+</summary>
+		<link href="https://edibotopic.com/blog/making-simple-prs/" type="text/html"/>
+		<id>https://edibotopic.com/blog/making-simple-prs/</id>
+		<content type="html">&lt;p&gt;Making a Pull Request doesn&#x27;t have to be a complex or stressful process.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;I have been posting &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&quot;&gt;my own code&lt;&#x2F;a&gt; on GitHub for several years. Until
+recently I had never submitted a Pull Request (PR). There was a PR
+submitted to one of my repos that I reviewed but I never made an
+original contribution to another developer&#x27;s repo.&lt;&#x2F;p&gt;
+&lt;p&gt;One week over the Summer I was moving apartments and in my down-time
+submitted a PR at a rate of about one per day. PRs were soon
+demystified. It is &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;docs.github.com&#x2F;en&#x2F;pull-requests&#x2F;collaborating-with-pull-requests&#x2F;proposing-changes-to-your-work-with-pull-requests&#x2F;creating-a-pull-request&quot;&gt;easier than you might
+think&lt;&#x2F;a&gt;
+and well worth getting started if you haven&#x27;t already.&lt;&#x2F;p&gt;
+&lt;p&gt;You may have been directed to submit &amp;quot;simple&amp;quot; PRs before but might
+have had difficulty finding examples. There are &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mgienow&#x2F;TNS-Pull-Request-Practice&quot;&gt;helpful
+repos&lt;&#x2F;a&gt; that
+allow beginners to learn the mechanics of &lt;em&gt;how&lt;&#x2F;em&gt; to submit PR but not
+necessarily &lt;em&gt;what&lt;&#x2F;em&gt; a real PR might contain. Here I give an overview of
+my PRs so far in the hope that they might be demystified for you too.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;where-to-start&quot;&gt;Where to Start&lt;a class=&quot;zola-anchor&quot; href=&quot;#where-to-start&quot; aria-label=&quot;Anchor link for: where-to-start&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;You probably want to start with a project that interests you. The best
+way to find such a project is to use and enjoy free and open-source
+software. If you find an issue in software that you use then try to
+determine how you might fix it.&lt;&#x2F;p&gt;
+&lt;p&gt;It is often recommended that beginners look into improving
+documentation. I think that this is good advice. Documentation can
+often be an afterthought in open-source projects. Highly-skilled
+developers might have limited interest, time or ability to devote
+to good documentation.&lt;&#x2F;p&gt;
+&lt;p&gt;Most — though not all — of the examples in this post involve docs.&lt;&#x2F;p&gt;
+&lt;p&gt;Many developers are not necessarily strong writers, but many users
+also do not read enough documentation! To improve docs you should
+first get in the habit of reading docs. It also helps if you have
+a pedantic nature, and here my academic background served me well.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;simple-prs&quot;&gt;Simple PRs&lt;a class=&quot;zola-anchor&quot; href=&quot;#simple-prs&quot; aria-label=&quot;Anchor link for: simple-prs&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;At time of writing I have submitted six PRs in about three months.
+Even though I am a fan of the command line, and manage all my own
+repos from the terminal, these PRs were all generated directly through
+GitHub&#x27;s web interface.&lt;&#x2F;p&gt;
+&lt;p&gt;Doc and code files in GitHub have an &lt;code&gt;edit&lt;&#x2F;code&gt; button. Clicking this will
+trigger a prompt to fork the repo. After you fork the repo you will be
+able to make edits to the code and commit the changes to your fork. A
+&lt;code&gt;Compare &amp;amp; Pull Request&lt;&#x2F;code&gt; button will then appear — click it and you
+can give your PR a title and description before submitting.&lt;&#x2F;p&gt;
+&lt;p&gt;For the small changes described below it is likely that the reviewer
+of your PR will merge the changes after a quick review. Anything more
+substantial may require further dialogue, additional justification and
+possibly some edits to the original PR, all of which is outside the
+scope of this post.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;theme-colours&quot;&gt;Theme Colours&lt;a class=&quot;zola-anchor&quot; href=&quot;#theme-colours&quot; aria-label=&quot;Anchor link for: theme-colours&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Lately I have been using &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;doomemacs&#x2F;doomemacs&quot;&gt;DOOM
+Emacs&lt;&#x2F;a&gt; for taking notes with
+the wonderful org-mode. I use a lovely theme
+(&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;nickav&#x2F;naysayer-theme.el&quot;&gt;naysayer&lt;&#x2F;a&gt;) that had a
+small issue with the colour of text being difficult to read over a
+particular window region in Emacs.&lt;&#x2F;p&gt;
+&lt;p&gt;To attempt a fix I changed two lines in the theme definition, tested
+the changes on two devices (Doom and Vanilla Emacs) and submitted a
+PR. Here was the explanation I wrote on submission; it might seem like
+overkill, but if there were to be any problem subsequently then this
+might provide helpful context:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;These changes aim to improve text legibility in the modeline for
+both the project directory and the file path in a modified buffer
+when using Naysayer with DOOM Emacs (a very popular Emacs
+framework). Previously the project directory colour defaulted to a
+blueish-green that was difficult to read against Naysayer&#x27;s
+tan-coloured modeline; in addition, the file path in a modified
+buffer changed to a light pink that was particularly illegible
+against the tan colour.&lt;&#x2F;p&gt;
+&lt;p&gt;The text colour will now be the same as the rest of the foreground
+text in the modeline, which is the theme&#x27;s behavior in Vanilla
+Emacs, and the text weighting will change in a modified buffer to
+subtly signify any unsaved changes.&lt;&#x2F;p&gt;
+&lt;p&gt;The revised theme was tested on both Doom Emacs (28.1) and Vanilla
+Emacs (28.1) - no issues were observed in either case. Some of these
+problems were discussed in issue #5.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;rephrase&quot;&gt;Rephrase&lt;a class=&quot;zola-anchor&quot; href=&quot;#rephrase&quot; aria-label=&quot;Anchor link for: rephrase&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;This one is going to seem annoying and pedantic but I think it was
+worthwhile. If even one reader is anything like me they might be
+thrown by inconsistent phrasing. I was reading about the child-parent
+relationship for elements in the excellent &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;motioncanvas.io&#x2F;&quot;&gt;Motion
+Canvas&lt;&#x2F;a&gt; animation library. When reading the
+docs I became distracted by the phrase &amp;quot;relatively to&amp;quot;. This seemed a
+little awkward and far less common than &amp;quot;relative to&amp;quot;. The more common
+phrase was also the one used elsewhere in the docs.&lt;&#x2F;p&gt;
+&lt;p&gt;For the sake of consistency, and to prevent the likes of me from
+getting distracted when learning programmatic animation, I recommended
+a change in phrasing:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a small change to phrasing in the docs that substitutes the
+phrase &amp;quot;relatively to&amp;quot; with &amp;quot;relative to&amp;quot;.&lt;&#x2F;p&gt;
+&lt;p&gt;The latter is more conventional&#x2F;idiomatic and is also consistent
+with similar usage contexts in the rest of the docs.&lt;&#x2F;p&gt;
+&lt;p&gt;The purpose of the change is to minimise any ambiguity for the user
+when interpreting the technical content.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;typo&quot;&gt;Typo&lt;a class=&quot;zola-anchor&quot; href=&quot;#typo&quot; aria-label=&quot;Anchor link for: typo&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;This PR is the most simple of all! It&#x27;s often easier to spot typos
+when you haven&#x27;t been working closely on the code or documentation for
+a project. Some people think typos signal a lack of professionalism,
+which I personally think is unfair. Nonetheless, typos bother some
+people and it&#x27;s wortwhile fixing them. If you have a GitHub account
+and some time on your hands there&#x27;s really no excuse for not lending a
+hand in these cases. I spotted this typo for the &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;eertmans.be&#x2F;manim-slides&#x2F;&quot;&gt;Manim
+Slides&lt;&#x2F;a&gt; project, a really
+convenient application for making slides in the style of 3Blue1Brown&#x27;s
+explanatory mathematics videos.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Change link titled &amp;quot;HTML Presenetation&amp;quot; (typo) to &amp;quot;HTML
+Presentation&amp;quot;.&lt;&#x2F;p&gt;
+&lt;p&gt;Description: Proposes a fix to a small typo in the docs.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;explicitness&quot;&gt;Explicitness&lt;a class=&quot;zola-anchor&quot; href=&quot;#explicitness&quot; aria-label=&quot;Anchor link for: explicitness&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;This next PR attempted to reduce ambiguity due to a lack of
+explicitness. I was using the excellent &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;quarto.org&#x2F;&quot;&gt;Quarto&lt;&#x2F;a&gt;
+publishing system to create material for a university class. In a set
+of notes I had included code for a Mermaid flow diagram but now I
+wanted to use the same diagram in a slidedeck. Quarto allows Mermaid
+diagrams to be defined in a source file that can then be referenced in
+other files, preventing duplication. This would allow me to code the
+diagram once and then refer to it as many times as I want.&lt;&#x2F;p&gt;
+&lt;p&gt;I could not tell from the relevant section of the Diagram docs (&lt;code&gt;File Include&lt;&#x2F;code&gt;) what the filetype was supposed to be when including Mermaid
+diagrams in a different file. I tried using a &lt;code&gt;.mmd&lt;&#x2F;code&gt; filetype, which
+is mentioned elsewhere in the Quarto docs, and it worked. In my view,
+this should be made clear and obvious in the section of the docs that
+describes how to include externally-defined Mermaid diagrams:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Makes more explicit that an .mmd file can be used as an external
+source when including a Mermaid diagram in a .qmd document, as this
+is made more explicit for .dot files in the current version of the
+docs.&lt;&#x2F;p&gt;
+&lt;p&gt;Mermaid and Graphviz diagrams can be included in .qmd documents from
+external files.https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;sqong&lt;&#x2F;p&gt;
+&lt;p&gt;In the docs an example is given for how to achieve this using a
+Graphviz diagram defined in a .dot file.&lt;&#x2F;p&gt;
+&lt;p&gt;This minor change makes it more explicit that an appropriate
+filetype that would achieve the same for a Mermaid diagram is .mmd.&lt;&#x2F;p&gt;
+&lt;p&gt;The .mmd filetype is mentioned two sections previous in the context
+of specific editors (RStudio, VS Code). Readers of the docs are
+likely to benefit from seeing the relevant filetypes close to their
+implementation in the File Include section of the docs, especially
+if they are not users of RStudio or VS Code and may miss those
+previous sections.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;my-website-s-theme&quot;&gt;My Website&#x27;s Theme&lt;a class=&quot;zola-anchor&quot; href=&quot;#my-website-s-theme&quot; aria-label=&quot;Anchor link for: my-website-s-theme&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;This blog is built using the Zola static site generator and a
+modification of the lovely &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;isunjn&#x2F;serene&quot;&gt;Serene
+theme&lt;&#x2F;a&gt;. While working on the website
+I was following instructions from Serene&#x27;s repo and noticed that there
+was an error in the file paths that were cited. My PR description:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In &lt;code&gt;USAGE.md&lt;&#x2F;code&gt; instructions are provided to copy the theme&#x27;s
+&lt;code&gt;&#x2F;highlight_themes&#x2F;&lt;&#x2F;code&gt; folder to &lt;code&gt;&#x2F;myblog&#x2F;static&#x2F;highlight_themes&#x2F;&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;The instructions indicate that &lt;code&gt;&#x2F;highlight_themes&#x2F;&lt;&#x2F;code&gt; is found in
+&lt;code&gt;myblog&#x2F;themes&#x2F;serene&#x2F;static&#x2F;&lt;&#x2F;code&gt; but it is found one directory up in
+the theme root.&lt;&#x2F;p&gt;
+&lt;p&gt;This changes &lt;code&gt;USAGE.md&lt;&#x2F;code&gt; so that the instructions are to copy
+&lt;code&gt;myblog&#x2F;themes&#x2F;serene&#x2F;highlight_themes&#x2F;&lt;&#x2F;code&gt; to
+&lt;code&gt;myblog&#x2F;highlight_themes&lt;&#x2F;code&gt;, which is presumably the intention.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;commenting-style&quot;&gt;Commenting Style&lt;a class=&quot;zola-anchor&quot; href=&quot;#commenting-style&quot; aria-label=&quot;Anchor link for: commenting-style&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Many of these PRs have involved documentation and this last one
+relates to documentation in the form of in-line code comments. A new
+programming language that I really like is
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;odin-lang.org&#x2F;&quot;&gt;Odin&lt;&#x2F;a&gt;. I like it so much I made a 
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;sqong&quot;&gt;Pong clone&lt;&#x2F;a&gt; with it. There&#x27;s a
+lot of really smart people working on Odin. So smart in fact that I
+would hesitate to mess with their pristine code until I understand the
+language better.&lt;&#x2F;p&gt;
+&lt;p&gt;However, I did notice that there was some inconsistency in the
+commenting style in the Overview of the language. This Overview is the
+first encounter many people will have with the language, so it&#x27;s
+better not to introduce any subtle confusion in the explanatory
+comments.&lt;&#x2F;p&gt;
+&lt;p&gt;When writing in markdown, in-line code blocks are conventionally
+signified with backticks, but here a mixture of backticks and quotes
+was being used. Quotes are more appropriate when signifiying strings,
+which was how they were used elsewhere in the comments. In addition, I
+spotted some other issues that were too small to include in a separate
+PR. The PR description:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Code comments used single quotes, double quotes and back-ticks
+interchangeably to signify an in-line code block. Periods were
+infrequently used to terminate a comment.&lt;&#x2F;p&gt;
+&lt;p&gt;These changes use back-ticks for all in-line code blocks and remove
+all terminating periods to improve consistency of the commenting
+style.&lt;&#x2F;p&gt;
+&lt;p&gt;In addition, a few phrases were given slight rewrites to increase
+clarity or remove typos.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;This last PR hasn&#x27;t been merged yet.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;a class=&quot;zola-anchor&quot; href=&quot;#conclusion&quot; aria-label=&quot;Anchor link for: conclusion&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Most of my experience with open-source software has involved making my
+own projects and using software made by others. After getting a few
+PRs merged I feel like more of a well-rounded &lt;em&gt;contributor&lt;&#x2F;em&gt; to
+the open-source ecosystem. It is easy to get started if you don&#x27;t set
+the bar too high.&lt;&#x2F;p&gt;
+&lt;p&gt;Start simple.&lt;&#x2F;p&gt;
+&lt;p&gt;Use some software with a narrow scope (a theme) and note down any
+issues you have. Pay attention to anything in software documentation
+that trips up or confuses you. Look at the &lt;em&gt;closed&lt;&#x2F;em&gt; PRs in a repo and
+try to find small ones that you can understand.&lt;&#x2F;p&gt;
+&lt;p&gt;Helping people out with these tasks can be very satisfying and could
+help prepare you for bigger contributions in the future.&lt;&#x2F;p&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title>Conditional Science: Extraordinary Claims Beget Lucrative Tangents</title>
 		<published>2023-09-17T00:00:00+00:00</published>
@@ -156,7 +370,8 @@ The porosity of wine corks allows them to be compressed
 into a narrow glass channel where the cork expands to form a seal.
 Many foods, like cakes, breads and meringues, owe some of their 
 characteristic texture to the presence of thousands of tiny pores.
-It&#x27;s useful then to know how to make such porous materials.&lt;&#x2F;p&gt;
+It&#x27;s useful then to know how to make such porous materials in a
+variety of contexts.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;pubs.acs.org&#x2F;doi&#x2F;10.1021&#x2F;acs.jchemed.6b00776&quot;&gt;In a paper&lt;&#x2F;a&gt; 
 in the &lt;em&gt;Journal of Chemical Education&lt;&#x2F;em&gt; a simple method was proposed to fabricate membranes.
 Membranes are semi-permeable — they allow the passage of some particles
