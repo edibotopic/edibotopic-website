@@ -10,7 +10,7 @@ tags = ["science", "food", "gels"]
 
 [extra]
 lang = "en"
-toc = true
+toc = false
 show_comment = false
 math = false
 mermaid = false
@@ -34,7 +34,8 @@ The porosity of wine corks allows them to be compressed
 into a narrow glass channel where the cork expands to form a seal.
 Many foods, like cakes, breads and meringues, owe some of their 
 characteristic texture to the presence of thousands of tiny pores.
-It's useful then to know how to make such porous materials.
+It's useful then to know how to make such porous materials in a
+variety of contexts.
 
 [In a paper](https://pubs.acs.org/doi/10.1021/acs.jchemed.6b00776) 
 in the *Journal of Chemical Education* a simple method was proposed to fabricate membranes.
