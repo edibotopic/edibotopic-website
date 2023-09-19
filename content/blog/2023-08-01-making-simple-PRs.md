@@ -178,7 +178,7 @@ describes how to include externally-defined Mermaid diagrams:
 > docs.
 >
 > Mermaid and Graphviz diagrams can be included in .qmd documents from
-> external files.https://github.com/edibotopic/sqong
+> external files.
 >
 > In the docs an example is given for how to achieve this using a
 > Graphviz diagram defined in a .dot file.
@@ -247,7 +247,7 @@ PR. The PR description:
 > In addition, a few phrases were given slight rewrites to increase
 > clarity or remove typos.
 
-This last PR hasn't been merged yet.
+[This last PR hasn't been merged yet.](https://github.com/odin-lang/odin-lang.org/pull/153)
 
 # Conclusion
 
