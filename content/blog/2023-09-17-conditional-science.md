@@ -80,7 +80,7 @@ The average member of the public would soon be confronted with
 technologies that (prematurely) claimed to address their health
 issues. In parallel, there would be press releases and newspaper articles
 about the legitimate science behind the development of these
-technologies. It would not be unsurprising then if many people started to buy
+technologies. It would not be surprising then if many people started to buy
 these products and assume that they were important in their lives.
 
 To the scientists involved there was somehow no conflict between
