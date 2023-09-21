@@ -36,7 +36,7 @@ and well worth getting started if you haven't already.
 You may have been directed to submit "simple" PRs before but might
 have had difficulty finding examples. There are [helpful
 repos](https://github.com/mgienow/TNS-Pull-Request-Practice) that
-allow beginners to learn the mechanics of *how* to submit PR but not
+allow beginners to learn the mechanics of *how* to submit a PR but not
 necessarily *what* a real PR might contain. Here I give an overview of
 my PRs so far in the hope that they might be demystified for you too.
 

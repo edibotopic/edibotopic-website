@@ -55,7 +55,7 @@ directly to the tricky question of its health effects.
 
 The technology in question was a commercial food product[^2], and it
 was claimed that this product was a major contributor to human
-disease. *If that were true*, some healthier alternatives would need
+disease. *If that was true*, some healthier alternatives would need
 to be developed. We might then focus on the science of their flavour
 and texture, such that *in the event that they were needed* people
 might find them tolerable to consume. This is a common tendency in
