@@ -43,7 +43,7 @@ my PRs so far in the hope that they might be demystified for you too.
 # Where to Start
 
 You probably want to start with a project that interests you. The best
-way to find such a project is to use and enjoy free and open-source
+way to find such a project is to use and enjoy open-source
 software. If you find an issue in software that you use then try to
 determine how you might fix it.
 
