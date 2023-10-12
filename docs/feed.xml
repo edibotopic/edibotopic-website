@@ -1861,14 +1861,14 @@ downgrading your kernel might be the most immediately-viable option.&lt;&#x2F;p&
 		<title>Converting Images to 3D Models</title>
 		<published>2023-06-12T00:00:00+00:00</published>
 		<updated>2023-06-12T00:00:00+00:00</updated>
-        <summary>&lt;p&gt;I made a simple web-based tool for converting grayscale images to 3D models.&lt;&#x2F;p&gt;
+        <summary>&lt;p&gt;I made a simple web-based tool for converting greyscale images to 3D models.&lt;&#x2F;p&gt;
 </summary>
 		<link href="https://edibotopic.com/blog/write-height/" type="text/html"/>
 		<id>https://edibotopic.com/blog/write-height/</id>
-		<content type="html">&lt;p&gt;I made a simple web-based tool for converting grayscale images to 3D models.&lt;&#x2F;p&gt;
+		<content type="html">&lt;p&gt;I made a simple web-based tool for converting greyscale images to 3D models.&lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
 &lt;p&gt;Far more powerful software than this tool — &lt;em&gt;WriteHeight&lt;&#x2F;em&gt; — exists but their complexity often presents a significant barrier to newcomers.
-Based solely on heightmaps, WriteHeight only requires the user to upload or draw grayscale images.
+Based solely on heightmaps, WriteHeight only requires the user to upload or draw greyscale images.
 The 2D image is then converted into a 3D model that can be inspected or downloaded.
 This post explains the motivation behind WriteHeight, what it can do and why it still needs a lot of work.&lt;&#x2F;p&gt;
 &lt;p&gt;Play around with &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;edibotopic.github.io&#x2F;write-height&#x2F;&quot;&gt;WriteHeight&lt;&#x2F;a&gt; or &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;write-height&quot;&gt;read the source code&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
@@ -1897,9 +1897,9 @@ The relative lightness of pixels in that 2D image can be converted to vertex hei
 Black pixels become the lowest regions in the model and white pixels the highest regions.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;existing-software&quot;&gt;Existing Software&lt;a class=&quot;zola-anchor&quot; href=&quot;#existing-software&quot; aria-label=&quot;Anchor link for: existing-software&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Most software with 3D capabilities, including dedicated modellers like Blender and game engines like &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;unity.com&#x2F;&quot;&gt;Unity&lt;&#x2F;a&gt;, can generate models from heightmaps; however, if this is all that you want to achieve they are probably overkill.&lt;&#x2F;p&gt;
-&lt;p&gt;A separate application is usually required to make the grayscale image that will be transformed into a 3D model.
+&lt;p&gt;A separate application is usually required to make the greyscale image that will be transformed into a 3D model.
 There are dedicated applications for generating heightmaps from real terrain elevation data, such as &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;tangrams.github.io&#x2F;heightmapper&#x2F;&quot;&gt;Tangram Heightmapper&lt;&#x2F;a&gt;. Another approach is that of
-&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;archive.org&#x2F;details&#x2F;jsplacement-1.3.0-allplatforms_202108&quot;&gt;JSplacement&lt;&#x2F;a&gt;, which generates random heightmaps from &lt;em&gt;greebles&lt;&#x2F;em&gt;, smaller grayscale parts that are arranged and combined into larger heightmaps.
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;archive.org&#x2F;details&#x2F;jsplacement-1.3.0-allplatforms_202108&quot;&gt;JSplacement&lt;&#x2F;a&gt;, which generates random heightmaps from &lt;em&gt;greebles&lt;&#x2F;em&gt;, smaller greyscale parts that are arranged and combined into larger heightmaps.
 With a modern digital drawing app like &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;krita.org&#x2F;en&#x2F;&quot;&gt;Krita&lt;&#x2F;a&gt; the range of possible heightmaps is only limited by your skill and imagination.&lt;&#x2F;p&gt;
 &lt;p&gt;Ephtracy&#x27;s &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;ephtracy.github.io&#x2F;index.html?page=aerialod&quot;&gt;Aerialod&lt;&#x2F;a&gt; is dedicated to the specific task of rendering 3D models from heightmaps and comes with a range of options to generate beautiful renders.
 Most of my initial heightmap experimentation started with Aerialod, due to its elegance and simplicity.
@@ -1908,7 +1908,7 @@ However, I am now a Linux-user and at time-of-writing Aerialod is only available
 &lt;ol&gt;
 &lt;li&gt;Dedicated to making 3D models from heightmaps&lt;&#x2F;li&gt;
 &lt;li&gt;Accessible on any device (computer, tablet, phone)&lt;&#x2F;li&gt;
-&lt;li&gt;Useable in a browser with no download required&lt;&#x2F;li&gt;
+&lt;li&gt;Useable in a browser with no app download required&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
 &lt;h2 id=&quot;writeheight&quot;&gt;WriteHeight&lt;a class=&quot;zola-anchor&quot; href=&quot;#writeheight&quot; aria-label=&quot;Anchor link for: writeheight&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;As an application WriteHeight is simple.
@@ -1918,44 +1918,71 @@ The 3D model is rendered using the &lt;a rel=&quot;nofollow noreferrer&quot; hre
 Buttons are included below the viewport, one allows for the generation of further random models from a finite collection.
 Another allows a user to upload their own heightmap image, which will then be rendered into an inspectable 3D model.
 Models can then be downloaded in different formats, including &lt;code&gt;.stl&lt;&#x2F;code&gt; (good for 3D printing) and &lt;code&gt;.glb&lt;&#x2F;code&gt; (good for 3D rendering).&lt;&#x2F;p&gt;
+&lt;blockquote class=&quot;callout warning&quot;&gt;
+    
+    &lt;div class=&quot;icon&quot;&gt;
+        &lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&lt;path d=&quot;M12.865 3.00017L22.3912 19.5002C22.6674 19.9785 22.5035 20.5901 22.0252 20.8662C21.8732 20.954 21.7008 21.0002 21.5252 21.0002H2.47266C1.92037 21.0002 1.47266 20.5525 1.47266 20.0002C1.47266 19.8246 1.51886 19.6522 1.60663 19.5002L11.1329 3.00017C11.4091 2.52187 12.0206 2.358 12.4989 2.63414C12.651 2.72191 12.7772 2.84815 12.865 3.00017ZM4.20471 19.0002H19.7932L11.9989 5.50017L4.20471 19.0002ZM10.9989 16.0002H12.9989V18.0002H10.9989V16.0002ZM10.9989 9.00017H12.9989V14.0002H10.9989V9.00017Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;
+    &lt;&#x2F;div&gt;
+    &lt;div class=&quot;content&quot;&gt;
+        
+        &lt;p&gt;&lt;strong&gt;Warning&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+        
+        &lt;p&gt;The drawing tools described below are deprecated as of &lt;code&gt;v0.1.2&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+
+    &lt;&#x2F;div&gt;
+&lt;&#x2F;blockquote&gt;
 &lt;p&gt;For convenience, two &lt;em&gt;very basic&lt;&#x2F;em&gt; tools are provided with WriteHeight to generate and download heightmaps.
 Clicking the &lt;code&gt;pencil&lt;&#x2F;code&gt; button opens a greyscale drawing tool — this reflects the initial goal of &lt;strong&gt;Write&lt;&#x2F;strong&gt;Height, which was to &lt;em&gt;write&lt;&#x2F;em&gt; heightmaps that could be converted into 3D.
-Clicking the &lt;code&gt;walking&lt;&#x2F;code&gt; button opens a random walk visualisation that algorithmically generates a grayscale image — this reflects an ambition for WriteHeight to (eventually) offer a set of simple algorithms for the procedural design of 3D models.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;memory-problems&quot;&gt;Memory Problems&lt;a class=&quot;zola-anchor&quot; href=&quot;#memory-problems&quot; aria-label=&quot;Anchor link for: memory-problems&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
-&lt;p&gt;I am a self-taught programmer and try to learn by making projects.
-My academic job involves no programming and also leaves me with little time to actually write programs.
-While I would not say that &lt;em&gt;I am a programmer&lt;&#x2F;em&gt; it is the case that &lt;em&gt;I do programming&lt;&#x2F;em&gt;.
-In general, I find it more productive to focus on what I &lt;em&gt;do&lt;&#x2F;em&gt; rather than what I &lt;em&gt;am&lt;&#x2F;em&gt; when working on hard problems.&lt;&#x2F;p&gt;
-&lt;p&gt;One of the things I like about programming as an activity is the immediacy of the feedback loop.
-It is satisfying to see a nice output like a rendered 3D object but finding bugs can also be a salient reminder that there is much left to learn.
-If the bug is in a live application then one is left with a constant aching reminder to figure it out.&lt;&#x2F;p&gt;
-&lt;p&gt;I had encountered the concept of a &lt;strong&gt;memory leak&lt;&#x2F;strong&gt; in the abstract during my messy self-teaching process.
-It was difficult for me to appreciate why exactly I should care until it slapped me in the face while working on WriteHeight.
-This is a real issue with the current version and has compelled me to begin exploring the role of memory management in effective programming.&lt;&#x2F;p&gt;
-&lt;p&gt;When the application is initially run everything works great.
-The performance is fast and the model can be downloaded in different formats.
-Load a second and third model, however, and problems arise.
-Each time a model is loaded the previous model &lt;em&gt;visually&lt;&#x2F;em&gt; disappears, which is the intended result; yet, the performance of the application also degrades slightly.
-Now if you click &lt;code&gt;download&lt;&#x2F;code&gt; you will get a copy of the visible model but also the previous models that have &amp;quot;disappeared&amp;quot;.
-In other words, the previous models are no longer being rendered but still somehow &lt;em&gt;exist in memory&lt;&#x2F;em&gt;.
-Memory is leaked each time a new model is generated.&lt;&#x2F;p&gt;
-&lt;p&gt;The application is written in JavaScript, which is infamous for enabling programmers to quickly make something interesting (&amp;quot;cool, a 3D model in the browser!&amp;quot;) while causing themselves future pain (&amp;quot;I want them to download one model not eight!&amp;quot;).
-JavaScript is a &lt;em&gt;garbage-collected&lt;&#x2F;em&gt; language that is supposed to automatically handle the freeing of memory.
-In WriteHeight, when a model is created it will occupy some memory.
-Ideally, when I replace that model with a new one, the garbage collector will automatically reclaim memory from the first model.
-Clearly, this is not happening, and the models continue to occupy memory.
-For some reason the garbage collector is not effectively identifying the garbage that needs to be collected.
-For this to be fixed the functioning of the garbage collector needs to be interrogated and massaged, but garbage-collected languages do not make this easy.&lt;&#x2F;p&gt;
-&lt;p&gt;Programming is replete with these painful and enlightening lessons.&lt;&#x2F;p&gt;
-&lt;p&gt;I now plan to get more familiar with languages that facilitate &lt;em&gt;manual&lt;&#x2F;em&gt; memory management, to get a better intuition for how memory issues are prevented outside of the rarified context of web development.
-&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&#x2F;sqong&quot;&gt;Sqong&lt;&#x2F;a&gt; is a tiny project I made in one such language (&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;odin-lang.org&#x2F;&quot;&gt;Odin&lt;&#x2F;a&gt;).
-It is just a modest clone of &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Pong&quot;&gt;Pong&lt;&#x2F;a&gt;, which nonetheless provides the rare satisfaction of hearing my own mouth noises soundtrack the collision of a ball off walls and paddles.
-It has been quite therapeutic writing code for a small project without needing to think about how the application will run on different browsers and devices.
-It is almost certain that Sqong has issues that I am not aware of that I will soon learn from.&lt;&#x2F;p&gt;
-&lt;p&gt;Most of my journey through programming to date has involved web-based projects.
-This has yielded some nice, shareable projects.
-I increasingly think — however — that my work could be improved with a stronger handle on fundamentals like memory management.
-That may require forgetting about the web as a target for a while.&lt;&#x2F;p&gt;
+Clicking the &lt;code&gt;walking&lt;&#x2F;code&gt; button opens a random walk visualisation that algorithmically generates a greyscale image — this reflects an ambition for WriteHeight to (eventually) offer a set of simple algorithms for the procedural design of 3D models.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;fixing-downloads-bug-v0-1-2&quot;&gt;Fixing Downloads Bug (v0.1.2)&lt;a class=&quot;zola-anchor&quot; href=&quot;#fixing-downloads-bug-v0-1-2&quot; aria-label=&quot;Anchor link for: fixing-downloads-bug-v0-1-2&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;blockquote class=&quot;callout note&quot;&gt;
+    
+    &lt;div class=&quot;icon&quot;&gt;
+        &lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&lt;path d=&quot;M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM11 7H13V9H11V7ZM11 11H13V17H11V11Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;
+    &lt;&#x2F;div&gt;
+    &lt;div class=&quot;content&quot;&gt;
+        
+        &lt;p&gt;&lt;strong&gt;Update&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+        
+        &lt;p&gt;The bug described in the original post in which multiple downloads were being
+triggered has been resolved as of &lt;code&gt;v0.1.2&lt;&#x2F;code&gt;, as described below.&lt;&#x2F;p&gt;
+
+    &lt;&#x2F;div&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;By v0.1.0 WriteHeight worked mostly as expected.
+However, there was an annoying bug that caused multiple 3D model files
+to download instead of a single model.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;bug-description&quot;&gt;Bug Description&lt;a class=&quot;zola-anchor&quot; href=&quot;#bug-description&quot; aria-label=&quot;Anchor link for: bug-description&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Each time a user uploaded a greyscale image a 3D model was generated on
+screen.
+If another model was subsequently loaded the previous model would &lt;em&gt;visually&lt;&#x2F;em&gt; disappear, 
+which is the intended result.
+Then when a &lt;code&gt;download&lt;&#x2F;code&gt; button was clicked files for both the visible model and any previous models that had &amp;quot;disappeared&amp;quot; would be downloaded.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;bug-fix&quot;&gt;Bug Fix&lt;a class=&quot;zola-anchor&quot; href=&quot;#bug-fix&quot; aria-label=&quot;Anchor link for: bug-fix&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;The problem was associated with the UI texture, which included the download
+buttons, and how it was repainted each time a new model was generated.
+A button labelled &lt;code&gt;STL&lt;&#x2F;code&gt; would trigger the download of an .stl file.
+Uploading a second model repainted the UI over the existing UI.
+This meant that there was actually &lt;strong&gt;two&lt;&#x2F;strong&gt; superimposed &lt;code&gt;STL&lt;&#x2F;code&gt; buttons.
+Clicking then triggered download events associated with the first 
+and second button, leading to the download of two models.&lt;&#x2F;p&gt;
+&lt;p&gt;To prevent this from happening, each time a new model is loaded we need to
+&lt;strong&gt;get&lt;&#x2F;strong&gt; the extant UI, &lt;strong&gt;dispose&lt;&#x2F;strong&gt; of that UI and &lt;strong&gt;set&lt;&#x2F;strong&gt; the &lt;code&gt;UI&lt;&#x2F;code&gt; variable to &lt;code&gt;null&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;js&quot; class=&quot;language-js z-code&quot;&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;z-source z-ts&quot;&gt;&lt;span class=&quot;z-meta z-var z-expr z-ts&quot;&gt;&lt;span class=&quot;z-storage z-type z-ts&quot;&gt;let&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-var-single-variable z-expr z-ts&quot;&gt;&lt;span class=&quot;z-meta z-definition z-variable z-ts&quot;&gt;&lt;span class=&quot;z-entity z-name z-function z-ts&quot;&gt;guiCreate&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-ts&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-arrow z-ts&quot;&gt; &lt;span class=&quot;z-meta z-parameters z-ts&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameters z-begin z-ts&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-parameters z-end z-ts&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-arrow z-ts&quot;&gt;&lt;span class=&quot;z-storage z-type z-function z-arrow z-ts&quot;&gt;=&amp;gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-block z-ts&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-block z-ts&quot;&gt;{&lt;&#x2F;span&gt;
+    &lt;span class=&quot;z-keyword z-control z-loop z-ts&quot;&gt;while&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-brace z-round z-ts&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-ts&quot;&gt;&lt;span class=&quot;z-variable z-other z-object z-ts&quot;&gt;scene&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-accessor z-ts&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-function z-ts&quot;&gt;getTextureByName&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-brace z-round z-ts&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-single z-ts&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-ts&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;UI&lt;span class=&quot;z-punctuation z-definition z-string z-end z-ts&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-brace z-round z-ts&quot;&gt;)&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-brace z-round z-ts&quot;&gt;)&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-block z-ts&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-block z-ts&quot;&gt;{&lt;&#x2F;span&gt;
+        &lt;span class=&quot;z-meta z-var z-expr z-ts&quot;&gt;&lt;span class=&quot;z-storage z-type z-ts&quot;&gt;let&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-var-single-variable z-expr z-ts&quot;&gt;&lt;span class=&quot;z-meta z-definition z-variable z-ts&quot;&gt;&lt;span class=&quot;z-variable z-other z-constant z-ts&quot;&gt;UI&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-ts&quot;&gt;=&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-function-call z-ts&quot;&gt;&lt;span class=&quot;z-variable z-other z-object z-ts&quot;&gt;scene&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-accessor z-ts&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-function z-ts&quot;&gt;getTextureByName&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-brace z-round z-ts&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-single z-ts&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-ts&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;UI&lt;span class=&quot;z-punctuation z-definition z-string z-end z-ts&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-brace z-round z-ts&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+        &lt;span class=&quot;z-meta z-function-call z-ts&quot;&gt;&lt;span class=&quot;z-variable z-other z-constant z-object z-ts&quot;&gt;UI&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-accessor z-ts&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-function z-ts&quot;&gt;dispose&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-brace z-round z-ts&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant z-language z-boolean z-false z-ts&quot;&gt;false&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-comma z-ts&quot;&gt;,&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-language z-boolean z-true z-ts&quot;&gt;true&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-brace z-round z-ts&quot;&gt;)&lt;&#x2F;span&gt;
+        &lt;span class=&quot;z-variable z-other z-constant z-ts&quot;&gt;UI&lt;&#x2F;span&gt; &lt;span class=&quot;z-keyword z-operator z-assignment z-ts&quot;&gt;=&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-language z-null z-ts&quot;&gt;null&lt;&#x2F;span&gt;
+    &lt;span class=&quot;z-punctuation z-definition z-block z-ts&quot;&gt;}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+
+    &lt;span class=&quot;z-meta z-var z-expr z-ts&quot;&gt;&lt;span class=&quot;z-storage z-type z-ts&quot;&gt;let&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-var-single-variable z-expr z-ts&quot;&gt;&lt;span class=&quot;z-meta z-definition z-variable z-ts&quot;&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-ts&quot;&gt;advancedTexture&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-ts&quot;&gt;=&lt;&#x2F;span&gt;
+        &lt;span class=&quot;z-meta z-function-call z-ts&quot;&gt;&lt;span class=&quot;z-variable z-other z-constant z-object z-ts&quot;&gt;BABYLON&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-accessor z-ts&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-constant z-object z-property z-ts&quot;&gt;GUI&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-accessor z-ts&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-object z-property z-ts&quot;&gt;AdvancedDynamicTexture&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-accessor z-ts&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-function z-ts&quot;&gt;CreateFullscreenUI&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-brace z-round z-ts&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-single z-ts&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-ts&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;UI&lt;span class=&quot;z-punctuation z-definition z-string z-end z-ts&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-brace z-round z-ts&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-punctuation z-whitespace z-comment z-leading z-ts&quot;&gt;    &lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-double-slash z-ts&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-ts&quot;&gt;&#x2F;&#x2F;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-double-slash z-ts&quot;&gt; UI code here&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-punctuation z-definition z-block z-ts&quot;&gt;}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;With these changes the download bug has been fixed and WriteHeight is
+now &lt;em&gt;good enough&lt;&#x2F;em&gt; to again recommend as a convenient tool for creating and
+downloading 3D models.&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
