@@ -1,24 +1,37 @@
 [[project]]
+name = "WriteHeight"
+desc = "A web-based tool for converting greyscale images to 3D models for download and use."
+tags = ["software", "3D"]
+links = [
+	{name = "website", url = "https://edibotopic.github.io/write-height/"},
+	{name = "source", url = "https://github.com/edibotopic/write-height/"},
+	{name = "blog", url = "https://edibotopic.com/blog/write-height/"}
+]
+
+[[project]]
 name = "Stokes' Law"
-desc = "An interactive visualiser and calculator for Stokes' Law, which describes the factors that influence how particles sink and float in liquids."
+desc = "An interactive web-based visualiser and calculator for Stokes' Law, which describes the factors that influence how particles sink and float in fluids."
 tags = ["software", "teaching"]
 links = [
 	{name = "website", url = "https://edibotopic.github.io/stokes-law/"},
 	{name = "source", url = "https://github.com/edibotopic/stokes-law/"},
-	{name = "paper", url = "https://pubs.acs.org/doi/10.1021/acs.jchemed.2c01201"}
+	{name = "paper", url = "https://pubs.acs.org/doi/10.1021/acs.jchemed.2c01201"},
+	{name = "blog", url = "https://edibotopic.com/blog/stokes-law/"}
 ]
 
 [[project]]
 name = "Curtsy Rehearsed"
-desc = "Sample-based music about memories, nature and technology (active 2021-2023)."
+desc = "Original music about memories, nature and technology (active 2021-2023)."
 tags = ["music", "art"]
 links = [
 	{name = "bandcamp", url = "https://curtsyrehearsed.bandcamp.com"},
+	{name = "blog", url = "https://edibotopic.com/blog/curtsy-rehearsed/"},
+	{name = "press", url = "https://www.echolive.ie/entertainment/whatson/arid-40902209.html"}
 ]
 
 [[project]]
 name = "Food Metaphors"
-desc = "Philosophical work that was written for the recent book Metaphors, Sustainability, Transformation."
+desc = "Philosophical article written for the recent book Metaphors, Sustainability, Transformation."
 tags = ["philosophy", "writing"]
 links = [
 	{name = "website", url = "https://www.taylorfrancis.com/chapters/edit/10.4324/9781003143567-5/alchemical-cyborgian-imaginings-technoscientific-discourse-relating-holistic-turns-food-processing-personalised-nutrition-shane-crowley"},
@@ -26,27 +39,10 @@ links = [
 
 [[project]]
 name = "DSF-racket"
-desc = "A tool for visualising topologies represented in symbolic notation "
+desc = "A tool written in Racket for visualising and iterating spatial topologies represented in symbolic notation."
 tags = ["software", "science"]
 links = [
 	{name = "source", url = "https://github.com/edibotopic/dsf-racket/"}
-]
-
-[[project]]
-name = "Sqong"
-desc = "A simple Pong-clone written in the Odin programming language using the Raylib library."
-tags = ["software", "gamedev"]
-links = [
-	{name = "source", url = "https://github.com/edibotopic/sqong/"}
-]
-
-[[project]]
-name = "WriteHeight"
-desc = "A web-based tool for converting heightmaps to 3D models (work-in-progress)."
-tags = ["software", "3D"]
-links = [
-	{name = "website", url = "https://edibotopic.github.io/write-height/"},
-	{name = "source", url = "https://github.com/edibotopic/write-height/"}
 ]
 
 [[project]]
@@ -56,4 +52,12 @@ tags = ["research", "science"]
 links = [
 	{name = "GoogleScholar", url = "https://scholar.google.com/citations?user=aw1EnaIAAAAJ&hl=en"},
 	{name = "ResearchGate", url = "https://www.researchgate.net/profile/Shane-Crowley"},
+]
+
+[[project]]
+name = "Sqong"
+desc = "A basic Pong-clone written in the Odin programming language using the Raylib library."
+tags = ["software", "gamedev"]
+links = [
+	{name = "source", url = "https://github.com/edibotopic/sqong/"}
 ]
