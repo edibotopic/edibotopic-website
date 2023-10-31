@@ -103,6 +103,9 @@
         <loc>https://edibotopic.com/tags/bandcamp/</loc>
     </url>
     <url>
+        <loc>https://edibotopic.com/tags/barthes/</loc>
+    </url>
+    <url>
         <loc>https://edibotopic.com/tags/creative/</loc>
     </url>
     <url>
@@ -113,6 +116,9 @@
     </url>
     <url>
         <loc>https://edibotopic.com/tags/design/</loc>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/tags/dispersions/</loc>
     </url>
     <url>
         <loc>https://edibotopic.com/tags/documentation/</loc>
@@ -128,6 +134,9 @@
     </url>
     <url>
         <loc>https://edibotopic.com/tags/foucault/</loc>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/tags/functionalism/</loc>
     </url>
     <url>
         <loc>https://edibotopic.com/tags/gels/</loc>
@@ -146,6 +155,9 @@
     </url>
     <url>
         <loc>https://edibotopic.com/tags/metaphysics/</loc>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/tags/mind/</loc>
     </url>
     <url>
         <loc>https://edibotopic.com/tags/modelling/</loc>
@@ -187,6 +199,9 @@
         <loc>https://edibotopic.com/tags/technology/</loc>
     </url>
     <url>
+        <loc>https://edibotopic.com/tags/tissue/</loc>
+    </url>
+    <url>
         <loc>https://edibotopic.com/tags/troubleshooting/</loc>
     </url>
     <url>
@@ -209,11 +224,19 @@
         <lastmod>2023-10-31</lastmod>
     </url>
     <url>
+        <loc>https://edibotopic.com/wiki/multiple-realisable/</loc>
+        <lastmod>2023-10-31</lastmod>
+    </url>
+    <url>
         <loc>https://edibotopic.com/wiki/porogens/</loc>
         <lastmod>2023-10-31</lastmod>
     </url>
     <url>
         <loc>https://edibotopic.com/wiki/spatial-programming/</loc>
+        <lastmod>2023-10-31</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/wiki/studium-punctum/</loc>
         <lastmod>2023-10-31</lastmod>
     </url>
     <url>
