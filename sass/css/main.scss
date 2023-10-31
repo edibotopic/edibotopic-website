@@ -9,6 +9,7 @@ body {
   --other-bg-color: #110018;
   --sep-color: purple;
   --blur-intensity: 0px;
+  --search-color: #ffffff;
 
   // dark mode variables
   &.dark {
@@ -20,6 +21,7 @@ body {
     --highlight-mark-color: #5f75b045;
     --other-bg-color: #f2ccff;
     --blur-intensity: 8px;
+    --search-color: #f9e6ff;
   }
 
   // callout colors
@@ -1691,4 +1693,24 @@ template {
 
 [hidden] {
   display: none;
+}
+
+input#searchInput {
+    padding: 5px 5px;
+    margin-left: 10px;
+    min-width: 35%;
+    font-size: 1rem;
+    line-height: 1.5em;
+    color: #373D41;
+    background-color: var(--search-color);
+    background-clip: padding-box;
+    border: 1px solid #C5C5C7;
+    border-radius: 6px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    flex-grow: 1;
+}
+
+input#searchInput:focus {
+  outline: 2px solid var(--sep-color);
 }
