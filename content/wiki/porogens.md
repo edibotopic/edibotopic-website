@@ -5,7 +5,7 @@ draft = false
 
 [taxonomies]
 categories = ["wiki"]
-tags = ["science", "food", "gels"]
+tags = ["science", "tissue", "dispersions"]
 
 [extra]
 lang = "en"
@@ -19,6 +19,6 @@ outdate_warn = false
 
 # Porogens
 
-A an approach to generating pores in a solid matrix,
+An approach to generating pores in a solid matrix,
 in which a porogen is initially embedded as solid 
 particles before being removed to **gen**erate **por**es.

@@ -1,5 +1,5 @@
 +++
-title = "_whatami?"
+title = "__whatami?"
 date = 2023-10-31
 draft = false
 
@@ -21,8 +21,8 @@ outdate_warn = false
 
 This is my wiki.
 
-It will contain short overviews of concepts and tools that I find
+It's a place for short notes on concepts, tools and works that I find
 interesting.
+The wiki is a "living document" and entries will evolve over time.
 
-The wiki has just been implemented on my site and will take time to
-populate.
+I have just added this wiki to my site so it will take time to populate.
