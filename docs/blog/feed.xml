@@ -92,7 +92,7 @@ conventional style:&lt;&#x2F;p&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;While this code (in part) generates a spatial visualisation,
 it cannot be considered an example of spatial programming.&lt;&#x2F;p&gt;
-&lt;p&gt;The code is an abstract &lt;strong&gt;symbolic&lt;&#x2F;strong&gt; representation that bears no salient
+&lt;p&gt;The code is an abstract &lt;strong&gt;symbolic&lt;&#x2F;strong&gt; representation that bears no &lt;em&gt;salient&lt;&#x2F;em&gt;
 resemblance to the spatial arrangement that it generates.&lt;&#x2F;p&gt;
 &lt;p&gt;Contrast this with a rule in SpaceTode, which encodes that an
 atom has a tendency to move to the left:&lt;&#x2F;p&gt;
@@ -105,8 +105,8 @@ offer us the possibility of a spatial interpretation.&lt;&#x2F;p&gt;
 generate interesting spatial visualisations, although that is an
 obvious use-case. 
 Spatial programming fosters an intuitive connection between the
-signifier (some iconic representation) and the signified (a useful
-experience that is generated).&lt;&#x2F;p&gt;
+&lt;em&gt;signifier&lt;&#x2F;em&gt; (some iconic representation) and the &lt;em&gt;signified&lt;&#x2F;em&gt; (a useful
+result that is generated).&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;spatial-logics&quot;&gt;Spatial Logics&lt;a class=&quot;zola-anchor&quot; href=&quot;#spatial-logics&quot; aria-label=&quot;Anchor link for: spatial-logics&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;The concept of spatial programming reminds me of
 &lt;em&gt;spatial logic&lt;&#x2F;em&gt;, a field that I take to
@@ -139,10 +139,13 @@ other spatial relations, including disconnection ($DC$) and parthood ($P$):&lt;&
 &lt;p&gt;$$xPy \ := \ \forall z(zCx \to zCy)$$&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;em&gt;An x is part of a y if anything that connects to x must also connect to y.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;In this way all descriptions of space can be reduced to
-the idea of connection.&lt;&#x2F;p&gt;
+the idea of connection.
+Likewise, in SandPond complex spatial visualisations are
+generated from simple rules.&lt;&#x2F;p&gt;
 &lt;p&gt;Spatial logics are like spatial programming languages in that they
 attempt to encode the concept of spaces in symbols.
-Yet unlike spatial programming languages, spatial logics emphasise symbolic rather than iconic representations.
+Unlike spatial programming languages, however, spatial logics emphasise 
+symbolic rather than iconic representations.
 The formulas $xCy$, $zDCk$ and $jPi$ are just strings of characters.
 They each represent different topological spaces
 (x connected to y, z is disconnected from y, j is part of i) but 
@@ -156,8 +159,9 @@ the underlying logic of our spatial descriptions.&lt;&#x2F;p&gt;
 &lt;p&gt;Like spatial logic, the Dispersed System Formalism (&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.sciencedirect.com&#x2F;science&#x2F;article&#x2F;abs&#x2F;pii&#x2F;S0378517307006527&quot;&gt;DSF&lt;&#x2F;a&gt;) 
 aims to find a concise symbolic language for describing 
 complex spaces in a consistent way.&lt;&#x2F;p&gt;
-&lt;p&gt;DSF, however, is also like spatial programming.
-Firstly, it is intended to be used as a tool to create novel structures.
+&lt;p&gt;DSF, however, is also a bit like spatial programming.
+Firstly, it is intended to be used as a tool to create interesting
+things, like food structures.
 Secondly, in its choice of symbols it is arguably more &lt;em&gt;iconic&lt;&#x2F;em&gt; than
 symbolic &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#3&quot;&gt;3&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;In DSF the symbol $@$ represents a relation, equivalent to 
@@ -213,17 +217,15 @@ while the $&#x2F;$ signifies the mathematical notion of division
     &lt;&#x2F;div&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;The rule states that if oil is dispersed in water the
-oil will transition to state in which it is floating on
+oil will transition to a state in which it is floating on
 top of the water.&lt;&#x2F;p&gt;
 &lt;p&gt;In SpaceTode, this would be something like:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;go&quot; class=&quot;language-go z-code&quot;&gt;&lt;code class=&quot;language-go&quot; data-lang=&quot;go&quot;&gt;&lt;span class=&quot;z-source z-go&quot;&gt;&lt;span class=&quot;z-variable z-other z-go&quot;&gt;W&lt;&#x2F;span&gt; &lt;span class=&quot;z-keyword z-operator z-assignment z-go&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-go&quot;&gt;&amp;gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-variable z-other z-go&quot;&gt;O&lt;&#x2F;span&gt;
 &lt;span class=&quot;z-variable z-other z-go&quot;&gt;O&lt;&#x2F;span&gt;    &lt;span class=&quot;z-variable z-other z-go&quot;&gt;W&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;The spirit and form of these two constructions seem remarkably similar.
-I am reminded that people in seemingly-distant areas
+&lt;p&gt;I am reminded that people in seemingly-distant areas
 of inquiry often work on similar problems with analogous tools.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;paper-tools&quot;&gt;Paper Tools&lt;a class=&quot;zola-anchor&quot; href=&quot;#paper-tools&quot; aria-label=&quot;Anchor link for: paper-tools&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
-&lt;p&gt;Our choice of symbols matters.&lt;&#x2F;p&gt;
 &lt;p&gt;The historian Ursula Klein &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.amazon.com&#x2F;Experiments-Models-Paper-Tools-Nineteenth&#x2F;dp&#x2F;0804743592&quot;&gt;has written&lt;&#x2F;a&gt; extensively
 on the role of &lt;strong&gt;Paper Tools&lt;&#x2F;strong&gt; in science.&lt;&#x2F;p&gt;
 &lt;p&gt;A paper tool is anything that can be put on paper,
@@ -235,9 +237,6 @@ speak about accuracy, precision and quantification.&lt;&#x2F;p&gt;
 &lt;p&gt;While these are important features, Klein thinks
 that such &lt;em&gt;paper tools&lt;&#x2F;em&gt; also enhance our capacity
 to imagine and invent.&lt;&#x2F;p&gt;
-&lt;p&gt;For example, I have always considered DSF to be of value 
-as a kind of procedural generation, whereas my colleagues
-in science view it largely as a tool for concise description.&lt;&#x2F;p&gt;
 &lt;p&gt;Going to back to TodePond for a moment, once we
 understand that the rule for sinking is:&lt;&#x2F;p&gt;
 &lt;pre class=&quot;z-code&quot;&gt;&lt;code&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;@ =&amp;gt; _
@@ -249,9 +248,11 @@ _    @
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;The spatial nature of the language both eases the cognitive 
 leap to the resultant visualisation but also the creative
-progression to new rule-sets.&lt;&#x2F;p&gt;
-&lt;p&gt;As a paper tool, the chemical equation is not simply a tool for labelling things that already exist in the world, it also allows us to
-question and imagine how they might be combined.&lt;&#x2F;p&gt;
+progression to new rule-sets.
+These are positive features of SpaceTode &lt;em&gt;as a paper tool&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Another paper tool — the chemical equation — is not simply a 
+tool for labelling things that already exist in the world, 
+it also allows us to question and imagine how they might be combined.&lt;&#x2F;p&gt;
 &lt;p&gt;Once we acknowledge the existence of the elements carbon, hydrogen and
 oxygen we can formulate a question as follows:&lt;&#x2F;p&gt;
 &lt;p&gt;$$C + H + O = \ ?$$&lt;&#x2F;p&gt;
@@ -267,8 +268,7 @@ was more &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;
 He was especially focused on representing the spatial arrangements of
 atoms, having just proposed an influential atomic model.&lt;&#x2F;p&gt;
 &lt;p&gt;The reasons behind the ultimate rejection of his icons in favour of
-the modern symbolic version were often
-prosaic.
+the modern symbolic version were often prosaic.
 For example, Dalton&#x27;s icons were more difficult to
 type-set using the technology of the time.&lt;&#x2F;p&gt;
 &lt;p&gt;Later developments in chemistry, such as the
