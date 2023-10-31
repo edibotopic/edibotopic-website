@@ -105,7 +105,7 @@ class Ball {
 While this code (in part) generates a spatial visualisation,
 it cannot be considered an example of spatial programming.
 
-The code is an abstract **symbolic** representation that bears no salient
+The code is an abstract **symbolic** representation that bears no _salient_
 resemblance to the spatial arrangement that it generates.
 
 Contrast this with a rule in SpaceTode, which encodes that an
@@ -124,8 +124,8 @@ Spatial programming then does not just concern the use of code to
 generate interesting spatial visualisations, although that is an
 obvious use-case. 
 Spatial programming fosters an intuitive connection between the
-signifier (some iconic representation) and the signified (a useful
-experience that is generated).
+_signifier_ (some iconic representation) and the _signified_ (a useful
+result that is generated).
 
 ## Spatial Logics
 
@@ -177,10 +177,13 @@ _An x is part of a y if anything that connects to x must also connect to y._
 
 In this way all descriptions of space can be reduced to
 the idea of connection.
+Likewise, in SandPond complex spatial visualisations are
+generated from simple rules.
 
 Spatial logics are like spatial programming languages in that they
 attempt to encode the concept of spaces in symbols.
-Yet unlike spatial programming languages, spatial logics emphasise symbolic rather than iconic representations.
+Unlike spatial programming languages, however, spatial logics emphasise 
+symbolic rather than iconic representations.
 The formulas $xCy$, $zDCk$ and $jPi$ are just strings of characters.
 They each represent different topological spaces
 (x connected to y, z is disconnected from y, j is part of i) but 
@@ -198,8 +201,9 @@ Like spatial logic, the Dispersed System Formalism ([DSF](https://www.sciencedir
 aims to find a concise symbolic language for describing 
 complex spaces in a consistent way.
 
-DSF, however, is also like spatial programming.
-Firstly, it is intended to be used as a tool to create novel structures.
+DSF, however, is also a bit like spatial programming.
+Firstly, it is intended to be used as a tool to create interesting
+things, like food structures.
 Secondly, in its choice of symbols it is arguably more _iconic_ than
 symbolic [^3].
 
@@ -259,7 +263,7 @@ The use of $/$ is conventional for dispersed systems in science; given that it r
 {% end %}
 
 The rule states that if oil is dispersed in water the
-oil will transition to state in which it is floating on
+oil will transition to a state in which it is floating on
 top of the water.
 
 In SpaceTode, this would be something like:
@@ -269,13 +273,10 @@ W => O
 O    W
 ```
 
-The spirit and form of these two constructions seem remarkably similar.
 I am reminded that people in seemingly-distant areas
 of inquiry often work on similar problems with analogous tools.
 
 ## Paper Tools
-
-Our choice of symbols matters.
 
 The historian Ursula Klein [has written](https://www.amazon.com/Experiments-Models-Paper-Tools-Nineteenth/dp/0804743592) extensively
 on the role of **Paper Tools** in science.
@@ -291,10 +292,6 @@ speak about accuracy, precision and quantification.
 While these are important features, Klein thinks
 that such _paper tools_ also enhance our capacity
 to imagine and invent.
-
-For example, I have always considered DSF to be of value 
-as a kind of procedural generation, whereas my colleagues
-in science view it largely as a tool for concise description.
 
 Going to back to TodePond for a moment, once we
 understand that the rule for sinking is:
@@ -315,9 +312,11 @@ _ => @
 The spatial nature of the language both eases the cognitive 
 leap to the resultant visualisation but also the creative
 progression to new rule-sets.
+These are positive features of SpaceTode _as a paper tool_.
 
-As a paper tool, the chemical equation is not simply a tool for labelling things that already exist in the world, it also allows us to
-question and imagine how they might be combined.
+Another paper tool — the chemical equation — is not simply a 
+tool for labelling things that already exist in the world, 
+it also allows us to question and imagine how they might be combined.
 
 Once we acknowledge the existence of the elements carbon, hydrogen and
 oxygen we can formulate a question as follows:
@@ -340,8 +339,7 @@ He was especially focused on representing the spatial arrangements of
 atoms, having just proposed an influential atomic model.
 
 The reasons behind the ultimate rejection of his icons in favour of
-the modern symbolic version were often
-prosaic.
+the modern symbolic version were often prosaic.
 For example, Dalton's icons were more difficult to
 type-set using the technology of the time.
 
@@ -350,6 +348,7 @@ Later developments in chemistry, such as the
 greatly on a _spatial intuition_ that could not be
 realised through a strict adherence to the symbolic
 notation that was available to chemists at the time.
+
 
 ## End
 
@@ -395,4 +394,3 @@ This is why I made [DSF-racket](https://edibotopic.com/blog/dsf-racket/).
 While far less visually-enthralling than TodePond's creations it is similar in spirit and attempts to make salient the connection between icons and their output.
 
 {% end %}
-
