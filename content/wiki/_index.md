@@ -5,6 +5,7 @@ sort_by = "title"
 template = "wiki.html"
 page_template = "wikiEntry.html"
 insert_anchor_links = "right"
+generate_feed = false
 
 [extra]
 lang = 'en'
