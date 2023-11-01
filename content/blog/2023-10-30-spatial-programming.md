@@ -274,7 +274,7 @@ O    W
 ```
 
 I am reminded that people in seemingly-distant areas
-of inquiry often work on similar problems with analogous tools.
+of inquiry often work on similar problems with analogous tools[^4].
 
 ## Paper Tools
 
@@ -383,14 +383,6 @@ with a view to developing coherent systems of classification
 
 [^3]: The repeated distinction I make between the _iconic_ and the _symbolic_ broadly follows the [semiotics of Peirce](https://plato.stanford.edu/entries/peirce-semiotics/).
 
----
-
-{% note(header="DSF for Visualisation?") %} 
-There is no DSF tool that generates visualisations of the structures
-its formulas represent.
-
-This is why I made [DSF-racket](https://edibotopic.com/blog/dsf-racket/).
-
-While far less visually-enthralling than TodePond's creations it is similar in spirit and attempts to make salient the connection between icons and their output.
-
-{% end %}
+[^4]: There is no DSF tool that generates visualisations of the structures its formulas represent.
+This is why I made [DSF-racket](@/blog/2023-07-16-dsf-racket.md).
+While less visually-enthralling than TodePond's creations it is similar conceptually and attempts to make salient the connection between iconic formulas and the visualisations they generate.
