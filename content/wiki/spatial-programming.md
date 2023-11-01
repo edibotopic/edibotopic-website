@@ -1,5 +1,5 @@
 +++
-title = "Spatial programming"
+title = "Spatial Programming"
 date = 2023-10-31
 draft = false
 
@@ -19,6 +19,6 @@ outdate_warn = false
 
 # Spatial Programming
 
-An approach to writing programs in which rules
-written in the programming language resemble
-the programmatic output they will generate.
+Writing computers programs in which rules written in a _spatial
+programming language_ resemble the programmatic output that they
+will generate.

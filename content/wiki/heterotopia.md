@@ -21,3 +21,5 @@ outdate_warn = false
 
 An _other_ space in society that operates according
 to its own specific rules or logic.
+
+Examples include hospitals, prisons and classroooms.

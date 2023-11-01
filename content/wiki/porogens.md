@@ -5,7 +5,7 @@ draft = false
 
 [taxonomies]
 categories = ["wiki"]
-tags = ["science", "tissue", "dispersions"]
+tags = ["science", "technology", "tissue", "dispersions"]
 
 [extra]
 lang = "en"
@@ -17,8 +17,11 @@ cc_license = false
 outdate_warn = false
 +++
 
-# Porogens
+# Porogens 
 
-An approach to generating pores in a solid matrix,
-in which a porogen is initially embedded as solid 
-particles before being removed to **gen**erate **por**es.
+An approach to generating a [dispersed
+system](@/wiki/dispersed-system.md) of pores in a solid matrix.
+
+The _porogen_ is initially embedded in the system as solid particles
+before being removed — usually after a change of state — to
+**gen**erate the **por**es.
