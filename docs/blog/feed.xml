@@ -224,7 +224,7 @@ top of the water.&lt;&#x2F;p&gt;
 &lt;span class=&quot;z-variable z-other z-go&quot;&gt;O&lt;&#x2F;span&gt;    &lt;span class=&quot;z-variable z-other z-go&quot;&gt;W&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;I am reminded that people in seemingly-distant areas
-of inquiry often work on similar problems with analogous tools.&lt;&#x2F;p&gt;
+of inquiry often work on similar problems with analogous tools&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#4&quot;&gt;4&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;paper-tools&quot;&gt;Paper Tools&lt;a class=&quot;zola-anchor&quot; href=&quot;#paper-tools&quot; aria-label=&quot;Anchor link for: paper-tools&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;The historian Ursula Klein &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.amazon.com&#x2F;Experiments-Models-Paper-Tools-Nineteenth&#x2F;dp&#x2F;0804743592&quot;&gt;has written&lt;&#x2F;a&gt; extensively
 on the role of &lt;strong&gt;Paper Tools&lt;&#x2F;strong&gt; in science.&lt;&#x2F;p&gt;
@@ -305,23 +305,12 @@ with a view to developing coherent systems of classification
 &lt;div class=&quot;footnote-definition&quot; id=&quot;3&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;3&lt;&#x2F;sup&gt;
 &lt;p&gt;The repeated distinction I make between the &lt;em&gt;iconic&lt;&#x2F;em&gt; and the &lt;em&gt;symbolic&lt;&#x2F;em&gt; broadly follows the &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;plato.stanford.edu&#x2F;entries&#x2F;peirce-semiotics&#x2F;&quot;&gt;semiotics of Peirce&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
-&lt;hr &#x2F;&gt;
-&lt;blockquote class=&quot;callout note&quot;&gt;
-    
-    &lt;div class=&quot;icon&quot;&gt;
-        &lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&lt;path d=&quot;M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM11 7H13V9H11V7ZM11 11H13V17H11V11Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;
-    &lt;&#x2F;div&gt;
-    &lt;div class=&quot;content&quot;&gt;
-        
-        &lt;p&gt;&lt;strong&gt;DSF for Visualisation?&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-        
-        &lt;p&gt;There is no DSF tool that generates visualisations of the structures
-its formulas represent.&lt;&#x2F;p&gt;
-&lt;p&gt;This is why I made &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;edibotopic.com&#x2F;blog&#x2F;dsf-racket&#x2F;&quot;&gt;DSF-racket&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;p&gt;While far less visually-enthralling than TodePond&#x27;s creations it is similar in spirit and attempts to make salient the connection between icons and their output.&lt;&#x2F;p&gt;
-
-    &lt;&#x2F;div&gt;
-&lt;&#x2F;blockquote&gt;</content>
+&lt;div class=&quot;footnote-definition&quot; id=&quot;4&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;4&lt;&#x2F;sup&gt;
+&lt;p&gt;There is no DSF tool that generates visualisations of the structures its formulas represent.
+This is why I made &lt;a href=&quot;https:&#x2F;&#x2F;edibotopic.com&#x2F;blog&#x2F;dsf-racket&#x2F;&quot;&gt;DSF-racket&lt;&#x2F;a&gt;.
+While less visually-enthralling than TodePond&#x27;s creations it is similar conceptually and attempts to make salient the connection between iconic formulas and the visualisations they generate.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
 	</entry>
 	<entry xml:lang="en">
 		<title>Get Started with a Few Simple Pull Requests</title>

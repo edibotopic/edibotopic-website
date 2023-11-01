@@ -106,6 +106,9 @@
         <loc>https://edibotopic.com/tags/barthes/</loc>
     </url>
     <url>
+        <loc>https://edibotopic.com/tags/colloids/</loc>
+    </url>
+    <url>
         <loc>https://edibotopic.com/tags/creative/</loc>
     </url>
     <url>
@@ -220,11 +223,15 @@
         <loc>https://edibotopic.com/wiki/</loc>
     </url>
     <url>
+        <loc>https://edibotopic.com/wiki/dispersed-system/</loc>
+        <lastmod>2023-11-01</lastmod>
+    </url>
+    <url>
         <loc>https://edibotopic.com/wiki/heterotopia/</loc>
         <lastmod>2023-10-31</lastmod>
     </url>
     <url>
-        <loc>https://edibotopic.com/wiki/multiple-realisable/</loc>
+        <loc>https://edibotopic.com/wiki/multiply-realisable/</loc>
         <lastmod>2023-10-31</lastmod>
     </url>
     <url>
@@ -237,7 +244,11 @@
     </url>
     <url>
         <loc>https://edibotopic.com/wiki/studium-punctum/</loc>
-        <lastmod>2023-10-31</lastmod>
+        <lastmod>2023-11-01</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/wiki/technologies/</loc>
+        <lastmod>2023-11-01</lastmod>
     </url>
     <url>
         <loc>https://edibotopic.com/wiki/whatami/</loc>
