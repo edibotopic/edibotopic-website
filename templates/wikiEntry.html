@@ -40,6 +40,7 @@ page.summary %}{{ page.summary }}{% endif %}{% endblock desc %} {% block head %}
 </script>
 {% endif %} {% endblock head %} {% block content %} {% include "_header.html" %}
 <div id="post-wrapper">
+
   <div id="blank"></div>
   <main>
     {% if page.extra.copy is defined %}{% set allow_copy = page.extra.copy %}{%
@@ -65,6 +66,7 @@ page.summary %}{{ page.summary }}{% endif %}{% endblock desc %} {% block head %}
             <span id="updated">{{ page.updated | date }}</span></span
           >
           {% endif -%}
+
         </div>
 
         {% if page.taxonomies.tags is defined %}
@@ -97,6 +99,18 @@ page.summary %}{{ page.summary }}{% endif %}{% endblock desc %} {% block head %}
         <div class="content"></div>
       </blockquote>
       {% endif %} {{ page.content | safe }}
+
+      <div class="prose">
+        {% if page.backlinks %}
+        <h3>Backlinks</h3>
+        <p>Other wiki entries citing this page:</p>
+        {% endif %}
+        <ul>
+        {% for bl in page.backlinks %}
+        <li><a href="{{ bl.permalink }}">{{ bl.title}}</a></li>
+        {% endfor %}
+        </ul>
+      </div>
     </article>
 
     {% if page.extra.comment is defined %}{% set show_comment =
@@ -134,6 +148,7 @@ page.summary %}{{ page.summary }}{% endif %}{% endblock desc %} {% block head %}
     </button>
     {% endif %}
   </aside>
+
 </div>
 {% endblock content %} {% block script %}
 <script src="/js/lightense.min.js"></script>
