@@ -37,7 +37,7 @@ becomes a flimsy axiom[^1] undergirding the entire research effort.
 A few years ago a scientist approached me about a potential
 collaboration. There had been big excitement about a particular new
 technology. Another scientist had claimed that a consumer product could
-be responsible for an unusally wide range of health issues affecting
+be responsible for an unusually wide range of health issues affecting
 human populations.
 This scientist was proposing that they had identified the source of the
 health issue (a consumer product) as well as the technology that could 
@@ -46,10 +46,10 @@ solve the problem (a replacement product).
 Significant time had passed since this claim was made and there was
 still little supporting evidence. The (lack of) mechanistic
 justification for the claim had been roundly criticised by the
-scientific community. That the original scientist who made the
-original claim had since built a profitable company that already
+scientific community. That the scientist who made the
+original claim had since built a company that already
 profited from selling their "healthier" replacement of the consumer
-product led to further skepticism.
+product fuelled additional skepticism.
 
 In my office, my colleague and I both shared the view that the
 original claim was likely bogus. They reminded me, however, that there
@@ -61,7 +61,7 @@ health effects.
 The exciting and controversial health question was merely a shiny vessel in
 which we could smuggle our more dull and legitimate scientific questions.
 
-The technology in question was a commercial food product[^2], and it
+The focus of all this attention was a commercial food product[^2], and it
 was claimed that it was a major contributor to human disease. *If that
 was true*, some healthier alternatives would need to be developed. As
 scientists, we might focus on enhancing the flavour and texture of
@@ -103,9 +103,9 @@ not possible issues that can be reasonably assumed to not exist.
 
 - Public perception is influenced by the rhetoric of science. If a
 technology is being marketed as important then scientific research on
-the technology that doesn't test its efficacy may lend legitimacy to
-that technology, especially when the science is motivated by an
-untested claim to efficacy.
+the technology that doesn't test its efficacy directly, and even
+*assumes passively that it is efficacious*, may lend unwarranted
+scientific legitimacy to that technology.
 
 In popular discourse there is sometimes a skepticism about applied
 sciences like food science. I think these criticisms are often
