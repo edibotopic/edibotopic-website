@@ -4,7 +4,7 @@
 	<subtitle>Writing on food, technology and philosophy</subtitle>
 	<link href="https://edibotopic.com/blog/feed.xml" rel="self" type="application/atom+xml"/>
     <link href="https://edibotopic.com/blog/"/>
-	<updated>2023-10-30T00:00:00+00:00</updated>
+	<updated>2023-11-04T00:00:00+00:00</updated>
 	<id>https://edibotopic.com/blog/feed.xml</id>
 	<entry xml:lang="en">
 		<title>Spatial Programming: Connecting Across Disciplines</title>
@@ -527,80 +527,85 @@ help prepare you for bigger contributions in the future.&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
-		<title>Conditional Science: Extraordinary Claims Beget Lucrative Tangents</title>
+		<title>Misdirected Science: Untested Claims and their Derivative Tangents</title>
 		<published>2023-09-17T00:00:00+00:00</published>
-		<updated>2023-09-17T00:00:00+00:00</updated>
-        <summary>&lt;p&gt;There&#x27;s a kind of scientific project that bothers me. First, an
-extravagant claim is made by a researcher. This then encourages other
-researchers to pursue a set of loosely-related questions that don&#x27;t
-test the original claim. The importance of these derivative questions
-is then &lt;em&gt;conditional&lt;&#x2F;em&gt; on the truth of the initial, untested claim.&lt;&#x2F;p&gt;
+		<updated>2023-11-04T00:00:00+00:00</updated>
+        <summary>&lt;p&gt;There&#x27;s a kind of applied science that bothers me. It starts with
+some extravagant claim that is made by a researcher. This then
+encourages other researchers to pursue a set of loosely-related
+questions that don&#x27;t test the original claim. The material importance
+of these derivative questions then becomes &lt;em&gt;conditional&lt;&#x2F;em&gt; on the truth of
+that initial and untested claim.&lt;&#x2F;p&gt;
 </summary>
-		<link href="https://edibotopic.com/blog/conditional-science/" type="text/html"/>
-		<id>https://edibotopic.com/blog/conditional-science/</id>
-		<content type="html">&lt;p&gt;There&#x27;s a kind of scientific project that bothers me. First, an
-extravagant claim is made by a researcher. This then encourages other
-researchers to pursue a set of loosely-related questions that don&#x27;t
-test the original claim. The importance of these derivative questions
-is then &lt;em&gt;conditional&lt;&#x2F;em&gt; on the truth of the initial, untested claim.&lt;&#x2F;p&gt;
+		<link href="https://edibotopic.com/blog/misdirected-science/" type="text/html"/>
+		<id>https://edibotopic.com/blog/misdirected-science/</id>
+		<content type="html">&lt;p&gt;There&#x27;s a kind of applied science that bothers me. It starts with
+some extravagant claim that is made by a researcher. This then
+encourages other researchers to pursue a set of loosely-related
+questions that don&#x27;t test the original claim. The material importance
+of these derivative questions then becomes &lt;em&gt;conditional&lt;&#x2F;em&gt; on the truth of
+that initial and untested claim.&lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
 &lt;p&gt;This situation is distinct from pure, &lt;a href=&quot;&#x2F;blog&#x2F;on-interestingness&quot;&gt;curiosity-driven
-research&lt;&#x2F;a&gt;. The research is not necessarily
-interesting &lt;em&gt;in itself&lt;&#x2F;em&gt;. It &lt;em&gt;would be&lt;&#x2F;em&gt; interesting &lt;strong&gt;if&lt;&#x2F;strong&gt; the original
-claim was true. The research is motivated — and constrained by — a
-mere possibility, which becomes a foundational axiom&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; of the
-research program.&lt;&#x2F;p&gt;
+research&lt;&#x2F;a&gt;. The research questions are not
+necessarily interesting &lt;em&gt;in themselves&lt;&#x2F;em&gt;. They &lt;em&gt;would be&lt;&#x2F;em&gt; interesting
+&lt;strong&gt;if&lt;&#x2F;strong&gt; the original claim was demonstrably true. The research is
+motivated and constrained by a mere &lt;em&gt;unlikely possibility&lt;&#x2F;em&gt;, which
+becomes a flimsy axiom&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; undergirding the entire research effort.&lt;&#x2F;p&gt;
 &lt;p&gt;A few years ago a scientist approached me about a potential
-collaboration. There had been a big fuss about a particular
-technology. Another scientist had claimed that this technology could
+collaboration. There had been big excitement about a particular new
+technology. Another scientist had claimed that a consumer product could
 be responsible for an unusally wide range of health issues affecting
-human populations.&lt;&#x2F;p&gt;
+human populations.
+This scientist was proposing that they had identified the source of the
+health issue (a consumer product) as well as the technology that could 
+solve the problem (a replacement product).&lt;&#x2F;p&gt;
 &lt;p&gt;Significant time had passed since this claim was made and there was
-still little supporting evidence. The mechanistic justification for
-the claim had been roundly criticised by the scientific community.
-That the original scientist had since built a profitable company
-purporting to sell a &amp;quot;healthier&amp;quot; version of the technology attracted
-some well-earned suspicion.&lt;&#x2F;p&gt;
-&lt;p&gt;In my office, the scientist and I both shared the view that the
+still little supporting evidence. The (lack of) mechanistic
+justification for the claim had been roundly criticised by the
+scientific community. That the original scientist who made the
+original claim had since built a profitable company that already
+profited from selling their &amp;quot;healthier&amp;quot; replacement of the consumer
+product led to further skepticism.&lt;&#x2F;p&gt;
+&lt;p&gt;In my office, my colleague and I both shared the view that the
 original claim was likely bogus. They reminded me, however, that there
 was a lot of interest in this topic and that it could be the basis of
-a lucrative funding proposal. The scientist assured me that while the
-work would focus on this technology, none of the research would relate
-directly to the tricky question of its health effects.&lt;&#x2F;p&gt;
+a lucrative funding proposal. My colleague assured me that while the
+work would focus on the product in question and its &amp;quot;healthier&amp;quot; replacement,
+none of our research would relate directly to the controversial question of 
+health effects.
+The exciting and controversial health question was merely a shiny vessel in
+which we could smuggle our more dull and legitimate scientific questions.&lt;&#x2F;p&gt;
 &lt;p&gt;The technology in question was a commercial food product&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#2&quot;&gt;2&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;, and it
-was claimed that this product was a major contributor to human
-disease. &lt;em&gt;If that was true&lt;&#x2F;em&gt;, some healthier alternatives would need
-to be developed. We might then focus on the science of their flavour
-and texture, such that &lt;em&gt;in the event that they were needed&lt;&#x2F;em&gt; people
+was claimed that it was a major contributor to human disease. &lt;em&gt;If that
+was true&lt;&#x2F;em&gt;, some healthier alternatives would need to be developed. As
+scientists, we might focus on enhancing the flavour and texture of
+alternatives, such that &lt;em&gt;in the event that they were needed&lt;&#x2F;em&gt; people
 might find them tolerable to consume. This is a common tendency in
 food science because many food scientists do not have the expertise to
-study health effects. A product will generate interest and prestige
-because of its health effects (real or not) and food scientists will
-study everything but those health effects.&lt;&#x2F;p&gt;
-&lt;p&gt;Funding proposals, press releases and lectures relating to such a
-project would then all lead with the premise that the technology under
-investigation &lt;em&gt;could&lt;&#x2F;em&gt; be a major factor in human disease, even if this
-claim was not going to be tested in that same project.&lt;&#x2F;p&gt;
-&lt;p&gt;It became apparent in our conversation that even if the original claim
-was false it was true that there was now a market interest in
-&amp;quot;healthier&amp;quot; versions of the technology. There were companies who
-wanted to invest in the manufacture of these alternatives. To
-implement them effectively &lt;em&gt;good science&lt;&#x2F;em&gt; was required and so funding
-was made available by governments and corporations.&lt;&#x2F;p&gt;
-&lt;p&gt;The average member of the public would soon be confronted with
-technologies that (prematurely) claimed to address their health
-issues. In parallel, there would be press releases and newspaper articles
-about the legitimate science behind the development of these
-technologies. It would not be surprising then if many people started to buy
-these products and assume that they were important in their lives.&lt;&#x2F;p&gt;
-&lt;p&gt;To the scientists involved there was somehow no conflict between
-thinking that the original health claim &lt;strong&gt;was probably bullshit&lt;&#x2F;strong&gt; and
-securing research funding on the basis that the health claim &lt;strong&gt;was
-probably not bullshit&lt;&#x2F;strong&gt;. For those who did acknowledge the conflict
-they might have appealed to pragmatism&#x2F;desperation (&amp;quot;I have to get my
-research funded somehow&amp;quot;), theory&#x2F;misdirection (&amp;quot;Good science is found
-in the unlikeliest of places&amp;quot;) or specialisation&#x2F;ignorance (&amp;quot;Oh I&#x27;m
-not an expert in health so who is to know really&amp;quot;).&lt;&#x2F;p&gt;
+study health effects: a product will generate interest and prestige
+because of its health effects (real or imagined) and food scientists
+will study everything but those health effects.&lt;&#x2F;p&gt;
+&lt;p&gt;The aura of the original health-claim — still untested yet now the
+subject of intense marketing efforts — imbued all derivative research
+projects with urgency and importance. Funding proposals, press
+releases and lectures relating to such research projects lead with the
+premise that the technology under investigation &lt;em&gt;could&lt;&#x2F;em&gt; be a major
+factor in human disease. It became apparent in the conversation with
+my colleague that even if the original claim was likely false there
+was now growing commercial incentives fuelled by that claim. There
+were companies who wanted to invest in the manufacture of these
+&amp;quot;healthy&amp;quot; alternatives. To implement them effectively &lt;em&gt;good science&lt;&#x2F;em&gt;
+was required and so funding was being made available by governments
+and corporations.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;In the philosophical sense&lt;&#x2F;em&gt;, this kind of scientific rhetoric is
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.thecollector.com&#x2F;revisiting-bullshit-harry-frankfurt-essay&#x2F;&quot;&gt;bullshit&lt;&#x2F;a&gt;.
+It is fundamentally unconcerned with the truth of the claim that
+motivates and justifies the whole research effort. Scientists conform
+to the ideas set forth in the claim simply because it suits their
+purposes.
+This is corrosive to the pursuit of truth even if some
+science gets done in the process.&lt;&#x2F;p&gt;
 &lt;p&gt;Let&#x27;s consider briefly why this might be an undesirable set of circumstances:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -618,19 +623,20 @@ untested claim to efficacy.&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;In popular discourse there is sometimes a skepticism about applied
-sciences. I think these criticisms are often grandiose and unfounded,
-frequently missing the important contributions that these sciences
-have made to society. However, I think that there is sometimes a
-cynicism and opportunism in how scientists choose their projects,
-especially when the scientific problems relate to a technology of
-potential commercial value. Technologies making extraordinary claims
-come and go by the dozen. Some eventually shrink their claims in
-response to regulatory scrutiny&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#3&quot;&gt;3&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;. In the intervening period — which
-can span many years — scientists help shape the perception of
-technology, among students, funders and the public. They therefore
-have some responsibility for considering the impact of their choices,
-in terms of public understanding of science, the effective use of
-resources and the perceived efficacy of their own discipline.&lt;&#x2F;p&gt;
+sciences like food science. I think these criticisms are often
+grandiose and unfounded, frequently missing the important
+contributions that these sciences have made to society. However, I
+think that there is sometimes a cynicism and opportunism in how
+scientists choose their projects, especially when the scientific
+problems relate to a technology of potential commercial value.
+Technologies making extraordinary claims come and go by the dozen.
+Some eventually shrink their claims in response to regulatory
+scrutiny&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#3&quot;&gt;3&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;. In the intervening period — which can span many years —
+scientists help shape the perception of technology, among students,
+funders and the public. They therefore have some responsibility for
+considering the impact of their choices, in terms of public
+understanding of science, the effective use of resources and the
+perceived societal role of their own discipline.&lt;&#x2F;p&gt;
 &lt;p&gt;I explained to the scientist&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#4&quot;&gt;4&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; that I was not interested in
 researching the technology. They later received funding for their
 project. It was a bad career decision on my part and I&#x27;m glad I made
@@ -640,7 +646,7 @@ it.&lt;&#x2F;p&gt;
 truth, stipulated so that the proof can be constructed.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;footnote-definition&quot; id=&quot;2&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;2&lt;&#x2F;sup&gt;
-&lt;p&gt;I do not want to focus on the particular technology but rather the
+&lt;p&gt;I do not want to focus on the product itself but rather the
 general issue it represents.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;footnote-definition&quot; id=&quot;3&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;3&lt;&#x2F;sup&gt;
