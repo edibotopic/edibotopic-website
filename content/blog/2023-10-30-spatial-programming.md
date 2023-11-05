@@ -1,5 +1,5 @@
 +++
-title = "Spatial Programming: Connecting Across Disciplines"
+title = "Spatial Programming: Connecting Across Disciplines (draft)"
 date = 2023-10-30
 draft = false
 
