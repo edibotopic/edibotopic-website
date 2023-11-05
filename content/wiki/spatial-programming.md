@@ -49,7 +49,7 @@ or icons, as all are still rendered on a graphical interface. Spatial
 — or *iconic* — programming highlights the distinction of there being
 a salient resemblance between input and output. These icons could be 
 depicted as characters in a text editor or as draggable pictures on an
-interactive canvas, as long as they are similar to the what they generate.
+interactive canvas, as long as they are similar to what they generate.
 
 # Reference
 
