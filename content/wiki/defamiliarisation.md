@@ -25,9 +25,10 @@ compelling us to reconsider the mundane anew.
 Proposed as a primary function of art by the Russian theorist 
 and critic 
 [Viktor Shklovsky](https://en.wikipedia.org/wiki/Viktor_Shklovsky) 
-in his essay *Art as Device*.
+in his essay
+[Art as Device](https://warwick.ac.uk/fac/arts/english/currentstudents/undergraduate/modules/fulllist/first/en122/lecturelist2017-18/art_as_device_2015.pdf)
 
-Also known as *ostranenie* or *estrangement*.
+Alternative terminology includes *ostranenie* or *estrangement*.
 
 The concept could be extended beyond the domain of art.
 For example, encountering a
