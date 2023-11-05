@@ -25,13 +25,13 @@ that goes untested or unchallenged.
 
 Often the original idea is interesting though unlikely, but has
 attracted significant attention among non-scientists, resulting
-in an abundandant amount of funding available for research in the area.
+in an abundant amount of funding being made available for research
+in the area.
 
 If the original idea is subsequently confirmed to be false, then the
 entire edifice constructed around it will collapse, possibly
-contributing to skepticism about science itself. 
+contributing to skepticism being directed towards science itself. 
 
 # Reference
 
-[Blog post on misdirected
-science](@/blog/2023-09-17-misdirected-science.md)
+[Blog post on misdirected science](@/blog/2023-09-17-misdirected-science.md)
