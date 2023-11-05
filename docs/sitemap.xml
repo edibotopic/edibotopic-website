@@ -106,6 +106,9 @@
         <loc>https://edibotopic.com/tags/barthes/</loc>
     </url>
     <url>
+        <loc>https://edibotopic.com/tags/career/</loc>
+    </url>
+    <url>
         <loc>https://edibotopic.com/tags/colloids/</loc>
     </url>
     <url>
@@ -113,6 +116,9 @@
     </url>
     <url>
         <loc>https://edibotopic.com/tags/creativity/</loc>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/tags/criticism/</loc>
     </url>
     <url>
         <loc>https://edibotopic.com/tags/defamiliarisation/</loc>
@@ -125,6 +131,9 @@
     </url>
     <url>
         <loc>https://edibotopic.com/tags/documentation/</loc>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/tags/epistemology/</loc>
     </url>
     <url>
         <loc>https://edibotopic.com/tags/ethics/</loc>
@@ -155,6 +164,9 @@
     </url>
     <url>
         <loc>https://edibotopic.com/tags/linux/</loc>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/tags/literature/</loc>
     </url>
     <url>
         <loc>https://edibotopic.com/tags/metaphysics/</loc>
@@ -217,10 +229,17 @@
         <loc>https://edibotopic.com/tags/web/</loc>
     </url>
     <url>
+        <loc>https://edibotopic.com/tags/work/</loc>
+    </url>
+    <url>
         <loc>https://edibotopic.com/tags/writing/</loc>
     </url>
     <url>
         <loc>https://edibotopic.com/wiki/</loc>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/wiki/defamiliarisation/</loc>
+        <lastmod>2023-11-05</lastmod>
     </url>
     <url>
         <loc>https://edibotopic.com/wiki/dispersed-system/</loc>
@@ -231,6 +250,14 @@
         <lastmod>2023-10-31</lastmod>
     </url>
     <url>
+        <loc>https://edibotopic.com/wiki/holistic-turn/</loc>
+        <lastmod>2023-11-05</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/wiki/misdirected-science/</loc>
+        <lastmod>2023-11-05</lastmod>
+    </url>
+    <url>
         <loc>https://edibotopic.com/wiki/multiply-realisable/</loc>
         <lastmod>2023-10-31</lastmod>
     </url>
@@ -239,12 +266,20 @@
         <lastmod>2023-10-31</lastmod>
     </url>
     <url>
+        <loc>https://edibotopic.com/wiki/professional-deformation/</loc>
+        <lastmod>2023-11-05</lastmod>
+    </url>
+    <url>
         <loc>https://edibotopic.com/wiki/spatial-programming/</loc>
         <lastmod>2023-10-31</lastmod>
     </url>
     <url>
         <loc>https://edibotopic.com/wiki/studium-punctum/</loc>
         <lastmod>2023-11-01</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/wiki/systemism/</loc>
+        <lastmod>2023-11-05</lastmod>
     </url>
     <url>
         <loc>https://edibotopic.com/wiki/technologies/</loc>
