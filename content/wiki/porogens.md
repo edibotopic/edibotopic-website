@@ -25,3 +25,7 @@ system](@/wiki/dispersed-system.md) of pores in a solid matrix.
 The _porogen_ is initially embedded in the system as solid particles
 before being removed — usually after a change of state — to
 **gen**erate the **por**es.
+
+# Reference
+
+[Blog post on porogens](@/blog/2023-09-02-pore-generators.md)
