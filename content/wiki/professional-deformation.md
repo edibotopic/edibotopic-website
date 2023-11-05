@@ -28,7 +28,8 @@ not fulfilling the standards of rigour that they would
 expect of a collaborator.
 
 During a friendly discussion about creating personal websites,
-a scholar of Foucault raises the spectre of the Panopticon,
+a scholar of Foucault raises the spectre of the 
+[Panopticon](https://en.wikipedia.org/wiki/Panopticon),
 and suggests that to exist on the internet is to engage in
 a collective process of self-discipline.
 
@@ -41,7 +42,7 @@ Having just being handed a freshly-cooked meal, a food scientist
 looks at the cook and smugly comments "You know, I could explain
 to you what just happened in that kitchen of yours".
 
-Professional distoration may be less obvious and more insidious
+Professional distortion may be less obvious and more insidious
 than the contrived examples above.
 For example, a passionate reader of fiction may become unable to
 enjoy reading a book after studying to become an engineer, where
