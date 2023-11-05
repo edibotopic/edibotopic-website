@@ -23,7 +23,7 @@ An epistemological approach to knowledge that
 recognises the necessity of moving between
 parts and wholes.
 
-Encompasses two kinds of *reduction*:
+This encompasses two kinds of *reduction*:
 
 - Macro-reduction: from parts to wholes
 - Micro-reduction: from wholes to parts
