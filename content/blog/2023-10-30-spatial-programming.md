@@ -27,11 +27,8 @@ curiosity and cultivating a shared sense of purpose.
 
 {% warning(header="Draft") %} 
 
-This is a draft published after a frenzied period of writing that I
-needed to end.
-
-I published it so that I could move on with my life but do intend to
-revisit and edit at some point in the future.
+This is a draft and will be revised for clarity and
+completeness in a future version.
 
 {% end %}
 
