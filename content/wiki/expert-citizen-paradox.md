@@ -43,10 +43,17 @@ disallows speech of a certain kind.
 
 Specialism or expertise becomes a kind of baggage, affecting one's
 ability to comment privately and publicly on matters of societal importance.
+Rather than constraining themselves to their domain, the individual may undergo
+a [professional distortion](@/wiki/professional-deformation.md) in which aspects
+of reality are filtered inappropriately through the lens of their work. 
 
 Most industrialised democracies emphasise specialisation among their citizens.
 If the resultant specialists are constrained in their speech, conditions of 
 inhibited democratic discourse may arise.
 
-The solution is not to reject democracy but rather to question what is lost
-when the lives of citizens are shaped so completely by their work.
+This compels us to question what is lost when the lives
+of citizens are shaped so completely by the nature of
+their specialisms, and explore the general characteristics 
+shared by processes of mastery, rather than their particular
+outputs.
+
