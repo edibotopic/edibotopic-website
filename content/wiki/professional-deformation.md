@@ -1,6 +1,7 @@
 +++
 title = "Professional Distortion"
 date = 2023-11-05
+updated = 2023-11-12
 draft = false
 
 [taxonomies]
@@ -21,29 +22,36 @@ outdate_warn = false
 
 A tendency to have our worldview shaped by our profession,
 even when the resultant beliefs and justifications may be
-inappropriate to the matters at hand.
+inappropriate to the matter at hand.
 
-In an argument, a researcher accuses their partner of
-not fulfilling the standards of rigour that they would
-expect of a collaborator.
+The term has its origins in the medical diagnosis of
+_physical deformations_ associated with specific kinds
+of labour.
 
-During a friendly discussion about creating personal websites,
-a scholar of Foucault raises the spectre of the 
-[Panopticon](https://en.wikipedia.org/wiki/Panopticon),
-and suggests that to exist on the internet is to engage in
-a collective process of self-discipline.
+Professional distortion may be observed in experts, due to the self-efficacy
+gained through their accomplishments and the pressure on those
+with expertise to not extend themselves beyond their discipline.
 
-Giving relationship advice, a painter-decorator comments that any
-relationship needs a "fresh coat" every few years and that it is 
-important to cover everything so that your surroundings don't get
-damaged.
+All problems and puzzles will then be viewed in a haze of metaphors
+borrowed from their narrow professional context.
+These become _epistemological obstacles_ that actively stifle
+progress towards solving the problem.
 
-Having just being handed a freshly-cooked meal, a food scientist
-looks at the cook and smugly comments "You know, I could explain
-to you what just happened in that kitchen of yours".
+This circumstance is not solely due to the arrogance of experts but
+also the impossible position in which they are placed by society.
 
-Professional distortion may be less obvious and more insidious
-than the contrived examples above.
-For example, a passionate reader of fiction may become unable to
-enjoy reading a book after studying to become an engineer, where
-they have been drilled in the art of technical documentation.
+An expert must still exist in a varied world and respond to it daily.
+Admonishing them for going beyond their expertise may simply
+entrench them in narrow mental models.
+This increases the likelihood that they will misapply those
+mental models or simply disengage from societal discourse.
+
+Doing a PhD or a trade is not just an act of becoming an expert,
+it is also a process of learning how expertise is developed.
+
+Confronted with a new problem, an expert should be equipped to
+understand what it takes to develop the relevant expertise.
+They may be humbled and revert to their daily tasks, be
+encouraged to seek that new knowledge or recognise those
+around them who are better placed to offer solutions.
+

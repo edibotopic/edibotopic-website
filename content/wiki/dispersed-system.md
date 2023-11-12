@@ -1,6 +1,7 @@
 +++
 title = "Dispersed System"
 date = 2023-11-01
+updated = 2023-11-12
 draft = false
 
 [taxonomies]
@@ -19,9 +20,17 @@ outdate_warn = false
 
 # Dispersed System
 
+Common focus of attention in sciences dealing with
+colloids, such as the food, pharmaceutical and
+cosmetic sciences.
+
 A dispersion of one physical material in another,
 resulting in a discrete set of particles disconnected
 from themselves but connected at all points to a 
 continuous phase.
 
-Examples include emulsions, foams and suspensions.
+Examples include:
+
+- Emulsions (liquid dispersed in liquid)
+- Solid foams (gas dispersed in solid)
+- Suspensions (solid dispersed in liquid)

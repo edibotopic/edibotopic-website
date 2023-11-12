@@ -1,6 +1,7 @@
 +++
 title = "Holistic Turn"
 date = 2023-11-05
+updated = 2023-11-12
 draft = false
 
 [taxonomies]
@@ -31,7 +32,7 @@ This can manifest in transitions such as:
 - Data → Model
 - Causality → Appearances
 - Mechanism → Intuition
-- Study → Design
+- Scholarship → Design
 
 Holism is usually conceived in opposition to reductionism.
 However, holism can itself become reductionistic.

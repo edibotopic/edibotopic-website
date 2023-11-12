@@ -1,6 +1,7 @@
 +++
 title = "Spatial Programming"
 date = 2023-10-31
+updated = 2023-11-12
 draft = false
 
 [taxonomies]
@@ -20,8 +21,8 @@ outdate_warn = false
 # Spatial Programming
 
 Designing computer programs in which rules written in a _spatial
-programming language_ resemble the programmatic output that they
-will generate.
+programming language_ in some sense **resemble** the 
+programmatic output that they will generate.
 
 Most programs are written using collections of *symbols*.
 These function as abstract signifiers that do not in any sense
@@ -41,15 +42,17 @@ For example, in a music program `O` could represent an audio loop.
 In this case, we would be using a spatial metaphor, where the
 sound "goes around in a circle" and "returns to a start position".
 
-The term "spatial programming" is perhaps more clarifying than the
-related concepts of "graphical" or "visual" programming. Most
-programming environments are *visual*, regardless of the nature of the
-signifiers. Similarly, "graphical" could refer to characters, pictures
-or icons, as all are still rendered on a graphical interface. Spatial
-— or *iconic* — programming highlights the distinction of there being
-a salient resemblance between input and output. These icons could be 
-depicted as characters in a text editor or as draggable pictures on an
-interactive canvas, as long as they are similar to what they generate.
+In some applications, the term "spatial programming" may offer more 
+clarity than related concepts like "graphical" or "visual" programming.
+Most programming environments are *visual*, regardless of the nature of the
+signifiers.
+Similarly, "graphical" could refer to characters, pictures
+or icons, as all are still rendered on a graphical interface.
+Spatial — or *iconic* — programming highlights the distinction of
+there being a salient resemblance between input and output. 
+These icons could be depicted as characters in a text editor or as 
+draggable pictures on an interactive canvas, as long as they are 
+similar to what they generate.
 
 # Reference
 

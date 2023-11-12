@@ -1,6 +1,7 @@
 +++
 title = "Misdirected Science"
 date = 2023-11-05
+updated = 2023-11-12
 draft = false
 
 [taxonomies]
@@ -20,10 +21,13 @@ outdate_warn = false
 # Misdirected Science
 
 A phenomenon in contemporary science in which scientists
-engage in projects motivated by a scientific idea or hypothesis
+engage in projects derived from a scientific idea or hypothesis
 that goes untested or unchallenged.
+The interestingness or usefulness of the projects themselves is
+entirely contingent on the validity of the idea from which they
+were derived.
 
-Often the original idea is interesting though unlikely, but has
+Often the original idea is interesting but unlikely, and has
 attracted significant attention among non-scientists, resulting
 in an abundant amount of funding being made available for research
 in the area.
