@@ -120,14 +120,15 @@ Three of the songs consist entirely of my sampled voice.
 
 There are vocals strewn across all of my albums but usually
 as minor details and often warped beyond recognition.
-Arroost unlocked me with respect to vocals through its:
+Arroost unlocked me with respect to vocals through its
 
 - **Emphasis on live recording**: it's possible to record samples using
 Arroost — and I did — but it defaults to mic input.
 It is not possible (currently) to upload pre-existing samples or use MIDI.
-The quickest approach is to just sing, hum, chant, clap and bang.
-I could record 5 seconds of singing with 4 dodgy seconds and only 
+The immediate option is to just sing, hum, chant, clap and bang.
+I can record 5 seconds of singing with 4 dodgy seconds and then 
 take the 1 second I liked for the rest of the song.
+It's amazing how far this approach can go as the connections build up.
 - **Limited control of mix quality**: one of the factors that makes 
 recording vocals difficult is the need for noise-reduction.
 Usually this requires recording some ambient noise and subtracting it
@@ -135,7 +136,7 @@ from the recording.
 This needs continuous tweaking and can result in poor quality audio if
 you're not in a good recording environment (I rarely am).
 With Arroost I couldn't do noise reduction, so I stopped caring and
-just recorded.
+just focused on recording.
 - **Coupling of audio and visuals**: I normally make songs that are built
 from hundreds of samples and recordings.
 When people listen I sometimes get the impression that they
