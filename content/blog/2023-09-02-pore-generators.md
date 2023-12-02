@@ -3,9 +3,10 @@ title = "Pore Generators for Membranes, Tissues and Food"
 date = 2023-09-10
 # updated = 2023-05-18
 draft = false
+weight = 1
 
 [taxonomies]
-categories = ["technical"]
+categories = ["explaining"]
 tags = ["science", "food", "gels"]
 
 [extra]

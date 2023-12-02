@@ -3,9 +3,10 @@ title = "In Your Own Words: On Plagiarism Post-Covid"
 date = 2022-09-17
 update = 2023-05-17
 draft = false
+weight = 4
 
 [taxonomies]
-categories = ["notes"]
+categories = ["archived"]
 tags = ["writing", "science", "teaching", "reflection"]
 
 [extra]
@@ -21,8 +22,6 @@ outdate_warn = false
 I've been thinking about student plagiarism since universities have mostly returned to normal following the Covid-19 pandemic.
 
 <!-- more -->
-
-{% warning(header="Caution") %} This was written shortly after the educational sector returned to relative normalcy following the Covid-19 pandemic and just before ChatGPT sent it back into a doom spiral.{% end %}
 
 Students plagiarise, professors get mad and universities draft policies. AI-based essay generators emerge and people begin to use them. Somewhere, an entrepreneur dreams of proctor drones monitoring online exams. What if many students _don't want to plagiarise_, but they simply _do not know how_ to write with originality? Maybe plagiarism is just a symptom of inadequate preparation rather than generational laziness or an emerging digital dystopia. Here I consider the particular case of science education.
 

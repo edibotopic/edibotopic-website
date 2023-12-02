@@ -2,9 +2,10 @@
 title = "Making Things Strange: An Inverse Problem in Teaching"
 date = 2023-07-05
 draft = false
+weight = 2
 
 [taxonomies]
-categories = ["notes"]
+categories = ["thinking"]
 tags = ["teaching", "food", "defamiliarisation"]
 
 [extra]

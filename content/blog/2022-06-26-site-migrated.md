@@ -3,9 +3,10 @@ title = "Moving from WordPress"
 date = 2022-01-01
 updated = 2023-05-17
 draft = false
+weight = 4
 
 [taxonomies]
-categories = ["meta"]
+categories = ["archived"]
 tags = ["writing", "web", "experience", "reflection"]
 
 [extra]

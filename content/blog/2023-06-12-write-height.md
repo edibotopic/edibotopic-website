@@ -3,9 +3,10 @@ title = "Converting Images to 3D Models"
 date = 2023-06-12
 update = 2023-10-12
 draft = false
+weight = 1
 
 [taxonomies]
-categories = ["experiments"]
+categories = ["doing"]
 tags = ["3D", "programming", "modelling", "learning"]
 
 [extra]

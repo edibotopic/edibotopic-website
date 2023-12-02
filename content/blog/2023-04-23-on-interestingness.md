@@ -2,9 +2,10 @@
 title = "On Valuing the Merely Interesting"
 date = 2023-04-23
 draft = false
+weight = 2
 
 [taxonomies]
-categories = ["notes"]
+categories = ["thinking"]
 tags = ["writing", "science", "philosophy"]
 
 [extra]

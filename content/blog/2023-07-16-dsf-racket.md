@@ -2,9 +2,10 @@
 title = "Drawing Structures from Notation"
 date = 2023-07-16
 draft = false
+weight = 1
 
 [taxonomies]
-categories = ["experiments"]
+categories = ["doing"]
 tags = ["science", "programming", "teaching", "spatial logic"]
 
 [extra]

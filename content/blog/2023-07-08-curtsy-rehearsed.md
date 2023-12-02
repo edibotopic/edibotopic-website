@@ -2,9 +2,10 @@
 title = "Music By Curtsy Rehearsed"
 date = 2023-07-08
 draft = false
+weight = 1
 
 [taxonomies]
-categories = ["experiments"]
+categories = ["doing"]
 tags = ["music", "art", "bandcamp", "creativity"]
 
 [extra]

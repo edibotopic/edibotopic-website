@@ -3,9 +3,10 @@ title = "Misdirected Science: Untested Claims and their Derivative Tangents"
 date = 2023-09-17
 updated = 2023-11-04
 draft = false
+weight = 2
 
 [taxonomies]
-categories = ["notes"]
+categories = ["thinking"]
 tags = ["science", "research", "technology", "ethics"]
 
 [extra]

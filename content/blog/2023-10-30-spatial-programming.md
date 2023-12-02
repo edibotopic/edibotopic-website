@@ -1,10 +1,11 @@
 +++
-title = "Spatial Programming: Connecting Across Disciplines (draft)"
+title = "Spatial Programming: Connecting Across Disciplines"
 date = 2023-10-30
 draft = false
+weight = 3
 
 [taxonomies]
-categories = ["notes"]
+categories = ["drafting"]
 tags = ["programming", "teaching", "design"]
 
 [extra]

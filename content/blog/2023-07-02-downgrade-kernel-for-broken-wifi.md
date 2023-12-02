@@ -3,9 +3,10 @@ title = "Resolving Wi-fi Adapter Issues After a Linux Upgrade"
 date = 2023-07-02
 # updated = 2023-05-18
 draft = false
+weight = 1
 
 [taxonomies]
-categories = ["technical"]
+categories = ["explaining"]
 tags = ["linux", "how-to", "troubleshooting"]
 
 [extra]

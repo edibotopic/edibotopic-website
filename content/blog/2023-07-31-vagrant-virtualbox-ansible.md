@@ -3,9 +3,10 @@ title = "Virtual Machines: Configure, Share and Automate"
 date = 2023-07-31
 updated = 2023-09-16
 draft = false
+weight = 1
 
 [taxonomies]
-categories = ["technical"]
+categories = ["explaining"]
 tags = ["how-to", "virtualisation", "Ansible", "software"]
 
 [extra]

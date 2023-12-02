@@ -3,9 +3,10 @@ title = "Versioning Student Work to Emphasise Process"
 date = 2023-07-15
 updated = 2023-09-16
 draft = false
+weight = 1
 
 [taxonomies]
-categories = ["technical"]
+categories = ["explaining"]
 tags = ["documentation", "how-to", "writing"]
 
 [extra]

@@ -3,9 +3,10 @@ title = "Simulating Stokes' Law Visually"
 date = 2022-08-06
 updated = 2023-09-09
 draft = false
+weight = 1
 
 [taxonomies]
-categories = ["experiments"]
+categories = ["doing"]
 tags = ["science", "programming", "teaching"]
 
 [extra]
