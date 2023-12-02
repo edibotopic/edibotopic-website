@@ -7,7 +7,7 @@
 	<updated>2023-12-02T00:00:00+00:00</updated>
 	<id>https://edibotopic.com/blog/feed.xml</id>
 	<entry xml:lang="en">
-		<title>New Music: Leisure Sickness (made with Arroost)</title>
+		<title>New Music Created with Arroost</title>
 		<published>2023-12-02T00:00:00+00:00</published>
 		<updated>2023-12-02T00:00:00+00:00</updated>
         <summary>&lt;p&gt;There&#x27;s a new Curtsy Rehearsed album called &lt;em&gt;Leisure Sick&lt;&#x2F;em&gt;.
@@ -97,13 +97,16 @@ Three of the songs consist entirely of my sampled voice.&lt;&#x2F;p&gt;
 as minor details and often warped beyond recognition.
 Arroost unlocked me with respect to vocals through its&lt;&#x2F;p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Emphasis on live recording&lt;&#x2F;strong&gt;: it&#x27;s possible to record samples using
-Arroost — and I did — but it defaults to mic input.
-It is not possible (currently) to upload pre-existing samples or use MIDI.
-The immediate option is to just sing, hum, chant, clap and bang.
-I can record 5 seconds of singing with 4 dodgy seconds and then 
+&lt;li&gt;&lt;strong&gt;Emphasis on live recording&lt;&#x2F;strong&gt;: it&#x27;s possible to do some
+&lt;em&gt;pre-recorded sampling&lt;&#x2F;em&gt; with Arroost; for example, you can
+change the audio input settings on your computer and 
+record a drumbreak on YouTube.
+Arroost is configured, however, to use your default mic for &lt;em&gt;live
+sampling&lt;&#x2F;em&gt;.
+The most immediate recording option is to just sing, hum, chant, clap and bang.
+I could record 5 seconds of sounds with 4 dodgy seconds and then 
 take the 1 second I liked for the rest of the song.
-It&#x27;s amazing how far this approach can go as the connections build up.&lt;&#x2F;li&gt;
+It&#x27;s amazing how far this approach can take you as the connections build up.&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;strong&gt;Limited control of mix quality&lt;&#x2F;strong&gt;: one of the factors that makes 
 recording vocals difficult is the need for noise-reduction.
 Usually this requires recording some ambient noise and subtracting it
