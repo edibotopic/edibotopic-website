@@ -50,7 +50,7 @@ There are different paradigms of modelling, including the direct modelling appro
 Blender is also a hybrid application — combining (at a minimum) a 3D modeller, animation suite, video editor and compositor — and this vast range of functionality is evident in its interface.
 Despite all these complexities, much can be learned about 3D modelling from adept teenagers with small YouTube channels.
 
-![UI of WriteHeight](/figs/writeHeightUI.png "UI of WriteHeight") *User interface of WriteHeight showing the 2D heightmap (top-left, inset) and the resultant 3D mesh (main).*
+![UI of WriteHeight](/figs/writeHeightUI.webp "UI of WriteHeight") *User interface of WriteHeight showing the 2D heightmap (top-left, inset) and the resultant 3D mesh (main).*
 
 For me, one of the most intuitive paths for transitioning from drawing in 2D to modelling in 3D is the **heightmap**.
 While this approach has its limitations, I think it is a good entry-point to 3D that can produce interesting results.
