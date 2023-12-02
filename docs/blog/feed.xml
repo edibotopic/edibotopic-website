@@ -4,10 +4,159 @@
 	<subtitle>Writing on food, technology and philosophy</subtitle>
 	<link href="https://edibotopic.com/blog/feed.xml" rel="self" type="application/atom+xml"/>
     <link href="https://edibotopic.com/blog/"/>
-	<updated>2023-11-04T00:00:00+00:00</updated>
+	<updated>2023-12-02T00:00:00+00:00</updated>
 	<id>https://edibotopic.com/blog/feed.xml</id>
 	<entry xml:lang="en">
-		<title>Spatial Programming: Connecting Across Disciplines (draft)</title>
+		<title>New Music: Leisure Sickness (made with Arroost)</title>
+		<published>2023-12-02T00:00:00+00:00</published>
+		<updated>2023-12-02T00:00:00+00:00</updated>
+        <summary>&lt;p&gt;There&#x27;s a new Curtsy Rehearsed album called &lt;em&gt;Leisure Sick&lt;&#x2F;em&gt;.
+I made it using an early-version of the node-based Arroost tool.
+Several of the songs are built entirely from live-recorded vocal samples.&lt;&#x2F;p&gt;
+</summary>
+		<link href="https://edibotopic.com/blog/leisure-sick/" type="text/html"/>
+		<id>https://edibotopic.com/blog/leisure-sick/</id>
+		<content type="html">&lt;p&gt;There&#x27;s a new Curtsy Rehearsed album called &lt;em&gt;Leisure Sick&lt;&#x2F;em&gt;.
+I made it using an early-version of the node-based Arroost tool.
+Several of the songs are built entirely from live-recorded vocal samples.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h1 id=&quot;new-ways-to-do-things&quot;&gt;New Ways to Do Things&lt;a class=&quot;zola-anchor&quot; href=&quot;#new-ways-to-do-things&quot; aria-label=&quot;Anchor link for: new-ways-to-do-things&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;315&quot;
+    src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;S3FayhhCjNo?si=BoWw9tHqKhInDquD&quot;
+    title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer;
+    autoplay; clipboard-write; encrypted-media; gyroscope;
+    picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;&#x2F;iframe&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;edibotopic.com&#x2F;blog&#x2F;curtsy-rehearsed&#x2F;&quot;&gt;Previously&lt;&#x2F;a&gt; I wrote about my
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;curtsyrehearsed.bandcamp.com&#x2F;&quot;&gt;Curtsy Rehearsed&lt;&#x2F;a&gt; project. 
+I had been quietly releasing music under this name and was surprised
+to have the &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.echolive.ie&#x2F;entertainment&#x2F;whatson&#x2F;arid-40902209.html&quot;&gt;tiniest amount of local media
+attention&lt;&#x2F;a&gt;
+last year.&lt;&#x2F;p&gt;
+&lt;p&gt;The plan was — and still is — to wind down the Curtsy Rehearsed
+project by the end of 2023.
+In the meantime, my discovery of &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;arroost.com&#x2F;&quot;&gt;Arroost&lt;&#x2F;a&gt; led
+to a surprise burst of music-making.&lt;&#x2F;p&gt;
+&lt;p&gt;Arroost was a new way of making music for me.
+It made the process more light and joyful than some
+of my recent painstaking
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Digital_audio_workstation&quot;&gt;DAW&lt;&#x2F;a&gt; sessions.
+In the end, I became quite addicted to Arroost and
+releasing a finished project was the only way for me to stop.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;arrows-to-sounds&quot;&gt;Arrows to Sounds&lt;a class=&quot;zola-anchor&quot; href=&quot;#arrows-to-sounds&quot; aria-label=&quot;Anchor link for: arrows-to-sounds&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Arroost consists of an infinite canvas on which nodes can be placed.
+When a newly placed node is clicked it starts to record.
+Make a sound then click the node again and the recording is complete.
+That node will now play the recording each time it is triggered.&lt;&#x2F;p&gt;
+&lt;p&gt;There are also special nodes for controlling the Canvas.
+At time of writing, these &lt;em&gt;control nodes&lt;&#x2F;em&gt; (my term) include:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Add&lt;&#x2F;strong&gt;: adds a node to the canvas&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Connect&lt;&#x2F;strong&gt;: connects two nodes&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Remove&lt;&#x2F;strong&gt;: removes a node or connection&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Annotate&lt;&#x2F;strong&gt;: adds text next to a block&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Individual nodes can be connected through arrows.
+Nodes can be arranged in sequences using these arrows to create patterns.
+Given three nodes $A$, $B$ and $C$, a loop can be created if there
+are the arrows $A \to B$, $B \to C$ and $C \to A$.
+Click a node in a loop and the loop will play continuously.&lt;&#x2F;p&gt;
+&lt;p&gt;In the image below a loop can be seen connected by red arrows.
+Currently the bottom node in the loop is being triggered.
+This will be followed by the top-right node and so on.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;figs&#x2F;arroostUI.webp&quot; alt=&quot;Arroost interface&quot; title=&quot;UI of Arroost&quot; &#x2F;&gt; &lt;em&gt;User interface of Arroost showing control nodes (Add, Connect, Remove and Annotate) and example sound structures (single node, node sequence, node loop). Correct as of 2023-12-02.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;There are some other nuances in the design:
+empty nodes can be used to create &lt;em&gt;rests&lt;&#x2F;em&gt; within sequences;
+the start time of a recorded sample can be offset;
+arrows can be coloured to control the flow of sounds.
+Many of these features can be discovered naturally through play.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=cF2OF75ivZM&quot;&gt;Watch the creator of Arroost — Lu Wilson — demo the tool at a live
+event in London (includes a brief snippet of my first Arroost recording!)&lt;&#x2F;a&gt; &lt;&#x2F;p&gt;
+&lt;p&gt;The core of Arroost involves connecting nodes.
+This makes Arroost an easy and intuitive live-looper.
+By &lt;em&gt;easy&lt;&#x2F;em&gt; I mean relative to using a DAW like Reaper:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;figs&#x2F;super8.webp&quot; alt=&quot;Reaper DAW with Super8 Looper&quot; title=&quot;UI of Reaper with Super8&quot; &#x2F;&gt; &lt;em&gt;User interface of Reaper DAW with four vocal tracks routed into an instance of its Super8 looper. This works great but it takes some setting up and the interface is busy.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Despite its apparent simplicity, Arroost can be used to create
+some complex sounds.
+Only live vocal samples recorded into my microphone were used to
+create the following video, in which you can see the nodes and
+connections in action:&lt;&#x2F;p&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;315&quot;
+    src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;g_tYFdUn3G4?si=t2v4UdP_IrFdtY9d&quot;
+    title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer;
+    autoplay; clipboard-write; encrypted-media; gyroscope;
+    picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;&#x2F;iframe&gt;
+&lt;h1 id=&quot;becoming-unlocked&quot;&gt;Becoming Unlocked&lt;a class=&quot;zola-anchor&quot; href=&quot;#becoming-unlocked&quot; aria-label=&quot;Anchor link for: becoming-unlocked&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;em&gt;Cans in the Woods&lt;&#x2F;em&gt; is included with eight other songs in &lt;em&gt;Leisure Sickness&lt;&#x2F;em&gt;.
+The album is free to download but you can pay more if you&#x27;d like.&lt;&#x2F;p&gt;
+&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;iframe style=&quot;border: 0; width: 360px; height: 470px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=1240561687&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=333333&#x2F;tracklist=false&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;curtsyrehearsed.bandcamp.com&#x2F;album&#x2F;leisure-sickness&quot;&gt;Leisure Sickness by Curtsy Rehearsed&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;em&gt;Leisure Sickness&lt;&#x2F;em&gt; is a bit of a departure from my other albums,
+primarily because of its emphasis on live-looped vocals.
+Three of the songs consist entirely of my sampled voice.&lt;&#x2F;p&gt;
+&lt;p&gt;There are vocals strewn across all of my albums but usually
+as minor details and often warped beyond recognition.
+Arroost unlocked me with respect to vocals through its:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Emphasis on live recording&lt;&#x2F;strong&gt;: it&#x27;s possible to record samples using
+Arroost — and I did — but it defaults to mic input.
+It is not possible (currently) to upload pre-existing samples or use MIDI.
+The quickest approach is to just sing, hum, chant, clap and bang.
+I could record 5 seconds of singing with 4 dodgy seconds and only 
+take the 1 second I liked for the rest of the song.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Limited control of mix quality&lt;&#x2F;strong&gt;: one of the factors that makes 
+recording vocals difficult is the need for noise-reduction.
+Usually this requires recording some ambient noise and subtracting it
+from the recording.
+This needs continuous tweaking and can result in poor quality audio if
+you&#x27;re not in a good recording environment (I rarely am).
+With Arroost I couldn&#x27;t do noise reduction, so I stopped caring and
+just recorded.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Coupling of audio and visuals&lt;&#x2F;strong&gt;: I normally make songs that are built
+from hundreds of samples and recordings.
+When people listen I sometimes get the impression that they
+don&#x27;t know exactly &lt;em&gt;what I did&lt;&#x2F;em&gt; — it&#x27;s a black box.
+Arroost generates a tightly-coupled combination of audio &lt;em&gt;and&lt;&#x2F;em&gt; visuals.
+Even if sharing a finished set of nodes and connections, there is
+an embedded performance.
+I probably couldn&#x27;t sing at your wedding but I can put vocal snippets
+together into an interesting structure — I think Arroost helps &lt;em&gt;show&lt;&#x2F;em&gt; this.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;share-scrappy-fiddles&quot;&gt;&amp;quot;Share Scrappy Fiddles&amp;quot;&lt;a class=&quot;zola-anchor&quot; href=&quot;#share-scrappy-fiddles&quot; aria-label=&quot;Anchor link for: share-scrappy-fiddles&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Encouraged by the developer Lu Wilson&#x27;s call for everyone to &lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Normalise sharing scrappy fiddles&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;I initially shared the tracks on Mastodon as videos.
+All in all, I recorded about 60 minutes of music in three weeks.
+I took the best of the material shared on Mastodon and tried to improve the sound quality
+&lt;em&gt;just a little&lt;&#x2F;em&gt;.
+This mainly involved making the recordings slightly louder and removing some
+annoying clicking noises.
+For songs built from vocals I also added some reverb and saturation to
+&amp;quot;fill out&amp;quot; the sound.
+This is a little more obvious in the recording below:&lt;&#x2F;p&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;315&quot;
+    src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;Er_r70gzk-4?si=aAsVocxgyu8Ylj1j&quot;
+    title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer;
+    autoplay; clipboard-write; encrypted-media; gyroscope;
+    picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;&#x2F;iframe&gt;
+&lt;p&gt;Lu is continuing to work on Arroost.
+From talking with them, the tool will likely evolve considerably.
+While writing this post I setup some basic nodes and connections in
+Arroost.
+Soon after I realised that arrows could now be coloured and that
+this affected the flow of sound!!!
+This arrow-colouring novelty immediately made me want to stop writing
+and start experimenting with Arroost again.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;m not sure where Arroost will figure in my music-making future.
+Right now, it is the best tool I have ever encountered for rapidly
+iterating on song ideas in an experimental fashion.
+This is invaluable for someone like me, who lacks any formal training
+in music.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Spatial Programming: Connecting Across Disciplines</title>
 		<published>2023-10-30T00:00:00+00:00</published>
 		<updated>2023-10-30T00:00:00+00:00</updated>
         <summary>&lt;p&gt;Since encountering &lt;em&gt;spatial programming&lt;&#x2F;em&gt; I have wanted to explore some
@@ -2329,19 +2478,7 @@ downloading 3D models.&lt;&#x2F;p&gt;
 		<link href="https://edibotopic.com/blog/on-plagiarism/" type="text/html"/>
 		<id>https://edibotopic.com/blog/on-plagiarism/</id>
 		<content type="html">&lt;p&gt;I&#x27;ve been thinking about student plagiarism since universities have mostly returned to normal following the Covid-19 pandemic.&lt;&#x2F;p&gt;
-&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;blockquote class=&quot;callout warning&quot;&gt;
-    
-    &lt;div class=&quot;icon&quot;&gt;
-        &lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&lt;path d=&quot;M12.865 3.00017L22.3912 19.5002C22.6674 19.9785 22.5035 20.5901 22.0252 20.8662C21.8732 20.954 21.7008 21.0002 21.5252 21.0002H2.47266C1.92037 21.0002 1.47266 20.5525 1.47266 20.0002C1.47266 19.8246 1.51886 19.6522 1.60663 19.5002L11.1329 3.00017C11.4091 2.52187 12.0206 2.358 12.4989 2.63414C12.651 2.72191 12.7772 2.84815 12.865 3.00017ZM4.20471 19.0002H19.7932L11.9989 5.50017L4.20471 19.0002ZM10.9989 16.0002H12.9989V18.0002H10.9989V16.0002ZM10.9989 9.00017H12.9989V14.0002H10.9989V9.00017Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;
-    &lt;&#x2F;div&gt;
-    &lt;div class=&quot;content&quot;&gt;
-        
-        &lt;p&gt;&lt;strong&gt;Caution&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-        
-        &lt;p&gt;This was written shortly after the educational sector returned to relative normalcy following the Covid-19 pandemic and just before ChatGPT sent it back into a doom spiral.&lt;&#x2F;p&gt;
-
-    &lt;&#x2F;div&gt;
-&lt;&#x2F;blockquote&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
 &lt;p&gt;Students plagiarise, professors get mad and universities draft policies. AI-based essay generators emerge and people begin to use them. Somewhere, an entrepreneur dreams of proctor drones monitoring online exams. What if many students &lt;em&gt;don&#x27;t want to plagiarise&lt;&#x2F;em&gt;, but they simply &lt;em&gt;do not know how&lt;&#x2F;em&gt; to write with originality? Maybe plagiarism is just a symptom of inadequate preparation rather than generational laziness or an emerging digital dystopia. Here I consider the particular case of science education.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;the-facts&quot;&gt;The Facts&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-facts&quot; aria-label=&quot;Anchor link for: the-facts&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;In their first year at university students in a typical science degree are confronted with a bewildering array of &lt;em&gt;facts&lt;&#x2F;em&gt;. A student in a given discipline might be expected to develop a foundational knowledge in chemistry, physics and biology by the end of their first year. They are mostly taught about &lt;em&gt;what is known&lt;&#x2F;em&gt;: $x$ is a fact, $y$ is a law, $z$ is a method, and so on.&lt;&#x2F;p&gt;
