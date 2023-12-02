@@ -1,5 +1,5 @@
 +++
-title = "New Music: Leisure Sickness (made with Arroost)"
+title = "New Music Created with Arroost"
 date = 2023-12-02
 draft = false
 weight = 0
@@ -122,13 +122,16 @@ There are vocals strewn across all of my albums but usually
 as minor details and often warped beyond recognition.
 Arroost unlocked me with respect to vocals through its
 
-- **Emphasis on live recording**: it's possible to record samples using
-Arroost — and I did — but it defaults to mic input.
-It is not possible (currently) to upload pre-existing samples or use MIDI.
-The immediate option is to just sing, hum, chant, clap and bang.
-I can record 5 seconds of singing with 4 dodgy seconds and then 
+- **Emphasis on live recording**: it's possible to do some
+_pre-recorded sampling_ with Arroost; for example, you can
+change the audio input settings on your computer and 
+record a drumbreak on YouTube.
+Arroost is configured, however, to use your default mic for _live
+sampling_.
+The most immediate recording option is to just sing, hum, chant, clap and bang.
+I could record 5 seconds of sounds with 4 dodgy seconds and then 
 take the 1 second I liked for the rest of the song.
-It's amazing how far this approach can go as the connections build up.
+It's amazing how far this approach can take you as the connections build up.
 - **Limited control of mix quality**: one of the factors that makes 
 recording vocals difficult is the need for noise-reduction.
 Usually this requires recording some ambient noise and subtracting it
