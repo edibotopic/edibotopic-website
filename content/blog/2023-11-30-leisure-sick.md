@@ -148,7 +148,7 @@ together into an interesting structure — I think Arroost helps _show_ this.
 
 # "Share Scrappy Fiddles"
 
-Encouraged by the developer Lu Wilson's call for everyone to 
+Encouraged by the developer [Lu Wilson](https://www.todepond.com/) calling for everyone to 
 
 > Normalise sharing scrappy fiddles
 
