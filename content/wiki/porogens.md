@@ -28,4 +28,4 @@ before being removed — usually after a change of state — to
 
 # Reference
 
-[Blog post on porogens](@/blog/2023-09-02-pore-generators.md)
+[Blog post on porogens](@/blog/explaining/2023-09-02-pore-generators.md)

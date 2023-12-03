@@ -38,4 +38,4 @@ contributing to skepticism being directed towards science itself.
 
 # Reference
 
-[Blog post on misdirected science](@/blog/2023-09-17-misdirected-science.md)
+[Blog post on misdirected science](@/blog/thinking/2023-09-17-misdirected-science.md)

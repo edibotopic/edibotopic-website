@@ -56,4 +56,4 @@ similar to what they generate.
 
 # Reference
 
-[Blog post on spatial programming](@/blog/2023-10-30-spatial-programming.md)
+[Draft blog post on spatial programming](@/blog/drafting/2023-10-30-spatial-programming.md)
