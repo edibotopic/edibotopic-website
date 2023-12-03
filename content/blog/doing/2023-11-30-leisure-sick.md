@@ -32,7 +32,7 @@ Several of the songs are built entirely from live-recorded vocal samples.
     autoplay; clipboard-write; encrypted-media; gyroscope;
     picture-in-picture; web-share" allowfullscreen></iframe>
 
-[Previously](@/blog/2023-07-08-curtsy-rehearsed.md) I wrote about my
+[Previously](@/blog/doing/2023-07-08-curtsy-rehearsed.md) I wrote about my
 [Curtsy Rehearsed](https://curtsyrehearsed.bandcamp.com/) project. 
 I had been quietly releasing music under this name and was surprised
 to have the [tiniest amount of local media

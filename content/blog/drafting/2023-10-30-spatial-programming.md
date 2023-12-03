@@ -382,5 +382,5 @@ with a view to developing coherent systems of classification
 [^3]: The repeated distinction I make between the _iconic_ and the _symbolic_ broadly follows the [semiotics of Peirce](https://plato.stanford.edu/entries/peirce-semiotics/).
 
 [^4]: There is no DSF tool that generates visualisations of the structures its formulas represent.
-This is why I made [DSF-racket](@/blog/2023-07-16-dsf-racket.md).
+This is why I made [DSF-racket](@/blog/doing/2023-07-16-dsf-racket.md).
 While less visually-enthralling than TodePond's creations it is similar conceptually and attempts to make salient the connection between iconic formulas and the visualisations they generate.

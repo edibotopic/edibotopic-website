@@ -6,7 +6,7 @@ draft = false
 weight = 4
 
 [taxonomies]
-categories = ["archived"]
+categories = ["archiving"]
 tags = ["writing", "science", "teaching", "reflection"]
 
 [extra]
