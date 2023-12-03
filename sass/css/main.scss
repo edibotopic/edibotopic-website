@@ -324,7 +324,7 @@ a:focus-visible {
 
   ul,
   ol {
-    line-height: 1.8;
+    line-height: var(--paragraph-line-height);
   }
 
   li::marker {
@@ -1065,7 +1065,7 @@ body.post {
 
     ul,
     ol {
-      line-height: 1.8;
+      line-height: var(--paragraph-line-height);
     }
 
     li::marker {
