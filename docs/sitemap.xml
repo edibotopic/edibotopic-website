@@ -7,74 +7,89 @@
         <loc>https://edibotopic.com/blog/</loc>
     </url>
     <url>
-        <loc>https://edibotopic.com/blog/curtsy-rehearsed/</loc>
-        <lastmod>2023-07-08</lastmod>
+        <loc>https://edibotopic.com/blog/archiving/</loc>
     </url>
     <url>
-        <loc>https://edibotopic.com/blog/downgrade-kernel-for-broken-wifi/</loc>
-        <lastmod>2023-07-02</lastmod>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/blog/dsf-racket/</loc>
-        <lastmod>2023-07-16</lastmod>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/blog/leisure-sick/</loc>
-        <lastmod>2023-12-02</lastmod>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/blog/making-simple-prs/</loc>
-        <lastmod>2023-09-20</lastmod>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/blog/misdirected-science/</loc>
-        <lastmod>2023-11-04</lastmod>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/blog/on-interestingness/</loc>
-        <lastmod>2023-04-23</lastmod>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/blog/on-plagiarism/</loc>
+        <loc>https://edibotopic.com/blog/archiving/on-plagiarism/</loc>
         <lastmod>2022-09-17</lastmod>
     </url>
     <url>
-        <loc>https://edibotopic.com/blog/pore-generators/</loc>
-        <lastmod>2023-09-10</lastmod>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/blog/site-migrated/</loc>
+        <loc>https://edibotopic.com/blog/archiving/site-migrated/</loc>
         <lastmod>2023-05-17</lastmod>
     </url>
     <url>
-        <loc>https://edibotopic.com/blog/spatial-programming/</loc>
-        <lastmod>2023-10-30</lastmod>
+        <loc>https://edibotopic.com/blog/doing/</loc>
     </url>
     <url>
-        <loc>https://edibotopic.com/blog/stokes-law/</loc>
+        <loc>https://edibotopic.com/blog/doing/curtsy-rehearsed/</loc>
+        <lastmod>2023-07-08</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/blog/doing/dsf-racket/</loc>
+        <lastmod>2023-07-16</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/blog/doing/leisure-sick/</loc>
+        <lastmod>2023-12-02</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/blog/doing/stokes-law/</loc>
         <lastmod>2023-09-09</lastmod>
     </url>
     <url>
-        <loc>https://edibotopic.com/blog/strange-food-pedagogy/</loc>
-        <lastmod>2023-07-05</lastmod>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/blog/vagrant-virtualbox-ansible/</loc>
-        <lastmod>2023-09-16</lastmod>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/blog/versioning-student-work/</loc>
-        <lastmod>2023-09-16</lastmod>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/blog/write-height/</loc>
+        <loc>https://edibotopic.com/blog/doing/write-height/</loc>
         <lastmod>2023-06-12</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/blog/drafting/</loc>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/blog/drafting/spatial-programming/</loc>
+        <lastmod>2023-10-30</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/blog/explaining/</loc>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/blog/explaining/downgrade-kernel-for-broken-wifi/</loc>
+        <lastmod>2023-07-02</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/blog/explaining/making-simple-prs/</loc>
+        <lastmod>2023-09-20</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/blog/explaining/pore-generators/</loc>
+        <lastmod>2023-09-10</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/blog/explaining/vagrant-virtualbox-ansible/</loc>
+        <lastmod>2023-09-16</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/blog/explaining/versioning-student-work/</loc>
+        <lastmod>2023-09-16</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/blog/thinking/</loc>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/blog/thinking/misdirected-science/</loc>
+        <lastmod>2023-11-04</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/blog/thinking/on-interestingness/</loc>
+        <lastmod>2023-04-23</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/blog/thinking/strange-food-pedagogy/</loc>
+        <lastmod>2023-07-05</lastmod>
     </url>
     <url>
         <loc>https://edibotopic.com/categories/</loc>
     </url>
     <url>
-        <loc>https://edibotopic.com/categories/archived/</loc>
+        <loc>https://edibotopic.com/categories/archiving/</loc>
     </url>
     <url>
         <loc>https://edibotopic.com/categories/doing/</loc>

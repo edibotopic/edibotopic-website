@@ -14,8 +14,8 @@
 I made it using an early-version of the node-based Arroost tool.
 Several of the songs are built entirely from live-recorded vocal samples.&lt;&#x2F;p&gt;
 </summary>
-		<link href="https://edibotopic.com/blog/leisure-sick/" type="text/html"/>
-		<id>https://edibotopic.com/blog/leisure-sick/</id>
+		<link href="https://edibotopic.com/blog/doing/leisure-sick/" type="text/html"/>
+		<id>https://edibotopic.com/blog/doing/leisure-sick/</id>
 		<content type="html">&lt;p&gt;There&#x27;s a new Curtsy Rehearsed album called &lt;em&gt;Leisure Sick&lt;&#x2F;em&gt;.
 I made it using an early-version of the node-based Arroost tool.
 Several of the songs are built entirely from live-recorded vocal samples.&lt;&#x2F;p&gt;
@@ -25,7 +25,7 @@ Several of the songs are built entirely from live-recorded vocal samples.&lt;&#x
     title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer;
     autoplay; clipboard-write; encrypted-media; gyroscope;
     picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;&#x2F;iframe&gt;
-&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;edibotopic.com&#x2F;blog&#x2F;curtsy-rehearsed&#x2F;&quot;&gt;Previously&lt;&#x2F;a&gt; I wrote about my
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;edibotopic.com&#x2F;blog&#x2F;doing&#x2F;curtsy-rehearsed&#x2F;&quot;&gt;Previously&lt;&#x2F;a&gt; I wrote about my
 &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;curtsyrehearsed.bandcamp.com&#x2F;&quot;&gt;Curtsy Rehearsed&lt;&#x2F;a&gt; project. 
 I had been quietly releasing music under this name and was surprised
 to have the &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.echolive.ie&#x2F;entertainment&#x2F;whatson&#x2F;arid-40902209.html&quot;&gt;tiniest amount of local media
@@ -167,8 +167,8 @@ in music.&lt;&#x2F;p&gt;
 tentative connections with similar projects in other fields, for the sake of sheer
 curiosity and cultivating a shared sense of purpose.&lt;&#x2F;p&gt;
 </summary>
-		<link href="https://edibotopic.com/blog/spatial-programming/" type="text/html"/>
-		<id>https://edibotopic.com/blog/spatial-programming/</id>
+		<link href="https://edibotopic.com/blog/drafting/spatial-programming/" type="text/html"/>
+		<id>https://edibotopic.com/blog/drafting/spatial-programming/</id>
 		<content type="html">&lt;p&gt;Since encountering &lt;em&gt;spatial programming&lt;&#x2F;em&gt; I have wanted to explore some
 tentative connections with similar projects in other fields, for the sake of sheer
 curiosity and cultivating a shared sense of purpose.&lt;&#x2F;p&gt;
@@ -197,7 +197,7 @@ particle-based physics simulations can be generated using a
 spatial programming language named &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;TodePond&#x2F;SpaceTode&quot;&gt;SpaceTode&lt;&#x2F;a&gt;.
 SpaceTode has &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;youtu.be&#x2F;Tpvcy1gt5yU?si=SDZbp509Y8WeLORZ&amp;amp;t=77&quot;&gt;symbols&lt;&#x2F;a&gt; that each represent things like 
 atoms, space and transitions.
-SpaceTode &lt;a href=&quot;https:&#x2F;&#x2F;edibotopic.com&#x2F;blog&#x2F;spatial-programming&#x2F;m&#x2F;watch?v=L2U_Sd1qMJ4&amp;amp;t=2580s&quot;&gt;was inspired by&lt;&#x2F;a&gt; the graphical programming environment &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;http:&#x2F;&#x2F;acypher.com&#x2F;creator&#x2F;&quot;&gt;Stagecast Creator&lt;&#x2F;a&gt; and the spatial programming language &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DaveAckley&#x2F;SPLAT&quot;&gt;SPLAT&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+SpaceTode &lt;a href=&quot;https:&#x2F;&#x2F;edibotopic.com&#x2F;blog&#x2F;drafting&#x2F;spatial-programming&#x2F;m&#x2F;watch?v=L2U_Sd1qMJ4&amp;amp;t=2580s&quot;&gt;was inspired by&lt;&#x2F;a&gt; the graphical programming environment &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;http:&#x2F;&#x2F;acypher.com&#x2F;creator&#x2F;&quot;&gt;Stagecast Creator&lt;&#x2F;a&gt; and the spatial programming language &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DaveAckley&#x2F;SPLAT&quot;&gt;SPLAT&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;Consider the following &lt;em&gt;rule&lt;&#x2F;em&gt;:&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;When an atom (&lt;code&gt;@&lt;&#x2F;code&gt;) is above an empty space (&lt;code&gt;_&lt;&#x2F;code&gt;)
@@ -458,7 +458,7 @@ with a view to developing coherent systems of classification
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;footnote-definition&quot; id=&quot;4&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;4&lt;&#x2F;sup&gt;
 &lt;p&gt;There is no DSF tool that generates visualisations of the structures its formulas represent.
-This is why I made &lt;a href=&quot;https:&#x2F;&#x2F;edibotopic.com&#x2F;blog&#x2F;dsf-racket&#x2F;&quot;&gt;DSF-racket&lt;&#x2F;a&gt;.
+This is why I made &lt;a href=&quot;https:&#x2F;&#x2F;edibotopic.com&#x2F;blog&#x2F;doing&#x2F;dsf-racket&#x2F;&quot;&gt;DSF-racket&lt;&#x2F;a&gt;.
 While less visually-enthralling than TodePond&#x27;s creations it is similar conceptually and attempts to make salient the connection between iconic formulas and the visualisations they generate.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 </content>
@@ -469,8 +469,8 @@ While less visually-enthralling than TodePond&#x27;s creations it is similar con
 		<updated>2023-09-20T00:00:00+00:00</updated>
         <summary>&lt;p&gt;Making a Pull Request doesn&#x27;t have to be a complex or stressful process.&lt;&#x2F;p&gt;
 </summary>
-		<link href="https://edibotopic.com/blog/making-simple-prs/" type="text/html"/>
-		<id>https://edibotopic.com/blog/making-simple-prs/</id>
+		<link href="https://edibotopic.com/blog/explaining/making-simple-prs/" type="text/html"/>
+		<id>https://edibotopic.com/blog/explaining/making-simple-prs/</id>
 		<content type="html">&lt;p&gt;Making a Pull Request doesn&#x27;t have to be a complex or stressful process.&lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
 &lt;p&gt;I have been posting &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;edibotopic&quot;&gt;my own code&lt;&#x2F;a&gt; on GitHub for several years. Until
@@ -661,7 +661,6 @@ style.&lt;&#x2F;p&gt;
 &lt;p&gt;In addition, a few phrases were given slight rewrites to increase
 clarity or remove typos.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
-&lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;odin-lang&#x2F;odin-lang.org&#x2F;pull&#x2F;153&quot;&gt;This last PR hasn&#x27;t been merged yet.&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;a class=&quot;zola-anchor&quot; href=&quot;#conclusion&quot; aria-label=&quot;Anchor link for: conclusion&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Most of my experience with open-source software has involved making my
 own projects and using software made by others. After getting a few
@@ -672,7 +671,7 @@ the bar too high.&lt;&#x2F;p&gt;
 &lt;p&gt;Use some software with a narrow scope (a theme) and note down any
 issues you have. Pay attention to anything in software documentation
 that trips up or confuses you. Look at the &lt;em&gt;closed&lt;&#x2F;em&gt; PRs in a repo and
-try to find small ones that you can understand.&lt;&#x2F;p&gt;
+try to find small ones that you can understand and learn from.&lt;&#x2F;p&gt;
 &lt;p&gt;Helping people out with these tasks can be very satisfying and could
 help prepare you for bigger contributions in the future.&lt;&#x2F;p&gt;
 </content>
@@ -688,8 +687,8 @@ questions that don&#x27;t test the original claim. The material importance
 of these derivative questions then becomes &lt;em&gt;conditional&lt;&#x2F;em&gt; on the truth of
 that initial and untested claim.&lt;&#x2F;p&gt;
 </summary>
-		<link href="https://edibotopic.com/blog/misdirected-science/" type="text/html"/>
-		<id>https://edibotopic.com/blog/misdirected-science/</id>
+		<link href="https://edibotopic.com/blog/thinking/misdirected-science/" type="text/html"/>
+		<id>https://edibotopic.com/blog/thinking/misdirected-science/</id>
 		<content type="html">&lt;p&gt;There&#x27;s a kind of applied science that bothers me. It starts with
 some extravagant claim that is made by a researcher. This then
 encourages other researchers to pursue a set of loosely-related
@@ -817,8 +816,8 @@ It is an approach to forming pores in a solid medium that I have since
 seen applied in a variety of areas, including membrane fabrication,
 tissue engineering and food science.&lt;&#x2F;p&gt;
 </summary>
-		<link href="https://edibotopic.com/blog/pore-generators/" type="text/html"/>
-		<id>https://edibotopic.com/blog/pore-generators/</id>
+		<link href="https://edibotopic.com/blog/explaining/pore-generators/" type="text/html"/>
+		<id>https://edibotopic.com/blog/explaining/pore-generators/</id>
 		<content type="html">&lt;p&gt;Recently I encountered the concept of a &amp;quot;porogen&amp;quot; for the first time.
 It is an approach to forming pores in a solid medium that I have since
 seen applied in a variety of areas, including membrane fabrication,
@@ -903,8 +902,8 @@ cultured meats are connected, but &lt;em&gt;one&lt;&#x2F;em&gt; connecting facto
 pretty easy with Vagrant, VirtualBox and
 Ansible.&lt;&#x2F;p&gt;
 </summary>
-		<link href="https://edibotopic.com/blog/vagrant-virtualbox-ansible/" type="text/html"/>
-		<id>https://edibotopic.com/blog/vagrant-virtualbox-ansible/</id>
+		<link href="https://edibotopic.com/blog/explaining/vagrant-virtualbox-ansible/" type="text/html"/>
+		<id>https://edibotopic.com/blog/explaining/vagrant-virtualbox-ansible/</id>
 		<content type="html">&lt;p&gt;Creating and using virtual machines is 
 pretty easy with Vagrant, VirtualBox and
 Ansible.&lt;&#x2F;p&gt;
@@ -1161,8 +1160,8 @@ and a version of Zork pre-installed.&lt;&#x2F;p&gt;
 to draw diagrams based on a symbolic notation that describes
 the topology of physical systems.&lt;&#x2F;p&gt;
 </summary>
-		<link href="https://edibotopic.com/blog/dsf-racket/" type="text/html"/>
-		<id>https://edibotopic.com/blog/dsf-racket/</id>
+		<link href="https://edibotopic.com/blog/doing/dsf-racket/" type="text/html"/>
+		<id>https://edibotopic.com/blog/doing/dsf-racket/</id>
 		<content type="html">&lt;p&gt;I created a program in the Racket programming language
 to draw diagrams based on a symbolic notation that describes
 the topology of physical systems.&lt;&#x2F;p&gt;
@@ -1485,8 +1484,8 @@ likely revisit the area in the future.&lt;&#x2F;p&gt;
 projects. It is valuable for other types of project too, including
 student writing.&lt;&#x2F;p&gt;
 </summary>
-		<link href="https://edibotopic.com/blog/versioning-student-work/" type="text/html"/>
-		<id>https://edibotopic.com/blog/versioning-student-work/</id>
+		<link href="https://edibotopic.com/blog/explaining/versioning-student-work/" type="text/html"/>
+		<id>https://edibotopic.com/blog/explaining/versioning-student-work/</id>
 		<content type="html">&lt;p&gt;Version control is a powerful tool commonly used in large software
 projects. It is valuable for other types of project too, including
 student writing.&lt;&#x2F;p&gt;
@@ -1754,8 +1753,8 @@ You can find all music releases by Curtsy Rehearsed
 &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;curtsyrehearsed.bandcamp.com&#x2F;&quot;&gt;on the Bandcamp page&lt;&#x2F;a&gt;.
 Playable versions of several songs are included in this post.&lt;&#x2F;p&gt;
 </summary>
-		<link href="https://edibotopic.com/blog/curtsy-rehearsed/" type="text/html"/>
-		<id>https://edibotopic.com/blog/curtsy-rehearsed/</id>
+		<link href="https://edibotopic.com/blog/doing/curtsy-rehearsed/" type="text/html"/>
+		<id>https://edibotopic.com/blog/doing/curtsy-rehearsed/</id>
 		<content type="html">&lt;p&gt;Recently, I put the finishing touches on &lt;strong&gt;Dereferenced&lt;&#x2F;strong&gt; — 
 the latest and final release from &lt;em&gt;Curtsy Rehearsed&lt;&#x2F;em&gt;.
 You can find all music releases by Curtsy Rehearsed
@@ -1962,8 +1961,8 @@ euro from the &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&
 familiar, but when teaching a quotidian science (&lt;em&gt;of the everyday&lt;&#x2F;em&gt;) this explanatory mode is
 inverted.&lt;&#x2F;p&gt;
 </summary>
-		<link href="https://edibotopic.com/blog/strange-food-pedagogy/" type="text/html"/>
-		<id>https://edibotopic.com/blog/strange-food-pedagogy/</id>
+		<link href="https://edibotopic.com/blog/thinking/strange-food-pedagogy/" type="text/html"/>
+		<id>https://edibotopic.com/blog/thinking/strange-food-pedagogy/</id>
 		<content type="html">&lt;p&gt;It is common to explain the unfamiliar by reference to the
 familiar, but when teaching a quotidian science (&lt;em&gt;of the everyday&lt;&#x2F;em&gt;) this explanatory mode is
 inverted.&lt;&#x2F;p&gt;
@@ -2182,8 +2181,8 @@ A Reader&lt;&#x2F;em&gt;. L. T. Lemon and M. J. Reis (Trans.), David Lodge (Ed.)
 		<updated>2023-07-02T00:00:00+00:00</updated>
         <summary>&lt;p&gt;Downgrading the kernel on Linux can help get your internet back.&lt;&#x2F;p&gt;
 </summary>
-		<link href="https://edibotopic.com/blog/downgrade-kernel-for-broken-wifi/" type="text/html"/>
-		<id>https://edibotopic.com/blog/downgrade-kernel-for-broken-wifi/</id>
+		<link href="https://edibotopic.com/blog/explaining/downgrade-kernel-for-broken-wifi/" type="text/html"/>
+		<id>https://edibotopic.com/blog/explaining/downgrade-kernel-for-broken-wifi/</id>
 		<content type="html">&lt;p&gt;Downgrading the kernel on Linux can help get your internet back.&lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;a class=&quot;zola-anchor&quot; href=&quot;#problem&quot; aria-label=&quot;Anchor link for: problem&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;These days I do all of my work on Linux (Ubuntu).
@@ -2326,8 +2325,8 @@ downgrading your kernel might be the most immediately-viable option.&lt;&#x2F;p&
 		<updated>2023-06-12T00:00:00+00:00</updated>
         <summary>&lt;p&gt;I made a simple web-based tool for converting greyscale images to 3D models.&lt;&#x2F;p&gt;
 </summary>
-		<link href="https://edibotopic.com/blog/write-height/" type="text/html"/>
-		<id>https://edibotopic.com/blog/write-height/</id>
+		<link href="https://edibotopic.com/blog/doing/write-height/" type="text/html"/>
+		<id>https://edibotopic.com/blog/doing/write-height/</id>
 		<content type="html">&lt;p&gt;I made a simple web-based tool for converting greyscale images to 3D models.&lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
 &lt;p&gt;Far more powerful software than this tool — &lt;em&gt;WriteHeight&lt;&#x2F;em&gt; — exists but their complexity often presents a significant barrier to newcomers.
@@ -2339,7 +2338,7 @@ This post explains the motivation behind WriteHeight, what it can do and why it 
 &lt;p&gt;While not everyone self-identifies as an artist people still draw in a variety of contexts.
 I work mostly with scientists who — while not usually artistically-trained — routinely produce drawings in the form of flow diagrams and graphical abstracts.
 Whether generated on paper or on a screen, these drawings are an important method of thinking through our ideas and communicating them to others. Concepts can also be represented in 3D, but this traditionally requires a mastery of techniques like shading and perspective.
-Today, powerful (and free) software like &lt;a href=&quot;https:&#x2F;&#x2F;edibotopic.com&#x2F;blog&#x2F;write-height&#x2F;www.blender.com&quot;&gt;Blender&lt;&#x2F;a&gt; allows the direct manipulation of models in 3D space, and there is an endless supply of online learning resources to get people started.&lt;&#x2F;p&gt;
+Today, powerful (and free) software like &lt;a href=&quot;https:&#x2F;&#x2F;edibotopic.com&#x2F;blog&#x2F;doing&#x2F;write-height&#x2F;www.blender.com&quot;&gt;Blender&lt;&#x2F;a&gt; allows the direct manipulation of models in 3D space, and there is an endless supply of online learning resources to get people started.&lt;&#x2F;p&gt;
 &lt;p&gt;My initial forays into 3D were prompted by online teaching.
 The difficulty in the remote delivery of STEM content lies more with the laboratory practicals than the lectures, and I wanted to learn how to make interactive 3D versions of these labs.
 At the same time, I was involved in research projects on the 3D printing of food.
@@ -2454,8 +2453,8 @@ downloading 3D models.&lt;&#x2F;p&gt;
 		<updated>2023-04-23T00:00:00+00:00</updated>
         <summary>&lt;p&gt;I&#x27;ve been contemplating whether there is a place for the &lt;em&gt;merely&lt;&#x2F;em&gt; interesting in research and teaching.&lt;&#x2F;p&gt;
 </summary>
-		<link href="https://edibotopic.com/blog/on-interestingness/" type="text/html"/>
-		<id>https://edibotopic.com/blog/on-interestingness/</id>
+		<link href="https://edibotopic.com/blog/thinking/on-interestingness/" type="text/html"/>
+		<id>https://edibotopic.com/blog/thinking/on-interestingness/</id>
 		<content type="html">&lt;p&gt;I&#x27;ve been contemplating whether there is a place for the &lt;em&gt;merely&lt;&#x2F;em&gt; interesting in research and teaching.&lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
 &lt;p&gt;A few years ago an academic journal named &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.journalofcontroversialideas.org&quot;&gt;The Journal of Controversial Ideas&lt;&#x2F;a&gt; was created. It offers a platform for authors to explore ideas that traditional outlets might reject due to their controversial nature. That a &lt;em&gt;merely&lt;&#x2F;em&gt; controversial idea would not necessarily warrant academic publication seems unproblematic. We can assume, however, that this new journal is not intended to platform &lt;em&gt;merely&lt;&#x2F;em&gt; controversial ideas. The editors are likely seeking presentations of ideas that are both controversial &lt;em&gt;and&lt;&#x2F;em&gt; valuable in some way. The &lt;em&gt;merely&lt;&#x2F;em&gt; qualifier does a lot of work here and elsewhere. Take the philosopher Kant&#x27;s &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;plato.stanford.edu&#x2F;entries&#x2F;kant-moral&quot;&gt;second formulation of his categorical imperative&lt;&#x2F;a&gt;:&lt;&#x2F;p&gt;
@@ -2479,8 +2478,8 @@ downloading 3D models.&lt;&#x2F;p&gt;
 		<updated>2022-09-17T00:00:00+00:00</updated>
         <summary>&lt;p&gt;I&#x27;ve been thinking about student plagiarism since universities have mostly returned to normal following the Covid-19 pandemic.&lt;&#x2F;p&gt;
 </summary>
-		<link href="https://edibotopic.com/blog/on-plagiarism/" type="text/html"/>
-		<id>https://edibotopic.com/blog/on-plagiarism/</id>
+		<link href="https://edibotopic.com/blog/archiving/on-plagiarism/" type="text/html"/>
+		<id>https://edibotopic.com/blog/archiving/on-plagiarism/</id>
 		<content type="html">&lt;p&gt;I&#x27;ve been thinking about student plagiarism since universities have mostly returned to normal following the Covid-19 pandemic.&lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
 &lt;p&gt;Students plagiarise, professors get mad and universities draft policies. AI-based essay generators emerge and people begin to use them. Somewhere, an entrepreneur dreams of proctor drones monitoring online exams. What if many students &lt;em&gt;don&#x27;t want to plagiarise&lt;&#x2F;em&gt;, but they simply &lt;em&gt;do not know how&lt;&#x2F;em&gt; to write with originality? Maybe plagiarism is just a symptom of inadequate preparation rather than generational laziness or an emerging digital dystopia. Here I consider the particular case of science education.&lt;&#x2F;p&gt;
@@ -2544,8 +2543,8 @@ Plagiarism norms reflect the public and communal nature of scholarly work but �
 		<updated>2023-09-09T00:00:00+00:00</updated>
         <summary>&lt;p&gt;I built a simple application to teach factors affecting the floating and sedimentation of particles in liquid.&lt;&#x2F;p&gt;
 </summary>
-		<link href="https://edibotopic.com/blog/stokes-law/" type="text/html"/>
-		<id>https://edibotopic.com/blog/stokes-law/</id>
+		<link href="https://edibotopic.com/blog/doing/stokes-law/" type="text/html"/>
+		<id>https://edibotopic.com/blog/doing/stokes-law/</id>
 		<content type="html">&lt;p&gt;I built a simple application to teach factors affecting the floating and sedimentation of particles in liquid.&lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;blockquote class=&quot;callout note&quot;&gt;
     
@@ -2581,8 +2580,8 @@ Education&lt;&#x2F;em&gt;. &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;
 		<updated>2023-05-17T00:00:00+00:00</updated>
         <summary>&lt;p&gt;I moved from WordPress to GitHub to host my blog.&lt;&#x2F;p&gt;
 </summary>
-		<link href="https://edibotopic.com/blog/site-migrated/" type="text/html"/>
-		<id>https://edibotopic.com/blog/site-migrated/</id>
+		<link href="https://edibotopic.com/blog/archiving/site-migrated/" type="text/html"/>
+		<id>https://edibotopic.com/blog/archiving/site-migrated/</id>
 		<content type="html">&lt;p&gt;I moved from WordPress to GitHub to host my blog.&lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;blockquote class=&quot;callout note&quot;&gt;
     
