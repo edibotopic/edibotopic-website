@@ -6,7 +6,7 @@ sort_by = "date"
 template = "blog_drafting.html"
 page_template = "post.html"
 insert_anchor_links = "right"
-generate_feed = false
+generate_feed = true
 
 [extra]
 lang = 'en'
