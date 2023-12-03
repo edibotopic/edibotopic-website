@@ -5,7 +5,7 @@ tags = ["software", "3D"]
 links = [
 	{name = "website", url = "https://edibotopic.github.io/write-height/"},
 	{name = "source", url = "https://github.com/edibotopic/write-height/"},
-	{name = "blog", url = "https://edibotopic.com/blog/write-height/"}
+	{name = "blog", url = "https://edibotopic.com/blog/doing/write-height/"}
 ]
 
 [[project]]
@@ -16,7 +16,7 @@ links = [
 	{name = "website", url = "https://edibotopic.github.io/stokes-law/"},
 	{name = "source", url = "https://github.com/edibotopic/stokes-law/"},
 	{name = "paper", url = "https://pubs.acs.org/doi/10.1021/acs.jchemed.2c01201"},
-	{name = "blog", url = "https://edibotopic.com/blog/stokes-law/"}
+	{name = "blog", url = "https://edibotopic.com/blog/doing/stokes-law/"}
 ]
 
 [[project]]
@@ -25,7 +25,7 @@ desc = "Original music about memories, nature and technology (active 2021-2023).
 tags = ["music", "art"]
 links = [
 	{name = "bandcamp", url = "https://curtsyrehearsed.bandcamp.com"},
-	{name = "blog", url = "https://edibotopic.com/blog/curtsy-rehearsed/"},
+	{name = "blog", url = "https://edibotopic.com/blog/doing/curtsy-rehearsed/"},
 	{name = "press", url = "https://www.echolive.ie/entertainment/whatson/arid-40902209.html"}
 ]
 
