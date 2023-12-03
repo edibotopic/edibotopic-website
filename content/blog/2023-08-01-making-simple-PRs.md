@@ -248,8 +248,6 @@ PR. The PR description:
 > In addition, a few phrases were given slight rewrites to increase
 > clarity or remove typos.
 
-[This last PR hasn't been merged yet.](https://github.com/odin-lang/odin-lang.org/pull/153)
-
 # Conclusion
 
 Most of my experience with open-source software has involved making my
@@ -263,7 +261,7 @@ Start simple.
 Use some software with a narrow scope (a theme) and note down any
 issues you have. Pay attention to anything in software documentation
 that trips up or confuses you. Look at the *closed* PRs in a repo and
-try to find small ones that you can understand.
+try to find small ones that you can understand and learn from.
 
 Helping people out with these tasks can be very satisfying and could
 help prepare you for bigger contributions in the future.
