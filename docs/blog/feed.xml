@@ -2177,12 +2177,10 @@ personalised recommendations for a vast social network.&lt;&#x2F;p&gt;
 Conceptual and underspecified, its implementations apply to a broad
 class of particular cases.
 Mathematical operations like &lt;code&gt;sum&lt;&#x2F;code&gt; are similarly abstract.
-We can conceive of summing a collection of physical objects, summing
-a set of
-integers or a summing millilitres of liquid.
-In a computer program, a simple algorithm
-would be employed to implement the
-concept of a&lt;code&gt;sum&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+We can conceive of &lt;em&gt;summing&lt;&#x2F;em&gt; a collection of physical objects,
+&lt;em&gt;summing&lt;&#x2F;em&gt; a set of integers or &lt;em&gt;summing&lt;&#x2F;em&gt; millilitres of liquid.
+In a computer program, a simple algorithm would be employed to
+implement the concept of a&lt;code&gt;sum&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;When teaching there is tendency to appeal first to concrete 
 instances rather than directly engaging with an abstract concept.
 The first model of the algorithm that many encounter is the recipe.
