@@ -49,12 +49,10 @@ The generality of a tool like the algorithm lies in its abstractness.
 Conceptual and underspecified, its implementations apply to a broad
 class of particular cases.
 Mathematical operations like `sum` are similarly abstract.
-We can conceive of summing a collection of physical objects, summing
-a set of
-integers or a summing millilitres of liquid.
-In a computer program, a simple algorithm
-would be employed to implement the
-concept of a`sum`.
+We can conceive of _summing_ a collection of physical objects,
+_summing_ a set of integers or _summing_ millilitres of liquid.
+In a computer program, a simple algorithm would be employed to
+implement the concept of a`sum`.
 
 When teaching there is tendency to appeal first to concrete 
 instances rather than directly engaging with an abstract concept.
