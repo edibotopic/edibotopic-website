@@ -4,8 +4,275 @@
 	<subtitle>Writing on food, technology and philosophy</subtitle>
 	<link href="https://edibotopic.com/blog/feed.xml" rel="self" type="application/atom+xml"/>
     <link href="https://edibotopic.com/blog/"/>
-	<updated>2023-12-11T00:00:00+00:00</updated>
+	<updated>2023-12-17T00:00:00+00:00</updated>
 	<id>https://edibotopic.com/blog/feed.xml</id>
+	<entry xml:lang="en">
+		<title>The Direction of Problems: Notes On Systemism</title>
+		<published>2023-12-17T00:00:00+00:00</published>
+		<updated>2023-12-17T00:00:00+00:00</updated>
+        <summary>&lt;p&gt;There are levels of depth to an explanation.
+These levels can be represented with diagrams
+showing the &lt;em&gt;transition&lt;&#x2F;em&gt; between the &lt;em&gt;macro&lt;&#x2F;em&gt; and &lt;em&gt;micro&lt;&#x2F;em&gt;.
+Each transition is a kind of epistemic reduction.
+Taken together they can form a systematic explanation.&lt;&#x2F;p&gt;
+</summary>
+		<link href="https://edibotopic.com/blog/drafting/direction-of-problems/" type="text/html"/>
+		<id>https://edibotopic.com/blog/drafting/direction-of-problems/</id>
+		<content type="html">&lt;p&gt;There are levels of depth to an explanation.
+These levels can be represented with diagrams
+showing the &lt;em&gt;transition&lt;&#x2F;em&gt; between the &lt;em&gt;macro&lt;&#x2F;em&gt; and &lt;em&gt;micro&lt;&#x2F;em&gt;.
+Each transition is a kind of epistemic reduction.
+Taken together they can form a systematic explanation.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h1 id=&quot;the-basic-model&quot;&gt;The Basic Model&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-basic-model&quot; aria-label=&quot;Anchor link for: the-basic-model&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;blockquote class=&quot;callout warning&quot;&gt;
+    
+    &lt;div class=&quot;icon&quot;&gt;
+        &lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&lt;path d=&quot;M12.865 3.00017L22.3912 19.5002C22.6674 19.9785 22.5035 20.5901 22.0252 20.8662C21.8732 20.954 21.7008 21.0002 21.5252 21.0002H2.47266C1.92037 21.0002 1.47266 20.5525 1.47266 20.0002C1.47266 19.8246 1.51886 19.6522 1.60663 19.5002L11.1329 3.00017C11.4091 2.52187 12.0206 2.358 12.4989 2.63414C12.651 2.72191 12.7772 2.84815 12.865 3.00017ZM4.20471 19.0002H19.7932L11.9989 5.50017L4.20471 19.0002ZM10.9989 16.0002H12.9989V18.0002H10.9989V16.0002ZM10.9989 9.00017H12.9989V14.0002H10.9989V9.00017Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;
+    &lt;&#x2F;div&gt;
+    &lt;div class=&quot;content&quot;&gt;
+        
+        &lt;p&gt;&lt;strong&gt;Draft&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+        
+        &lt;p&gt;This is a draft and will be revised for clarity and
+completeness in a future version.&lt;&#x2F;p&gt;
+
+    &lt;&#x2F;div&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;A basic model of systemism, outlined by
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Mario_Bunge&quot;&gt;Mario Bunge&lt;&#x2F;a&gt;
+as an alternative to reductionism and holism,
+will here be outlined in brief.&lt;&#x2F;p&gt;
+&lt;p&gt;Imagine you have made a &lt;em&gt;causal&lt;&#x2F;em&gt; observation of some kind.
+This could be that:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;A particular seasoning makes the dinner tastier&lt;&#x2F;li&gt;
+&lt;li&gt;A function in some code makes the program crash&lt;&#x2F;li&gt;
+&lt;li&gt;A joke makes the people around you uncomfortable&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;These cause-effect relations are salient and apparent
+in your &lt;em&gt;immediate context&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;This is the &lt;code&gt;macro&lt;&#x2F;code&gt; level.
+It is at the top of our diagram and is signified
+by $A_0 \to B_0$:&lt;&#x2F;p&gt;
+&lt;!--NOTE: three LaTeX (t-b) are Macro, Transition, Micro --&gt;
+&lt;p&gt;$$\Huge {
+{{{A_0 \atop \downarrow} \atop A_1}
+{{\to \atop \ } \atop \to} 
+{{B_0 \atop \uparrow} \atop B_1}}
+}
+$$&lt;&#x2F;p&gt;
+&lt;p&gt;At the bottom there is also a causal relation $A_1 \to B_1$
+occupying the &lt;code&gt;micro&lt;&#x2F;code&gt; level.
+The micro is not given or immediate.
+To access it may require deep thought, model building or the
+use of instruments.&lt;&#x2F;p&gt;
+&lt;p&gt;Moving between the two levels — micro and macro —
+is characteristic of:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Analysis&lt;&#x2F;strong&gt;: determining the micro-level causes responsible for 
+macro-level effects or outcomes&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Synthesis&lt;&#x2F;strong&gt;: creating macro-level effects or outcomes through 
+manipulation of micro-level components&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;The diagram above depicts an &lt;em&gt;analysis&lt;&#x2F;em&gt; of the
+&lt;code&gt;micro&lt;&#x2F;code&gt; causes of the &lt;code&gt;macro&lt;&#x2F;code&gt; event.&lt;&#x2F;p&gt;
+&lt;p&gt;It is possible to restrict an investigation to
+a single level, as shown in cases of&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Micro-reduction&lt;&#x2F;strong&gt;: &amp;quot;there is no society, only individuals&amp;quot;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Macro-reduction&lt;&#x2F;strong&gt;: &amp;quot;our senses alone can guide healthy food choice&amp;quot; &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;While the former is commonly referred to as &amp;quot;reductionism&amp;quot;, in
+contra-distinction to the &amp;quot;holism&amp;quot; of the latter, both are related as
+being &lt;em&gt;kinds of reduction&lt;&#x2F;em&gt;, requiring a narrowing of perspective and a
+denial of systematic relations.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;epistemology-ontology-and-axiology&quot;&gt;Epistemology, Ontology and Axiology&lt;a class=&quot;zola-anchor&quot; href=&quot;#epistemology-ontology-and-axiology&quot; aria-label=&quot;Anchor link for: epistemology-ontology-and-axiology&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;The &amp;quot;macro&amp;quot; does not necessarily refer to a &lt;strong&gt;fixed, well-defined ontology&lt;&#x2F;strong&gt;.
+It depends on the context of an investigation.
+The elevated position of the macro in a diagram
+is also &lt;strong&gt;not a value judgement&lt;&#x2F;strong&gt;.
+It is a focal point from which an investigation
+can be initiated.&lt;&#x2F;p&gt;
+&lt;p&gt;What delineates levels of analysis may be determined
+by a specific domain of inquiry, with many levels lying either side
+of the given &lt;code&gt;macro&lt;&#x2F;code&gt; level.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Domain&lt;&#x2F;th&gt;&lt;th&gt;Micro&lt;&#x2F;th&gt;&lt;th&gt;Macro&lt;&#x2F;th&gt;&lt;th&gt;Mega&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Economics&lt;&#x2F;td&gt;&lt;td&gt;Individuals&lt;&#x2F;td&gt;&lt;td&gt;Groups&lt;&#x2F;td&gt;&lt;td&gt;Societies&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Technology&lt;&#x2F;td&gt;&lt;td&gt;Components&lt;&#x2F;td&gt;&lt;td&gt;Sub-assemblies&lt;&#x2F;td&gt;&lt;td&gt;Devices&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Software&lt;&#x2F;td&gt;&lt;td&gt;Low-level code&lt;&#x2F;td&gt;&lt;td&gt;High-level code&lt;&#x2F;td&gt;&lt;td&gt;User interfaces&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;If there is an explanatory gap between two or more levels the ontological
+concept of
+&amp;quot;emergence&amp;quot; may be invoked.
+Here, events occur and seem to be related but the mechanism that
+relates them is not yet clear.
+Importantly, this does not mean that the mechanism will never be
+known.
+It is likely that the mechanism simply remains to be discovered.&lt;&#x2F;p&gt;
+&lt;p&gt;In summary, there is sometimes a question of the form &amp;quot;what $x_1$ is the cause of $x_0$?&amp;quot;:&lt;&#x2F;p&gt;
+&lt;p&gt;$$x_1? \to x_0$$&lt;&#x2F;p&gt;
+&lt;p&gt;The $x_0$ could be a scientific observation, a desirable
+state-of-affairs or a problem to fix at the
+&lt;code&gt;macro&lt;&#x2F;code&gt; level.
+Rather than presuming a mysterious &lt;em&gt;emergence&lt;&#x2F;em&gt; we proceed in two ways:&lt;&#x2F;p&gt;
+&lt;p&gt;In &lt;strong&gt;analysis&lt;&#x2F;strong&gt; the causes at the micro-level are identified.
+For example, a specimen known to exhibit an effect of interest is scrutinised
+with special instruments.
+To explain why salt has an associated taste we might measure its
+chemical dissociation in saliva, which enables the transmission of signals to the brain.
+Salts may be observed to have different
+intensities of saltiness, prompting measurement
+of conductivity as the different salts dissolve into solution.&lt;&#x2F;p&gt;
+&lt;!--NOTE: three LaTeX (t-b) are Macro, Transition, Micro --&gt;
+&lt;p&gt;$$ \Huge 
+{{Salt \atop \downarrow} \atop Na^+ }
+{{\to \atop \ } \atop \to}
+{{taste \atop \uparrow} \atop signal}
+$$&lt;&#x2F;p&gt;
+&lt;p&gt;In &lt;strong&gt;synthesis&lt;&#x2F;strong&gt; the effect (or outcome) is generated under specific conditions.
+Inventing technology can help society make
+progress.
+Such progress is bolstered further when an
+invention has a concrete implementation
+as a product.
+This facilitates exposure to the market,
+which initiates mechanisms of feedback
+that can improve the implementation.
+Accelerating progress is not just about
+getting products to market, it&#x27;s also
+about providing conditions in which
+people can be inventive and supporting
+feedback mechanisms to assist optimisation.&lt;&#x2F;p&gt;
+&lt;!--NOTE: three LaTeX (t-b) are Macro, Transition, Micro --&gt;
+&lt;p&gt;$$ \Huge 
+{{Product \atop \uparrow} \atop Invent }
+{{\to \atop \ } \atop \to}
+{{Market \atop \downarrow} \atop Progress}
+$$&lt;&#x2F;p&gt;
+&lt;p&gt;The appearance of emergent properties may highlight an inappropriate conceptual or
+methodological framing.
+For example, water can be interpreted on a strictly molecular
+basis as being composed of two kinds of elements existing in a certain relative
+proportion and structured by particular forces.
+This is the &lt;code&gt;micro&lt;&#x2F;code&gt; level.
+Yet at the macro level water has properties like viscosity and
+turbulence, which
+are difficult to predict based on strict appeals to molecular
+chemistry.
+For this reason scientific fields like
+rheology are oriented towards developing specific methodologies
+appropriate to a relatively &lt;code&gt;macro&lt;&#x2F;code&gt; level.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;kinds-of-reduction&quot;&gt;Kinds of Reduction&lt;a class=&quot;zola-anchor&quot; href=&quot;#kinds-of-reduction&quot; aria-label=&quot;Anchor link for: kinds-of-reduction&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;It is often mistakenly assumed that one level is superior or &amp;quot;more
+foundational&amp;quot; as a form
+of explanation.
+A scientist may reject sense experience altogether as imprecise and
+unreliable, despite its obvious utility and importance.
+A &amp;quot;layperson&amp;quot; may reject scientific facts as counter to their
+lived
+experience despite their capacity to empower.&lt;&#x2F;p&gt;
+&lt;p&gt;These different levels, however, exhibit a productive inter-dependence.
+Science is often initiated after a surprise observation is made at
+the &lt;code&gt;macro&lt;&#x2F;code&gt; level.
+Subsequent discoveries at the &lt;code&gt;micro&lt;&#x2F;code&gt; level gradually become widely known, at
+which point they become &amp;quot;common knowledge&amp;quot;.&lt;&#x2F;p&gt;
+&lt;blockquote class=&quot;callout note&quot;&gt;
+    
+    &lt;div class=&quot;icon&quot;&gt;
+        &lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&lt;path d=&quot;M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM11 7H13V9H11V7ZM11 11H13V17H11V11Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;
+    &lt;&#x2F;div&gt;
+    &lt;div class=&quot;content&quot;&gt;
+        
+        &lt;p&gt;&lt;strong&gt;Feynman&amp;#x27;s artist friend&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+        
+        &lt;p&gt;The famous anecdote from Feynman about his artist friend who appreciates the
+beauty of a flower, but rejects its destruction by (micro)reductionist
+biological sciences, encapsulates this tension.&lt;&#x2F;p&gt;
+&lt;p&gt;Feynman does not deny that a flower is beautiful and that he can
+experience that beauty.
+He does not suggest that the scientific understanding displaces
+this image.
+Rather, the subjective experience of the flower can be enriched
+by another level of understanding: the
+micro, the scientific, the deep.&lt;&#x2F;p&gt;
+&lt;p&gt;Scientists take this anecdote as demonstrating what
+science can offer to the artist (method, understanding,
+repeatability), while neglecting what the
+artist can offer science (imagination, attention, creativity).
+It works both ways.&lt;&#x2F;p&gt;
+
+    &lt;&#x2F;div&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Science is not confined to the &lt;code&gt;micro&lt;&#x2F;code&gt; level
+and it is also not restricted to &lt;em&gt;analysis&lt;&#x2F;em&gt;
+as an investigative mode.
+The study of complex systems, such as biological and technological entities, often
+involve sub-disciplines devoted to analysis and synthesis that may
+overlap in large projects.&lt;&#x2F;p&gt;
+&lt;!--NOTE: three LaTeX (t-b) are Macro, Transition, Micro --&gt;
+&lt;p&gt;$$\Large {
+\overbrace{{{A_0 \atop \downarrow} \atop A_1}
+{{\to \atop \ } \atop \to} 
+{{B_0 \atop \uparrow} \atop B_1}}^{\text{analysis}} \iff
+\overbrace{{{A_0 \atop \uparrow} \atop A_1}
+{{\to \atop \ } \atop \to} {{B_0 \atop \downarrow} \atop B_1}}^{\text{synthesis}}
+}
+$$&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;food-example&quot;&gt;Food Example&lt;a class=&quot;zola-anchor&quot; href=&quot;#food-example&quot; aria-label=&quot;Anchor link for: food-example&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;With some varieties of green tea it is possible
+to generate a bright pink colour if it is brewed
+with baking soda and milk.
+Recipes typically report that baking soda is needed
+to generate the colour, without specifying &lt;em&gt;why&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;At the &lt;em&gt;micro&lt;&#x2F;em&gt; level, baking soda is just an alkalising
+agent.
+It elevates pH resulting in chemical reactions
+involving tea polyphenols that cause a
+change in colour.&lt;&#x2F;p&gt;
+&lt;p&gt;$$ \Huge 
+{{NaHCO_3 \atop \downarrow} \atop OH^-}
+{{\to \atop \ } \atop \to}
+{{pink \atop \uparrow} \atop rxn}
+$$&lt;&#x2F;p&gt;
+&lt;p&gt;The original macro observation is still valid and may be
+sufficient in many contexts.
+Once we have a micro explanation we do not discard the
+macro one.
+Both levels can function together in an explanatory &lt;em&gt;system&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;benefits-of-systemism&quot;&gt;Benefits of Systemism&lt;a class=&quot;zola-anchor&quot; href=&quot;#benefits-of-systemism&quot; aria-label=&quot;Anchor link for: benefits-of-systemism&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;There are several advantages to developing explanations
+across multiple levels.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;abstraction&quot;&gt;Abstraction&lt;a class=&quot;zola-anchor&quot; href=&quot;#abstraction&quot; aria-label=&quot;Anchor link for: abstraction&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Someone may want to drink pink tea but is concerned about their sodium intake.
+We have learned that the recipe does not require baking soda, however, only something
+from the &lt;em&gt;general class&lt;&#x2F;em&gt; of alkalising agents.&lt;&#x2F;p&gt;
+&lt;p&gt;To increase pH we need something that releases $OH^-$ ions.
+It is therefore possible to substitute baking soda for a sodium-free
+alternative as long as it releases $OH^-$, like potassium hydroxide ($KOH$).&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;control&quot;&gt;Control&lt;a class=&quot;zola-anchor&quot; href=&quot;#control&quot; aria-label=&quot;Anchor link for: control&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;A significant market for pink tea has emerged and there is a demand
+to manufacture it at industrial scale.
+There is huge inter-batch variation in colour, however, and a need to better
+control the process.&lt;&#x2F;p&gt;
+&lt;p&gt;We have learned that a change in pH is critical for determining the
+final colour of the tea.
+Installing a pH measuring device to ensure that the correct pH is
+consistently reached would seem prudent.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;generalisability&quot;&gt;Generalisability&lt;a class=&quot;zola-anchor&quot; href=&quot;#generalisability&quot; aria-label=&quot;Anchor link for: generalisability&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Changes in colour induced by chemical reactions
+involving polyphenols are unlikely to be restricted to tea alone.&lt;&#x2F;p&gt;
+&lt;p&gt;Knowledge of the link between pH, polyphenols and colour does not
+just help you understand the peculiar case of pink tea but
+innumerable additional systems.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;references&quot;&gt;References&lt;a class=&quot;zola-anchor&quot; href=&quot;#references&quot; aria-label=&quot;Anchor link for: references&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Bunge, M. (2014&#x2F;2003). &lt;em&gt;Emergence and Convergence: Qualitative
+Novelty and the Unity of Knowledge&lt;&#x2F;em&gt;. Toronto: University of
+Toronto Press.&lt;&#x2F;p&gt;
+&lt;p&gt;Bunge, M. (1979). &lt;em&gt;Treatise on Basic Philosophy Volume 4, Ontology
+II: A World of Systems&lt;&#x2F;em&gt;. Dordrecht: D. Reidel publishing
+Company.&lt;&#x2F;p&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title>Using Pseudonyms on Code Forges</title>
 		<published>2023-12-11T00:00:00+00:00</published>
