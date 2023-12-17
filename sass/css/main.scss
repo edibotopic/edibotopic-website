@@ -7,7 +7,7 @@ body {
   --bg-color: #f9e6ff;
   --highlight-mark-color: #5f75b045;
   --other-bg-color: #110018;
-  --sep-color: purple;
+  --sep-color: #800080;
   --blur-intensity: 0px;
   --search-color: #ffffff;
 
@@ -25,8 +25,8 @@ body {
   }
 
   // callout colors
-  --callout-note-color: #6d90d7;
-  --callout-important-color: #9971d9;
+  --callout-note-color: #006B63;
+  --callout-important-color: #800080;
   --callout-warning-color: #cb943b;
   --callout-alert-color: #d35757;
   --callout-question-color: #4985a2;
@@ -1740,4 +1740,8 @@ input#searchInput {
 
 input#searchInput:focus {
   outline: 2px solid var(--sep-color);
+}
+
+.katex {
+    font-size: 1em !important;
 }
