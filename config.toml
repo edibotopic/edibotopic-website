@@ -53,7 +53,7 @@ nav_separator = "::"
 
 links = [
     {name = "GitHub", icon = "github", url = "https://github.com/edibotopic"},
-    {name = "Mastodon", icon = "mastodon", url = "https://scholar.social/@edibotopic"},
+    # {name = "Mastodon", icon = "mastodon", url = "https://scholar.social/@edibotopic"},
     {name = "Email", icon = "email", url = "mailto:edibotopic@gmail.com"}
 ]
 
