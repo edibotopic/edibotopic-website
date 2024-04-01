@@ -114,8 +114,8 @@ The album is free to download but you can pay more if you'd like.
 <iframe style="border: 0; width: 360px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=1240561687/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/leisure-sickness">Leisure Sickness by Curtsy Rehearsed</a></iframe>
 </div>
 
-_Leisure Sickness_ is a bit of a departure from my other albums,
-primarily because of its emphasis on live-looped vocals.
+_Leisure Sickness_ is a bit of a departure from my other releases,
+mostly because it's built from live-looped vocals.
 Three of the songs consist entirely of my sampled voice.
 
 There are vocals strewn across all of my albums but usually
