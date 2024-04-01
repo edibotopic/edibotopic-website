@@ -35,6 +35,16 @@ completeness in a future version.
 
 {% end %}
 
+{% note(header="Draft") %} 
+
+The sizing of LaTeX elements on this page is somewhat inconsistent.
+
+They also don't render well in RSS feeds.
+
+In future, I hope to revisit the formatting.
+
+{% end %}
+
 A basic model of systemism, outlined by
 [Mario Bunge](https://en.wikipedia.org/wiki/Mario_Bunge)
 as an alternative to reductionism and holism,
