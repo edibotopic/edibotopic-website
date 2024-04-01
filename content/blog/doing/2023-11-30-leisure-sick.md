@@ -39,7 +39,7 @@ to have the [tiniest amount of local media
 attention](https://www.echolive.ie/entertainment/whatson/arid-40902209.html)
 last year.
 
-The plan was — and still is — to wind down the Curtsy Rehearsed
+The plan was to wind down the Curtsy Rehearsed
 project by the end of 2023.
 In the meantime, my discovery of [Arroost](https://arroost.com/) led
 to a surprise burst of music-making.
@@ -175,11 +175,11 @@ This is a little more obvious in the recording below:
 Lu is continuing to work on Arroost.
 From talking with them, the tool will likely evolve considerably.
 While writing this post I setup some basic nodes and connections in
-Arroost to grab a screenshot for the blog.
+Arroost to grab a screenshot for this post.
 Soon after I realised that arrows could now be coloured and that
 this affected the flow of sound!!!
 This arrow-colouring novelty immediately made me want to stop writing
-and start experimenting with Arroost again.
+and start experimenting with Arroost again...
 
 I'm not sure where Arroost will figure in my music-making future.
 Right now, it is the best tool I have ever encountered for rapidly
