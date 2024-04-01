@@ -20,7 +20,7 @@ outdate_warn = false
 +++
 
 Recently, I put the finishing touches on **Dereferenced** — 
-the latest and final release from *Curtsy Rehearsed*.
+the latest release from my _Curtsy Rehearsed_ project.
 You can find all music releases by Curtsy Rehearsed
 [on the Bandcamp page](https://curtsyrehearsed.bandcamp.com/).
 Playable versions of several songs are included in this post.
@@ -183,14 +183,14 @@ microphone.
 After finally investing in an audio interface, my recording 
 quality has increase dramatically.
 
-With better audio fidelity it is time again to experiment with vocals
-and lyrics in a serious way for the first time since my
-school years (see the 
-[deMake project where I revisit these early demos](https://curtsyrehearsed.bandcamp.com/album/demake-1-food-rocks-early-demos)).
-So I am retiring Curtsy Rehearsed to create a new
-secret alias. This is to encourage as much
-experimentation as possible without concern for how a
-wayward student or colleague might react.
+With better audio fidelity it was time again to experiment with vocals and
+lyrics in a serious way for the first time since my school years.
+So I retired Curtsy Rehearsed to create a new
+secret alias. This was to encourage as much
+experimentation as possible without concern for who
+might be listening.
+I found myself making songs just for fun again and eventually 
+recognised [some](@/blog/doing/2024-03-27-newly-sincere.md) as a good fit for Curtsy Rehearsed.
 
 ## Empathy for Musicians
 
@@ -250,7 +250,7 @@ its practitioners must overcome.
 
 ---
 
-**[Dereferenced](https://curtsyrehearsed.bandcamp.com/album/dereferenced) is the final release from Curtsy Rehearsed.**
+**[Dereferenced](https://curtsyrehearsed.bandcamp.com/album/dereferenced) is the latest release from Curtsy Rehearsed.**
 **Curtsy's entire discography can be purchased at a reduced price of 16
 euro from the [Bandcamp page](https://curtsyrehearsed.bandcamp.com/).**
 **Several individual releases are available for free, including [Transitive Nostalgia](https://curtsyrehearsed.bandcamp.com/album/transitive-nostalgia).**
