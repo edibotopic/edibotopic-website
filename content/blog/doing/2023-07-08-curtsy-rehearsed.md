@@ -27,7 +27,9 @@ Playable versions of several songs are included in this post.
 
 <!-- more -->
 
-<iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=1497359168/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/dereferenced">Dereferenced by Curtsy Rehearsed</a></iframe>
+<div style="text-align: center">
+    <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=1497359168/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/dereferenced">Dereferenced by Curtsy Rehearsed</a></iframe>
+</div>
 
 # Press Coverage
 
@@ -55,7 +57,9 @@ As it happens, the subject of the review —
 is available for free on its
 [Bandcamp page](https://curtsyrehearsed.bandcamp.com/album/transitive-nostalgia).
 
-<iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=2113215328/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/transitive-nostalgia">Transitive Nostalgia by Curtsy Rehearsed</a></iframe>
+<div style="text-align: center">
+    <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=2113215328/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/transitive-nostalgia">Transitive Nostalgia by Curtsy Rehearsed</a></iframe>
+</div>
 
 This exposure to the most minor of press coverage 
 motivated me to explain why I — an academic, non-musician
@@ -90,7 +94,9 @@ The album art was my "garden" at the time, a network of
 pipes and vents inhabiting a forgotten space behind
 city apartments and businesses.
 
-<iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=3148889077/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/theory-of-parts-continua">Theory of Parts: Continua by Curtsy Rehearsed</a></iframe>
+<div style="text-align: center">
+    <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=3148889077/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/theory-of-parts-continua">Theory of Parts: Continua by Curtsy Rehearsed</a></iframe>
+</div>
 
 # Experiment and Bricolage
 
@@ -155,7 +161,9 @@ Sometimes I listen back to these songs and think:
 *How did I decide to give it that title?*
 They are — perhaps — tools for introspection.
 
-<iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=3047916957/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=1884762271/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/theory-of-parts-disperse">Theory of Parts: Disperse by Curtsy Rehearsed</a></iframe>
+<div style="text-align: center">
+    <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=3047916957/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=1884762271/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/theory-of-parts-disperse">Theory of Parts: Disperse by Curtsy Rehearsed</a></iframe>
+</div>
 
 # Goodbye Curtsy?
 
@@ -168,7 +176,9 @@ are either absent or obscured.
 One of the first Curtsy Rehearsed songs does include me singing,
 albeit filtered through a fairly heavy vocoder:
 
-<iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=819553730/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=1694530571/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/theory-of-parts-inclusion">Theory of Parts: Inclusion by Curtsy Rehearsed</a></iframe>
+<div style="text-align: center">
+    <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=819553730/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=1694530571/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/theory-of-parts-inclusion">Theory of Parts: Inclusion by Curtsy Rehearsed</a></iframe>
+</div>
 
 When my voice is present in other songs I might
 not even be able to identify it as such.
