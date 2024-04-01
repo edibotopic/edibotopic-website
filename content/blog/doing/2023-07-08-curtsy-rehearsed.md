@@ -108,7 +108,7 @@ I find sounds I like and combine them.
 When they inevitably sound bad I modify,
 replace and arrange until things sound better.
 
-The process is experimental in the *scientific* sense:
+I conceive of the process as experimental in a lossely _scientific_ sense:
 there are a set of questions regarding a mixture of 
 components (sounds), followed by an arduous sequences of 
 tests of those hypotheses, which may involve the substitution
@@ -120,8 +120,8 @@ Yet these failures often get re-incorporated into something new.
 A recent successful song-making procedure looked like this:
 
 1. Two failed songs were re-sampled and combined
-2. A phone recording of me singing incoherently was processed
-3. Samples from a pre-WW1 woodwind performance were incorporated
+2. A phone recording of me singing incoherently was digitally processed
+3. Samples from a pre-WW1 woodwind recording were found and incorporated
 4. Everything was tweaked, arranged and mixed over several days
 
 Other songs were built mostly with code, like 
