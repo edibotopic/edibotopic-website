@@ -51,7 +51,7 @@ about:
 > source: [Evening Echo](https://www.echolive.ie/entertainment/whatson/arid-40902209.html)
 
 I like the mini-review, which correctly identifies the
-*wooziness* of the music.
+_wooziness_ of the music.
 As it happens, the subject of the review —
 [Transitive Nostalgia](https://curtsyrehearsed.bandcamp.com/album/transitive-nostalgia) —
 is available for free on its
@@ -63,14 +63,14 @@ is available for free on its
 
 This exposure to the most minor of press coverage 
 motivated me to explain why I — an academic, non-musician
-who last *attempted* music in school — started this project and
+who last _attempted_ music as a teeneager — started this project and
 what I was trying to achieve.
 
 # Soundtracks to Lectures  
 
 My original motivation was to soundtrack lectures.
 During the era of Covid-19 lockdowns I had to teach remotely.
-I wanted to create *good* lecture videos, which — for me —
+I wanted to create _good_ lecture videos, which — for me —
 had to include music.
 In my naivety, I immediately (and fairly) got a copyright
 strike on YouTube.
@@ -79,7 +79,7 @@ In the absence of alternatives, I decided to make my own music.
 
 The resultant songs are an interesting artifact of the time.
 Most of them are included in the three-part
-*Theory of Parts* series, named after a
+_Theory of Parts_ series, named after a
 metaphysics paper I was then struggling to
 write and publish.
 
@@ -100,9 +100,9 @@ city apartments and businesses.
 
 # Experiment and Bricolage
 
-I am not a *real* musician, but I *do* music.
+I am not a _real_ musician, but I just _do_ music.
 Not being a musician I rely on whatever
-capacity I have *as a listener* and
+capacity I have _as a listener_ and
 an openness to use whatever is to hand.
 I find sounds I like and combine them.
 When they inevitably sound bad I modify,
@@ -156,9 +156,9 @@ In lighter moments, or when I needed to switch gears, I would play
 [Fantasy Machines](https://curtsyrehearsed.bandcamp.com/track/fantasy-machine).
 
 Sometimes I listen back to these songs and think:
-*What was I thinking when I made that?*
-*Why does it sound the way it does?*
-*How did I decide to give it that title?*
+_What was I thinking when I made that?_
+_Why does it sound the way it does?_
+_How did I decide to give it that title?_
 They are — perhaps — tools for introspection.
 
 <div style="text-align: center">
