@@ -1,7 +1,7 @@
 +++
 title = "Simulating Stokes' Law Visually"
 date = 2022-08-06
-updated = 2023-09-09
+updated = 2024-04-01
 draft = false
 weight = 1
 
