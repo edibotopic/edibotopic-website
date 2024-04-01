@@ -2,7 +2,7 @@
 title = "Spatial Programming"
 date = 2023-10-31
 updated = 2023-11-12
-draft = false
+draft = true
 
 [taxonomies]
 categories = ["wiki"]
