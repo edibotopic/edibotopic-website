@@ -3,12 +3,12 @@
     <nav>
       <a href="/">{{ config.extra.id }}</a>
       <span class="separator">{{ config.extra.nav_separator }}</span>
-      {% if section.path != "/projects/" and section.path != "/wiki/" %}
+      {% if section.path != "/projects/" and section.path != "/notes/" %}
       <a href="/blog">blog</a>
-      {% elif section.path != "/blog/" and section.path != "/wiki/" %}
+      {% elif section.path != "/blog/" and section.path != "/notes/" %}
       <a href="/projects">projects</a>
       {% else %}
-      <a href="/wiki">wiki</a>
+      <a href="/notes">notes</a>
       {% endif %}
     </nav>
     <div id="btns">

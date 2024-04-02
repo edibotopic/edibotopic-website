@@ -4,7 +4,7 @@ date = 2023-10-31
 draft = false
 
 [taxonomies]
-categories = ["wiki"]
+categories = ["notes"]
 tags = ["philosophy", "technology", "mind", "functionalism"]
 
 [extra]
@@ -19,7 +19,7 @@ outdate_warn = false
 
 # Multiply Realisable
 
-[Technologies](@/wiki/technologies.md) are often associated with their
+[Technologies](@/notes/technologies.md) are often associated with their
 *function*.
 A clock functions to tell time but it can be **realised** in different
 forms.

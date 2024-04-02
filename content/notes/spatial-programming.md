@@ -5,7 +5,7 @@ updated = 2023-11-12
 draft = true
 
 [taxonomies]
-categories = ["wiki"]
+categories = ["notes"]
 tags = ["programming", "creative", "semiotics"]
 
 [extra]

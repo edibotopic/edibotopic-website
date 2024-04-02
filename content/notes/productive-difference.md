@@ -4,7 +4,7 @@ date = 2023-11-12
 draft = false
 
 [taxonomies]
-categories = ["wiki"]
+categories = ["notes"]
 tags = ["metaphysics", "science", "process"]
 
 [extra]

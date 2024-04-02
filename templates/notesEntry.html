@@ -1,5 +1,5 @@
 {% extends "_base.html" %} {% block page %}post{% endblock page %} {% block lang
--%} {% set section = get_section(path="wiki/_index.md", metadata_only=true) %}
+-%} {% set section = get_section(path="notes/_index.md", metadata_only=true) %}
 {%- if page.extra.lang %}{{page.extra.lang}}{% elif section.extra.lang
 %}{{section.extra.lang}}{% else %}{{page.lang}}{% endif -%} {%- endblock lang %}
 {% block title %}{{ page.title }}{% endblock title %} {% block desc %}{% if
@@ -103,7 +103,7 @@ page.summary %}{{ page.summary }}{% endif %}{% endblock desc %} {% block head %}
       <div class="prose">
         {% if page.backlinks %}
         <h3>Backlinks</h3>
-        <p>Other wiki entries citing this page:</p>
+        <p>Other notes citing this page:</p>
         {% endif %}
         <ul>
         {% for bl in page.backlinks %}

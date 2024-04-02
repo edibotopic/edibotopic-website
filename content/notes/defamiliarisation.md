@@ -4,7 +4,7 @@ date = 2023-11-05
 draft = false
 
 [taxonomies]
-categories = ["wiki"]
+categories = ["notes"]
 tags = ["art", "criticism", "literature"]
 
 [extra]
@@ -32,7 +32,7 @@ Alternative terminology includes *ostranenie* or *estrangement*.
 
 The concept could be extended beyond the domain of art.
 For example, encountering a
-[systematic explanation](@/wiki/systemism.md)
+[systematic explanation](@/notes/systemism.md)
 of some everyday thing can cause defamiliarisation.
 We still retain the capacity to observe that thing as
 usual, but may also experience it an enriched way.

@@ -5,7 +5,7 @@ updated = 2023-11-12
 draft = false
 
 [taxonomies]
-categories = ["wiki"]
+categories = ["notes"]
 tags = ["philosophy", "science", "epistemology"]
 
 [extra]
@@ -46,6 +46,6 @@ always concerning a move from big to small.
 More broadly, it is a *narrowing* of focus on some
 set of concerns at the expense of others.
 
-[Systemism](@/wiki/systemism.md) is the unification of 
+[Systemism](@/notes/systemism.md) is the unification of 
 reductionism and holism, which is often characteristic
 of effective investigations.

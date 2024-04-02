@@ -4,7 +4,7 @@ date = 2023-11-12
 draft = false
 
 [taxonomies]
-categories = ["wiki"]
+categories = ["notes"]
 tags = ["work", "career", "epistemology"]
 
 [extra]
@@ -44,7 +44,7 @@ disallows speech of a certain kind.
 Specialism or expertise becomes a kind of baggage, affecting one's
 ability to comment privately and publicly on matters of societal importance.
 Rather than constraining themselves to their domain, the individual may undergo
-a [professional distortion](@/wiki/professional-deformation.md) in which aspects
+a [professional distortion](@/notes/professional-deformation.md) in which aspects
 of reality are filtered inappropriately through the lens of their work. 
 
 Most industrialised democracies emphasise specialisation among their citizens.

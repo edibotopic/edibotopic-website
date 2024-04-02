@@ -5,7 +5,7 @@ updated = 2023-11-12
 draft = false
 
 [taxonomies]
-categories = ["wiki"]
+categories = ["notes"]
 tags = ["science", "technology", "food", "colloids"]
 
 [extra]

@@ -5,7 +5,7 @@ updated = 2023-11-12
 draft = false
 
 [taxonomies]
-categories = ["wiki"]
+categories = ["notes"]
 tags = ["work", "career"]
 
 [extra]
@@ -49,7 +49,7 @@ mental models or simply disengage from societal discourse altogether.
 
 The inability of specialised individuals to speak
 on general matters may lead to an
-[expert-citizen paradox](@/wiki/expert-citizen-paradox.md),
+[expert-citizen paradox](@/notes/expert-citizen-paradox.md),
 in which democracies that foster specialisation are populated
 with expert-citizens inhibited in their democratic
 participation.
