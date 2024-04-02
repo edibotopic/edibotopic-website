@@ -48,10 +48,6 @@
         <loc>https://edibotopic.com/blog/drafting/</loc>
     </url>
     <url>
-        <loc>https://edibotopic.com/blog/drafting/direction-of-problems/</loc>
-        <lastmod>2023-12-17</lastmod>
-    </url>
-    <url>
         <loc>https://edibotopic.com/blog/explaining/</loc>
     </url>
     <url>
@@ -82,6 +78,10 @@
         <loc>https://edibotopic.com/blog/thinking/</loc>
     </url>
     <url>
+        <loc>https://edibotopic.com/blog/thinking/leaving-academia/</loc>
+        <lastmod>2024-04-02</lastmod>
+    </url>
+    <url>
         <loc>https://edibotopic.com/blog/thinking/misdirected-science/</loc>
         <lastmod>2023-11-04</lastmod>
     </url>
@@ -103,16 +103,68 @@
         <loc>https://edibotopic.com/categories/doing/</loc>
     </url>
     <url>
-        <loc>https://edibotopic.com/categories/drafting/</loc>
+        <loc>https://edibotopic.com/categories/explaining/</loc>
     </url>
     <url>
-        <loc>https://edibotopic.com/categories/explaining/</loc>
+        <loc>https://edibotopic.com/categories/notes/</loc>
     </url>
     <url>
         <loc>https://edibotopic.com/categories/thinking/</loc>
     </url>
     <url>
-        <loc>https://edibotopic.com/categories/wiki/</loc>
+        <loc>https://edibotopic.com/notes/</loc>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/notes/defamiliarisation/</loc>
+        <lastmod>2023-11-05</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/notes/dispersed-system/</loc>
+        <lastmod>2023-11-12</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/notes/expert-citizen-paradox/</loc>
+        <lastmod>2023-11-12</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/notes/holistic-turn/</loc>
+        <lastmod>2023-11-12</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/notes/misdirected-science/</loc>
+        <lastmod>2023-11-12</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/notes/multiply-realisable/</loc>
+        <lastmod>2023-10-31</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/notes/porogens/</loc>
+        <lastmod>2023-10-31</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/notes/productive-difference/</loc>
+        <lastmod>2023-11-12</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/notes/professional-deformation/</loc>
+        <lastmod>2023-11-12</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/notes/studium-punctum/</loc>
+        <lastmod>2023-11-01</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/notes/systemism/</loc>
+        <lastmod>2023-11-05</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/notes/technologies/</loc>
+        <lastmod>2023-11-01</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/notes/whatami/</loc>
+        <lastmod>2023-10-31</lastmod>
     </url>
     <url>
         <loc>https://edibotopic.com/projects/</loc>
@@ -137,9 +189,6 @@
     </url>
     <url>
         <loc>https://edibotopic.com/tags/career/</loc>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/tags/causation/</loc>
     </url>
     <url>
         <loc>https://edibotopic.com/tags/cli/</loc>
@@ -175,9 +224,6 @@
         <loc>https://edibotopic.com/tags/experience/</loc>
     </url>
     <url>
-        <loc>https://edibotopic.com/tags/explanation/</loc>
-    </url>
-    <url>
         <loc>https://edibotopic.com/tags/food/</loc>
     </url>
     <url>
@@ -194,6 +240,9 @@
     </url>
     <url>
         <loc>https://edibotopic.com/tags/learning/</loc>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/tags/life/</loc>
     </url>
     <url>
         <loc>https://edibotopic.com/tags/linux/</loc>
@@ -241,9 +290,6 @@
         <loc>https://edibotopic.com/tags/spatial-logic/</loc>
     </url>
     <url>
-        <loc>https://edibotopic.com/tags/systemism/</loc>
-    </url>
-    <url>
         <loc>https://edibotopic.com/tags/teaching/</loc>
     </url>
     <url>
@@ -269,60 +315,5 @@
     </url>
     <url>
         <loc>https://edibotopic.com/tags/writing/</loc>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/wiki/</loc>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/wiki/defamiliarisation/</loc>
-        <lastmod>2023-11-05</lastmod>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/wiki/dispersed-system/</loc>
-        <lastmod>2023-11-12</lastmod>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/wiki/expert-citizen-paradox/</loc>
-        <lastmod>2023-11-12</lastmod>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/wiki/holistic-turn/</loc>
-        <lastmod>2023-11-12</lastmod>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/wiki/misdirected-science/</loc>
-        <lastmod>2023-11-12</lastmod>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/wiki/multiply-realisable/</loc>
-        <lastmod>2023-10-31</lastmod>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/wiki/porogens/</loc>
-        <lastmod>2023-10-31</lastmod>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/wiki/productive-difference/</loc>
-        <lastmod>2023-11-12</lastmod>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/wiki/professional-deformation/</loc>
-        <lastmod>2023-11-12</lastmod>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/wiki/studium-punctum/</loc>
-        <lastmod>2023-11-01</lastmod>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/wiki/systemism/</loc>
-        <lastmod>2023-11-05</lastmod>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/wiki/technologies/</loc>
-        <lastmod>2023-11-01</lastmod>
-    </url>
-    <url>
-        <loc>https://edibotopic.com/wiki/whatami/</loc>
-        <lastmod>2023-10-31</lastmod>
     </url>
 </urlset>
