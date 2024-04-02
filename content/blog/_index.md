@@ -14,7 +14,7 @@ truncate_summary = false
 # show_post_num = 10
 +++
 
-<!-- Sections sorted by weight: -->
+<!-- Section weights: -->
 <!-- 0 Experiments -->
 <!-- 1 Technical -->
 <!-- 2 Notes  -->
