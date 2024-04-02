@@ -7,7 +7,7 @@ lang = 'en'
 
 ---
 
-I'm an academic in **food science** who has studied **philosophy** 
+I'm **food scientist** who has studied **philosophy** 
 and likes to do a bit of **coding**.
 
 An occasional [blog](@/blog/_index.md) will be posted here along 
