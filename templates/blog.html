@@ -10,8 +10,10 @@
 <div id="blog-wrapper">
   <main>
     {% if config.extra.blog_categorized %}
-    {% for category,posts in section.pages | group_by(attribute="taxonomies.categories.0") -%}
-    <div class="category"><a href="/blog/{{ category}}">{{ category }}</a></div>
+    <!-- NOTE: change attribute to "taxonomies.categories.0" to sort by category -->
+    {% for category,posts in section.pages | group_by(attribute="date") -%}
+    <!-- NOTE: uncomment line to show category names as headers -->
+    <!-- <div class="category"><a href="/blog/{{ category}}">{{ category }}</a></div> -->
     <div>
       {% for post in posts %}
       <a class="post" href="{{ post.permalink }}">
