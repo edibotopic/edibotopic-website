@@ -1,7 +1,7 @@
 +++
 title = "Using Pseudonyms on Code Forges"
 date = 2023-12-11
-# updated = 2023-05-18
+updated = 2024-04-08
 draft = false
 weight = 1
 
@@ -169,8 +169,8 @@ directories that will contain build outputs:
 /pages/
 ```
 
-I am assuming that there will be a static-site-generator in the
-picture and that there a build step invoked with `ssg build`:
+I am assuming that a static-site-generator (ssg) of some kind will be used
+and that there is a build step that can be invoked with `ssg build`:
 
 ```bash
 ssg build #builds static files in /dist/
