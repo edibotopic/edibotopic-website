@@ -4,7 +4,7 @@
 	<subtitle>Writing on food, technology and philosophy</subtitle>
 	<link href="https://edibotopic.com/blog/feed.xml" rel="self" type="application/atom+xml"/>
     <link href="https://edibotopic.com/blog/"/>
-	<updated>2024-04-02T00:00:00+00:00</updated>
+	<updated>2024-04-08T00:00:00+00:00</updated>
 	<id>https://edibotopic.com/blog/feed.xml</id>
 	<entry xml:lang="en">
 		<title>Leaving Academia to Do Something New</title>
@@ -118,7 +118,7 @@ It&#x27;s always a pleasant surprise when my incompetence at marketing pays off.
 	<entry xml:lang="en">
 		<title>Using Pseudonyms on Code Forges</title>
 		<published>2023-12-11T00:00:00+00:00</published>
-		<updated>2023-12-11T00:00:00+00:00</updated>
+		<updated>2024-04-08T00:00:00+00:00</updated>
         <summary>&lt;p&gt;This short post demonstrates how to create a pseudonym on a code forge.
 I will be using &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;codeberg.org&#x2F;&quot;&gt;Codeberg&lt;&#x2F;a&gt; — a non-profit 
 platform — as an example of a code forge that can be used to host
@@ -241,8 +241,8 @@ directories that will contain build outputs:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;txt&quot; class=&quot;language-txt z-code&quot;&gt;&lt;code class=&quot;language-txt&quot; data-lang=&quot;txt&quot;&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;&#x2F;dist&#x2F;
 &#x2F;pages&#x2F;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;I am assuming that there will be a static-site-generator in the
-picture and that there a build step invoked with &lt;code&gt;ssg build&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
+&lt;p&gt;I am assuming that a static-site-generator (ssg) of some kind will be used
+and that there is a build step that can be invoked with &lt;code&gt;ssg build&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;ssg&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; build &lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;builds static files in &#x2F;dist&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;ls&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; dist &lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;icon.png index.html style.css&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
