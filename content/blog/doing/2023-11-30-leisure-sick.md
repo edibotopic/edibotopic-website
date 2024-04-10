@@ -1,6 +1,7 @@
 +++
-title = "New Music Created with Arroost"
+title = "Trying Arroost"
 date = 2023-12-02
+updated = 2024-04-10
 draft = false
 weight = 0
 
@@ -18,9 +19,7 @@ cc_license = false
 outdate_warn = false
 +++
 
-There's a new Curtsy Rehearsed album called _Leisure Sick_.
-I made it using an early-version of the node-based Arroost tool.
-Several of the songs are built entirely from live-recorded vocal samples.
+I've been playing around with an early version of Arroost, a node-based tool for live sampling.
 
 <!-- more -->
 
@@ -76,7 +75,7 @@ In the image below a loop can be seen connected by red arrows.
 Currently the bottom node in the loop is being triggered.
 This will be followed by the top-right node and so on.
 
-![Arroost interface](/figs/arroostUI.webp "UI of Arroost") *User interface of Arroost showing control nodes (Add, Connect, Remove and Annotate) and example sound structures (single node, node sequence, node loop). Correct as of 2023-12-02.*
+![Arroost interface](/figs/arroostUI.webp "UI of Arroost") *User interface of Arroost showing control nodes (Add, Connect, Remove and Annotate) and example sound structures (single node, node sequence, node loop).*
 
 There are some other nuances in the design:
 empty nodes can be used to create _rests_ within sequences;
@@ -107,20 +106,20 @@ connections in action:
 
 # Becoming Unlocked
 
-_Cans in the Woods_ is included with eight other songs in _Leisure Sickness_.
-The album is free to download but you can pay more if you'd like.
+Below is a short megamix containing eight snippets of my Arroost experiments.
+I have high quality version of the full tracks as a private release on Bandcamp and you can contact me at [edibotopic@gmail.com](mailto:edibotopic@gmail.com) if you want a download code.
 
 <div style="text-align: center">
-<iframe style="border: 0; width: 360px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=1240561687/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/leisure-sickness">Leisure Sickness by Curtsy Rehearsed</a></iframe>
+    <audio controls>
+      <source src="/audio/arroost_megamix_192.ogg" type="audio/ogg">
+      <source src="/audio/arroost_megamix_320.mp3" type="audio/mpeg">
+    Your browser does not support this audio.
+    </audio>
 </div>
-
-_Leisure Sickness_ is a bit of a departure from my other releases,
-mostly because it's built from live-looped vocals.
-Three of the songs consist entirely of my sampled voice.
 
 There are vocals strewn across all of my albums but usually
 as minor details and often warped beyond recognition.
-Arroost unlocked me with respect to vocals through its
+Arroost encouraged me to use more vocals through its
 
 - **Emphasis on live recording**: it's possible to do some
 _pre-recorded sampling_ with Arroost; for example, you can
@@ -156,21 +155,11 @@ Encouraged by the developer [Lu Wilson](https://www.todepond.com/) calling for e
 
 > Normalise sharing scrappy fiddles
 
-I initially shared the tracks on Mastodon as videos.
+Initially, I shared the tracks on my (defunct) Mastodon account as short videos.
 All in all, I recorded about 60 minutes of music in three weeks.
-I took the best of the material shared on Mastodon and tried to improve the sound quality
-_just a little_.
-This mainly involved making the recordings slightly louder and removing some
-annoying clicking noises.
-For songs built from vocals I also added some reverb and saturation to
-"fill out" the sound.
-This is a little more obvious in the recording below:
+I stopped when Arroost became too addictive!
 
-<iframe width="100%" height="315"
-    src="https://www.youtube.com/embed/Er_r70gzk-4?si=aAsVocxgyu8Ylj1j"
-    title="YouTube video player" frameborder="0" allow="accelerometer;
-    autoplay; clipboard-write; encrypted-media; gyroscope;
-    picture-in-picture; web-share" allowfullscreen></iframe>
+---
 
 Lu is continuing to work on Arroost.
 From talking with them, the tool will likely evolve considerably.
