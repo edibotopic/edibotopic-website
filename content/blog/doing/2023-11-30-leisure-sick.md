@@ -105,7 +105,9 @@ connections in action:
 # Becoming Unlocked
 
 Below is a short megamix containing eight snippets of my Arroost experiments.
-I have high quality version of the full tracks as a private release on Bandcamp and you can contact me at [edibotopic@gmail.com](mailto:edibotopic@gmail.com) if you want a download code.
+I have high quality version of the full tracks as a private release on Bandcamp
+and you can contact me at [edibotopic@gmail.com](mailto:edibotopic@gmail.com)
+if you want a download code.
 
 <div style="text-align: center">
     <audio controls>
