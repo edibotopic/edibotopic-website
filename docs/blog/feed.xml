@@ -4,7 +4,7 @@
 	<subtitle>Writing on food, technology and philosophy</subtitle>
 	<link href="https://edibotopic.com/blog/feed.xml" rel="self" type="application/atom+xml"/>
     <link href="https://edibotopic.com/blog/"/>
-	<updated>2024-04-08T00:00:00+00:00</updated>
+	<updated>2024-04-10T00:00:00+00:00</updated>
 	<id>https://edibotopic.com/blog/feed.xml</id>
 	<entry xml:lang="en">
 		<title>Leaving Academia to Do Something New</title>
@@ -306,18 +306,14 @@ for more information.&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
-		<title>New Music Created with Arroost</title>
+		<title>Trying Arroost</title>
 		<published>2023-12-02T00:00:00+00:00</published>
-		<updated>2023-12-02T00:00:00+00:00</updated>
-        <summary>&lt;p&gt;There&#x27;s a new Curtsy Rehearsed album called &lt;em&gt;Leisure Sick&lt;&#x2F;em&gt;.
-I made it using an early-version of the node-based Arroost tool.
-Several of the songs are built entirely from live-recorded vocal samples.&lt;&#x2F;p&gt;
+		<updated>2024-04-10T00:00:00+00:00</updated>
+        <summary>&lt;p&gt;I&#x27;ve been playing around with an early version of Arroost, a node-based tool for live sampling.&lt;&#x2F;p&gt;
 </summary>
 		<link href="https://edibotopic.com/blog/doing/leisure-sick/" type="text/html"/>
 		<id>https://edibotopic.com/blog/doing/leisure-sick/</id>
-		<content type="html">&lt;p&gt;There&#x27;s a new Curtsy Rehearsed album called &lt;em&gt;Leisure Sick&lt;&#x2F;em&gt;.
-I made it using an early-version of the node-based Arroost tool.
-Several of the songs are built entirely from live-recorded vocal samples.&lt;&#x2F;p&gt;
+		<content type="html">&lt;p&gt;I&#x27;ve been playing around with an early version of Arroost, a node-based tool for live sampling.&lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h1 id=&quot;new-ways-to-do-things&quot;&gt;New Ways to Do Things&lt;a class=&quot;zola-anchor&quot; href=&quot;#new-ways-to-do-things&quot; aria-label=&quot;Anchor link for: new-ways-to-do-things&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;iframe width=&quot;100%&quot; height=&quot;315&quot;
     src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;S3FayhhCjNo?si=BoWw9tHqKhInDquD&quot;
@@ -361,7 +357,7 @@ Click a node in a loop and the loop will play continuously.&lt;&#x2F;p&gt;
 &lt;p&gt;In the image below a loop can be seen connected by red arrows.
 Currently the bottom node in the loop is being triggered.
 This will be followed by the top-right node and so on.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;figs&#x2F;arroostUI.webp&quot; alt=&quot;Arroost interface&quot; title=&quot;UI of Arroost&quot; &#x2F;&gt; &lt;em&gt;User interface of Arroost showing control nodes (Add, Connect, Remove and Annotate) and example sound structures (single node, node sequence, node loop). Correct as of 2023-12-02.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;figs&#x2F;arroostUI.webp&quot; alt=&quot;Arroost interface&quot; title=&quot;UI of Arroost&quot; &#x2F;&gt; &lt;em&gt;User interface of Arroost showing control nodes (Add, Connect, Remove and Annotate) and example sound structures (single node, node sequence, node loop).&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;There are some other nuances in the design:
 empty nodes can be used to create &lt;em&gt;rests&lt;&#x2F;em&gt; within sequences;
 the start time of a recorded sample can be offset;
@@ -384,17 +380,18 @@ connections in action:&lt;&#x2F;p&gt;
     autoplay; clipboard-write; encrypted-media; gyroscope;
     picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;&#x2F;iframe&gt;
 &lt;h1 id=&quot;becoming-unlocked&quot;&gt;Becoming Unlocked&lt;a class=&quot;zola-anchor&quot; href=&quot;#becoming-unlocked&quot; aria-label=&quot;Anchor link for: becoming-unlocked&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
-&lt;p&gt;&lt;em&gt;Cans in the Woods&lt;&#x2F;em&gt; is included with eight other songs in &lt;em&gt;Leisure Sickness&lt;&#x2F;em&gt;.
-The album is free to download but you can pay more if you&#x27;d like.&lt;&#x2F;p&gt;
+&lt;p&gt;Below is a short megamix containing eight snippets of my Arroost experiments.
+I have high quality version of the full tracks as a private release on Bandcamp and you can contact me at &lt;a href=&quot;mailto:edibotopic@gmail.com&quot;&gt;edibotopic@gmail.com&lt;&#x2F;a&gt; if you want a download code.&lt;&#x2F;p&gt;
 &lt;div style=&quot;text-align: center&quot;&gt;
-&lt;iframe style=&quot;border: 0; width: 360px; height: 470px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=1240561687&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=333333&#x2F;tracklist=false&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;curtsyrehearsed.bandcamp.com&#x2F;album&#x2F;leisure-sickness&quot;&gt;Leisure Sickness by Curtsy Rehearsed&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
+    &lt;audio controls&gt;
+      &lt;source src=&quot;&#x2F;audio&#x2F;arroost_megamix_192.ogg&quot; type=&quot;audio&#x2F;ogg&quot;&gt;
+      &lt;source src=&quot;&#x2F;audio&#x2F;arroost_megamix_320.mp3&quot; type=&quot;audio&#x2F;mpeg&quot;&gt;
+    Your browser does not support this audio.
+    &lt;&#x2F;audio&gt;
 &lt;&#x2F;div&gt;
-&lt;p&gt;&lt;em&gt;Leisure Sickness&lt;&#x2F;em&gt; is a bit of a departure from my other releases,
-mostly because it&#x27;s built from live-looped vocals.
-Three of the songs consist entirely of my sampled voice.&lt;&#x2F;p&gt;
 &lt;p&gt;There are vocals strewn across all of my albums but usually
 as minor details and often warped beyond recognition.
-Arroost unlocked me with respect to vocals through its&lt;&#x2F;p&gt;
+Arroost encouraged me to use more vocals through its&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Emphasis on live recording&lt;&#x2F;strong&gt;: it&#x27;s possible to do some
 &lt;em&gt;pre-recorded sampling&lt;&#x2F;em&gt; with Arroost; for example, you can
@@ -429,20 +426,10 @@ together into an interesting structure — I think Arroost helps &lt;em&gt;show&
 &lt;blockquote&gt;
 &lt;p&gt;Normalise sharing scrappy fiddles&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
-&lt;p&gt;I initially shared the tracks on Mastodon as videos.
+&lt;p&gt;Initially, I shared the tracks on my (defunct) Mastodon account as short videos.
 All in all, I recorded about 60 minutes of music in three weeks.
-I took the best of the material shared on Mastodon and tried to improve the sound quality
-&lt;em&gt;just a little&lt;&#x2F;em&gt;.
-This mainly involved making the recordings slightly louder and removing some
-annoying clicking noises.
-For songs built from vocals I also added some reverb and saturation to
-&amp;quot;fill out&amp;quot; the sound.
-This is a little more obvious in the recording below:&lt;&#x2F;p&gt;
-&lt;iframe width=&quot;100%&quot; height=&quot;315&quot;
-    src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;Er_r70gzk-4?si=aAsVocxgyu8Ylj1j&quot;
-    title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer;
-    autoplay; clipboard-write; encrypted-media; gyroscope;
-    picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;&#x2F;iframe&gt;
+I stopped when Arroost became too addictive!&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
 &lt;p&gt;Lu is continuing to work on Arroost.
 From talking with them, the tool will likely evolve considerably.
 While writing this post I setup some basic nodes and connections in
