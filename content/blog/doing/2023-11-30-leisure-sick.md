@@ -47,8 +47,6 @@ Arroost was a new way of making music for me.
 It made the process more light and joyful than some
 of my recent painstaking
 [DAW](https://en.wikipedia.org/wiki/Digital_audio_workstation) sessions.
-In the end, I became quite addicted to Arroost and
-releasing a finished project was the only way for me to stop.
 
 # Arrows to Sounds
 
