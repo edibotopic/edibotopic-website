@@ -42,7 +42,7 @@ last year.
 The plan was to wind down the Curtsy Rehearsed
 project by the end of 2023.
 In the meantime, my discovery of [Arroost](https://arroost.com/) led
-to a surprise burst of music-making.
+to a sudden [burst of music-making](@/blog/doing/2024-03-27-newly-sincere.md).
 
 Arroost was a new way of making music for me.
 It made the process more light and joyful than some
