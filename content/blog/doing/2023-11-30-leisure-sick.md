@@ -153,27 +153,27 @@ together into an interesting structure — I think Arroost helps _show_ this.
 
 # "Share Scrappy Fiddles"
 
-Encouraged by the developer [Lu Wilson](https://www.todepond.com/) calling for everyone to 
+Encouraged by the developer [Lu Wilson](https://www.todepond.com/)'s call to 
 
 > Normalise sharing scrappy fiddles
 
-Initially, I shared the tracks on my (defunct) Mastodon account as short videos.
+I shared my Arroost creations on a (now defunct) Mastodon account as short videos.
 All in all, I recorded about 60 minutes of music in three weeks.
-I stopped when Arroost became too addictive!
+I stopped when Arroost simply became too addictive!
 
 ---
 
 Lu is continuing to work on Arroost.
 From talking with them, the tool will likely evolve considerably.
-While writing this post I setup some basic nodes and connections in
-Arroost to grab a screenshot for this post.
+While writing this post I set up some basic nodes and connections in
+Arroost to grab a screenshot.
 Soon after I realised that arrows could now be coloured and that
 this affected the flow of sound!!!
 This arrow-colouring novelty immediately made me want to stop writing
 and start experimenting with Arroost again...
 
-I'm not sure where Arroost will figure in my music-making future.
-Right now, it is the best tool I have ever encountered for rapidly
-iterating on song ideas in an experimental fashion.
-This is invaluable for someone like me, who lacks any formal training
-in music.
+In its current state, Arroost is a great tool for rapidly iterating on song
+ideas.
+Although I didn't use it when making the
+[newest Curtsy Rehearsed projects](@/blog/doing/2024-03-27-newly-sincere.md)
+I think Arroost got me back to a place where I _could_ make something.
