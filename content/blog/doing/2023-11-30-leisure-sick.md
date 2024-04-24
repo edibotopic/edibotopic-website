@@ -19,7 +19,8 @@ cc_license = false
 outdate_warn = false
 +++
 
-I've been playing around with an early version of Arroost, a node-based tool for live sampling.
+I've been playing around with an early version of Arroost, a node-based tool
+for live sampling.
 
 <!-- more -->
 
