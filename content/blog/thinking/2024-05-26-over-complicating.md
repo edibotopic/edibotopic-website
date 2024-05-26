@@ -5,7 +5,7 @@ draft = false
 
 [taxonomies]
 categories = ["notes"]
-tags = ["collaboration", "complexity", "ideas"]
+tags = ["work", "complicated", "ideas"]
 
 [extra]
 lang = "en"
