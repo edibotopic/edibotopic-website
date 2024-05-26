@@ -7,12 +7,12 @@ lang = 'en'
 
 ---
 
-I'm a **food scientist** who has studied **philosophy** 
-and likes to do a bit of **coding**.
+I'm a **technical author** in software development who
+previously worked as a university academic.
 
-An occasional [blog](@/blog/_index.md) will be posted here along 
-with links to my [projects](@/projects/_index.md) in **research**, 
-**programming** and **music**.
+Here I maintain a [blog](@/blog/_index.md) and post about
+[projects](@/projects/_index.md) in **research**, **programming** and
+**music**.
 
-If you would like to **collaborate** on a project just send an email 
-to [edibotopic@gmail.com](mailto:edibotopic@gmail.com).
+If you would like to **collaborate** on a project just send an email to
+[edibotopic@gmail.com](mailto:edibotopic@gmail.com).
