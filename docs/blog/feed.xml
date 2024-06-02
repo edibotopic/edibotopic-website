@@ -4,8 +4,34 @@
 	<subtitle>Writing on food, technology and philosophy</subtitle>
 	<link href="https://edibotopic.com/blog/feed.xml" rel="self" type="application/atom+xml"/>
     <link href="https://edibotopic.com/blog/"/>
-	<updated>2024-05-27T00:00:00+00:00</updated>
+	<updated>2024-06-02T00:00:00+00:00</updated>
 	<id>https://edibotopic.com/blog/feed.xml</id>
+	<entry xml:lang="en">
+		<title>Wayward Repurposing</title>
+		<published>2024-06-02T00:00:00+00:00</published>
+		<updated>2024-06-02T00:00:00+00:00</updated>
+        <summary>&lt;p&gt;When trying to achieve something it&#x27;s possible to fail.
+Byproducts of that failure can be repurposed for some new task.&lt;&#x2F;p&gt;
+</summary>
+		<link href="https://edibotopic.com/blog/thinking/wayward-repurposing/" type="text/html"/>
+		<id>https://edibotopic.com/blog/thinking/wayward-repurposing/</id>
+		<content type="html">&lt;p&gt;When trying to achieve something it&#x27;s possible to fail.
+Byproducts of that failure can be repurposed for some new task.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;Applied to a common domain or purpose this can be rewarding —
+the same problem gets solved, the same money gets made.&lt;&#x2F;p&gt;
+&lt;p&gt;Yet wayward repurposing can also be parasitic on our unrealised ambitions.&lt;&#x2F;p&gt;
+&lt;p&gt;Someone names products after ideas that they once wanted to write about.
+Another dreamed of saving a species and now keeps them alive in their wallpaper
+choice.&lt;&#x2F;p&gt;
+&lt;p&gt;Good ideas are disappeared into all kinds of mundane places.&lt;&#x2F;p&gt;
+&lt;p&gt;The faint echoes of the unaccomplished provide comfort in a minor project as
+the old ambition dies and the idea weakens with every dilution.&lt;&#x2F;p&gt;
+&lt;p&gt;Better to use an idea than not at all, still better to do so properly and to
+the fullest extent.&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s not easy.&lt;&#x2F;p&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title>May 2024 Update: Future of Coding mention, Working at Canonical, YouTube appearance</title>
 		<published>2024-05-27T00:00:00+00:00</published>
