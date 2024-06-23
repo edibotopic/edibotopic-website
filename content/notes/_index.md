@@ -5,7 +5,7 @@ sort_by = "title"
 template = "notes.html"
 page_template = "notesEntry.html"
 insert_anchor_links = "right"
-generate_feed = false
+generate_feeds = false
 
 [extra]
 lang = 'en'
