@@ -1,6 +1,6 @@
 +++
-title = "edibotopic | wiki"
-description = "Personal wiki"
+title = "edibotopic | notes"
+description = "Personal notes"
 sort_by = "title"
 template = "notes.html"
 page_template = "notesEntry.html"
