@@ -38,4 +38,5 @@ I am tracking my progress in the table below:
 | Alice's Adventures in Wonderland | Lewis Carroll | Fiction     |   154 | 03-06-24 | 06-06-24 | 
 | The Fall                         | Albert Camus  | Fiction     |    92 | 06-06-24 | 11-06-24 | 
 | Pedagogy of the Oppressed        | Paulo Freire  | Non-fiction |   156 | 07-06-24 | 23-06-24 | 
-| Design as Art                    | Bruno Munari  | Non-fiction |   223 | 23-06-24 |          | 
+| Design as Art                    | Bruno Munari  | Non-fiction |   223 | 23-06-24 | 07-07-24 | 
+| Room to Dream                    | David Lynch   | Non-fiction |   506 | 07-07-24 |          | 
