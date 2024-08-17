@@ -54,6 +54,13 @@ Productive questions emerge: _what can be said in general concerning solutions t
 All that is to say: tell people what they did for you, preferably soon after
 they have done it.
 
+If you did something that attracts a meaningful response
+then [do like Lu](https://www.todepond.com/report/arroost/)
+and tell people about that too.
+
+..Feed the loop, feed back through the loop, give back: feed the loop, a giveback loop,
+give the feedback then loop, loop, _loop_...
+
 _Which reminds me..._
 
 # No feedback, bad feedback
