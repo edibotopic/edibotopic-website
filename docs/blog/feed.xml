@@ -296,7 +296,7 @@ also to make a personal connection and to create new possibilities.&lt;&#x2F;p&g
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h1 id=&quot;video&quot;&gt;Video&lt;a class=&quot;zola-anchor&quot; href=&quot;#video&quot; aria-label=&quot;Anchor link for: video&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;The talk was a part of Canonical&#x27;s weekly Open Documentation Hour and can be watched below:&lt;&#x2F;p&gt;
 &lt;div style=&quot;text-align: center;&quot;&gt;
-    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;LwJMtk3Fbsg?si=nX8nL-YhqRb1kT6o&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;&lt;&#x2F;iframe&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;315&quot; src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;LwJMtk3Fbsg?si=nX8nL-YhqRb1kT6o&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;&lt;&#x2F;iframe&gt;
 &lt;&#x2F;div&gt;
 &lt;p&gt;Below are some rough notes written after the talk.
 References to tools mentioned are included at the end.&lt;&#x2F;p&gt;
@@ -376,7 +376,7 @@ I need to make it again, reupload and relink&lt;&#x2F;p&gt;
 
     &lt;&#x2F;div&gt;
 &lt;&#x2F;blockquote&gt;&lt;div style=&quot;text-align: center;&quot;&gt;
-    &lt;iframe width=&quot;560&quot; height=&quot;415&quot; src=&quot;https:&#x2F;&#x2F;edibotopic.github.io&#x2F;pres-term-cmd-docs&#x2F;&quot;&gt;&lt;&#x2F;iframe&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;415&quot; src=&quot;https:&#x2F;&#x2F;edibotopic.github.io&#x2F;pres-term-cmd-docs&#x2F;&quot;&gt;&lt;&#x2F;iframe&gt;
 &lt;&#x2F;div&gt;
 </content>
 	</entry>
