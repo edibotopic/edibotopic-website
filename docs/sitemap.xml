@@ -18,10 +18,6 @@
         <lastmod>2023-05-17</lastmod>
     </url>
     <url>
-        <loc>https://edibotopic.com/blog/archiving/updates/</loc>
-        <lastmod>2024-05-27</lastmod>
-    </url>
-    <url>
         <loc>https://edibotopic.com/blog/doing/</loc>
     </url>
     <url>
@@ -35,6 +31,10 @@
     <url>
         <loc>https://edibotopic.com/blog/doing/leisure-sick/</loc>
         <lastmod>2024-04-24</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/blog/doing/new-music-summer-paradise/</loc>
+        <lastmod>2024-08-17</lastmod>
     </url>
     <url>
         <loc>https://edibotopic.com/blog/doing/newly-sincere/</loc>
@@ -61,6 +61,10 @@
     <url>
         <loc>https://edibotopic.com/blog/explaining/making-simple-prs/</loc>
         <lastmod>2023-09-20</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/blog/explaining/note-system-native-vim-ctags/</loc>
+        <lastmod>2024-08-17</lastmod>
     </url>
     <url>
         <loc>https://edibotopic.com/blog/explaining/pore-generators/</loc>
@@ -100,6 +104,14 @@
     <url>
         <loc>https://edibotopic.com/blog/thinking/strange-food-pedagogy/</loc>
         <lastmod>2023-07-05</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/blog/thinking/tell-people-what-they-did-for-you/</loc>
+        <lastmod>2024-08-17</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/blog/thinking/ten-ways-to-document-terminal-commands/</loc>
+        <lastmod>2024-06-02</lastmod>
     </url>
     <url>
         <loc>https://edibotopic.com/blog/thinking/wayward-repurposing/</loc>
@@ -219,6 +231,9 @@
         <loc>https://edibotopic.com/tags/colloids/</loc>
     </url>
     <url>
+        <loc>https://edibotopic.com/tags/community/</loc>
+    </url>
+    <url>
         <loc>https://edibotopic.com/tags/complicated/</loc>
     </url>
     <url>
@@ -226,6 +241,9 @@
     </url>
     <url>
         <loc>https://edibotopic.com/tags/criticism/</loc>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/tags/ctags/</loc>
     </url>
     <url>
         <loc>https://edibotopic.com/tags/defamiliarisation/</loc>
@@ -246,6 +264,9 @@
         <loc>https://edibotopic.com/tags/experience/</loc>
     </url>
     <url>
+        <loc>https://edibotopic.com/tags/feedback/</loc>
+    </url>
+    <url>
         <loc>https://edibotopic.com/tags/food/</loc>
     </url>
     <url>
@@ -262,6 +283,9 @@
     </url>
     <url>
         <loc>https://edibotopic.com/tags/ideas/</loc>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/tags/internet/</loc>
     </url>
     <url>
         <loc>https://edibotopic.com/tags/learning/</loc>
@@ -286,6 +310,9 @@
     </url>
     <url>
         <loc>https://edibotopic.com/tags/music/</loc>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/tags/note-taking/</loc>
     </url>
     <url>
         <loc>https://edibotopic.com/tags/philosophy/</loc>
@@ -318,6 +345,9 @@
         <loc>https://edibotopic.com/tags/spatial-logic/</loc>
     </url>
     <url>
+        <loc>https://edibotopic.com/tags/talk/</loc>
+    </url>
+    <url>
         <loc>https://edibotopic.com/tags/teaching/</loc>
     </url>
     <url>
@@ -333,7 +363,7 @@
         <loc>https://edibotopic.com/tags/tutorial/</loc>
     </url>
     <url>
-        <loc>https://edibotopic.com/tags/update/</loc>
+        <loc>https://edibotopic.com/tags/vim/</loc>
     </url>
     <url>
         <loc>https://edibotopic.com/tags/virtualisation/</loc>

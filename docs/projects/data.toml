@@ -46,18 +46,25 @@ links = [
 ]
 
 [[project]]
-name = "Food Science"
-desc = "General projects on the science and technology of food systems (too numerous to list)."
+name = "TRANSFORM"
+desc = "Four-year project on dietary technology for cancer patients where I developed the concept, planned the project and led the proposal writing."
+tags = ["research", "science"]
+links = [
+]
+
+[[project]]
+name = "RUBUSElite"
+desc = "Four-year project on a sports nutrition beverage where I co-wrote the proposal and supervised a 4-year PhD project."
+tags = ["research", "science"]
+links = [
+	{name = "Overview", url = "https://www.ucc.ie/en/vitamind/history/rubuselite/"},
+]
+
+[[project]]
+name = "Scientific publications"
+desc = "Around 70 papers on the science and technology of food systems."
 tags = ["research", "science"]
 links = [
 	{name = "GoogleScholar", url = "https://scholar.google.com/citations?user=aw1EnaIAAAAJ&hl=en"},
 	{name = "ResearchGate", url = "https://www.researchgate.net/profile/Shane-Crowley"},
-]
-
-[[project]]
-name = "Sqong"
-desc = "A basic Pong-clone written to learn the Odin programming language and the Raylib game-making library."
-tags = ["software", "gamedev"]
-links = [
-	{name = "source", url = "https://github.com/edibotopic/sqong/"}
 ]
