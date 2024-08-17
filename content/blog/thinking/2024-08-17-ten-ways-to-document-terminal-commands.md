@@ -26,7 +26,7 @@ I gave a talk on YouTube about the niche topic of using code blocks in software 
 The talk was a part of Canonical's weekly Open Documentation Hour and can be watched below:
 
 <div style="text-align: center;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/LwJMtk3Fbsg?si=nX8nL-YhqRb1kT6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/LwJMtk3Fbsg?si=nX8nL-YhqRb1kT6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 Below are some rough notes written after the talk.
@@ -92,5 +92,5 @@ I need to make it again, reupload and relink
 {% end %}
 
 <div style="text-align: center;">
-    <iframe width="560" height="415" src="https://edibotopic.github.io/pres-term-cmd-docs/"></iframe>
+    <iframe width="100%" height="415" src="https://edibotopic.github.io/pres-term-cmd-docs/"></iframe>
 </div>
