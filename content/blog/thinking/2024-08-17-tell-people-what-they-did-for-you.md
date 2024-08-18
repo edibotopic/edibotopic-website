@@ -5,7 +5,7 @@ draft = false
 
 [taxonomies]
 categories = ["notes"]
-tags = ["community", "feedback", "internet"]
+tags = ["community", "feedback", "work"]
 
 [extra]
 lang = "en"
@@ -30,7 +30,7 @@ One of my favourite creations from Lu is [Arroost](https://arroost.com/), a visu
 I wrote a [little blog](https://edibotopic.com/blog/doing/leisure-sick/) where I explained why I liked Arroost
 and how it helped me get out of a creative rut.
 Seeing Lu reference the blog in [podcasts](https://futureofcoding.org/episodes/071) and [conference papers](https://www.todepond.com/report/arroost/)
-has been fascinating and gratifying.
+has been surprising and gratifying.
 
 It's enough sometimes to express that you value what someone has contributed.
 You don't have to subject it to breathtaking analysis or critique.
@@ -54,9 +54,9 @@ Productive questions emerge: _what can be said in general concerning solutions t
 All that is to say: tell people what they did for you, preferably soon after
 they have done it.
 
-If you did something that attracts a meaningful response
-then [do like Lu](https://www.todepond.com/report/arroost/)
-and tell people about that too.
+If someone responds to your work in a way that is meaningful to you
+then [do like Lu](https://www.todepond.com/report/arroost/) and tell 
+people about that too.
 
 ..Feed the loop, feed back through the loop, give back: feed the loop, a giveback loop,
 give the feedback then loop, loop, _loop_...
@@ -124,4 +124,4 @@ Whether it is "constructive" is only one aspect of feedback.
 The person receiving feedback should feel encouraged to continue,
 if the expectation is that they will — in fact — continue.
 Feedback is not only an opportunity to correct mistakes but
-also to make a personal connection and to create new possibilities.
+also to make connections and create possibilities.
