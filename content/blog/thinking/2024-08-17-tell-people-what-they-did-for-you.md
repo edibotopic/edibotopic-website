@@ -35,7 +35,6 @@ It's enough sometimes to express that you value what someone has contributed.
 You don't have to subject it to breathtaking analysis or critique.
 You don't have to file an insightful bug report or transformative pull request.
 You don't have to create your own more featureful version.
-You don't have to become a looming parasocial entity.
 You can just tell people what they did for you.
 
 This can make someone feel good and encouraged about their work but it
@@ -102,8 +101,9 @@ The main reasons for this — from what I could gather — were:
 - A fear of making someone "too comfortable" and a desire to keep them seeking elusive praise
 - A sense that great work was an expectation and not something worthy of remark
 - An immediate instinct to exploit value rather than to acknowledge value
+- An anticipation of some future moment, usually public, where _all would be revealed_
 
-Tell people what they did for you, whether they're a manager or intern, 
+Just tell people what they did for you, whether they're a manager or intern, 
 teacher or student, friend or competitor, fan or influencer.
 
 Give the damn feedback and be nice about it.
