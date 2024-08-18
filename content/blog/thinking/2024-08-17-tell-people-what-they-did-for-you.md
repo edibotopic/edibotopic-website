@@ -1,6 +1,7 @@
 +++
 title = "Tell People What They Did For You"
 date = 2024-08-17
+updated = 2024-08-18
 draft = false
 
 [taxonomies]
@@ -21,8 +22,6 @@ If someone does something interesting, nice or useful then
 tell them.
 
 <!-- more -->
-
-# Valuing a contribution
 
 [Lu Wilson](https://www.todepond.com/) is a talented and creative person who does many amazing things.
 One of my favourite creations from Lu is [Arroost](https://arroost.com/), a visual tool for creating music from live samples.
@@ -59,7 +58,7 @@ then [do like Lu](https://www.todepond.com/report/arroost/) and tell
 people about that too.
 
 ..Feed the loop, feed back through the loop, give back: feed the loop, a giveback loop,
-give the feedback then loop, loop, _loop_...
+loopback, give the feedback then loop, loop, _loop_...
 
 _Which reminds me..._
 
@@ -74,15 +73,15 @@ aware that I recognised what they just did:
 
 > That idea is really interesting. I hadn't heard of that approach before.
 
-> I never looked at it from that perspective. I think that will change how I approach things in future.
+> After our last meeting I tried what you suggested and it made a huge difference. Thank you.
 
-> Have you thought of saying this to the group? They could get a lot of value from it too.
+> Have you thought of saying this to the rest of the group? They could get a lot of value from it too.
 
 They often responded positively:
 
 > Yes, thanks for saying that! That is exactly what I was trying to do.
 
-> That's nice to hear. It hasn't been easy and I've faced a lot of resistance.
+> That's nice to hear. It hasn't been universally popular and I've faced a lot of resistance.
 
 > Thanks! You know, it's been difficult with everything else that's going on lately.
 
@@ -104,24 +103,19 @@ The main reasons for this — from what I could gather — were:
 - A sense that great work was an expectation and not something worthy of remark
 - An immediate instinct to exploit value rather than to acknowledge value
 
-Maybe I am sensitive to this as a former teacher, but the feedback people give
-is frequently terrible.
-This goes in all directions: from teacher to student, from student to teacher.
-It makes everyone unhappy.
-
-What's even worse is when there is a strategic or philosophical aversion to
-giving any feedback at all.
-In those cases the best we can hope for might be some kind words when we
-leave.
-
 Tell people what they did for you, whether they're a manager or intern, 
 teacher or student, friend or competitor, fan or influencer.
 
-Give feedback.
+Give the damn feedback and be nice about it.
 
-Don't be satisfied that you have merely "provided feedback".
-Whether it is "constructive" is only one aspect of feedback.
-The person receiving feedback should feel encouraged to continue,
+You don't need to wait until the graduation,
+the christmas party, the promotion round,
+the drunken exchange, the elderly recollection,
+the acknowledgements section...
+
+Don't be satisfied that you have merely "provided feedback" either, and
+whether it is "constructive" is just one aspect of good feedback.
+The person receiving the feedback should feel encouraged to continue,
 if the expectation is that they will — in fact — continue.
-Feedback is not only an opportunity to correct mistakes but
+Feedback is an opportunity to correct mistakes but
 also to make connections and create possibilities.
