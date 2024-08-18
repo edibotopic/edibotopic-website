@@ -56,7 +56,7 @@ If someone responds to your work in a way that is meaningful to you
 then [do like Lu](https://www.todepond.com/report/arroost/) and tell 
 people about that too.
 
-..Feed the loop, feed back through the loop, give back: feed the loop, a giveback loop,
+...Feed the loop, feed back through the loop, give back: feed the loop, a giveback loop,
 loopback, give the feedback then loop, loop, _loop_...
 
 _Which reminds me..._
