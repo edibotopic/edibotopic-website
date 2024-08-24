@@ -1,5 +1,5 @@
 +++
-title = "Stages of Summer and Paradise Syndrome"
+title = "Kinds of Summer and Paradise Syndrome"
 date = 2024-08-17
 draft = false
 weight = 0
@@ -26,16 +26,16 @@ So far this Summer I've released two new
 [Curtsy Rehearsed](https://curtsyrehearsed.bandcamp.com/) 
 projects.
 
-# Stages of Summer
+# Kinds of Summer
 
-[Stages of Summer](https://curtsyrehearsed.bandcamp.com/album/stages-of-summer)
+[Kinds of Summer](https://curtsyrehearsed.bandcamp.com/album/kinds-of-summer)
 is the first thing I've made that feels "summery".
-I particularly like the dancey urgency of the first song — [Just Before](https://curtsyrehearsed.bandcamp.com/track/just-before) — and the
-stoned, washed out quality of the next one — [Early On](https://curtsyrehearsed.bandcamp.com/track/early-on).
+I particularly like the dancey urgency of the [title song](https://curtsyrehearsed.bandcamp.com/track/kinds-of-summer) — and the
+stoned, washed out quality of the next one — [Nicely Tired with a Warm Buzz](https://curtsyrehearsed.bandcamp.com/track/nicely-tired-with-a-warm-buzz).
 These are genuine head-nodders, but I'm (sadly) biased...
 
 <div style="text-align: center;">
-    <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=2869185627/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/stages-of-a-summer">Stages of a Summer by Curtsy Rehearsed</a></iframe>
+    <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=256855015/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/kinds-of-summer">Kinds of Summer by Curtsy Rehearsed</a></iframe>
 </div>
 
 # Paradise Syndrome
