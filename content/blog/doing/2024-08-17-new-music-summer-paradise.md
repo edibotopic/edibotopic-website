@@ -1,6 +1,7 @@
 +++
 title = "Kinds of Summer and Paradise Syndrome"
 date = 2024-08-17
+updated = 2024-08-25
 draft = false
 weight = 0
 
@@ -18,7 +19,7 @@ cc_license = false
 outdate_warn = false
 +++
 
-I made something Summery, I sampled some bossa nova.
+I made something Summery and sampled some bossa nova.
 
 <!-- more -->
 
@@ -57,12 +58,8 @@ I really like these, let me know if you do too.
 
 Some notable features:
 
-- Everything is now just free with no option to pay: I would very occasionally get small donations but it's not worth it for some of the friction introduced by the payment prompts.
-- I stopped caring so much about LUFS: these ones are mixed louder than my conventional target of 14 LUFS and it's to their benefit.
-- Upping the tempo: the first song in Stages of Summer has a bpm of >120, which is at least double what I would commonly use before and firmly in the vicinity of "dance" music.
+- Everything I have on BandCamp is now free with no option to pay: I would very occasionally get small donations but it's not worth it for some of the friction introduced by the payment prompts.
+- I stopped caring so much about LUFS: these songs are mixed louder than my conventional target of 14 LUFS and it's to their benefit.
+- Upping the tempo: the first song in Kinds of Summer has a bpm of >120, which is at least double what I would commonly use before and firmly in the vicinity of "dance" music.
 
-For a variety of reasons I'm thinking about moving away from sampling for a while.
-As a part of this transition I am working on a project that involves sampling some
-of my earlier music that did not use any samples.
-I've been wanting to do that for a while.
-Maybe it'll help get sampling out of my system.
+Now I want to do something creative that isn't music for a while.
