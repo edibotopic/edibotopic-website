@@ -40,5 +40,5 @@ I am tracking my progress in the table below:
 | Pedagogy of the Oppressed        | Paulo Freire           | Non-fiction |   156 | 07-06-24 | 23-06-24 |
 | Design as Art                    | Bruno Munari           | Non-fiction |   223 | 23-06-24 | 07-07-24 |
 | Room to Dream                    | David Lynch            | Non-fiction |   506 | 07-07-24 | 25-08-24 |
-| The Go Programming Language      | Donovan & Kernighan    | Fiction     |   366 | 07-07-24 |          |
-| Mrs Dalloway                     | Virginia Woolf         | Fiction     |   141 | 07-07-24 |          |
+| The Go Programming Language      | Donovan & Kernighan    | Fiction     |   366 | 25-08-24 |          |
+| Mrs Dalloway                     | Virginia Woolf         | Fiction     |   141 | 25-08-24 |          |
