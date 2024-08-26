@@ -58,8 +58,11 @@ I really like these, let me know if you do too.
 
 Some notable features:
 
-- Everything I have on BandCamp is now free with no option to pay: I would very occasionally get small donations but it's not worth it for some of the friction introduced by the payment prompts.
-- I stopped caring so much about LUFS: these songs are mixed louder than my conventional target of 14 LUFS and it's to their benefit.
-- Upping the tempo: the first song in Kinds of Summer has a bpm of >120, which is at least double what I would commonly use before and firmly in the vicinity of "dance" music.
+- All the Curtsy Rehearsed music is now free: there's an option to pay that I'm only leaving open because it helps with search-indexing, I recently learned.
+- I stopped caring so much about LUFS: these songs are mixed louder than my conventional target of 14 LUFS and it's to their benefit. The 14 came from when I researched LUFS normalisation on streaming services but I don't put my music there anymore so there's no point.
+- Upping the tempo: the first song in Kinds of Summer has a BPM of >120, which is at least double what I would commonly use before and firmly in the vicinity of dance music.
+If BandCamp had per-song genre tagging I might used the "dance" tag at least once.
 
 Now I want to do something creative that isn't music for a while.
+
+I'm not sure what it will be.
