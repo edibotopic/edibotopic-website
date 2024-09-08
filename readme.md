@@ -8,6 +8,7 @@ Style of website is based on the lovely [serene](https://github.com/isunjn/seren
 
 ## Todo
 
-- Automate build with GitHub action
-- Add an edit button to pages
-- Create templates for posts
+- [x] Automate build with GitHub action
+- [ ] Add an edit button to pages
+- [x] Create templates for posts
+- [ ] Fix nav title on tags pages
