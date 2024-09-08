@@ -1,7 +1,7 @@
 +++
 title = "Inverse Problems"
-date = 2023-12-16
-draft = true
+date = 2024-09-08
+draft = false
 
 [taxonomies]
 categories = ["notes"]
@@ -28,7 +28,7 @@ This provokes a curiosity that demands an explanation.
 
 ## Forward Problems
 
-Mario Bunge used a notation like the following to signify a
+[Mario Bunge](https://en.wikipedia.org/wiki/Mario_Bunge) used a notation like the following to signify a
 question of the form "what y does x cause?":
 
 $$x \to \ ?y$$
