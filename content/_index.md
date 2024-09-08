@@ -7,12 +7,14 @@ lang = 'en'
 
 ---
 
-I'm a **technical author** in software development who
-previously worked as a university academic.
+I'm a **technical author** in software development.
+Previously I was a teacher and researcher in food technology.
 
-Here I maintain a [blog](@/blog/_index.md) and post about
-[projects](@/projects/_index.md) in **research**, **programming** and
-**music**.
+Here I maintain a [blog](@/blog/_index.md) and write [notes](@/notes/_index.md)
+about **technical** and **philosophical** topics.
 
-If you would like to **collaborate** on a project just send an email to
+You can find links to some of my work in science, programming and music
+on the [projects](@/projects/_index.md) page.
+
+If you would like to **collaborate** on anything just send an email to
 [edibotopic@gmail.com](mailto:edibotopic@gmail.com).
