@@ -44,7 +44,7 @@ should aim for correctness when writing programs.
 The bug metaphor could be considered a generator of [inverse problems](@/notes/inverseproblems.md).
 It allows for the multiplication of _effects_ with unknown _causes_.
 To solve the problem we have to begin each time the difficult process of approaching the unknown.
-A great deal of a programmer's time is devoted to finding and eliminating bugs of unkown origin.
+A great deal of a programmer's time is devoted to finding and eliminating bugs of unknown origin.
 
 ---
 
