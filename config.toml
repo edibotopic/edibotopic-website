@@ -53,8 +53,8 @@ nav_separator = "::"
 
 links = [
     {name = "GitHub", icon = "github", url = "https://github.com/edibotopic"},
-    # {name = "Mastodon", icon = "mastodon", url = "https://scholar.social/@edibotopic"},
-    {name = "Email", icon = "email", url = "mailto:edibotopic@gmail.com"}
+    {name = "Email", icon = "email", url = "mailto:edibotopic@gmail.com"},
+    {name = "RSS", icon = "rss", url = "https://edibotopic.com/blog/feed.xml"},
 ]
 
 feed_in_blog_section = true # Feed file in blog section, url will be https://edibotopic.com/blog/feed.xml
