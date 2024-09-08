@@ -139,6 +139,10 @@
         <loc>https://edibotopic.com/notes/</loc>
     </url>
     <url>
+        <loc>https://edibotopic.com/notes/blockers/</loc>
+        <lastmod>2024-09-08</lastmod>
+    </url>
+    <url>
         <loc>https://edibotopic.com/notes/defamiliarisation/</loc>
         <lastmod>2023-11-05</lastmod>
     </url>
@@ -153,6 +157,10 @@
     <url>
         <loc>https://edibotopic.com/notes/holistic-turn/</loc>
         <lastmod>2023-11-12</lastmod>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/notes/inverseproblems/</loc>
+        <lastmod>2024-09-08</lastmod>
     </url>
     <url>
         <loc>https://edibotopic.com/notes/misdirected-science/</loc>
@@ -214,6 +222,9 @@
     </url>
     <url>
         <loc>https://edibotopic.com/tags/barthes/</loc>
+    </url>
+    <url>
+        <loc>https://edibotopic.com/tags/blockers/</loc>
     </url>
     <url>
         <loc>https://edibotopic.com/tags/books/</loc>
