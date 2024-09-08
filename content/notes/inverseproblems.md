@@ -5,7 +5,7 @@ draft = false
 
 [taxonomies]
 categories = ["notes"]
-tags = ["art", "criticism", "literature"]
+tags = ["problems", "science", "Bunge"]
 
 [extra]
 lang = "en"
