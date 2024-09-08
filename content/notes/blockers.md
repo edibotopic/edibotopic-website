@@ -38,10 +38,10 @@ The introduction of errors becomes naturalised and accepted, a fundamental part 
 Bachelard and Dijkstra are iconoclasts.
 They do not wish to replace metaphors with other, better metaphors,
 but rather to destroy metaphors entirely as obscuring forces.
-Instead of invoking the image of a bug, we should aim for
-correctness when writing programs.
+Instead of invoking the image of a bug — Dijkstra suggests — we 
+should aim for correctness when writing programs.
 
-The bug metaphor itself is generative of [inverse problems](@/notes/inverseproblems.md).
+The bug metaphor could be considered a generator of [inverse problems](@/notes/inverseproblems.md).
 It allows for the multiplication of _effects_ with unknown _causes_.
 To solve the problem we have to begin each time the difficult process of approaching the unknown.
 A great deal of a programmer's time is devoted to finding and eliminating bugs of unkown origin.
