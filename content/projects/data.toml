@@ -21,7 +21,7 @@ links = [
 
 [[project]]
 name = "Curtsy Rehearsed"
-desc = "Original music about memories, nature and technology (active 2021-present)."
+desc = "Original music about memories, nature and technology (active 2021-present)"
 tags = ["music", "art"]
 links = [
 	{name = "bandcamp", url = "https://curtsyrehearsed.bandcamp.com"},
@@ -31,7 +31,7 @@ links = [
 
 [[project]]
 name = "Food Metaphors"
-desc = "Philosophical article written for the recent book Metaphors, Sustainability, Transformation."
+desc = "Philosophical article written for the book Metaphors, Sustainability, Transformation."
 tags = ["philosophy", "writing"]
 links = [
 	{name = "website", url = "https://www.taylorfrancis.com/chapters/edit/10.4324/9781003143567-5/alchemical-cyborgian-imaginings-technoscientific-discourse-relating-holistic-turns-food-processing-personalised-nutrition-shane-crowley"},
@@ -50,6 +50,7 @@ name = "TRANSFORM"
 desc = "Four-year project on dietary technology for cancer patients where I developed the concept, planned the project and led the proposal writing."
 tags = ["research", "science"]
 links = [
+	{name = "Website (not maintained by me)", url = "https://sites.google.com/view/thetransfromproject?usp=sharing"},
 ]
 
 [[project]]
@@ -57,14 +58,22 @@ name = "RUBUSElite"
 desc = "Four-year project on a sports nutrition beverage where I co-wrote the proposal and supervised a 4-year PhD project."
 tags = ["research", "science"]
 links = [
-	{name = "Overview", url = "https://www.ucc.ie/en/vitamind/history/rubuselite/"},
+	{name = "Overview (not maintained by me)", url = "https://www.ucc.ie/en/vitamind/history/rubuselite/"},
 ]
 
 [[project]]
 name = "Scientific publications"
-desc = "Around 70 papers on the science and technology of food systems."
+desc = "Over 60 publications on the science and technology of food systems."
 tags = ["research", "science"]
 links = [
 	{name = "GoogleScholar", url = "https://scholar.google.com/citations?user=aw1EnaIAAAAJ&hl=en"},
 	{name = "ResearchGate", url = "https://www.researchgate.net/profile/Shane-Crowley"},
+]
+
+[[project]]
+name = "PhD thesis"
+desc = "Physicochemical characterisation of protein ingredients prepared from milk by ultrafiltration or microfiltration for application in formulated nutritional products"
+tags = ["research", "science"]
+links = [
+	{name = "Open access version", url = "https://cora.ucc.ie/items/64a3a7b0-b19a-41c9-bc4d-4ba051998055"},
 ]
