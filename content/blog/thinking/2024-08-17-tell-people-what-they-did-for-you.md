@@ -5,7 +5,7 @@ updated = 2024-08-24
 draft = false
 
 [taxonomies]
-categories = ["notes"]
+categories = ["thinking"]
 tags = ["community", "feedback", "work"]
 
 [extra]

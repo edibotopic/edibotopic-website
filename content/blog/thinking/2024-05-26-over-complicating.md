@@ -4,7 +4,7 @@ date = 2024-05-26
 draft = false
 
 [taxonomies]
-categories = ["notes"]
+categories = ["thinking"]
 tags = ["work", "complicated", "ideas"]
 
 [extra]
