@@ -20,7 +20,7 @@ outdate_warn = false
 
 A page for easy logging from my phone, [inspired by Lu Wilson](https://www.todepond.com/wikiblogarden/art/never-stop-writing/on-your-phone/) of TodePond fame.
 
-[edit on GitHub](https://github.com/edibotopic/edibotopic-website/edit/master/content/notes/%C3%BE.md) 
+[edit on GitHub](https://github.com/edibotopic/edibotopic-website/edit/master/content/notes/_log.md) 
 
 # 2024
 
