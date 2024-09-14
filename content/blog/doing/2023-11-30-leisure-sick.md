@@ -13,10 +13,11 @@ tags = ["music", "art", "technology"]
 lang = "en"
 toc = true
 show_comment = false
-math = true
+math = false
 mermaid = false
 cc_license = false
 outdate_warn = false
+featured = true
 +++
 
 I've been playing around with an early version of Arroost, a node-based tool
@@ -42,7 +43,15 @@ last year.
 The plan was to wind down the Curtsy Rehearsed
 project by the end of 2023.
 In the meantime, my discovery of [Arroost](https://arroost.com/) led
-to a sudden [burst of music-making](@/blog/doing/2024-03-27-newly-sincere.md).
+to a sudden burst of music-making:
+
+- [Newly Sincere](https://curtsyrehearsed.bandcamp.com/album/newly-sincere) 
+- [Rurality](https://curtsyrehearsed.bandcamp.com/album/rurality) 
+- [Indirection](https://curtsyrehearsed.bandcamp.com/album/indirection) 
+- [Rosacea](https://curtsyrehearsed.bandcamp.com/album/rosacea) 
+- [Punctums](https://curtsyrehearsed.bandcamp.com/album/punctums) 
+- [Paradise Syndrome](https://curtsyrehearsed.bandcamp.com/album/paradise-syndrome) 
+- [Kinds of Summer](https://curtsyrehearsed.bandcamp.com/album/kinds-of-summer) 
 
 Arroost was a new way of making music for me.
 It made the process more light and joyful than some
@@ -175,5 +184,5 @@ and start experimenting with Arroost again...
 In its current state, Arroost is a great tool for rapidly iterating on song
 ideas.
 Although I didn't use it when making the
-[newest Curtsy Rehearsed projects](@/blog/doing/2024-03-27-newly-sincere.md)
+newest Curtsy Rehearsed projects
 I think Arroost got me back to a place where I _could_ make something.

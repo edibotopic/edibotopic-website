@@ -16,6 +16,7 @@ math = true
 mermaid = false
 cc_license = false
 outdate_warn = false
+featured = true
 +++
 
 It is common to explain the unfamiliar by reference to the

@@ -2,7 +2,7 @@
 title = "Get Started with a Few Simple Pull Requests"
 date = 2023-09-20
 # updated = 2023-05-18
-draft = false
+draft = true
 weight = 1
 
 [taxonomies]

@@ -20,11 +20,14 @@ outdate_warn = false
 # Forward and Inverse Problems
 
 It is not difficult to make an observation — we do it all the time.
-What's difficult is explaining what has been reliably observed.
 
 Much of scientific work involves contriving reliable observations.
-An interesting phenomenon deviates from what is typically observed.
-This provokes a curiosity that demands an explanation.
+Some interesting phenomenon deviates from what is typically observed and
+this provokes a curiosity that leads us to seek an explanation.
+
+What makes science special is not only its capacity to rigorously
+observe phenomena but also to work backwards and develop explanations
+for those phenomena.
 
 ## Forward Problems
 
@@ -63,3 +66,13 @@ often overlap as possible symptoms for many diseases.
 - **Forward**: what observation results from a given set of conditions
 - **Inverse**: what are the conditions that result in a given observation
 {% end %}
+
+{% tip(header="Solving an Inverse Problem") %} 
+May require its conversion into a set of forward problems.
+{% end %}
+
+If we want to work on something important or revolutionary we should seek
+new inverse problems.
+At the same time we whould be wary of metaphorical thinking and other 
+[blockers](@/notes/blockers.md) that can needlessly multiply the inverse
+problems we need to solve.

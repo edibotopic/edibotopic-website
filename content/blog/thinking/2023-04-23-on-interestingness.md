@@ -16,6 +16,7 @@ math = false
 mermaid = false
 cc_license = false
 outdate_warn = false
+featured = true
 +++
 
 I've been contemplating whether there is a place for the *merely* interesting in research and teaching.
