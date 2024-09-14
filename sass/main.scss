@@ -560,8 +560,11 @@ body.prose-page {
     -webkit-tap-highlight-color: transparent;
 
     border-bottom: 1.5px solid transparent;
+    border-top: 1.5px solid transparent;
+    border-left: 1.5px solid transparent;
+    border-right: 1.5px solid transparent;
     &:hover {
-      border-bottom-color: var(--primary-color);
+      border-color: var(--primary-color);
     }
 
     .date {
