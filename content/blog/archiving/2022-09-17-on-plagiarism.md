@@ -2,7 +2,7 @@
 title = "In Your Own Words: On Plagiarism Post-Covid"
 date = 2022-09-17
 update = 2023-05-17
-draft = false
+draft = true
 weight = 4
 
 [taxonomies]
