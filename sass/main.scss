@@ -552,7 +552,7 @@ body.prose-page {
     justify-content: space-between;
     align-items: flex-end;
     gap: 0.5em;
-    padding: 4px 10px; /* TODO: this is being used for list of notes and blogs but is not consistent */
+    padding: 4px 0px;
     margin: 8px 0;
     font-size: 1em;
     text-decoration: none;
