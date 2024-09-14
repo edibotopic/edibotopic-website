@@ -12,4 +12,4 @@ Style of website is based on the lovely [serene](https://github.com/isunjn/seren
 - [x] Add an edit link to notes
 - [x] Create templates for posts
 - [ ] Fix nav title on tags pages
-- [ ] Fix weird dark/light toggle behaviour
+- [x] Fix weird dark/light toggle behaviour
