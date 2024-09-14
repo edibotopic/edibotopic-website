@@ -68,11 +68,11 @@ often overlap as possible symptoms for many diseases.
 {% end %}
 
 {% tip(header="Solving an Inverse Problem") %} 
-May require its conversion into a set of forward problems.
+May require its conversion into a tractable set of forward problems.
 {% end %}
 
-If we want to work on something important or revolutionary we should seek
+If we want to work on something important or revolutionary we should seek out
 new inverse problems.
-At the same time we whould be wary of metaphorical thinking and other 
+At the same time we need to be wary of metaphorical thinking and other 
 [blockers](@/notes/blockers.md) that can needlessly multiply the inverse
-problems we need to solve.
+problems that we need to solve.
