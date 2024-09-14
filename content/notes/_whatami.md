@@ -1,5 +1,5 @@
 +++
-title = "__These Notes"
+title = "???"
 date = 2023-10-31
 draft = false
 
@@ -17,13 +17,18 @@ cc_license = false
 outdate_warn = false
 +++
 
-These [notes](@/notes/_index.md) are a place for quickly recording any
-concepts, tools or project that I find interesting or useful. It is a "living
-document" and the entries will evolve over time.
+These [notes](@/notes/_index.md) are for short, incomplete pieces of writing on
+concepts, tools or project that I find interesting or useful.
 
-By their nature the entries are incomplete. I do hope to revise them for
-completeness and correctness but there are no guarantees. Some may one
-day become a [blog post](@/blog/_index.md).
+The notes can be searched and there is automatic back-linking
+to create inter-connections between them.
 
-The notes section is a recent addition to this site, so it is sparsely
-populated.
+I hope to one day structure the site so that most of my writing goes here and
+only the more full-realised writing goes in the [blog](@/blog/_index.md).
+
+At the top there are some pages that I update regularly, including:
+
+- An almost-daily **log** of whatever I happen to be thinking about
+- A table tracking my **reading** that I started in Summer 2024
+
+These are preceded by a **__** because I didn't have time to do anything better.

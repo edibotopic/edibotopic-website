@@ -1,5 +1,5 @@
 +++
-title = "þ"
+title = "__Log"
 date = 2024-09-08
 updated = 2024-09-13
 draft = false
