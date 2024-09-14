@@ -2,6 +2,18 @@ body {
   // light mode variables
   --primary-color: #9b59b6;
   --primary-pale-color: #6d90d720;
+  --text-color: #9197a5;
+  --text-pale-color: #5d6470;
+  --bg-color: #110018;
+  --highlight-mark-color: #5f75b045;
+  --other-bg-color: #f2ccff;
+  --blur-intensity: 8px;
+  --search-color: #f9e6ff;
+
+  // dark mode variables
+  &.dark {
+  --primary-color: #9b59b6;
+  --primary-pale-color: #6d90d720;
   --text-color: #3c4043;
   --text-pale-color: #708090;
   --bg-color: #f9e6ff;
@@ -10,18 +22,6 @@ body {
   --sep-color: #800080;
   --blur-intensity: 0px;
   --search-color: #ffffff;
-
-  // dark mode variables
-  &.dark {
-    --primary-color: #9b59b6;
-    --primary-pale-color: #6d90d720;
-    --text-color: #9197a5;
-    --text-pale-color: #5d6470;
-    --bg-color: #110018;
-    --highlight-mark-color: #5f75b045;
-    --other-bg-color: #f2ccff;
-    --blur-intensity: 8px;
-    --search-color: #f9e6ff;
   }
 
   // callout colors
