@@ -2,6 +2,7 @@
 name = "WriteHeight"
 desc = "A web-based tool for converting greyscale images to 3D models for download and use."
 tags = ["software", "3D"]
+img = "/figs/writeHeightUI.webp"
 links = [
 	{name = "website", url = "https://edibotopic.github.io/write-height/"},
 	{name = "source", url = "https://github.com/edibotopic/write-height/"},
@@ -11,6 +12,7 @@ links = [
 [[project]]
 name = "Stokes' Law"
 desc = "An interactive web-based visualiser and calculator for Stokes' Law, which describes the factors that influence how particles sink and float in fluids."
+img = "/figs/stokesLawUI.webp"
 tags = ["software", "teaching"]
 links = [
 	{name = "website", url = "https://edibotopic.github.io/stokes-law/"},
@@ -22,6 +24,7 @@ links = [
 [[project]]
 name = "Curtsy Rehearsed"
 desc = "Original music about memories, nature and technology (active 2021-present)"
+img = "/figs/curtsyLatest.webp"
 tags = ["music", "art"]
 links = [
 	{name = "bandcamp", url = "https://curtsyrehearsed.bandcamp.com"},
@@ -32,6 +35,7 @@ links = [
 [[project]]
 name = "Food Metaphors"
 desc = "Philosophical article written for the book Metaphors, Sustainability, Transformation."
+img = "/figs/metaphorBook.webp"
 tags = ["philosophy", "writing"]
 links = [
 	{name = "website", url = "https://www.taylorfrancis.com/chapters/edit/10.4324/9781003143567-5/alchemical-cyborgian-imaginings-technoscientific-discourse-relating-holistic-turns-food-processing-personalised-nutrition-shane-crowley"},
