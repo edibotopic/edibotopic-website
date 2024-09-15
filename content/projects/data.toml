@@ -11,7 +11,7 @@ links = [
 
 [[project]]
 name = "Stokes' Law"
-desc = "An interactive web-based visualiser and calculator for Stokes' Law, which describes the factors that influence how particles sink and float in fluids."
+desc = "An interactive web-based visualiser and calculator for Stokes' Law."
 img = "/figs/stokesLawUI.webp"
 tags = ["software", "teaching"]
 links = [
