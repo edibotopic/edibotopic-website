@@ -1,7 +1,7 @@
 +++
 title = "__Log"
 date = 2024-09-08
-updated = 2024-09-13
+updated = 2024-09-15
 draft = false
 
 [taxonomies]
@@ -38,7 +38,7 @@ It goes something like...
 
 _Last year there was one sighting of a person with blue face paint in our supermarkets. This year the number has grown two-fold. That's a 100% increase!_
 
-Of course, it's still a really small number of blue-faced people: two. Supermarkets are not overwhelmed. Cashiers do not need special training for the tricky task of age-verifying beer-buyers with blue face paint. Politicians do not need to start reminiscing publicly about how the country used to be.
+Of course, it's still a really small number of blue-faced people: two. Supermarkets are not overwhelmed. Cashiers do not need special training for the tricky task of age-verifying beer-buyers with blue face paint. Politicians do not need to start reminiscing publicly about how the country used to be before its citizens began painting their faces blue.
 
 There could be one person who consistently paints their face blue every day. That's a small number that could still be meaningful: why is that person doing that? It could be an interesting story. If one year a second person tries it out on a whim then that two-fold increase is likely meaningless. It's neither a big nor stable change in the context of a town or city.
 
