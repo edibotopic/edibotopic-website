@@ -58,9 +58,9 @@ People are frequently over-excited by scientific results, crime statistics and b
 
 "Crime has been declining steadily for fifteen years but last year saw a doubling from the previous year's historic low, causing major concern."
 
-"Sales for this product have been effectively zero for six years but they doubled in the last quarter. Get this: 100% of our new clients wears blue face paint when she goes to the supermarket."
+"Sales for this product have been effectively zero for six years but they quadrupled in the last quarter."
 
-This misleading use of ratios is everywhere. It is an infinitely renewable resource for toxic politics. In science it is sometimes given a false legitimacy by the assignment of a p-value. It is a most routine feature of data rhetoric, or persuasion by numbers, often at the expense of sense.
+This misleading use of ratios is everywhere. It is an infinitely renewable resource for toxic politics. In science it is sometimes given a false legitimacy by the assignment of a p-value. It is a most routine feature of data rhetoric, or persuasion by numbers, manipulating our emotions while teaching us nothing.
 
 _September 13th_
 
