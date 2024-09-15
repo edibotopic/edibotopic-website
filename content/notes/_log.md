@@ -50,7 +50,7 @@ _Last year there was one sighting of a person with blue face paint in our superm
 
 Of course, it's still a really small number of blue-faced people: two. Supermarkets are not overwhelmed. Cashiers do not need special training for the tricky task of age-verifying beer-buyers with blue face paint. Politicians do not need to start reminiscing publicly about how the country used to be before its citizens began painting their faces blue.
 
-There could be one person who consistently paints their face blue every day. That's a small number that could still be meaningful: why is that person doing that? It could be an interesting story. If one year a second person tries it out on a whim then that two-fold increase is likely meaningless. It's neither a big nor stable change in the context of a town or city. Wait until you see a trend across multiple years; even then, check whether there are legitimate practical causes and/or consequences to the trend you are reporting.
+There could be one person who consistently paints their face blue every day. That's a small number that could still be meaningful: why is that person doing that? It could be an interesting story. If one year a second person tries it out on a whim then that two-fold increase is likely meaningless. It's neither a big nor stable change in the context of a town or city. Wait until you see a trend across multiple years; even then, check whether there are worthwhile causes and/or consequences relating to the trend you are reporting.
 
 People are frequently over-excited by scientific results, crime statistics and business metrics where some kind of Hollywood ratio has been deployed.
 
@@ -60,7 +60,7 @@ People are frequently over-excited by scientific results, crime statistics and b
 
 "Sales for this product have been effectively zero for six years but they doubled in the last quarter. Get this: 100% of our new clients wears blue face paint when she goes to the supermarket."
 
-This misleading use of ratios is everywhere. It is an infinitely renewable resource for toxic politics. In science it is sometimes given a false legitimacy by the assignment of a p-value. It is a most routine feature of data rhetoric, or persuasion by numbers.
+This misleading use of ratios is everywhere. It is an infinitely renewable resource for toxic politics. In science it is sometimes given a false legitimacy by the assignment of a p-value. It is a most routine feature of data rhetoric, or persuasion by numbers, often at the expense of sense.
 
 _September 13th_
 
