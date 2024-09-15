@@ -24,6 +24,34 @@ A page for easy logging from my phone, [inspired by Lu Wilson](https://www.todep
 
 # 2024
 
+_September 15th_
+
+When I supervised younger scientists, I would often find myself saying things like:
+
+_A "tripling" in the measurable redness of milk is unlikely to be meaningful or interesting._
+
+I'm not a numbers person. I use them when necessary. You typically won't hear me complain about levels of mathematical literacy. I once read a book about innumeracy that had lots of clever examples, many of which I didn't encounter in the world. The above example, however, is something that I think causes mass confusion and delusion on a regular basis. Let's call it:
+
+**Misleading ratios**. Maybe there is a fancy name for this but I could not find it.
+
+It goes something like...
+
+_Last year there was one sighting of a person with blue face paint in our supermarkets. This year the number has grown two-fold. That's a 100% increase!_
+
+Of course, it's still a really small number of blue-faced people: two. Supermarkets are not overwhelmed. Cashiers do not need special training for the tricky task of age-verifying beer-buyers with blue face paint. Politicians do not need to start reminiscing publicly about how the country used to be.
+
+There could be one person who consistently paints their face blue every day. That's a small number that could still be meaningful: why is that person doing that? It could be an interesting story. If one year a second person tries it out on a whim then that two-fold increase is likely meaningless. It's neither a big nor stable change in the context of a town or city.
+
+People are frequently over-excited by scientific results, crime statistics and business metrics where some kind of Hollywood ratio has been deployed.
+
+"This area of the brain normally has vanishingly small levels of activity but our treatment saw a three-fold increase."
+
+"Crime has been declining steadily for fifteen years but last year saw a doubling from the previous year's historic low, causing major concern."
+
+"Sales for this product have been effectively zero for six years but they rose 50% in the last quarter. Get this: 100% of our new clients are a guy who wears blue face paint when he goes to the supermarket."
+
+This misleading use of ratios is everywhere. It is an infinitely renewable resource for toxic politics. In science it is often given a false legitimacy by the assignment of a p-value. I would much rather people focus on not using ratios and percentages in a crazy way than torturing themselves about assigning appropriate prior probabilities for their Bayesian inferences, or whatever else people tout as rationality today.
+
 _September 13th_
 
 A good conversation has interruptions.
