@@ -1,7 +1,7 @@
 +++
 title = "__Log"
 date = 2024-09-08
-updated = 2024-09-15
+updated = 2024-09-16
 draft = false
 
 [taxonomies]
@@ -23,6 +23,16 @@ A page for easy logging from my phone, [inspired by Lu Wilson](https://www.todep
 [edit on GitHub](https://github.com/edibotopic/edibotopic-website/edit/master/content/notes/_log.md) 
 
 # 2024
+
+_September 16th_
+
+Reading Mrs Dalloway...
+
+> Rigid, the skeleton of habit alone upholds the human frame.
+
+> [...] like something alive which wants to confide itself [...]
+
+Authoratively poetic.
 
 _September 15th_
 
@@ -50,7 +60,7 @@ People are frequently over-excited by scientific results, crime statistics and b
 
 "Sales for this product have been effectively zero for six years but they rose 50% in the last quarter. Get this: 100% of our new clients are a guy who wears blue face paint when he goes to the supermarket."
 
-This misleading use of ratios is everywhere. It is an infinitely renewable resource for toxic politics. In science it is often given a false legitimacy by the assignment of a p-value. I would much rather people focus on not using ratios and percentages in a crazy way than torturing themselves about assigning appropriate prior probabilities for their Bayesian inferences, or whatever else people tout as rationality today.
+This misleading use of ratios is everywhere. It is an infinitely renewable resource for toxic politics. In science it is sometimes given a false legitimacy by the assignment of a p-value. It is a most routine of feature of general data rhetoric.
 
 _September 13th_
 
