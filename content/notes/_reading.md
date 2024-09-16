@@ -28,4 +28,6 @@ Beginning in Summer 2024, I've been trying to log what I've been reading.
 | Design as Art                    | Bruno Munari           | Design      |   223 | 23-06-24 | 07-07-24 |
 | Room to Dream                    | David Lynch            | Bio         |   506 | 07-07-24 | 25-08-24 |
 | Mrs Dalloway                     | Virginia Woolf         | Fiction     |   141 | 25-08-24 | 15-09-24 |
+| Moonlight Shadow                 | Banana Yoshimoto       | Fiction     |   41  | 15-09-24 |          |
+<!-- | Kitchen                          | Banana Yoshimoto       | Fiction     |   102 |          |          | -->
 <!-- | The Go Programming Language      | Donovan & Kernighan    | Code        |   366 | 25-08-24 |          | -->
