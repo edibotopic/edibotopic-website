@@ -1,7 +1,7 @@
 +++
 title = "__Log"
 date = 2024-09-08
-updated = 2024-09-16
+updated = 2024-09-20
 draft = false
 
 [taxonomies]
@@ -23,6 +23,16 @@ A page for easy logging from my phone, [inspired by Lu Wilson](https://www.todep
 [edit on GitHub](https://github.com/edibotopic/edibotopic-website/edit/master/content/notes/_log.md) 
 
 # 2024
+
+_September 20th_
+
+When you've had an interesting experience there can be a reluctance to communicate.
+
+It could be so common as to be mundane and people might question why you bothered saying anything at all.
+
+Sometimes it will be so uncommon that people will find it strange that you even mentioned it.
+
+The special case is when you refer to a common experience that is referred to uncommonly. This can be confused with the mundane or the strange. There is an art in preventing this precise confusion.
 
 _September 16th_
 
