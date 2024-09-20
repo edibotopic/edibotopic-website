@@ -32,7 +32,7 @@ It could be so common as to be mundane and people might question why you bothere
 
 Sometimes it will be so uncommon that people will find it strange to hear.
 
-The special case is when you refer to a common experience that is referred to uncommonly. This can be confused with the mundane or the strange. There is an art in preventing this confusion.
+The special case is when you refer to a common experience that is otherwise referred to uncommonly. This can be confused with the mundane or the strange. When expressed the right way its impact can be significant.
 
 _September 16th_
 
