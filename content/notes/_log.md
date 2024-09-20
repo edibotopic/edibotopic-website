@@ -26,13 +26,13 @@ A page for easy logging from my phone, [inspired by Lu Wilson](https://www.todep
 
 _September 20th_
 
-When you've had an interesting experience there can be a reluctance to communicate.
+When you've had an interesting experience there's a question as to whether it needs to be communicated.
 
 It could be so common as to be mundane and people might question why you bothered saying anything at all.
 
-Sometimes it will be so uncommon that people will find it strange that you even mentioned it.
+Sometimes it will be so uncommon that people will find it strange to hear.
 
-The special case is when you refer to a common experience that is referred to uncommonly. This can be confused with the mundane or the strange. There is an art in preventing this precise confusion.
+The special case is when you refer to a common experience that is referred to uncommonly. This can be confused with the mundane or the strange. There is an art in preventing this confusion.
 
 _September 16th_
 
