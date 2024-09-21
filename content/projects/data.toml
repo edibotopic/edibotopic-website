@@ -46,7 +46,8 @@ name = "DSF-racket"
 desc = "A tool written in Racket for visualising and iterating spatial topologies represented in symbolic notation."
 tags = ["software", "science"]
 links = [
-	{name = "source", url = "https://github.com/edibotopic/dsf-racket/"}
+	{name = "source", url = "https://github.com/edibotopic/dsf-racket/"},
+	{name = "blog", url = "https://edibotopic.com/blog/doing/dsf-racket/"}
 ]
 
 [[project]]
