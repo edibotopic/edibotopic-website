@@ -1,7 +1,7 @@
 +++
 title = "Music By Curtsy Rehearsed"
 date = 2023-07-08
-updated = 2024-09-14
+updated = 2024-09-21
 draft = false
 weight = 1
 
@@ -32,7 +32,7 @@ in the [Summer 2024 update](#update-summer-2024).
 
 Several of the earlier projects discussed at the
 start of this blog have been unpublished from BandCamp
-but can still be streamed/downloaded here.
+but can still be streamed/downloaded on this page.
 {% end %}
 
 # Background
@@ -40,10 +40,9 @@ but can still be streamed/downloaded here.
 ## Press Coverage
 
 As I have made little to no effort at self-promotion
-I was surprised to find that the previous Curtsy Rehearsed
-project (released 12 months prior) had received some press 
-attention in the Summer of 2022, albeit in a local Irish 
-paper you may not have heard about:
+I was surprised to find that an old Curtsy Rehearsed
+project had received some press attention in the Summer of 2022, 
+albeit in a local Irish paper that few people know about.
 
 > Found at the business end of a recent Bandcamp dig, there’s
 > relatively little that your writer knows about coder and
@@ -56,33 +55,30 @@ paper you may not have heard about:
 > 
 > source: [Evening Echo](https://www.echolive.ie/entertainment/whatson/arid-40902209.html)
 
-I like the mini-review, which correctly identifies the
-_wooziness_ of the music.
-I have since made far superior music that has received no press,
-to the point where I have removed _Transitive Nostalgia_ from my
-Bandcamp (you can still stream/download below).
+I like the mini-review, which correctly identifies the music's _wooziness_.
+Since then I have made far better music that has received no attention.
+The article referred to _Transitive Nostalgia_, which has been made private on
+my Bandcamp although you can still stream/download below:
 
 <div style="text-align: center">
     <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=2113215328/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/transitive-nostalgia">Transitive Nostalgia by Curtsy Rehearsed</a></iframe>
 </div>
 
-This exposure to the most minor of press coverage 
-motivated me to explain why I — an academic, non-musician
-who last _attempted_ music as a teeneager — started this project and
-what I was trying to achieve.
+The most minor press coverage motivated me to explain why 
+I — an academic, non-musician — started this project.
 
 ## Soundtracks to Lectures  
 
 My original motivation was to soundtrack lectures.
 During the era of Covid-19 lockdowns I had to teach remotely.
 I wanted to create _good_ lecture videos, which — for me —
-had to include music.
-In my naivety, I immediately (and fairly) got a copyright
-strike on YouTube.
-I then found some copyright-free music but hated all of it.
+_had to include music_.
+In my naivety, I immediately (and fairly) got a 
+strike on YouTube for using copyrighted music.
+I then looked for some copyright-free music but hated all of it.
 In the absence of alternatives, I decided to make my own music.
 
-The resultant songs are an interesting artifact of the time.
+The songs I made are an interesting artifact of the time.
 Most of them are included in the three-part
 _Theory of Parts_ series, named after a
 metaphysics paper I was then struggling to
@@ -94,33 +90,33 @@ as interludes to lectures on food chemistry!
 One of my favourites from that period — 
 "You Won't For Long, Then You Will Again" —
 was a reflection on the constraints young people were living
-under and their anticipation of one day being free of them.
+under and the anticipation of being free of them.
 The album art was my "garden" at the time, a network of 
 pipes and vents inhabiting a forgotten space behind
-city apartments and businesses.
+old city apartments and businesses.
 
 <div style="text-align: center">
     <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=3148889077/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/theory-of-parts-continua">Theory of Parts: Continua by Curtsy Rehearsed</a></iframe>
 </div>
 
-I have since removed most of the _Theory of Parts_ series from
-BandCamp, although you can stream/download it above.
-
 ## Experiment and Bricolage
 
-I am not a _real_ musician, but I just _do_ music.
+I am not a _real_ musician. I just _do_ music.
+
 Not being a musician I rely on whatever
 capacity I have _as a listener_ and
 an openness to use whatever is to hand.
 I find sounds I like and combine them.
-When they inevitably sound bad I modify,
-replace and arrange until things sound better.
+When I make something that sounds bad I modify,
+replace and arrange until it sound better.
 
-I conceive of the process as experimental in a lossely _scientific_ sense:
+I don't know what I'm doing.
+
+I conceive of the process as "experimental" in a loosely _scientific_ sense:
 there are a set of questions regarding a mixture of 
 components (sounds), followed by an arduous sequences of 
-tests of those hypotheses, which may involve the substitution
-or modification of those components, before a central
+(listening) tests of those hypotheses, which may involve the substitution
+or modification of the components, before a promising
 idea begins to emerge and is refined for eventual presentation.
 
 Sometimes I judge that a song has not succeeded.
@@ -131,6 +127,7 @@ A recent successful song-making procedure looked like this:
 2. A phone recording of me singing incoherently was digitally processed
 3. Samples from a pre-WW1 woodwind recording were found and incorporated
 4. Everything was tweaked, arranged and mixed over several days
+5. Eventually the results felt good
 
 Other songs were built mostly with code, like 
 [Algotaylorist](https://curtsyrehearsed.bandcamp.com/track/algotaylorist)
@@ -138,7 +135,7 @@ using [Sonic Pi](https://sonic-pi.net/)
 and the [title track](https://curtsyrehearsed.bandcamp.com/track/dereferenced-2)
 of Dereferenced using [Tidal Cycles](https://tidalcycles.org/)
 
-Some others were composed in a more traditional way, with me
+Some were composed in a more traditional way, with me
 poking at a MIDI keyboard in an amateurish manner until I
 captured something that sounded right.
 
@@ -151,23 +148,26 @@ I wouldn't recommend the music for a dinner party.
 I don't think it can be danced to.
 I am unsure if it will lull anyone to sleep.
 The songs, I feel, are useful as prompts for thinking about
-creativity, memories, technology and modern life.
+whatever: creativity, memories, technology, modern life...
 
-Having this library of songs helped me conceive and structure lectures.
+Having a library of songs helped me design lectures.
 If I wanted students to feel the gravity of a weighty topic
 I would use a more sinister song, like 
 [Being Qua Being](https://curtsyrehearsed.bandcamp.com/track/being-qua-being-3).
 To create a sense of optimism about the potential of science and
-technology I might use
+technology I might use the synthetic but hopeful
 [Progress is Monotonic](https://curtsyrehearsed.bandcamp.com/track/progress-is-monotonic-3).
-In lighter moments, or when I needed to switch gears, I would play
+In lighter moments, or when I needed to switch gears, I would play the retro-gaming-sounding
 [Fantasy Machines](https://curtsyrehearsed.bandcamp.com/track/fantasy-machine).
 
-Sometimes I listen back to these songs and think:
+My favourite part about making these songs is that when I listen back to them
+they are a mystery to me:
+
 _What was I thinking when I made that?_
 _Why does it sound the way it does?_
 _How did I decide to give it that title?_
-They are — perhaps — tools for introspection.
+
+They become tools for introspection.
 
 <div style="text-align: center">
     <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=3047916957/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=1884762271/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/theory-of-parts-disperse">Theory of Parts: Disperse by Curtsy Rehearsed</a></iframe>
@@ -175,7 +175,7 @@ They are — perhaps — tools for introspection.
 
 ## Goodbye Curtsy?
 
-This project has a lot of baggage, forged as it was in a crisis.
+This project had some degree of baggage, forged as it was in a crisis.
 I still associate the making of music with the job of doing lectures.
 As it was originally intended as "background music" I didn't want
 to foreground myself too much, which is one of the reasons vocals
@@ -191,40 +191,23 @@ albeit filtered through a fairly heavy vocoder:
 When my voice is present in other songs I might
 not even be able to identify it as such.
 It could sound like something else entirely now.
-Twisted, fragmented and mingled beyond recognition.
-
-Recently, I have wanted to place a greater emphasis on vocals, while
-keeping things woozy and weird.
-One of my reasons for processing my voice with vocoders and other 
-effects was the low-quality of the sound recorded through my 
-microphone.
-After finally investing in an audio interface, my recording 
-quality has increase dramatically.
-
-With better audio fidelity it was time again to experiment with vocals and
-lyrics in a serious way for the first time since my school years.
-So I retired Curtsy Rehearsed to create a new
-secret alias. This was to encourage as much
-experimentation as possible without concern for who
-might be listening.
-I found myself making songs just for fun again and eventually 
-started making releases again as Curtsy Rehearsed.
+Twisted, fragmented and mangled beyond recognition.
 
 ## Empathy for Musicians
 
 One benefit of trying hard to make and release music is the
-sense of empathy it creates for those who do this with even
+sense of empathy it created in me for those who do this with even
 greater seriousness.
 
-Mastering is a complex, technical and artful process,
+Mastering is a painstaking and complex process,
 which I know very little about.
 Doing it well ensures that the collection of
 sounds have an optimal quality across a 
 range of devices, platforms and listening situations.
 
-It reminds me of the least fun part of my other
-hobby — app development — where you try to ensure
-that the app is available/accessible to the broadest
+It reminds me of the least fun part of another sometimes
+hobby — coding — where you try to ensure
+what you make is available/accessible to the broadest
 group of people.
 Say you've made an interesting game or animation but now:
 
@@ -268,66 +251,7 @@ its practitioners must overcome.
 
 ---
 
-# Update: February 2024
-
-I'm still making odd, [woozy](https://www.echolive.ie/entertainment/whatson/arid-40902209.html) music.
-
-Between December 2023 and February 2024 I released five music projects under a
-pseudonym[^1].
-I like them a lot and wish I could share them here but that would defeat the
-purpose. 
-Everything I made in March and April 2024 was closer in spirit to my (then-defunct)
-[Curtsy Rehearsed](https://curtsyrehearsed.bandcamp.com/) 
-project so I decided to release them under that old moniker.
-
-## Rurality
-
-The most recent project is
-[Rurality](https://curtsyrehearsed.bandcamp.com/album/rurality)
-, which I made in a day after a short trip to the countryside.
-It was mostly inspired by "found scenes", like peculiar country sheds
-bursting with wood and decorated with buoys.
-I like the idea of making tiny albums as an immediate response to
-an experience and it's something I intend to explore.
-
-<div style="text-align: center;">
-    <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=2845773868/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/rurality">Rurality by Curtsy Rehearsed</a></iframe>
-</div>
-
-## Newly Sincere
-
-Just before _Rurality_ I made
-[Newly Sincere](https://curtsyrehearsed.bandcamp.com/album/newly-sincere).
-I was really happy with how this one turned out — I'm especially partial to track 5.
-Here I finally abandoned any pretence of making hip-hop and it was freeing.
-Drums are almost completely absent in this one and that
-forced me to experiment more with mood, percussion and texture.
-
-<div style="text-align: center;">
-    <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=1185443289/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/newly-sincere">Newly Sincere by Curtsy Rehearsed</a></iframe>
-</div>
-
-[Punctums](https://curtsyrehearsed.bandcamp.com/album/punctums)
-was a direct response to _Newly Sincere_.
-After a largely drumless project I wanted to use drums again!
-Programming drums is something I tend to find quite boring so
-I varied the tempo and time signatures a lot to make it more
-interesting for me and the listener.
-Each song was made by first laying down the drums and I think
-this made them feel more integrated.
-
-<div style="text-align: center;">
-    <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=572839460/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/punctums">Punctums by Curtsy Rehearsed</a></iframe>
-</div>
-
-These albums are available on 
-[BandCamp](https://curtsyrehearsed.bandcamp.com/) 
-for free but you can offer a donation if you like.
-It's always a pleasant surprise when my incompetence at marketing pays off.
-
----
-
-# Update: Summer 2024
+# Summer 2024
 
 This Summer I released two new [Curtsy Rehearsed](https://curtsyrehearsed.bandcamp.com/) projects.
 
@@ -343,11 +267,12 @@ These are genuine head-nodders, but I'm (sadly) biased...
     <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=256855015/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/kinds-of-summer">Kinds of Summer by Curtsy Rehearsed</a></iframe>
 </div>
 
+[Get Kinds of Summer on BandCamp](https://curtsyrehearsed.bandcamp.com/album/kinds-of-summer)
+
 ## Paradise Syndrome
 
-I also released
-[Paradise Syndrome](https://curtsyrehearsed.bandcamp.com/album/paradise-syndrome).
-This one is almost completely sampled from old bossa nova tracks, although you might
+[Paradise Syndrome](https://curtsyrehearsed.bandcamp.com/album/paradise-syndrome)
+is almost completely sampled from old bossa nova tracks, although you might
 not be able to tell with the cold, spacey hip-hop of [So Blown Through](https://curtsyrehearsed.bandcamp.com/track/so-blown-through) or the
 roboticised pep of [Encouragement Song](https://curtsyrehearsed.bandcamp.com/track/encouragement-song-2).
 It's far more obvious with [My Idle Animation](https://curtsyrehearsed.bandcamp.com/track/my-idle-animation-2) and the [title track](https://curtsyrehearsed.bandcamp.com/track/paradise-syndrome-2).
@@ -356,9 +281,10 @@ It's far more obvious with [My Idle Animation](https://curtsyrehearsed.bandcamp.
     <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=2684245421/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/paradise-syndrome">Paradise Syndrome by Curtsy Rehearsed</a></iframe>
 </div>
 
----
 
-I really like these, let me know if you do too.
+[Get Paradise Syndrome on BandCamp](https://curtsyrehearsed.bandcamp.com/album/paradise-syndrome)
+
+I really like the Summer 2024 releases, let me know if you do too.
 
 Some notable features:
 
@@ -371,16 +297,68 @@ Now I want to do something creative that isn't music for a while.
 
 I'm not sure what it will be.
 
-# Unreported projects
+# April 2024
+
+## Rurality
+
+I made this in a day after a short trip to the countryside.
+It was mostly inspired by "found scenes", like peculiar country sheds
+bursting with wood and decorated with buoys.
+I like the idea of making tiny albums as an immediate response to
+an experience and it's something I intend to explore.
+
+<div style="text-align: center;">
+    <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=2845773868/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/rurality">Rurality by Curtsy Rehearsed</a></iframe>
+</div>
+
+[Get Rurality on BandCamp](https://curtsyrehearsed.bandcamp.com/album/rurality)
 
 ## Rosacea
 
-TODO...
+<div style="text-align: center;">
+    <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=81300235/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/rosacea">Rosacea by Curtsy Rehearsed</a></iframe>
+</div>
+
+[Get Rosacea on BandCamp](https://curtsyrehearsed.bandcamp.com/album/rosacea)
 
 ## Indirection
 
-TODO...
+<div style="text-align: center;">
+    <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=837162079/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/indirection">Indirection by Curtsy Rehearsed</a></iframe>
+</div>
 
----
+[Get Indirection on BandCamp](https://curtsyrehearsed.bandcamp.com/album/indirection)
 
-[^1]: This pseudonym business involved some [careful work](@/blog/explaining/2023-12-11-pseudonym-on-code-forge.md) to maintain a separation of my online identities.
+# March 2024
+
+## Punctums
+
+[Punctums](https://curtsyrehearsed.bandcamp.com/album/punctums)
+was a direct response to February's _Newly Sincere_.
+After a largely drumless project I wanted to use drums again!
+Programming drums is something I tend to find quite boring so
+I varied the tempo and time signatures a lot to make it more
+interesting for me and the listener.
+Each song was made by first laying down the drums and I think
+this made them feel more integrated.
+
+<div style="text-align: center;">
+    <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=572839460/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/punctums">Punctums by Curtsy Rehearsed</a></iframe>
+</div>
+
+[Get Punctums on BandCamp](https://curtsyrehearsed.bandcamp.com/album/punctums)
+
+# February 2024
+
+## Newly Sincere
+
+I was really happy with how [Newly Sincere](https://curtsyrehearsed.bandcamp.com/album/newly-sincere) turned out — I'm especially partial to track 5 (below).
+Here I finally abandoned any pretence of making hip-hop and it was freeing.
+Drums are almost completely absent in this one and that
+forced me to experiment more with mood, percussion and texture.
+
+<div style="text-align: center;">
+    <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=1185443289/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/newly-sincere">Newly Sincere by Curtsy Rehearsed</a></iframe>
+</div>
+
+[Get Newly Sincere on BandCamp](https://curtsyrehearsed.bandcamp.com/album/newly-sincere)

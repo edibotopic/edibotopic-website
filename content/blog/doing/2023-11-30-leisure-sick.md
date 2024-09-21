@@ -1,7 +1,7 @@
 +++
 title = "Trying Arroost"
 date = 2023-12-02
-updated = 2024-04-24
+updated = 2024-09-21
 draft = false
 weight = 0
 
@@ -35,27 +35,28 @@ for live sampling.
 
 [Previously](@/blog/doing/2023-07-08-curtsy-rehearsed.md) I wrote about my
 [Curtsy Rehearsed](https://curtsyrehearsed.bandcamp.com/) project. 
-I had been quietly releasing music under this name and was surprised
-to have the [tiniest amount of local media
+Since the days of soundtracking my own university lectures during Covid lockdowns,
+I had been quietly releasing music under this name.
+
+It was surprising to find that the music got the [tiniest amount of local media
 attention](https://www.echolive.ie/entertainment/whatson/arid-40902209.html)
-last year.
+in Summer 2022.
 
-The plan was to wind down the Curtsy Rehearsed
-project by the end of 2023.
-In the meantime, my discovery of [Arroost](https://arroost.com/) led
-to a sudden burst of music-making:
+That encouraged me to take the music more seriously, which also caused me to lose interest!
+I had become sick of my leisure activity and planned to wind down the Curtsy Rehearsed project, until I discovered Lu Wilson's [Arroost](https://arroost.com/).
+Arroost unlocked music-making for me again, resulting in a burst
+of creativity that hasn't really let up:
 
-- [Newly Sincere](https://curtsyrehearsed.bandcamp.com/album/newly-sincere) 
-- [Rurality](https://curtsyrehearsed.bandcamp.com/album/rurality) 
-- [Indirection](https://curtsyrehearsed.bandcamp.com/album/indirection) 
-- [Rosacea](https://curtsyrehearsed.bandcamp.com/album/rosacea) 
-- [Punctums](https://curtsyrehearsed.bandcamp.com/album/punctums) 
-- [Paradise Syndrome](https://curtsyrehearsed.bandcamp.com/album/paradise-syndrome) 
-- [Kinds of Summer](https://curtsyrehearsed.bandcamp.com/album/kinds-of-summer) 
+- [Newly Sincere](https://curtsyrehearsed.bandcamp.com/album/newly-sincere) (March 2024)
+- [Punctums](https://curtsyrehearsed.bandcamp.com/album/punctums) (March 2024)
+- [Rurality](https://curtsyrehearsed.bandcamp.com/album/rurality) (April 2024)
+- [Indirection](https://curtsyrehearsed.bandcamp.com/album/indirection) (April 2024)
+- [Rosacea](https://curtsyrehearsed.bandcamp.com/album/rosacea) (April 2024)
+- [Paradise Syndrome](https://curtsyrehearsed.bandcamp.com/album/paradise-syndrome) (July 2024)
+- [Kinds of Summer](https://curtsyrehearsed.bandcamp.com/album/kinds-of-summer) (August 2024)
 
 Arroost was a new way of making music for me.
-It made the process more light and joyful than some
-of my recent painstaking
+It made the process more light and joyful than what had become painstaking, hours-long
 [DAW](https://en.wikipedia.org/wiki/Digital_audio_workstation) sessions.
 
 # Arrows to Sounds
@@ -185,4 +186,11 @@ In its current state, Arroost is a great tool for rapidly iterating on song
 ideas.
 Although I didn't use it when making the
 newest Curtsy Rehearsed projects
-I think Arroost got me back to a place where I _could_ make something.
+I think Arroost got me back to a place where I _could_ make something again.
+
+# Links
+
+- [Arroost](https://arroost.com/)
+- [Lu's essay on Arroost](https://www.todepond.com/report/arroost/)
+- [Some notes I wrote on blockers](https://edibotopic.com/notes/blockers/)
+- [My music on BandCamp](https://curtsyrehearsed.bandcamp.com/) 
