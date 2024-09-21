@@ -1,6 +1,7 @@
 +++
 title = "Blockers"
 date = 2024-09-08
+updated = 2024-09-21
 draft = false
 
 [taxonomies]
@@ -25,7 +26,9 @@ to describe false ideas that impede our progress in learning about the world.
 He was specifically referring to ideas — most often metaphors — that
 persisted in science for extended periods through history.
 
-Similarly, the famous computer scientist Edsger W. Dijkstra highlighted the
+---
+
+The famous computer scientist Edsger W. Dijkstra highlighted the
 (dead) metaphor of the programming "bug" in his
 [On the cruelty of really teaching computing science](https://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD1036.html#:~:text=The%20animistic%20metaphor%20of%20the,is%20the%20programmer's%20own%20creation):
 
@@ -33,13 +36,17 @@ Similarly, the famous computer scientist Edsger W. Dijkstra highlighted the
 
 While the bug metaphor seems harmless, Dijkstra argues that it shapes the practitioner's worldview in a pathological way.
 Bugs are entities that spontaneously appear and when they do we must initiate a process of debugging.
-The introduction of errors becomes naturalised and accepted, a fundamental part of a workflow.
+The introduction of errors becomes naturalised and accepted, a fundamental part of one's workflow.
+It is an epistemological obstacle.
 
 Bachelard and Dijkstra are iconoclasts.
 They do not wish to replace metaphors with other, better metaphors,
 but rather to destroy metaphors entirely as obscuring forces.
 Instead of invoking the image of a bug — Dijkstra suggests — we 
-should aim for correctness when writing programs.
+should [just](https://www.todepond.com/wikiblogarden/better-computing/just/)
+aim for correctness when writing programs.
+
+---
 
 The bug metaphor could be considered a generator of [inverse problems](@/notes/inverseproblems.md).
 It allows for the multiplication of _effects_ with unknown _causes_.
@@ -50,19 +57,16 @@ A great deal of a programmer's time is devoted to finding and eliminating bugs o
 
 I am unsure how far the notion of the epistemological obstacle extends.
 
-Of course there are the mundane "blockers" of the corporate or bureaucratic variety.
+Of course there are the mundane _procedural_ blockers of the corporate variety.
 Someone can't complete a task because another person didn't complete their own task.
 A chain of dependencies.
 
-Then there are the more interesting varieties, like the [emotional blockers](https://www.todepond.com/report/arroost/) that prevent
+Then there are the [emotional blockers](https://www.todepond.com/report/arroost/) that prevent
 us from creating art or expressing ourselves.
 
-Even if metaphors can obscure the truth they are often a pragmatic device, turning
-us towards new possibilities.
+While metaphors can obscure the truth they are often a pragmatic device, turning
+us towards different possibilities, including new sources of truth.
 This is certainly the case in art but also the exploratory phase of science.
-
-There is the general class of blockers, which inhibit, constrain, redirect,
-but also the particular ways that we must contend with each.
 
 ### References
 
