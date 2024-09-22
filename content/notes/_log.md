@@ -26,7 +26,7 @@ A page for easy logging from my phone, [inspired by Lu Wilson](https://www.todep
 
 _September 22nd_
 
-I've often thought that randomness could be used as a design element in the food industry. As a whole, the industry is not concerned with design and is obsessed with control. There are definitely things that we do not want to be random, like the level of a vitamin in a nutritional formula for hospital patients. However, sensory aspects like flavour and nutrition could be made more interesting with the introduction of some randomness. Taking the nutritional formula example again; a key problem with these products is that people get bored and stop consuming them.
+I've often thought that randomness could be used as a design element in the food industry. As a whole, the industry is not concerned with Design and is obsessed with control. There are definitely things that we would not want to be random, like the level of a vitamin in a nutritional formula for hospital patients. However, sensory aspects like flavour and texture could be made more interesting with the introduction of some randomness. Taking the nutritional formula example again; a key problem with these products is that people get bored and stop consuming them.
 
 There is a randomness in home-cooking that can be enjoyable: what I cook today might be different to how it was last week; I want that subtle variety as long as I can still recognise it as the same meal. When food scientists think about 3D printing they generally think of how its computational nature can improve the degree of control. I always thought of it as an opportunity for the exploration of paradigms from other fields, like procedural generation.
 
