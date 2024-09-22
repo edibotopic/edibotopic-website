@@ -10,7 +10,7 @@ tags = ["words", "philosophy"]
 
 [extra]
 lang = "en"
-toc = true
+toc = false
 show_comment = false
 math = false
 mermaid = false
