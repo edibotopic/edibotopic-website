@@ -23,7 +23,7 @@ outdate_warn = false
 The concept of a _definition_ is often associated with the **lexical** definition.
 This is the kind of definition that we might find in a dictionary.
 
-Being asked to explain a vague term can be intensely frustrating for people because we:
+Being asked to explain a vague term can be intensely frustrating because we:
 
 * Assume that the question is trivial and has been answered in some dictionary
 * Believe that everyone working with us must surely know what we really mean
