@@ -1,7 +1,7 @@
 +++
 title = "__Log"
 date = 2024-09-08
-updated = 2024-09-20
+updated = 2024-09-22
 draft = false
 
 [taxonomies]
@@ -23,6 +23,10 @@ A page for easy logging from my phone, [inspired by Lu Wilson](https://www.todep
 [edit on GitHub](https://github.com/edibotopic/edibotopic-website/edit/master/content/notes/_log.md) 
 
 # 2024
+
+_September 22nd_
+
+When I started helping my brother paint houses it struck me how unfamiliar I was with the names for things I saw every day, like plinth, architrave, and coving.
 
 _September 20th_
 
