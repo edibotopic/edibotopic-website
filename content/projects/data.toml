@@ -44,6 +44,7 @@ links = [
 [[project]]
 name = "DSF-racket"
 desc = "A tool written in Racket for visualising and iterating spatial topologies represented in symbolic notation."
+img = "https://github.com/edibotopic/dsf-racket/blob/master/out/complex.png?raw=true"
 tags = ["software", "science"]
 links = [
 	{name = "source", url = "https://github.com/edibotopic/dsf-racket/"},
@@ -55,7 +56,7 @@ name = "TRANSFORM"
 desc = "Four-year project on dietary technology for cancer patients where I developed the concept, planned the project and led the proposal writing."
 tags = ["research", "science"]
 links = [
-	{name = "Website (not maintained by me)", url = "https://sites.google.com/view/thetransfromproject?usp=sharing"},
+	{name = "Project website", url = "https://sites.google.com/view/thetransfromproject?usp=sharing"},
 ]
 
 [[project]]
@@ -63,7 +64,7 @@ name = "RUBUSElite"
 desc = "Four-year project on a sports nutrition beverage where I co-wrote the proposal and supervised a 4-year PhD project."
 tags = ["research", "science"]
 links = [
-	{name = "Overview (not maintained by me)", url = "https://www.ucc.ie/en/vitamind/history/rubuselite/"},
+	{name = "Project overview", url = "https://www.ucc.ie/en/vitamind/history/rubuselite/"},
 ]
 
 [[project]]
