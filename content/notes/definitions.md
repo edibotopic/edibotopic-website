@@ -102,10 +102,10 @@ A connection was made between the word (signifier) and the concept (signified)
 in my mind then I was able to do the work that was asked of me.
 My brother had given an ostensive definition.
 
-Sometimes, the existence of this kind of example leads some to believe that
+Sometimes, the existence of this kind of example leads people to believe that
 we don't need definitions when we can just point at stuff.
 
-Some things are difficult to point at, however: like atoms and concepts.
+Not every thing is easy to point at, however: like atoms and concepts.
 
 Furthermore, my ability to sand coving and paint a plinth does not mean
 I could design an algorithm for identifying these and other construction
