@@ -105,8 +105,8 @@ My brother had given an ostensive definition.
 Sometimes, the existence of this kind of example leads people to believe that
 we don't need definitions when we can just point at stuff.
 
-Not every thing is easy to point at, however: like atoms and concepts.
+Not every thing is easy to point at, however, like atoms and concepts.
 
-Furthermore, my ability to sand coving and paint a plinth does not mean
+Furthermore, my ability to sand an architrave and paint a plinth does not mean
 I could design an algorithm for identifying these and other construction
 materials; there I would need some precising definitions.
