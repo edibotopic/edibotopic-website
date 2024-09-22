@@ -43,8 +43,7 @@ links = [
 
 [[project]]
 name = "DSF-racket"
-desc = "A tool written in Racket for visualising and iterating spatial topologies represented in symbolic notation."
-img = "https://github.com/edibotopic/dsf-racket/blob/master/out/complex.png?raw=true"
+desc = "A simple tool written in Racket for visualising and iterating spatial topologies represented in symbolic notation based on the Dispersed System Formalism."
 tags = ["software", "science"]
 links = [
 	{name = "source", url = "https://github.com/edibotopic/dsf-racket/"},
