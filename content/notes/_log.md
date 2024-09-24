@@ -1,7 +1,7 @@
 +++
 title = "__Log"
 date = 2024-09-08
-updated = 2024-09-22
+updated = 2024-09-24
 draft = false
 
 [taxonomies]
@@ -23,6 +23,10 @@ A page for easy logging from my phone, [inspired by Lu Wilson](https://www.todep
 [edit on GitHub](https://github.com/edibotopic/edibotopic-website/edit/master/content/notes/_log.md) 
 
 # 2024
+
+_September 24th_
+
+One Summer, when my friend and I were young, we were lying on the grass at around midnight. It was pitch black but for a few moments the sky became suddenly illuminated as if it was the middle of the day. This might have been the only time in my life I would describe myself as having been "awe-struck". A few seconds later everything dimmed back to night again. A fella walked by who had been fishing on the beach and was like "did you see that?". The next day nobody else seemed to have noticed and there was nothing in the news. Now I mention it to someone occasionally; they say things like "I dunno...meteors?".
 
 _September 22nd_
 
