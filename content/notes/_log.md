@@ -26,9 +26,13 @@ A page for easy logging from my phone, [inspired by Lu Wilson](https://www.todep
 
 _September 24th_
 
+## Night to day
+
 One Summer, when my friend and I were young, we were lying on the grass at around midnight. It was pitch black but for a few moments the sky became suddenly illuminated as if it was the middle of the day. This might have been the only time in my life I would describe myself as having been "awe-struck". A few seconds later everything dimmed back to night again. A fella walked by who had been fishing on the beach and was like "did you see that?". The next day nobody else seemed to have noticed and there was nothing in the news. Now I mention it to someone occasionally; they say things like "I dunno...meteors?".
 
 _September 22nd_
+
+## Randomness in food design
 
 I've often thought that randomness could be used as a design element in the food industry. As a whole, the industry is not concerned with Design and is obsessed with control. There are definitely things that we would not want to be random, like the level of a vitamin in a nutritional formula for hospital patients. However, sensory aspects like flavour and texture could be made more interesting with the introduction of some randomness. Taking the nutritional formula example again; a key problem with these products is that people get bored and stop consuming them.
 
@@ -36,9 +40,13 @@ There is a randomness in home-cooking that can be enjoyable: what I cook today m
 
 ---
 
+## Familiar unknowns
+
 When I started helping my brother paint houses it struck me how unfamiliar I was with the names for things I saw every day, like plinth, architrave, and coving.
 
 _September 20th_
+
+## Uncommonly spoken commonalities
 
 When you've had an interesting experience there's a question as to whether it needs to be communicated.
 
@@ -50,6 +58,8 @@ The special case is when you refer to a common experience that is otherwise refe
 
 _September 16th_
 
+## Authoratively poetic
+
 Reading Mrs Dalloway...
 
 > Rigid, the skeleton of habit alone upholds the human frame.
@@ -59,6 +69,8 @@ Reading Mrs Dalloway...
 Authoratively poetic.
 
 _September 15th_
+
+## Misleading ratios
 
 When I supervised younger scientists, I would often find myself saying things like:
 
@@ -88,6 +100,8 @@ This misleading use of ratios is everywhere. It is an infinitely renewable resou
 
 _September 13th_
 
+## Good interruptions
+
 A good conversation has interruptions.
 It's one of the things that makes in-real-life conversations distinct from those by email or chat app. We interrupt for different reasons: an awareness that we have deviated from the main topic; an identification of something critical that has been expressed in the moment; an attempt to halt progress towards something unproductive or harmful. It is a common occurrence that your interlocutor will intuit what you are trying to say while you are struggling to say it. Friends interrupt all the time. I love being interrupted. It nearly always clarifies my thinking. For some there is an apparent desire to have conversations without interruption. Everyone speaks in order. Hands are raised. People wait their turn. These types of conversations can be joyless and slow. It is only necessary when a group exceeds a certain size. One of the advantages of meetings with smaller numbers of people is that it facilitates interruption, as long as people interrupt in good spirit. When a powerful individual attends, the manner and force with which they interrupt can have a different quality. This is a separate matter entirely.
 
@@ -97,6 +111,8 @@ The interruption dynamic in chat apps is unique and interesting. There is an ind
 
 _September 12th_
 
+## Academic title fight
+
 During my time in academia there was once a heated university-wide debate about academic titles. At issue was whether our university should change our titles to be more like other Irish universities who use North American-style titles. One of our Lecturers might be called an Assistant Professor somewhere else; some argued that the latter was more "important sounding" and could therefore be more competitive in a funding proposal; perhaps they might command more respect at a formal event. Lecturer, however, was a tenured position, unlike Assistant Professor in the North American sense, who is typically pre-tenure. Also, neither Lecturers nor Assistant Professors are assistants to anyone in particular; an academic position is characteristically independent of such hierarchical impositions. These concerns were dismissed as unimportant by Associate Professors who themselves wanted to be known by the more impressive Full Professor. Some people expressed vague, mystical reverence for the title of Professor, wanting it only for a tiny minority. Few were interested in using titles that fit the actual role. Just at the level of language, what differentiates one who professes from one who lectures? How from these titles might a member of the public discern that these academics spend an inordinate amount of time doing research and not teaching?? It was mostly about people wanting nicer-sounding titles, right? At least that was my judgement in the absence of any evidence being presented concerning the relation between academic title and success in funding acquisition. I engaged in the debate to a degree but stopped when I thought to myself "what would any reasonable tax-paying person who does not work in a university think about this ridiculous conversation?". Frivolous and embarassing, it probably continues.
 
 ---
@@ -105,17 +121,23 @@ Currently this website has blogs, notes, projects and whatever these are (sub-no
 
 _September 11th_
 
+## Image test
+
 Testing making and commiting images from phone. A little bit cumbersome, not impossible, and of unclear value, but it works.
 
 ![Abstract image](/figs/worn.webp "abstract image")
 
 _September 10th_
 
+## Doing
+
 When making anything there is the doing and the reward.
 To stay motivated you nearly always need to love doing the thing, then you can do without external reward, by which I mean status or compensation.
 If you find the absence of external reward troubling then consider reward in a broader sense: the possibility of reward; the reward in doing; the reward in learning; the reward in showing; the reward of the next thing...
 
 _September 9th_
+
+## Philosophy without arguments
 
 There is no philosophy without arguments.
 
@@ -133,8 +155,12 @@ Even then, there is still philosophy happening.
 
 ---
 
+## Holism in loops
+
 Ideas viewed as transformational often amount to a renewed focus on the concept of a loop, whence the rationalists start conjuring images of yinyang and ouroborus as if there is some ancient metaphysics behind their funding proposal.
 
 _September 8th_
+
+## My childhood in a Myst-like desktop
 
 When my family first got a computer in the mid 90's it was a Packard Bell that had this alternative environment for navigating the system. It was essentially a Myst-like set in a family home with book shelves, fax machines and things of that nature. I remember my mother bringing me to her friend's house, which was bigger than ours and had a newer Packard Bell with an even fancier pseudo-3D navigator.
