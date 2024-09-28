@@ -29,6 +29,6 @@ Beginning in Summer 2024, I've been trying to log what I've been reading.
 | Room to Dream                    | David Lynch            | Bio         |   506 | 07-07-24 | 25-08-24 |
 | Mrs Dalloway                     | Virginia Woolf         | Fiction     |   141 | 25-08-24 | 15-09-24 |
 | Moonlight Shadow                 | Banana Yoshimoto       | Fiction     |   41  | 15-09-24 | 18-09-24 |
-| Colorless Tsukuru...             | Haruki Murakami        | Fiction     |   386 | 21-09-24 |          |
+| Colorless Tsukuru...             | Haruki Murakami        | Fiction     |   386 |  |          |
 <!-- | Kitchen                          | Banana Yoshimoto       | Fiction     |   102 |          |          | -->
 <!-- | The Go Programming Language      | Donovan & Kernighan    | Code        |   366 | 25-08-24 |          | -->
