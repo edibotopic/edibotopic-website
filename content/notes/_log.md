@@ -1,7 +1,7 @@
 +++
 title = "__Log"
 date = 2024-09-08
-updated = 2024-09-24
+updated = 2024-10-01
 draft = false
 
 [taxonomies]
@@ -23,6 +23,10 @@ A page for easy logging from my phone, [inspired by Lu Wilson](https://www.todep
 [edit on GitHub](https://github.com/edibotopic/edibotopic-website/edit/master/content/notes/_log.md) 
 
 # 2024
+
+## Smoking
+
+In my first week of secondary school I was offered joints and cigarettes at multiple points. I had no interest at the time. Unusually, I didn't smoke until about ten years later when I did a PhD. For whatever reason, I did my best work at the weekend. Security let me inside the laboratory and it was nice and empty: I could focus on my work. There was no food or coffee, however; sometimes I would bring lunch but it took planning and eating a sandwich in a lab was unpleasant anyway. So I started smoking. It was the most practical and convenient vice. Small, portable and only moderately intoxicating. After some experiment, I would jam the back door open and smoke in a grim, empty carpark. Then I smoked everywhere; reading a book with coffee and a cigarette was a particularly special combination. Soon after graduating I stopped smoking regularly.  As I was stopping I would crumble mostly-full packs that I had bought and throw them away. If single-serve cigarettes were a thing I might still buy one occasionally. I think it might help me read.
 
 ## Night-to-day phenomenon
 
