@@ -78,36 +78,6 @@ Reading Mrs Dalloway...
 
 Authoratively poetic.
 
-## Misleading ratios
-
-_September 15th_
-
-When I supervised younger scientists, I would often find myself saying things like:
-
-_A "tripling" in the measurable redness of milk is unlikely to be meaningful or interesting._
-
-I'm not a numbers person. I use them when necessary. You typically won't hear me complain about levels of mathematical literacy. I once read a book about innumeracy that had lots of clever examples, many of which I didn't encounter in the world. The above example, however, is something that I think causes mass confusion and delusion on a regular basis. Let's call it:
-
-**Misleading ratios**. Maybe there is a fancy name for this but I could not find it.
-
-It goes something like...
-
-_Last year there was one sighting of a person with blue face paint in our supermarkets. This year the number has grown two-fold. That's a 100% increase!_
-
-Of course, it's still a really small number of blue-faced people: two. Supermarkets are not overwhelmed. Cashiers do not need special training for the tricky task of age-verifying beer-buyers with blue face paint. Politicians do not need to start reminiscing publicly about how the country used to be before its citizens began painting their faces blue.
-
-There could be one person who consistently paints their face blue every day. That's a small number that could still be meaningful: why is that person doing that? It could be an interesting story. If one year a second person tries it out on a whim then that two-fold increase is likely meaningless. It's neither a big nor stable change in the context of a town or city. Wait until you see a trend across multiple years; even then, check whether there are worthwhile causes and/or consequences relating to the trend you are reporting.
-
-People are frequently over-excited by scientific results, crime statistics and business metrics where some kind of Hollywood ratio has been deployed.
-
-"This area of the brain normally has vanishingly small levels of activity but our treatment saw a three-fold increase."
-
-"Crime has been declining steadily for fifteen years but last year saw a doubling from the previous year's historic low, causing major concern."
-
-"Sales for this product have been effectively zero for six years but they quadrupled in the last quarter."
-
-This misleading use of ratios is everywhere. It is an infinitely renewable resource for toxic politics. In science it is sometimes given a false legitimacy by the assignment of a p-value. It is a most routine feature of data rhetoric, or persuasion by numbers, manipulating our emotions while teaching us nothing.
-
 ## Good interruptions
 
 _September 13th_
@@ -169,10 +139,40 @@ Even then, there is still philosophy happening.
 
 _September 9th_
 
-Ideas viewed as transformational often amount to a renewed focus on the concept of a loop, whence the rationalists start conjuring images of yinyang and ouroborus as if there is some ancient metaphysics behind their funding proposal.
+Ideas viewed as transformational often amount to a renewed focus on the concept of a loop. Then rationalists start conjuring yinyang and ouroborus. Take circular economics for example.
 
 ## My childhood in a Myst-like desktop
 
 _September 8th_
 
 When my family first got a computer in the mid 90's it was a Packard Bell that had this alternative environment for navigating the system. It was essentially a Myst-like set in a family home with book shelves, fax machines and things of that nature. I remember my mother bringing me to her friend's house, which was bigger than ours and had a newer Packard Bell with an even fancier pseudo-3D navigator.
+
+## Misleading ratios
+
+_no date_
+
+When I supervised younger scientists, I would often find myself saying things like:
+
+_A "tripling" in the measurable redness of milk is unlikely to be meaningful or interesting._
+
+I'm not a numbers person. I use them when necessary. You typically won't hear me complain about levels of mathematical literacy. I once read a book about innumeracy that had lots of clever examples, many of which I didn't encounter in the world. The above example, however, is something that I think causes mass confusion and delusion on a regular basis. Let's call it:
+
+**Misleading ratios**. Maybe there is a fancy name for this but I could not find it.
+
+It goes something like...
+
+_Last year there was one sighting of a person with blue face paint in our supermarkets. This year the number has grown two-fold. That's a 100% increase!_
+
+Of course, it's still a really small number of blue-faced people: two. Supermarkets are not overwhelmed. Cashiers do not need special training for the tricky task of age-verifying beer-buyers with blue face paint. Politicians do not need to start reminiscing publicly about how the country used to be before its citizens began painting their faces blue.
+
+There could be one person who consistently paints their face blue every day. That's a small number that could still be meaningful: why is that person doing that? It could be an interesting story. If one year a second person tries it out on a whim then that two-fold increase is likely meaningless. It's neither a big nor stable change in the context of a town or city. Wait until you see a trend across multiple years; even then, check whether there are worthwhile causes and/or consequences relating to the trend you are reporting.
+
+People are frequently over-excited by scientific results, crime statistics and business metrics where some kind of Hollywood ratio has been deployed.
+
+"This area of the brain normally has vanishingly small levels of activity but our treatment saw a three-fold increase."
+
+"Crime has been declining steadily for fifteen years but last year saw a doubling from the previous year's historic low, causing major concern."
+
+"Sales for this product have been effectively zero for six years but they quadrupled in the last quarter."
+
+This misleading use of ratios is everywhere. It is an infinitely renewable resource for toxic politics. In science it is sometimes given a false legitimacy by the assignment of a p-value. It is a most routine feature of data rhetoric, or persuasion by numbers, manipulating our emotions while teaching us nothing.
