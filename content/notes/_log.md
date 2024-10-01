@@ -24,7 +24,7 @@ A page for easy logging from my phone, [inspired by Lu Wilson](https://www.todep
 
 # 2024
 
-## Smoking
+## Science made me smoke
 
 _October 1st_
 
@@ -32,7 +32,7 @@ In my first week of secondary school I was offered joints and cigarettes at mult
 
 Teenage peer-pressure didn't make me smoke, it was science.
 
-## Night-to-day phenomenon
+## A night-to-day phenomenon
 
 _September 24th_
 
