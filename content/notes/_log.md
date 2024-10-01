@@ -38,13 +38,13 @@ _September 24th_
 
 One Summer, when my friend and I were young, we were lying on the grass at around midnight. It was pitch black but for a few moments the sky became suddenly illuminated as if it was the middle of the day. This might have been the only time in my life I would describe myself as having been "awe-struck". A few seconds later everything dimmed back to night again. A fella walked by who had been fishing on the beach and was like "did you see that?". The next day nobody else seemed to have noticed and there was nothing in the news. Now I mention it to someone occasionally; they say things like "I dunno...meteors?".
 
-## Randomness in food design
+## Procedurally-generated sauce
 
 _September 22nd_
 
-I've often thought that randomness could be used as a design element in the food industry. As a whole, the industry is not concerned with Design and is obsessed with control. There are definitely things that we would not want to be random, like the level of a vitamin in a nutritional formula for hospital patients. However, sensory aspects like flavour and texture could be made more interesting with the introduction of some randomness. Taking the nutritional formula example again; a key problem with these products is that people get bored and stop consuming them.
+I've often thought that randomness could be used as a design element in the food industry. As a whole, the industry is not concerned with Design and is obsessed with control. There are definitely things that we would not want to be random, like the level of a vitamin in a nutritional formula for hospital patients. However, sensory aspects like flavour and texture could be made more interesting with the introduction of some randomness. Taking the nutritional formula example again; a key problem with these products is that people get bored and stop consuming them. This is called "taste fatigue" and can cause a lot of harm when people are relying on the a nutritional formula to survive.
 
-There is a randomness in home-cooking that can be enjoyable: what I cook today might be different to how it was last week; I want that subtle variety as long as I can still recognise it as the same meal. When food scientists think about 3D printing they generally think of how its computational nature can improve the degree of control. I always thought of it as an opportunity for the exploration of paradigms from other fields, like procedural generation.
+There is a randomness in home-cooking that can be enjoyable: what I cook today might be different to how it was last week; I want that subtle variety as long as I can still recognise it as the _same meal_. When food scientists think about 3D printing they often think of how its programmability can improve the degree to which food is predictable. This is a boring take. In other areas, like game design, programming is also used to generate novelty and surprise. I think there is a place for a procedurally-generated sauce.
 
 ---
 
