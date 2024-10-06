@@ -216,10 +216,12 @@ This is probably the place I've lived with the strongest feeling of community.
 People really look out for each other.
 There's always conversations happening.
 
-One strange feature is the fireworks.
+One peculiar feature is the fireworks.
 As October approaches there is constant, intermittent fireworks.
 I don't know where exactly they are coming from.
-It must be just a fun thing for people to do.
+It must be just a fun thing people do.
 
 I left my academic job and now work in software.
 The work is remote so I spend a lot of time here.
+
+We rent and might live somewhere else again soon.
