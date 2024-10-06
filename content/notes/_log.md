@@ -1,7 +1,7 @@
 +++
 title = "__Log"
 date = 2024-09-08
-updated = 2024-10-01
+updated = 2024-10-05
 draft = false
 
 [taxonomies]
@@ -23,6 +23,12 @@ A page for easy logging from my phone, [inspired by Lu Wilson](https://www.todep
 [edit on GitHub](https://github.com/edibotopic/edibotopic-website/edit/master/content/notes/_log.md) 
 
 # 2024
+
+## Popular metaphysics
+
+_Ocyober 5th_
+
+The liminal space as a culture phenomenon always interested me as a kind of popular metaphysics. Mundane things can be looked at anew for different reasons. Science helps us find underlying mechanisms. Spirituality... transcendent meanings. Art... subjective interpretations. The liminal space is a metaphysical model of a type of space. It only says: there are quotidian spaces that you encounter which can be viewed as having a particular quality of betweeness (note: the scholarly interpretation is much richer). It says nothing of causal explanations or religious epiphany. While the liminal space came to inform a certain A E S T H E T I C, it could be appreciated without any appeal to aesthetics. There are other metaphysical concepts that can be similarly applied. The heterotopia, for example, a space which is characteristically _other_. More commonly known, the _imagined future_ of utopias and dystopias. Rather than a new fad-ish obsession with one or the other, the liminal or the heterotopic, it would be exciting to develop our general capacity to produce and apply new conceptual spaces.
 
 ## Science made me smoke
 
