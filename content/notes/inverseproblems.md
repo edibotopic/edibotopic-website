@@ -67,7 +67,7 @@ often overlap as possible symptoms for many diseases.
 - **Inverse**: what are the conditions that result in a given observation
 {% end %}
 
-{% tip(header="Solving an Inverse Problem") %} 
+{% question(header="Solving an Inverse Problem") %} 
 May require its conversion into a tractable set of forward problems.
 {% end %}
 
