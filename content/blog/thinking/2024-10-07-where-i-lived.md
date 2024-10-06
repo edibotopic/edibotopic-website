@@ -214,7 +214,7 @@ realise that there are great people everywhere.
 
 This is probably the place I've lived with the strongest feeling of community.
 People really look out for each other.
-There's always conversations happening.
+There are always neighbours chatting on the street.
 
 One peculiar feature is the fireworks.
 As October approaches there is constant, intermittent fireworks.
