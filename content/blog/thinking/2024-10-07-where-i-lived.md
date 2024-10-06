@@ -1,5 +1,5 @@
 +++
-title = "Where I've lived"
+title = "Where I've Lived"
 date = 2024-10-06
 draft = false
 weight = 2
@@ -31,7 +31,7 @@ _Near Blarney, County Cork, Ireland_
 I grew up in the countryside, went to a small
 Catholic school and played a lot of video games.
 
-When I was a teenager I went to school in Blarney,
+When I was a teenager I went to school in Blarney (yes, the one with the castle),
 which was about a 20 minute bus ride away.
 As I got older my friends and I would go drinking 
 in the Blarney woods and talk about everything.
@@ -74,7 +74,8 @@ We never met the absentee landlord and never got our deposit back.
 _Tiny studio in Sunday's Well, Cork city, Ireland_
 
 This was a small, old studio in a house with five other tenants.
-The studio was bleak and I don't think I had the internet.
+The studio was bleak.
+I don't think I had the internet and there were mushrooms in the landing.
 
 I wanted to spend as little time as possible there.
 I worked late on my PhD and stopped in a pub on the way home.
@@ -205,8 +206,8 @@ _The house where I live now_
 We are now living on the North side of Cork city again.
 
 People tell me that where I live is dangerous.
-I think they say things like that because of the social housing.
-In my experience: they're wrong.
+I think they say things like that because there is social housing.
+The place is perfectly fine and I don't know what they're talking about.
 
 It's probably the place I've lived with the strongest feeling of community.
 People really look out for each other.
@@ -217,5 +218,5 @@ As October approaches there is constant, intermittent fireworks.
 I don't know where exactly they are coming from.
 It must be just a fun thing for people to do.
 
-I left my academic job and work in software.
+I left my academic job and now work in software.
 The work is remote so I spend a lot of time here.
