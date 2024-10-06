@@ -46,7 +46,7 @@ _On the site of a manufacturing company in Aberdeenshire, Scotland_
 
 I did an internship for a company in Scotland that had cottages on company land.
 They put us up in one for a month until we could find a place in the city.
-It was peculiar living in a relatively idyllic cottage in sight of the manufacturing facility that we walked to each morning.
+It was odd living in a relatively idyllic cottage embedded between industrial manufacturing facilities.
 
 Two of us would go to a local bar, where it was usually just us and the owner, who always seemed like he was after a few pints.
 
@@ -110,13 +110,14 @@ She was from the place I was going (Midwest of the USA).
 _Apartments in Madison, Wisconsin, USA_
 
 I lived in two buildings in Madison, Wisconsin.
-The first was really small and I shared it with a lovely guy who watched sermons on YouTube.
+In the first I shared a small apartment with a lovely guy who watched sermons on YouTube.
 To my relief he never mentioned anything about religion.
 He was a really nice person.
 
 Then I moved to the 11th floor of a nearby building.
 It was a studio and I lived there alone.
 I had a view of frat houses and a big lake from my balcony.
+It was a great time to smoke and the cigarettes are cheap in America.
 
 I had no internet so I would download podcasts while I was doing laundry in the basement.
 The elevator always gave the impression that it was about to malfunction.
@@ -205,7 +206,7 @@ _The house where I live now_
 
 We are now living on the North side of Cork city again.
 
-People tell me that where I live is dangerous.
+People tell me that where I live is dangerous again.
 I think they say things like that because there is social housing.
 The place is perfectly fine and I don't know what they're talking about.
 
