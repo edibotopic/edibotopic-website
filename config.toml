@@ -40,7 +40,7 @@ bio = "Food | Technology | Philosophy"# Your bio
 avatar = "img/avatar.svg"            # Your avatar
 links = [                             # Your links
     {name = "GitHub", icon = "github", url = "https://github.com/edibotopic"},
-    {name = "Email", icon = "email", url = "mailto:edibotopic@gmail.com"},
+    # {name = "Email", icon = "email", url = "mailto:edibotopic@gmail.com"},
     {name = "RSS", icon = "rss", url = "https://edibotopic.com/blog/feed.xml"},
 ]
 
