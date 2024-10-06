@@ -119,8 +119,8 @@ It was a studio and I lived there alone.
 I had a view of frat houses and a big lake from my balcony.
 It was a great time to smoke and the cigarettes are cheap in America.
 
-I had no internet so I would download podcasts while I was doing laundry in the basement.
-The elevator always gave the impression that it was about to malfunction.
+I had no internet so I would download podcasts in the lobby after doing laundry in the basement.
+The elevator back to the 11th floor always gave the impression that it was about to malfunction.
 
 Madison has boiling summers and icy Winters.
 When Winter hit it was a kind of cold I had never experienced.
@@ -184,6 +184,8 @@ The main attraction for us was that we finally had a small garden.
 
 We were near a stadium and there was regular crowd noise.
 It amazed me how pleasant a sound it was to hear.
+
+One night there was a prolonged and sad breakdown of a marriage next door.
 
 We had a lot of problems with the property manager.
 The place was never cleaned after the previous tenants left.
