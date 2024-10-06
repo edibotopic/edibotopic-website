@@ -209,7 +209,10 @@ People tell me that where I live is dangerous.
 I think they say things like that because there is social housing.
 The place is perfectly fine and I don't know what they're talking about.
 
-It's probably the place I've lived with the strongest feeling of community.
+I think some people haven't lived in different places, so they don't
+realise that there are great people everywhere.
+
+This is probably the place I've lived with the strongest feeling of community.
 People really look out for each other.
 There's always conversations happening.
 
