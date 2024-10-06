@@ -53,7 +53,7 @@ Two of us would go to a local bar, where it was usually just us and the owner, w
 Something difficult happened during that time which had a big impact on me.
 I can't really go into it.
 
-# Three in a place for two
+# Place for two for three
 
 _Apartment in Aberdeen city, Scotland_
 
@@ -69,7 +69,7 @@ A strange configuration.
 
 We never met the absentee landlord and never got our deposit back.
 
-# A studio I avoided
+# Studio I avoided
 
 _Tiny studio in Sunday's Well, Cork city, Ireland_
 
@@ -135,7 +135,7 @@ Very laid-back, hippy-ish vibe.
 Lovely bookshop and record store.
 Lakeside terrace with beer, food and music.
 
-# A place with a door-sized hole in the wall
+# Place with door-sized hole
 
 _Apartment in Shandon Street, Cork City, Ireland_
 
@@ -170,7 +170,7 @@ a funny reaction.
 They would say it was dangerous and they wouldn't believe
 me when I said otherwise.
 
-# A garden near the stadium
+# With a garden, near a stadium
 
 _A house in Turner's Cross, outside Cork City, Ireland_
 
@@ -199,7 +199,7 @@ prospect of homelessness it was so difficult.
 
 We did find a place in the end.
 
-# Back to the north side
+# Back on the north side
 
 _The house where I live now_
 
