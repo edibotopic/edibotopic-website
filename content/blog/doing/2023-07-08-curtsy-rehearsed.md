@@ -1,7 +1,7 @@
 +++
 title = "Music By Curtsy Rehearsed"
 date = 2023-07-08
-updated = 2024-09-21
+updated = 2024-10-06
 draft = false
 weight = 1
 
@@ -24,17 +24,6 @@ of which are available [on the Bandcamp page](https://curtsyrehearsed.bandcamp.c
 
 <!-- more -->
 
-{% note(header="Note") %}
-The music I was making had a sharp uptick in quality
-around [February 2024](#update-february-2024).
-My most recent and favourite releases are mentioned
-in the [Summer 2024 update](#update-summer-2024).
-
-Several of the earlier projects discussed at the
-start of this blog have been unpublished from BandCamp
-but can still be streamed/downloaded on this page.
-{% end %}
-
 # Background
 
 ## Press Coverage
@@ -56,20 +45,15 @@ albeit in a local Irish paper that few people know about.
 > source: [Evening Echo](https://www.echolive.ie/entertainment/whatson/arid-40902209.html)
 
 I like the mini-review, which correctly identifies the music's _wooziness_.
-Since then I have made far better music that has received no attention.
-The article referred to _Transitive Nostalgia_, which has been made private on
-my Bandcamp although you can still stream/download below:
+Since then I have made — in my opinion — far better music that has received no attention.
+You can listen to _Transitive Nostalgia_ below:
 
 <div style="text-align: center">
     <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=2113215328/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/transitive-nostalgia">Transitive Nostalgia by Curtsy Rehearsed</a></iframe>
 </div>
 
-The most minor press coverage motivated me to explain why 
-I — an academic, non-musician — started this project.
+## My Original Motivation
 
-## Soundtracks to Lectures  
-
-My original motivation was to soundtrack lectures.
 During the era of Covid-19 lockdowns I had to teach remotely.
 I wanted to create _good_ lecture videos, which — for me —
 _had to include music_.
@@ -315,6 +299,13 @@ an experience and it's something I intend to explore.
 
 ## Rosacea
 
+This is a little moodier and more dramatic than many of the other releases.
+I've always wanted to name an album like one of my teenage favourites:
+Alopecia by Why?
+I find the style of sampling on some of these songs quite unique — lots
+of changeable orchestral flourishes.
+The photo is of a crashed car that has always been in my parents' back garden.
+
 <div style="text-align: center;">
     <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=81300235/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/rosacea">Rosacea by Curtsy Rehearsed</a></iframe>
 </div>
@@ -322,6 +313,11 @@ an experience and it's something I intend to explore.
 [Get Rosacea on BandCamp](https://curtsyrehearsed.bandcamp.com/album/rosacea)
 
 ## Indirection
+
+This is a collection of music I made under an alias when I stopped doing Curtsy Rehearsed.
+A lot of these songs were inspired by memories of growing up.
+There's a tribute to Lu Wilson in there too.
+The photo is of me hugging a cropped-out Aesop Rock at a concert when I was around 17.
 
 <div style="text-align: center;">
     <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=837162079/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://curtsyrehearsed.bandcamp.com/album/indirection">Indirection by Curtsy Rehearsed</a></iframe>
