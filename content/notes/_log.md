@@ -24,6 +24,31 @@ A page for easy logging from my phone, [inspired by Lu Wilson](https://www.todep
 
 # 2024
 
+## Unfalsifiablity in appropriately non-scientific contexts is still a problem
+
+Popper used falsifability as a criterion for demarcating science from non-science.
+One of the characteristic properties of science, he argued, is that its statements
+could be falsified. A strong theory may survive attempts at falsification but still
+in principle be falsifiable. This runs counter to the intuitions of many non-scientists,
+who consider the strongest ideas to be those that are certain and irrefutable. Falsifiablity
+is commonly discussed in the context of pseudo-sciences that have some aspiration to be
+recognised as scientific, or at least _as good as or better_ than whatever science they seek to
+displace. 
+
+Practitioners in some domains may have no intention of being scientific and
+it would be absurd for us to expect them to be scientific in all matters. While we should
+not _expect_ someone writing about software, food or business to always do so _as a scientist
+would_, we should still be wary of unfalsifiable statements. For example, if a person claims
+that societal progress halted in the 1960s, or that video games have ceased to be interesting,
+or that manufacturing has been perfected as far as it can go, or that they have a framework
+that is the optimal conceptual foundation from which to solve a problem, it can be helpful to think "what
+does this person take to be 'progress', 'interestingness', 'perfection' and 'optimal' in each case, and is it 
+even possible within the framing of their statements to convince them or their followers otherwise?".
+
+At the root of the resultant impasse is typically a studied ambiguity of phrasing, which maximises
+the scope of the statements and renders them capable of absorbing all counter arguments; this is
+usually coupled with a rejection of precising definitions.
+
 ## Acceptable pseudoscience
 
 It seems to be broadly acceptable to express pseudoscientific views about food and nutrition. I've met several people with skeptical dispositions, who worry about the circulation of conspiracy theories, and may even have some scientific training, but will nonetheless advocate for strange and baseless food regimens. When pushed, they may speculate on the _real_ motivations of the experts who undermine their beliefs. Misinformation and false promises about nutrition appear every day in legitimate media outlets. When a celebrity makes millions from bullshit food supplements their tenacity and opportunism is admired. It is understandable that misinformation about diet worries us less than misinformation about vaccines, for example, as the dangers are usually less immediate. If we as a society, however, consider there to be long-term population-wide issues relating to diet and health it would be preferable if we did not invest so much in nonsense and instead tried to solve the problem. Unfortunately, once "consumers" start believing in nonsense then (1) it is potentially marketable, (2) it becomes the subject of techno-scientific investigation and (3) it receives media attention for (2), which can lend premature legitimacy to (1). People get outraged when a section of the population believes misinformation about politics or medicine, but what should we expect if false opinions and anti-expert sentiment are mainstream in so many other domains, including but not limited to food and cosmetics? It's a structural issue; believing in one kind of nonsense primes us to believe in other kinds; investigating nonsense can lend credence to nonsense; reporting on nonsense can draw attention to nonsense; applying technical knowledge to nonsense can optimize nonsense.
