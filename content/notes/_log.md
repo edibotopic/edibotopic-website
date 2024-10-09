@@ -43,7 +43,7 @@ that societal progress halted in the 1960s, or that video games have ceased to b
 or that manufacturing has been perfected as far as it can go, or that they have a framework
 that is the optimal conceptual foundation from which to solve a problem, it can be helpful to think _what
 does this person take to be 'progress', 'interestingness', 'perfection' or 'optimal' (?)_, and _is it 
-even possible within the framing of their statements to convince them or their followers otherwise?_.
+even possible within the framing of their statements to convince them or their followers otherwise?_
 
 At the root of the resultant impasse is typically a studied ambiguity of phrasing, which maximises
 the scope of the statements and renders them capable of absorbing all counter arguments; this is
