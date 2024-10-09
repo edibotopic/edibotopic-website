@@ -1,7 +1,7 @@
 +++
 title = "__Log"
 date = 2024-09-08
-updated = 2024-10-05
+updated = 2024-10-09
 draft = false
 
 [taxonomies]
@@ -23,6 +23,10 @@ A page for easy logging from my phone, [inspired by Lu Wilson](https://www.todep
 [edit on GitHub](https://github.com/edibotopic/edibotopic-website/edit/master/content/notes/_log.md) 
 
 # 2024
+
+## Acceptable pseudoscience
+
+It seems to be broadly acceptable to express pseudoscientific views about food and nutrition. I've met several people with skeptical dispositions, who worry about the circulation of conspiracy theories, and even have some scientific training, who will nonetheless advocate for strange and baseless food regimens. They may venture to speculate on the _real_ motivations of experts in food and nutrition. Misinformation and false promises about nutrition appear every day in legitimate media outlets. When a celebrity makes millions from bullshit food supplements their tenacity and opportunism is admired. It is understandable that misinformation about diet worries us less than misinformation about vaccines, for example, as the dangers are usually less immediate. If we as a society, however, consider there to be long-term population-wide issues relating to diet and health it would be preferable if we did not invest so much on nonsense and instead tried to solve the problem. Unfortunately, once "consumers" start believing in nonsense then (1) it is potentially marketable, (2) it becomes a subject of techno-scientific investigation and (3) is subject to media attention for (2), which can lend premature legitimacy to (1). People get outraged when a section of the population believes misinformation about politics or medicine, but what should we expect if false opinions and anti-expert sentiment are mainstream in so many other domains, including but not limited to food and cosmetics? It's a structural issue; believing in one kind of nonsense primes us to believe in other kinds; investigating nonsense can lend credence to nonsense; reporting on nonsense can draw attention to nonsense; applying technical knowledge can optimize nonsense.
 
 ## Popular metaphysics
 
@@ -51,8 +55,6 @@ _September 22nd_
 I've often thought that randomness could be used as a design element in the food industry. As a whole, the industry is not concerned with Design and is obsessed with control. There are definitely things that we would not want to be random, like the level of a vitamin in a nutritional formula for hospital patients. However, sensory aspects like flavour and texture could be made more interesting with the introduction of some randomness. Taking the nutritional formula example again; a key problem with these products is that people get bored and stop consuming them. This is called "taste fatigue" and can cause a lot of harm when people are relying on a nutritional formula to survive.
 
 There is a randomness in home-cooking that can be enjoyable: what I cook today might be different to how it was last week; I want that subtle variety as long as I can still recognise it as the _same meal_. When food scientists think about 3D printing they often think of how its programmability can improve the degree to which food is predictable. This seems... boring. In other areas, like game design, programming is also used to generate novelty and surprise. I think there is a place for a procedurally-generated sauce.
-
----
 
 ## Familiar unknowns
 
