@@ -24,7 +24,19 @@ A page for easy logging from my phone, [inspired by Lu Wilson](https://www.todep
 
 # 2024
 
-## Unfalsifiablity in appropriately non-scientific contexts is still a problem
+## Turning, Standing, Bagging, Drawing
+
+_October 10th_
+
+We would harvest peat ("turf") when I was young. It was monotonous and backbreaking work. There are multiple stages across different days: cutting, turning, standing, bagging, drawing.
+
+The cutting would be handled by a farmer. We would then turn the dozen or so long lines of turf so that the wet side could dry. Another day we would stand the turf in little castles to improve the drying. After that we would fill hundreds of bags and leave them lining the ground. Finally, we would each put three or four bags in a wheelbarrow at a time and draw them to a bank at the edge of the bog. These would later be dumped into a trailer to be taken home.
+
+I always found the peatland landscape ("the bog") incredibly bleak. Each stage had its own unique pains and frustrations. There was balancing a full wheelbarrow on a slippery plank sunk into a patch of wet marsh. There was arching over the ground trying to make mushy pieces of turf form an orderly castle. 
+
+Covered in dirt and exhausted, we would break for tea and sandwiches, before starting in again.
+
+## Unfalsifiablity in appropriately non-scientific contexts can still be a problem
 
 _October 9th_
 
