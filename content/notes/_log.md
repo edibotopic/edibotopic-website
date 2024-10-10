@@ -28,9 +28,9 @@ A place for easy and regular logging, usually from my phone.
 
 _October 10th_
 
-We would harvest peat ("turf") when I was young. It was monotonous and backbreaking work. There are multiple stages across different days: cutting, turning, standing, bagging, drawing.
+We would harvest peat ("turf") when I was young. It was monotonous and backbreaking work. There were multiple stages across different days: cutting, turning, standing, bagging, drawing.
 
-The cutting would be handled by a farmer. We would then turn the dozen or so long lines of turf so that the wet side could dry. Another day we would stand the turf in little castles to improve the drying. After that we would fill hundreds of bags and leave them lining the ground. Finally, we would each put three or four bags in a wheelbarrow at a time and draw them to a bank at the edge of the bog. These would later be dumped into a trailer to be taken home.
+The cutting would be handled by a farmer. We then turned over the dozen or so long lines of turf so that the wet underside could dry. Another day we would stand the turf in little castles to improve the drying rate. After that we would fill hundreds of bags with the dried turf and leave the filled bags lining the ground. Finally, we would each put three or four bags in a wheelbarrow at a time and draw them one-by-one to a bank at the edge of the bog. These would later be dumped into a large trailer to be taken home.
 
 I always found the peatland landscape ("the bog") incredibly bleak. Each stage had its own unique pains and frustrations. There was balancing a full wheelbarrow on a slippery plank sunk into a patch of wet marsh. There was arching over the ground trying to make mushy pieces of turf form an orderly castle. 
 
