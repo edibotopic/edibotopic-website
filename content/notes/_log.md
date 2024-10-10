@@ -1,7 +1,7 @@
 +++
 title = "__Log"
 date = 2024-09-08
-updated = 2024-10-09
+updated = 2024-10-10
 draft = false
 
 [taxonomies]
@@ -18,7 +18,7 @@ cc_license = false
 outdate_warn = false
 +++
 
-A page for easy logging from my phone, [inspired by Lu Wilson](https://www.todepond.com/wikiblogarden/art/never-stop-writing/on-your-phone/) of TodePond fame.
+A place for easy and regular logging, usually from my phone.
 
 [edit on GitHub](https://github.com/edibotopic/edibotopic-website/edit/master/content/notes/_log.md) 
 
