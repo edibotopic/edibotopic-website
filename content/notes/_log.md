@@ -50,7 +50,7 @@ The professors wanted to prepare students well for graduate positions. The stude
 
 For me, learning to push buttons and fill containers was not an ideal use of a four-year university degree. These skills should be taught on-the-job or in shorter, cheaper programs. Our role as academics, I thought, was to expand the notion of what is possible, show how to develop a new idea and reveal how discovery happens. With this philosophy, I had a lot of fun classes, and hopefully I blew a few minds, but there was always the pressure to show how the buttons get pushed and the containers get filled.
 
-Occasionally I would hear murmurs from university students and industry people that some tool or concept that was being taught "was not used in industry". I would respond that maybe it should be, or perhaps it hasn't been tried yet, or what if a student will be the first to apply it successfully.
+Occasionally I would hear murmurs from people that some tool or concept that was being taught "was not used in industry". I would respond that — well — it should be, or maybe it is being applied in secret, or perhaps a student in the future will be the first to apply it successfully.
 
 ## Turning, Standing, Bagging, Drawing
 
