@@ -1,7 +1,7 @@
 +++
 title = "__Log"
 date = 2024-09-08
-updated = 2024-10-10
+updated = 2024-10-13
 draft = false
 
 [taxonomies]
@@ -23,6 +23,32 @@ A place for easy and regular logging, usually from my phone.
 [edit on GitHub](https://github.com/edibotopic/edibotopic-website/edit/master/content/notes/_log.md) 
 
 # 2024
+
+## Richly Apart, Seeing Mundane Problems
+
+_October 13th_
+
+I still have a deep affection for universities, teaching and science. 
+
+There are prominent examples today of individuals who seek to undermine institutions that they have left behind.
+
+Quitting one thing or transitioning to another are common life moments. Rarely is conspiracy or persecution the cause. Life intervenes in a variety of ways. New interests develop. Values shift. Tiredness sets in.
+
+To tie oneself to something, then stand apart from it, is a rich experience. It can preserve a deep appreciation without the devotional blindness.
+
+---
+
+There is a ubiquity of mundane problems in a given institution. It would be better if they did not exist, yet they are too numerous to contain and so boring that they are difficult to illuminate for the public.
+
+I taught in a university program that prized positive employment statistics for its graduates. Understandably, our students wanted jobs and there were corporations ready to provide them. The problem was never that a company said "stop teaching that" or "suppress criticism of this practice".
+
+Professors would simply ask companies "what should our graduates know?". The response would be that a student should know about such-and-such a machine, or this-and-that technique. Naturally, they did not request an emphasis on challenging orthodoxy, questioning norms or pioneering new ideas. They shouldn't have had to either.
+
+The professors wanted to best prepare students for jobs. The students wanted to know what would be necessary to succeed in their jobs. Moving beyond this structure would cause anxiety. Why wasn't this time being used for skills development? Why are you making me aware of criticisms that relate to my chosen career path?
+
+For me, learning to push buttons and fill containers was not an ideal use of a four-year university degree. These skills should be taught on-the-job or in shorter, cheaper programs. Our role, I thought, was to expand the notion of what is possible, show how to develop an idea and reveal how discovery happens. I had a lot of fun classes, and hopefully a few blown minds, but there was always the pressure to show how buttons get pushed and containers get filled.
+
+Occasionally I would show a class a tool or concept and I would hear murmurs about someone knowing someone who works in the industry that said "we never use that". I would say "Maybe they should use it. Maybe they haven't tried it. Maybe you could be the first to introduce it!".
 
 ## Turning, Standing, Bagging, Drawing
 
