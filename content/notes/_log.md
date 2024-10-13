@@ -36,6 +36,8 @@ Quitting one thing or transitioning to another are common life moments. Rarely i
 
 To tie oneself to something, then stand apart from it, is a rich experience. It can preserve a deep appreciation without the devotional blindness.
 
+There are too many voices trying to destroy or remake what they have abandoned, instead of giving a unique perspective that will help increase understanding.
+
 ---
 
 There is a ubiquity of mundane problems in a given institution. It would be better if they did not exist, yet they are too numerous to contain and so boring that they are difficult to illuminate for the public.
