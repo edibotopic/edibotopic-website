@@ -18,13 +18,13 @@ cc_license = false
 outdate_warn = false
 +++
 
-A place for easy and regular logging, usually from my phone.
+A place for easy, regular and imperfect logging, usually from my phone.
 
 [edit on GitHub](https://github.com/edibotopic/edibotopic-website/edit/master/content/notes/_log.md) 
 
 # 2024
 
-## Richly Apart, Seeing Mundane Problems
+## Richly Apart, Mundanely Aware
 
 _October 13th_
 
@@ -34,23 +34,23 @@ There are prominent examples today of individuals who seek to undermine institut
 
 Quitting one thing or transitioning to another are common life moments. Rarely is conspiracy or persecution the cause. Life intervenes in a variety of ways. New interests develop. Values shift. Tiredness sets in.
 
-To tie oneself to something, then stand apart from it, is a rich experience. It can preserve a deep appreciation without the devotional blindness.
+To tie oneself to something, then stand apart from it, is a rich experience. One can preserve a deep appreciation without the devotional blindness.
 
-There are too many voices trying to destroy or remake what they have abandoned, instead of giving a unique perspective that will help increase understanding.
+There are too many voices trying to destroy or remake what they have abandoned, instead of giving their unique perspective and helping people understand.
 
 ---
 
-There is a ubiquity of mundane problems in a given institution. It would be better if they did not exist, yet they are too numerous to contain and so boring that they are difficult to illuminate for the public.
+A given institution has a ubiquity of mundane problems. It would be better if they did not exist, but they are too numerous to contain and so boring that they are difficult to illuminate for the public.
 
-I taught in a university program that prized positive employment statistics for its graduates. Understandably, our students wanted jobs and there were corporations ready to provide them. The problem was never that a company said "stop teaching that" or "suppress criticism of this practice".
+I taught in a university program that prized positive employment statistics for its graduates. Understandably, our students wanted jobs and there were corporations ready to provide them. The problem was never that a company said "stop teaching that" or "suppress criticism of this practice". I'm sure this kind of pure corruption happens but I never saw it.
 
-Professors would simply ask companies "what should our graduates know?". The response would be that a student should know about such-and-such a machine, or this-and-that technique. Naturally, they did not request an emphasis on challenging orthodoxy, questioning norms or pioneering new ideas. They shouldn't have had to either.
+Well-meaning professors would simply ask companies "what should our graduates know?". The response would be that a student should know such-and-such a machine, or this-and-that technique. Naturally, they did not request an emphasis on challenging orthodoxy, questioning norms or pioneering new ideas. They shouldn't have had to either.
 
-The professors wanted to best prepare students for jobs. The students wanted to know what would be necessary to succeed in their jobs. Moving beyond this structure would cause anxiety. Why wasn't this time being used for skills development? Why are you making me aware of criticisms that relate to my chosen career path?
+The professors wanted to prepare students well for graduate positions. The students wanted to know what was needed to succeed in their jobs. Pushing against this rigid structure would cause anxiety. Professors: why wasn't the time on this novel concept used for skills development? Students: Why are you making me aware of criticisms that relate to my chosen career path?
 
-For me, learning to push buttons and fill containers was not an ideal use of a four-year university degree. These skills should be taught on-the-job or in shorter, cheaper programs. Our role, I thought, was to expand the notion of what is possible, show how to develop an idea and reveal how discovery happens. I had a lot of fun classes, and hopefully a few blown minds, but there was always the pressure to show how buttons get pushed and containers get filled.
+For me, learning to push buttons and fill containers was not an ideal use of a four-year university degree. These skills should be taught on-the-job or in shorter, cheaper programs. Our role as academics, I thought, was to expand the notion of what is possible, show how to develop a new idea and reveal how discovery happens. Wuth this in mind, I had a lot of fun classes, and hopefully I blew a few minds, but there was always the pressure to show how the buttons get pushed and the containers get filled.
 
-Occasionally I would show a class a tool or concept and I would hear murmurs about someone knowing someone who works in the industry that said "we never use that". I would say "Maybe they should use it. Maybe they haven't tried it. Maybe you could be the first to introduce it!".
+Occasionally I would hear murmurs from university students and industry people that some tool or concept that was being taught "was not used in industry". I would respond that maybe it should be, or perhaps it hasn't been tried yet, or what if a student will be the first to apply it successfully.
 
 ## Turning, Standing, Bagging, Drawing
 
