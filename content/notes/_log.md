@@ -18,7 +18,7 @@ cc_license = false
 outdate_warn = false
 +++
 
-A place for easy, regular and imperfect logging, usually from my phone.
+A place for easy and regular logging of imperfect thoughts, usually from my phone.
 
 [edit on GitHub](https://github.com/edibotopic/edibotopic-website/edit/master/content/notes/_log.md) 
 
