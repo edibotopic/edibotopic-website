@@ -34,10 +34,11 @@ Catholic school and played a lot of video games.
 When I was a teenager I went to school in Blarney (yes, the one with the castle),
 which was about a 20 minute bus ride away.
 As I got older my friends and I would go drinking 
-in the Blarney woods and talk about everything.
+in the Blarney woods.
+It seemed like we would talk about everything.
 
 The family house was a bungalow surrounded by farmland.
-There is a crashed car in the back garden and I don't
+There is a crashed car in the back garden and I still don't
 know how it got there.
 
 # Factory cottage
@@ -75,13 +76,13 @@ _Tiny studio in Sunday's Well, Cork city, Ireland_
 
 This was a small, old studio in a house with five other tenants.
 The studio was bleak.
-I don't think I had the internet and there were mushrooms in the landing.
+I don't think I had the internet and there were mushrooms growing in the landing.
 
 I wanted to spend as little time as possible there.
-I worked late on my PhD and stopped in a pub on the way home.
+I worked late on my PhD in a laboratory and stopped in a pub on the way home.
 Five old guys sat at the bar ribbing each other and I would read the newspapers nearby.
 
-An unusual man downstairs once invited me into his place when I came home.
+An unusual man in my building once invited me into his place when I came home.
 He asked me to sit down on the couch and then he did a nunchuck demonstration — it wasn't very good and I was nervous for both of us.
 Afterwards he gave me a large block of government cheese that he no longer wanted and said goodnight. I never saw him again.
 
@@ -197,23 +198,16 @@ After two years the landlord said they wanted
 to give the place to one of their children.
 
 In the few months that remained on our lease we
-looked for apartments and were considering the
-prospect of homelessness it was so difficult.
+looked for apartments and were contemplating the
+prospect of homelessness because the search was so futile.
 
-We did find a place in the end.
+Luckily, we did find a place in the end.
 
 # Back on the north side
 
 _The house where I live now_
 
 We are now living on the North side of Cork city again.
-
-People tell me that where I live is dangerous again.
-I think they say things like that because there is social housing.
-The place is perfectly fine and I don't know what they're talking about.
-
-I think some people haven't lived in different places, so they don't
-realise that there are great people everywhere.
 
 This is probably the place I've lived with the strongest feeling of community.
 People really look out for each other.
@@ -224,7 +218,4 @@ As October approaches there is constant, intermittent fireworks.
 I don't know where exactly they are coming from.
 It must be just a fun thing people do.
 
-I left my academic job and now work in software.
-The work is remote so I spend a lot of time here.
-
-We rent and might live somewhere else again soon.
+We plan to stay put as long as we can.
