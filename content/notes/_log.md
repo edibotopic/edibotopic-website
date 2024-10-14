@@ -39,6 +39,12 @@ In its characteristic ambiguity it might, however, prepare one well for the genu
 A conversation, book or painting does not need to directly address a problem to be successful.
 Some things are intrinsic or indirect goods, pointing only to themselves or to emergent possibilities that are yours to discover.
 
+---
+
+In certain domains, such as logic and mathematics, ambiguity can be intolerable.
+
+In others it can be a prompt for exploration, a tool for expression, or a pragmatic strategy.
+
 ## Richly Apart, Mundanely Aware
 
 _October 13th_
