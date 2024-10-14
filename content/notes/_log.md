@@ -49,9 +49,7 @@ There are prominent examples today of individuals who seek to undermine institut
 
 Quitting one thing or transitioning to another are common life moments. Rarely is conspiracy or persecution the cause. Life intervenes in a variety of ways. New interests develop. Values shift. Tiredness sets in.
 
-To tie oneself to something, then stand apart from it, is a rich experience. One can preserve a deep appreciation without the devotional blindness.
-
-There are too many voices trying to destroy or remake what they have abandoned, instead of giving their unique perspective and helping people understand.
+To tie oneself to something, then stand apart from it, is a rich experience. One can preserve a deep appreciation without the devotional blindness. 
 
 ---
 
