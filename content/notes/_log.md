@@ -1,7 +1,7 @@
 +++
 title = "__Log"
 date = 2024-09-08
-updated = 2024-10-13
+updated = 2024-10-14
 draft = false
 
 [taxonomies]
@@ -23,6 +23,21 @@ A place for easy and regular logging of imperfect thoughts, usually from my phon
 [edit on GitHub](https://github.com/edibotopic/edibotopic-website/edit/master/content/notes/_log.md) 
 
 # 2024
+
+## Directness
+
+_October 14th_
+
+Irish people often talk about what they perceive as the "directness" of other cultures, such as the Americans and the Dutch.
+
+When I lived in America what I missed most was the meandering aimlessness of how Irish people often spoke to each other casually.
+Matters of substance would be approached and circled before a retreat back into pleasant nothingness.
+
+This way of communicating, if it exists at all, has its place; it is not the way to make a deal or nail a pitch.
+In its characteristic ambiguity it might, however, prepare one well for the genuine ambiguities that life offers.
+
+A conversation, book or painting does not need to directly address a problem to be successful.
+Some things are intrinsic or indirect goods, pointing only to themselves or to emergent possibilities that are yours to discover.
 
 ## Richly Apart, Mundanely Aware
 
