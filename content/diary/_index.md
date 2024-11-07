@@ -1,22 +1,18 @@
 +++
-title = "__Log"
-date = 2024-09-08
-updated = 2024-10-14
-draft = false
-
-[taxonomies]
-categories = ["notes"]
-tags = []
+title = "edibotopic | notes"
+description = "Semi-regular diary"
+sort_by = "title"
+template = "single.html"
+insert_anchor_links = "right"
+generate_feeds = false
 
 [extra]
-lang = "en"
-toc = false
-show_comment = false
-math = false
-mermaid = false
-cc_license = false
-outdate_warn = false
+lang = 'en'
+display_tags = true
+truncate_summary = true
+# show_post_num = 10
 +++
+
 
 A place for easy and regular logging of imperfect thoughts, usually from my phone.
 
@@ -83,7 +79,7 @@ I always found the peatland landscape ("the bog") incredibly bleak. Each stage h
 
 Covered in dirt and exhausted, we would break for tea and sandwiches, before starting in again.
 
-## Unfalsifiablity in appropriately non-scientific contexts can still be a problem
+## Unfalsifiablity in appropriately non-scientific contexts
 
 _October 9th_
 
@@ -114,13 +110,21 @@ usually coupled with a rejection of precising definitions.
 
 _October 8th_
 
-It seems to be broadly acceptable to express pseudoscientific views about food and nutrition. I've met several people with skeptical dispositions, who worry about the circulation of conspiracy theories, and may even have some scientific training, but will nonetheless advocate for strange and baseless food regimens. When pushed, they may speculate on the _real_ motivations of the experts who undermine their beliefs. Misinformation and false promises about nutrition appear every day in legitimate media outlets. When a celebrity makes millions from bullshit food supplements their tenacity and opportunism is admired. It is understandable that misinformation about diet worries us less than misinformation about vaccines, for example, as the dangers are usually less immediate. If we as a society, however, consider there to be long-term population-wide issues relating to diet and health it would be preferable if we did not invest so much in nonsense and instead tried to solve the problem. Unfortunately, once "consumers" start believing in nonsense then (1) it is potentially marketable, (2) it becomes the subject of techno-scientific investigation and (3) it receives media attention for (2), which can lend premature legitimacy to (1). People get outraged when a section of the population believes misinformation about politics or medicine, but what should we expect if false opinions and anti-expert sentiment are mainstream in so many other domains, including but not limited to food and cosmetics? It's a structural issue; believing in one kind of nonsense primes us to believe in other kinds; investigating nonsense can lend credence to nonsense; reporting on nonsense can draw attention to nonsense; applying technical knowledge to nonsense can optimize nonsense.
+It seems to be broadly acceptable to express pseudoscientific views about food and nutrition. I've met several people with skeptical dispositions, who worry about the circulation of conspiracy theories, and may even have some scientific training, but will nonetheless advocate for strange and baseless food regimens. When pushed, they may speculate on the _real_ motivations of the experts who undermine their beliefs. 
+
+Misinformation and false promises about nutrition appear every day in legitimate media outlets. When a celebrity makes millions from bullshit food supplements their tenacity and opportunism is admired. It is understandable that misinformation about diet worries us less than misinformation about vaccines, for example, as the dangers are usually less immediate. If we as a society, however, consider there to be long-term population-wide issues relating to diet and health it would be preferable if we did not invest so much in nonsense and instead tried to solve the problem. Unfortunately, once "consumers" start believing in nonsense then (1) it is potentially marketable, (2) it becomes the subject of techno-scientific investigation and (3) it receives media attention for (2), which can lend premature legitimacy to (1).
+
+People get outraged when a section of the population believes misinformation about politics or medicine, but what should we expect if false opinions and anti-expert sentiment are mainstream in so many other domains, including but not limited to food and cosmetics? It's a structural issue; believing in one kind of nonsense primes us to believe in other kinds; investigating nonsense can lend credence to nonsense; reporting on nonsense can draw attention to nonsense; applying technical knowledge to nonsense can optimize nonsense.
 
 ## Popular metaphysics
 
 _October 5th_
 
-The liminal space as a culture phenomenon always interested me as a kind of popular metaphysics. Mundane things can be looked at anew for different reasons. Science helps us find underlying mechanisms. Spirituality... transcendent meanings. Art... subjective interpretations. The liminal space is a metaphysical model of a type of space. It only says: there are quotidian spaces that you encounter which can be viewed as having a particular quality of betweeness (note: the scholarly interpretation is much richer). It says nothing of causal explanations or religious epiphany. While the liminal space came to inform a certain A E S T H E T I C, it could be appreciated without any appeal to aesthetics. There are other metaphysical concepts that can be similarly applied. The heterotopia, for example, a space which is characteristically _other_. More commonly known, the _imagined future place_: a utopia or dystopia. Rather than a new fad-ish obsession with one or the other, the liminal or heterotopic, it would be exciting to develop our general capacity to produce and apply new conceptual spaces.
+The liminal space as a culture phenomenon always interested me as a kind of popular metaphysics. Mundane things can be looked at anew for different reasons. Science helps us find underlying mechanisms. Spirituality... transcendent meanings. Art... subjective interpretations. The liminal space is a metaphysical model of a type of space. It only says: there are quotidian spaces that you encounter which can be viewed as having a particular quality of betweeness (note: the scholarly interpretation is much richer). It says nothing of causal explanations or religious epiphany. 
+
+While the liminal space came to inform a certain `AESTHETIC`, it could be appreciated without any appeal to aesthetics.
+
+There are other metaphysical concepts that can be similarly applied. The heterotopia, for example, a space which is characteristically _other_. More commonly known, the _imagined future place_: a utopia or dystopia. Rather than a new fad-ish obsession with one or the other, the liminal or heterotopic, it would be exciting to develop our general capacity to produce and apply new conceptual spaces.
 
 ## Science made me smoke
 
@@ -189,7 +193,9 @@ The interruption dynamic in chat apps is unique and interesting. There is an ind
 
 _September 12th_
 
-During my time in academia there was once a heated university-wide debate about academic titles. At issue was whether our university should change our titles to be more like other Irish universities who use North American-style titles. One of our Lecturers might be called an Assistant Professor somewhere else; some argued that the latter was more "important sounding" and could therefore be more competitive in a funding proposal; perhaps they might command more respect at a formal event. Lecturer, however, was a tenured position, unlike an Assistant Professor in the North American sense, who is typically pre-tenure. Also, neither Lecturers nor Assistant Professors are assistants to anyone in particular; an academic position is characteristically independent of such hierarchical impositions. These concerns were dismissed as unimportant by Associate Professors who themselves wanted to be known by the more impressive Full Professor. Some people expressed vague, mystical reverence for the title of Professor, wanting it only for a tiny minority. Few were interested in using titles that fit the actual role. Just at the level of language, what differentiates one who professes from one who lectures? How from these titles might a member of the public discern that these academics spend an inordinate amount of time doing research and not teaching?? It was mostly about people wanting nicer-sounding titles, right? At least that was my judgement in the absence of any evidence being presented concerning the relation between academic title and success in funding acquisition. I engaged in the debate to a degree but stopped when I thought to myself "what would any reasonable person who does not work in a university think about this?".
+During my time in academia there was once a heated university-wide debate about academic titles. At issue was whether our university should change our titles to be more like other Irish universities who use North American-style titles. One of our Lecturers might be called an Assistant Professor somewhere else; some argued that the latter was more "important sounding" and could therefore be more competitive in a funding proposal; perhaps they might command more respect at a formal event. Lecturer, however, was a tenured position, unlike an Assistant Professor in the North American sense, who is typically pre-tenure. Also, neither Lecturers nor Assistant Professors are assistants to anyone in particular; an academic position is characteristically independent of such hierarchical impositions. These concerns were dismissed as unimportant by Associate Professors who themselves wanted to be known by the more impressive Full Professor.
+
+Some people expressed vague, mystical reverence for the title of Professor, wanting it only for a tiny minority. Few were interested in using titles that fit the actual role. Just at the level of language, what differentiates one who professes from one who lectures? How from these titles might a member of the public discern that these academics spend an inordinate amount of time doing research and not teaching?? It was mostly about people wanting nicer-sounding titles, right? At least that was my judgement in the absence of any evidence being presented concerning the relation between academic title and success in funding acquisition. I engaged in the debate to a degree but stopped when I thought to myself "what would any reasonable person who does not work in a university think about this?"
 
 ---
 
@@ -229,8 +235,6 @@ To do something intelligible that resists philosophical interpretation is but an
 
 Even then, there is still philosophy happening.
 
----
-
 ## Holism in loops
 
 _September 9th_
@@ -253,7 +257,9 @@ _A "tripling" in the measurable redness of milk is unlikely to be meaningful or 
 
 I'm not a numbers person. I use them when necessary. You typically won't hear me complain about levels of mathematical literacy. I once read a book about innumeracy that had lots of clever examples, many of which I didn't encounter in the world. The above example, however, is something that I think causes mass confusion and delusion on a regular basis. Let's call it:
 
-**Misleading ratios**. Maybe there is a fancy name for this but I could not find it.
+**Misleading ratios**. 
+
+Maybe there is a fancy name for this but I could not find it.
 
 It goes something like...
 

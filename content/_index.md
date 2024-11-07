@@ -5,14 +5,13 @@ template = 'home.html'
 lang = 'en'
 +++
 
-I'm a technical author in software development.
-Previously I was a teacher and researcher in food technology.
+I'm a technical author in the software industry.
+For many years I was a teacher and researcher in food technology.
 
-Here I mostly keep notes, update a regular journal and sometimes write longer
-blogs about whatever I'm interested in at the time.
+Here I write notes on whatever interests me, maintain a semi-regular diary
+and occasionally publish longer blogs.
 
-You can find links to some of my work in science, programming and music
-on the projects page.
+I also keep a list of my work in science, programming and music.
 
 If you would like to collaborate on anything just send an email to
 [edibotopic@gmail.com](mailto:edibotopic@gmail.com).

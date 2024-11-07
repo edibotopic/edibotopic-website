@@ -1,0 +1,28 @@
+{% import 'macros/math.html' as macro_math -%} {% extends "_base.html" %} {%
+block page %}homepage{% endblock page%} {% block lang %}{% if section.extra.lang
+%}{{ section.extra.lang }}{% else %}{{ section.lang }}{% endif %}{% endblock
+lang %} {% block title %}{{ config.title }}{% endblock title %} {% block desc %}
+<meta name="description" content="{{ config.description }}" />
+{% endblock desc %} {% block head %} {% if config.extra.homepage_layout ==
+"about" and config.markdown.highlight_theme == "css" %}
+<link id="hl" rel="stylesheet" type="text/css" href="/hl-light.css" />
+{% endif %} {% if section.extra.math %} {{ macro_math::math_render(style =
+section.extra.math) }} {% endif %} {% endblock head %} {% block content %}
+<div id="wrapper">
+  {% include "_header.html" %}
+  <main>
+    {% if config.extra.homepage_layout == 'about' %}
+    <section id="brief" class="prose">
+      {{ section.content | trim | safe }}
+    </section>
+    {% endif %}
+  </main>
+</div>
+{% endblock content %} {% block script %}
+<script src="/js/lightense.min.js"></script>
+{% if section.extra.mermaid %}
+<script type="module">
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+  mermaid.initialize({ startOnLoad: true });
+</script>
+{% endif %} {% endblock script %}
