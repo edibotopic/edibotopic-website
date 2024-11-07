@@ -1,5 +1,4 @@
-{% import 'macros/math.html' as macro_math -%} {% extends "_base.html" %} {%
-block page %}homepage{% endblock page%} {% block lang %}{% if section.extra.lang
+{% extends "_base.html" %} {% block page %}post{% endblock page%} {% block lang %}{% if section.extra.lang
 %}{{ section.extra.lang }}{% else %}{{ section.lang }}{% endif %}{% endblock
 lang %} {% block title %}{{ config.title }}{% endblock title %} {% block desc %}
 <meta name="description" content="{{ config.description }}" />
@@ -8,14 +7,13 @@ lang %} {% block title %}{{ config.title }}{% endblock title %} {% block desc %}
 <link id="hl" rel="stylesheet" type="text/css" href="/hl-light.css" />
 {% endif %} {% if section.extra.math %} {{ macro_math::math_render(style =
 section.extra.math) }} {% endif %} {% endblock head %} {% block content %}
-<div id="wrapper">
   {% include "_header.html" %}
+<div id="post-wrapper">
+  <div id="blank"></div>
   <main>
-    {% if config.extra.homepage_layout == 'about' %}
-    <section id="brief" class="prose">
+    <article class="prose">
       {{ section.content | trim | safe }}
-    </section>
-    {% endif %}
+    </article>
   </main>
 </div>
 {% endblock content %} {% block script %}
