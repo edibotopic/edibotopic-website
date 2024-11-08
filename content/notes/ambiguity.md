@@ -88,3 +88,9 @@ We can't expect a poem to be a proof, a war to be a flatpack, a person to be a l
 > Add seasoning to taste
 >
 > — anon
+
+
+### References
+
+- [A presentation I gave on Recipes and Software, with some discussion of ambiguity](https://www.youtube.com/watch?v=PW_gWv6OysM&list=PL-qBHd6_LXWYefHij0dJ7c9X-Q9QfFFFa&index=2)
+
