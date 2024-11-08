@@ -33,7 +33,7 @@ yet there is a tolerance of ambiguity in most everyday communication.
 
 ---
 
-An ambiguous utterance can have different causes, including:
+An ambiguous utterance can have different causes, including but not limited to:
 
 * Limited understanding of a topic
 * Poor mastery of the language
