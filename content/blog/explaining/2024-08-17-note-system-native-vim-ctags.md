@@ -161,4 +161,4 @@ When supplemented a fuzzyfinder (not described here) the experience is quite sna
 It has the added benefit of not introducing overhead with loading, updating and maintaining plugins.
 
 This approach works well for small, self-contained notes, if you don't want to use additional plugins or software.
-For more larger sets of notes I generally resort to vimwiki.
+For larger sets of notes I generally resort to vimwiki.
