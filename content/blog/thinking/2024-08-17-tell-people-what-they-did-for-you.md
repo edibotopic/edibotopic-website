@@ -2,7 +2,7 @@
 title = "Tell People What They Did For You"
 date = 2024-08-17
 updated = 2024-08-24
-draft = false
+draft = true
 
 [taxonomies]
 categories = ["thinking"]

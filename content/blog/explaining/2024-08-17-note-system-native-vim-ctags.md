@@ -19,7 +19,7 @@ cc_license = false
 outdate_warn = false
 +++
 
-It's possible to have a decent note-taking system using
+It's possible to make a decent note-taking system using
 native Vim features and ctags.
 
 <!-- more -->
@@ -33,37 +33,38 @@ cd ~/Dropbox
 mkdir notes && touch notes/index.md
 ```
 
-This will be the home directory and the `index.md` will link to
-other index files in subdirectories for specific topics of interest.
+This `index.md` will link to other index files in subdirectories of `notes`,
+each focusing on a specific topics of interest.
 
-Divide the home `index.md` into sections for some topics:
+Divide `notes/index.md` into sections for some topics:
 
 ```markdown
-- [Git](#git) 
-- [Tmux](#tmux) 
-- [Vim](#vim) 
+- [Git](#git)
+- [Tmux](#tmux)
+- [Vim](#vim)
 
 ## Git
-~/Dropbox/notes/git/index.md
+./git/index.md
 
 ## Tmux
-~/Dropbox/notes/tmux/index.md
+./tmux/index.md
 
 ## Vim
-~/Dropbox/notes/vim/index.md
+./vim/index.md
 ```
 
-Here there is a table of contents (toc) corresponding to
-sections that each contain an absolute path to an index file.
+Native vim commands can be used to navigate from the TOC
+to the relevant section, and from a relative path to the
+appropriate note.
 
 # Moving through paths
 
-Navigating to one of these index files only requires
-hovering on the path and — in Vim — typing `g f` in normal mode.
+To navigate to a note, hover on a path and — in normal mode — type `g f`
+for g(o) (to) f(ile).
 
-Any child `index.md` file has the following structure, with
-a link back to the parent at the top, allowing a fast return home
-from anywhere with `g g` then `g f`:
+Each child `index.md` file linked out from `notes/index.md` contains a
+link back to the parent at the top, allowing a fast return to the main index
+from anywhere with `g g` (go to top) then `g f` (go to file):
 
 ```markdown
 ~/Dropbox/notes/index.md
@@ -85,22 +86,22 @@ The keybinding `g x` goes to the link under the cursor.
 ```
 
 Note that words are separated using underscores in the section titles here.
-Ctags does not play nicely with spaces or dashes in this context.
+This is a limitation, as Ctags does not work well with spaces or dashes.
 
 # Navigating the toc with ctags
 
-In the above examples, the toc in each `index.md` file is written using markdown links.
-It would be nice to hover on a link and use a keybind to move to the relevant section
-_within a file_.
+In the above examples, the TOC in a `index.md` file is written using markdown links.
+It is useful to hover on a TOC link and use a keybind to move to the relevant section
+_within that file_.
 
 For this functionality `ctags` can be used.
-Vim has native support for ctags but a tags generator needs to be installed on the system:
+Vim has native support for ctags but a tags generator needs to be installed first:
 
 ```bash
 snap install universal-ctags
 ```
 
-Running the following command within the home directory will create a `tags` file
+Running the following command within the `notes` directory will create a `tags` file
 that Vim will recognise:
 
 ```bash
@@ -112,12 +113,10 @@ using built-in Vim keybinds.
 
 In normal mode:
 
-- `c-]` on a toc link will take you to that section
-- `c-t` on a section title will take you back to the toc
+- `c-]` on a TOC link will take you to that section
+- `c-t` on a section title will take you back to the TOC
 
-For convenience, it's nice to be able to rebuild the tags file
-when the toc is updated.
-Create a `makefile` in the home directory with the following
+For convenience, create a `makefile` in the `notes` directory with the following
 contents:
 
 ```makefile
@@ -140,44 +139,26 @@ clean:
 	fi
 ```
 
-Now running `:make` in command mode within Vim will update the tags file.
+Now running `:make` in command mode within Vim will update the tags file
+after you add or remove sections.
 
 This command is recursive.
-If it is run in the home directory tags will be generated for sections in
+If it is run in the `notes` directory tags will be generated for sections in
 all child directories.
 In addition, if `:make` is run within a child directory the global tags
 file will be updated with any changes to the toc in that file.
 
+The value of navigating between TOC and sections with tags may be limited
+with a long TOC or if you are proficient with grepping.
+
 # Why do this?
 
 I have tried different note-taking tools and none have ever really stuck.
-Tools like Obsidian are undoubtedly fantastic but not if you want to primarily use Neo(Vim).
-
-Plugins that create Obsidian-like functionality, such as vimwiki and obsidian.nvim,
-have too many extra features that I dislike and — like Obsidian — can be quite opinionated in 
-how notes should be structured.
+Tools like Obsidian are fantastic but not if you want to primarily use Neo(Vim).
 
 Using native Vim features it is possible to navigate rapidly through a set of notes.
 When supplemented a fuzzyfinder (not described here) the experience is quite snappy.
 It has the added benefit of not introducing overhead with loading, updating and maintaining plugins.
 
-This also helps ensure that the YouTube algorithm does not recommend more
-procrastination fuel by the note-taking and productivity movements on YouTube.
-
-# Next steps
-
-What's described here is a basic implementation.
-It doesn't review some of the other built-in functionality
-for ctags in Vim and it doesn't attempt to introduce much
-automation.
-
-It would be useful to create a global `links.md` file that is populated
-with links to every section throughout the notes.
-I wrote a script for that and deleted it by accident when organising my files!
-An important reminder to always version control everything.
-
-As notes files get more complex it's helpful to include a modeline at the bottom
-of each file to auto-fold content under each section header.
-
-Lastly, the simplicity of using such a system is greatly aided by the appropriate use
-of aliases and templates.
+This approach works well for small, self-contained notes, if you don't want to use additional plugins or software.
+For more larger sets of notes I generally resort to vimwiki.
