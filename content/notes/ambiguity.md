@@ -29,7 +29,7 @@ In certain domains — most notably mathematics, logic and programming —
 ambiguities are ruthlessly identified and removed.
 
 Surgeons and logicians are understandably wary of ambiguity,
-yet there is a tolerance of ambiguity in everyday communication.
+yet there is a tolerance of ambiguity in most everyday communication.
 
 ---
 
@@ -59,6 +59,8 @@ Sometimes ambiguity can be cultivated as part of a **deliberate** act, consider:
 
 Here, the expansion of possible interpretations afforded by ambiguity is a positive.
 Wielded knowingly, ambiguity offers everything from protection to agency and excitement.
+
+---
 
 Even in a strict, methodical discipline like science, ambiguity can be understood
 as an essential stage of that activity.
