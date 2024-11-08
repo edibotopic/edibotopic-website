@@ -1,5 +1,5 @@
 +++
-title = "edibotopic | notes"
+title = "edibotopic | shelf"
 description = "Log of reading"
 sort_by = "title"
 template = "single.html"
