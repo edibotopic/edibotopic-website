@@ -83,20 +83,6 @@ Quitting one thing or transitioning to another are common life moments. Rarely i
 
 To tie oneself to something, then stand apart from it, is a rich experience. One can preserve a deep appreciation without the devotional blindness. 
 
----
-
-A given institution has a ubiquity of mundane problems. It would be better if they did not exist, but they are too numerous to parse and so boring that they don't draw or hold attention.
-
-I taught in a university program that prized positive employment statistics for its graduates. Understandably, our students wanted jobs and there were corporations ready to provide them. The problem was never that a company said "stop teaching that", "suppress criticism of this practice" or "promote our brand". I'm sure this kind of pure corruption happens elsewhere but I never saw it happen.
-
-Well-meaning professors would simply ask companies "what should our graduates know?". The response would be that a student should know such-and-such a machine, or this-and-that technique. Naturally, they did not identify traits associated with challenging orthodoxy, questioning norms or pioneering new ideas. They shouldn't have had to do that.
-
-The professors wanted to prepare students well for graduate positions. The students wanted to know what was needed to succeed in their jobs. The companies wanted solutions for today's problems. Pushing beyond this interlocking structure of expectations would cause anxiety.
-
-For me, learning to push buttons and fill containers was not an ideal use of a four-year university degree. These skills should be taught on-the-job or in shorter, less expensive programs. Our role as academics, I thought, was to expand the notion of what is possible, show how to develop a new idea and reveal how discovery happens. A university is a place where ideas can be explored without concern for business realities. With this philosophy, I had a lot of fun classes, and hopefully I blew a few minds, but there was always the pressure to show how the buttons get pushed and the containers get filled.
-
-Occasionally I would hear murmurs from people that some tool or concept that was being taught "was not used in industry". I would respond that — well — it should be, or maybe it is being applied in secret, or perhaps a student in the future will be the first to apply it successfully.
-
 ## Turning, Standing, Bagging, Drawing
 
 _October 10th_
