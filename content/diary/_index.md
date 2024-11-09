@@ -20,6 +20,39 @@ A place for easy and regular logging of imperfect thoughts, usually from my phon
 
 # 2024
 
+## The Hague
+
+_November 9th_
+
+From a hotel bed, I saw that a blog of mine had reached the front page of Hacker News.
+While I was pleased that someone had put it there, it gave me a little anxiety.
+
+I never write anything here in the expectation that it will be read or analysed.
+It's mostly an act of self-motivation and
+I don't actively seek virality or influence.
+
+There's enough people doing that already and that has lead to a certain univocality.
+
+It was nice to see the blog get a small few upvotes then drift silently off of the front page.
+
+Soon after I saw that a German podcast used one of my songs as their intro.
+I don't know what the podcast is about or if anyone ever listens.
+
+That's the kind of salience I can stomach.
+
+---
+
+I spent two weeks in The Hague on a company sprint.
+It's always a long time to be in a hotel where everyone at breakfast has a lanyard.
+
+I presented on: the use of video in documentation; a small problem that could be solved with GitHub actions; a large, secret documentation project.
+
+It was my first time live-presenting for over six months, after many years of doing it routinely.
+The usual nerves surprised me at first, but I think it all went OK.
+
+I have a certain approach in my presentations that is heavily influenced by my background in teaching and research.
+This could be a strength, as long as I adapt it appropriately to my new context.
+
 ## Directness
 
 _October 14th_
