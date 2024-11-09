@@ -38,7 +38,7 @@ It was nice to see the blog get a small few upvotes then drift silently off of t
 Soon after I saw that a German podcast used one of my songs as their intro.
 I don't know what the podcast is about or if anyone ever listens.
 
-That's the kind of salience I can stomach.
+An obscure exposure.
 
 ---
 
