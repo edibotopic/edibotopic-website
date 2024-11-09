@@ -62,20 +62,14 @@ _October 14th_
 
 Irish people often talk about what they perceive as the "directness" of other cultures, such as the Americans and the Dutch.
 
-When I lived in America what I missed most was the meandering aimlessness of how Irish people often spoke to each other casually.
-Matters of substance would be approached and circled before a retreat back into pleasant nothingness.
+When I lived in America, what I missed most was the meandering aimlessness of how Irish people spoke to each other casually.
+Matters of substance would be approached hesitantly, circled for a while, then a retreat back into the safety of nothingness.
 
 This way of communicating, if it exists at all, has its place; it is not the way to make a deal or nail a pitch.
 In its characteristic ambiguity it might, however, prepare one well for the genuine ambiguities that life offers.
 
 A conversation, book or painting does not need to directly address a problem to be successful.
 Some things are intrinsic or indirect goods, pointing only to themselves or to emergent possibilities that are yours to discover.
-
----
-
-In certain domains, such as logic and mathematics, ambiguity can be intolerable.
-
-In others it can be a prompt for exploration, a tool for expression, or a pragmatic strategy.
 
 ## Richly Apart, Mundanely Aware
 
