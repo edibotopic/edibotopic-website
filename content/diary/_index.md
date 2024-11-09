@@ -42,7 +42,7 @@ An obscure exposure.
 
 ---
 
-I spent two weeks in The Hague on a company sprint.
+I was spending two weeks in The Hague on a company sprint.
 It's always a long time to be in a hotel where everyone at breakfast has a lanyard.
 
 I presented on: the use of video in documentation; a small problem that could be solved with automation; a large, complex documentation project.
@@ -54,7 +54,7 @@ There were moments where I felt a palpable "warmth" from the audience.
 What is that?
 
 I have a certain approach to presenting that is heavily influenced by my experiences in teaching and research.
-This could be a strength, as long as I adapt it appropriately to my new context.
+This could be a strength, as long as I adapt it appropriately to my new context. 
 
 ## Directness
 
