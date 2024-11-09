@@ -35,7 +35,7 @@ There's enough people doing that already, which has led to a certain univocality
 
 It was nice to see the blog get a small few upvotes then drift silently off of the front page.
 
-Soon after I saw that a German podcast used one of my songs as their intro.
+Soon after I found that a German podcast used one of my songs as their intro.
 I don't know what the podcast is about or if anyone ever listens.
 
 An obscure exposure.
