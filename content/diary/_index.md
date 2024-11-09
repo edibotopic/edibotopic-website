@@ -49,8 +49,11 @@ I presented on: the use of video in documentation; a small problem that could be
 
 It was my first time live-presenting for over six months, after many years of doing it routinely.
 The usual nerves surprised me at first, but I think it all went OK.
+There were moments where I felt a "warmth" from the audience.
 
-I have a certain approach in my presentations that is heavily influenced by my background in teaching and research.
+What is that?
+
+I have a certain approach to presenting that is heavily influenced by my background in teaching and research.
 This could be a strength, as long as I adapt it appropriately to my new context.
 
 ## Directness
