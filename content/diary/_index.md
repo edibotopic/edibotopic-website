@@ -31,7 +31,7 @@ I never write anything here in the expectation that it will be read or analysed.
 It's mostly an act of self-motivation and
 I don't actively seek virality or influence.
 
-There's enough people doing that already and that has lead to a certain univocality.
+There's enough people doing that already, which leads to a certain univocality.
 
 It was nice to see the blog get a small few upvotes then drift silently off of the front page.
 
