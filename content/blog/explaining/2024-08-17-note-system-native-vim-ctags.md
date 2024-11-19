@@ -150,15 +150,3 @@ file will be updated with any changes to the toc in that file.
 
 The value of navigating between TOC and sections with tags may be limited
 with a long TOC or if you are proficient with grepping.
-
-# Why do this?
-
-I have tried different note-taking tools and none have ever really stuck.
-Tools like Obsidian are fantastic but not if you want to primarily use Neo(Vim).
-
-Using native Vim features it is possible to navigate rapidly through a set of notes.
-When supplemented a fuzzyfinder (not described here) the experience is quite snappy.
-It has the added benefit of not introducing overhead with loading, updating and maintaining plugins.
-
-This approach works well for small, self-contained notes, if you don't want to use additional plugins or software.
-For larger sets of notes I generally resort to vimwiki.
