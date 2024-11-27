@@ -20,6 +20,69 @@ A place for easy and regular logging of imperfect thoughts, usually from my phon
 
 # 2024
 
+## Tiny novelties pursued relentlessly
+
+_November 27th_
+
+Outside of science, the term "scientific" is used in lots of ways.
+
+It is used in place of "precise" or "serious".
+
+To use metrics, even if they are not precise or serious, might be taken as scientific.
+
+When someone proposes any kind of model, where previously there was none, there is a temptation to label it as science, even if the model is unscientific.
+
+Often, calling something "a science" is used to denote correctness and finality even when science aims to be reliable but provisional.
+
+To put one's ideas in a pdf or to present to a room of peers are sometimes thought of as scientific behaviors, but these are just communication formats.
+
+Science is used as a kind of honorific, to signal a thing is important/superior, but there are many unscientific things that are also important/superior.
+
+I never really marvelled at the precision, the equipment or the conferences, when I did science.
+
+What always struck me about science was the relentless pursuit of tiny novelties.
+
+A young scientist is equipped with many facts about some topic and made to feel like there is much existing knowledge that they have yet to grasp.
+
+They are introduced to older scientists who know far more about the relevant facts, who point to yet more facts.
+
+Then, at some point, the you scientist is asked to discover new facts of their own.
+
+How?
+
+Their specialisation is small.
+Their resources are limited.
+Their field is conservative.
+Their skills are narrow.
+
+Everything compresses around an unknown set of tiny facts that feel impossible to reveal.
+
+Becoming a scientist involves developing a kind of optimistic paranoia about small observations.
+
+Somewhere in this well-characterised thing, there is something yet to be characterised. Where is it? I think I might see it...
+
+The nice conversations among scientists are filled with phrases like "Maybe it's a..." and  "What if...".
+
+It's the excitement around these conversations that motivated people like me through the necessary drudgery of precision.
+
+I don't think society should strive to be truly scientific in all matters because science isn't always the right tool.
+
+It goes without saying that understanding science and how it works is helpful.
+
+Since I left science, however, I don't regularly encounter people trying to be scientific or seeking to understand science.
+
+More commonly, I hear science being used as a metaphor and/or honorific.
+
+The way science is evoked is usually quite narrow. Scientists measure stuff, right? A graph is scientific, right?
+
+I think there are better ways of being inspired by the idea of science, which don't require us to actually, fully _do science_.
+
+Lots of people seek novelty.
+Novelty is exciting and sustaining.
+Scientists approach novelty in particular ways.
+What is scientific about the scientific approach to novelty?
+What is a scientific metaphor that keeps this idea in focus??
+
 ## Obscure exposures and palpable warmth
 
 _November 9th_
