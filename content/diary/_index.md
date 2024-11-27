@@ -46,7 +46,7 @@ A young scientist is equipped with many facts about some topic and made to feel 
 
 They are introduced to older scientists who know far more about the relevant facts, who point to yet more facts.
 
-Then, at some point, the you scientist is asked to discover new facts of their own.
+Then, at some point, the young scientist is asked to discover new facts of their own.
 
 How?
 
