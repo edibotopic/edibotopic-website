@@ -19,7 +19,7 @@ outdate_warn = false
 
 # Iconic Programming
 
-Programming in which the program — in some sense — **resembles** what it does.
+Programming in which the program **resembles** what it does.
 
 {% note(header="Note") %} 
 In [semiotics](https://en.wikipedia.org/wiki/Semiotics), a distinction is made
