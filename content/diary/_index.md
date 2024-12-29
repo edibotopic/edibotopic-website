@@ -18,7 +18,14 @@ A place for easy and regular logging of imperfect thoughts, usually from my phon
 
 [edit on GitHub](https://github.com/edibotopic/edibotopic-website/edit/master/content/diary/_index.md) 
 
-# 2024
+# 2025
+
+No entries yet...
+
+# Previous
+
+<details style="padding-left:0">
+    <summary>2024</summary>
 
 ## Tiny novelties pursued relentlessly
 
@@ -357,3 +364,5 @@ People are frequently over-excited by scientific results, crime statistics and b
 "Sales for this product have been effectively zero for six years but they quadrupled in the last quarter."
 
 This misleading use of ratios is everywhere. It is an infinitely renewable resource for toxic politics. In science it is sometimes given a false legitimacy by the assignment of a p-value. It is a most routine feature of data rhetoric, or persuasion by numbers, manipulating our emotions while teaching us nothing.
+
+</details>
