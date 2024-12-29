@@ -56,7 +56,7 @@ The Odin language uses `^` for its pointers:
 pointer_to_int: ^int
 ```
 
-In C, the `*` is instead used:
+In C, `*` is instead used:
 
 ```c
 int *pointer_to_int
@@ -66,7 +66,7 @@ The [Odin](https://odin-lang.org/) documentation states that:
 
 > Odin borrows the ^ syntax for pointers from the Pascal family, because it is pointy [...]
 
-The syntax for pointer in Odin and Pascal resembles what the concept of what a
+The syntax for pointer in Odin and Pascal resembles the concept of what a
 pointer does: _it is pointy because it points_.
 
 Neither language is fully iconic, as they use combinations of both symbols and
@@ -157,14 +157,13 @@ Here are some icons that I can type, and how they might be interpreted in a give
 
 I might like to program with icons because they have an immediate conceptual
 similarity to what I am trying to make. I might like to leverage this
-similarity while still using a keyboard and plain text.
-Whether such a language is readable depends on the language design.
+similarity while still using a keyboard and plain text. Whether such a language
+is readable or effective depends on the language design.
 
 A needless multiplication of symbols does not need to result. One difficulty
-would be in selecting a finite set of icons that can be combined in the most
-useful way. An icon may have a different meaning than what is convention, but
-that would need to be communicated through the outputs of the language and its
-documentation.
+would be in selecting a finite set of icons for highly generalisable ideas.
+Ideas like parthood, connection and enclosure are highly general, span many
+contexts and can be combined in many ways.
 
 A language does not need to be fully iconic, but can leverage icons to make
 abstract concepts more concrete. An excellent example here is the use the
