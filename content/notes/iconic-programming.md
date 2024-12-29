@@ -137,7 +137,7 @@ The concept of "resemblance" is not strictly visual.
 
 > The dog-owner's hand gesture resembles where the dog should be next
 
-Consider that:
+Consider also that:
 
 * Programming visually/graphically does not require any icons (`nodes` are not iconic).
 * Programming with icons does not require a graphical user interface (`^` can be typed).
@@ -166,7 +166,7 @@ Ideas like parthood, connection and enclosure are highly general, span many
 contexts and can be combined in many ways.
 
 A language does not need to be fully iconic, but can leverage icons to make
-abstract concepts more concrete. An excellent example here is the use the
+abstract concepts more concrete. An excellent example here is the use of the
 pointy `^` for pointers in Odin and Pascal.
 
 There is something powerful about the idea of "resemblance".
