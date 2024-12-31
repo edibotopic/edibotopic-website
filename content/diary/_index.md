@@ -40,9 +40,9 @@ Meal-replacers mimic the nutritional profile — if not the textural complexity 
 
 High-protein drinks are modified to reduce mouth coating, so that they mimic the texture of low-protein drinks.
 
-Beef is stored in modified atmosphere packaging, so that it retains the red colour of freshly-butchered meat, long after it would normally persist.
+Beef is stored in modified atmosphere packaging, so that it mimics the red colour of freshly-butchered meat, long after it would normally persist.
 
-Low-fat foods are modified to enhance their texture, so that they have a luxurious quality similar to higher fat foods.
+Low-fat foods are modified to enhance their texture, so that they mimic the luxurious quality of higher fat foods.
 
 Stevia is one of many sugar "mimetics". Microparticulation of protein and oleogelation are just two methods for making fat mimetics. These mimetics make it easier to make foods that mimic other foods.
 
