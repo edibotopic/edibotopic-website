@@ -2,7 +2,7 @@
 title = "Misdirected Science"
 date = 2023-11-05
 updated = 2023-11-12
-draft = false
+draft = true
 
 [taxonomies]
 categories = ["notes"]
