@@ -36,3 +36,7 @@ For example, encountering a
 of some everyday thing can cause defamiliarisation.
 We still retain the capacity to observe that thing as
 usual, but may also experience it an enriched way.
+
+# Reference
+
+[Blog post on defamiliarisation in teaching](@/blog/thinking/2023-07-05-strange-food-pedagogy.md)
