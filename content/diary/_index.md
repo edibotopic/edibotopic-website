@@ -28,7 +28,7 @@ Free-from foods mimic the properties of foods that contain whatever they are fre
 
 Minimally-processed foods mimic foods that have undergone little to no processing, consider:
 
-> The presence of visual sediment [in this processed product] is a natural indicator that our juice is not processed by homogenisation
+> The presence of visual sediment [in this otherwise processed product] is a natural indicator that our juice is not processed by homogenisation
 
 Plant-based milk is manufactured with fortificants (calcium) and thickeners (gellan) to mimic animal milk.
 
