@@ -28,7 +28,7 @@ Free-from foods mimic the foods that contain what they are free from.
 
 Minimally-processed foods mimic foods that have not been processed.
 
-Vegan milk is manufactured to mimic animal milk.
+Plant-based milk is manufactured to mimic animal milk.
 
 When 3D printing became available, food scientists immediately thought: maybe this can help us mimic meat.
 
@@ -39,6 +39,8 @@ Cocoa-reduced chocolate muffins are designed to mimic the taste profile of high-
 High-protein drinks are modified to reduce mouth coating, so that they mimic the texture of low-protein drinks.
 
 Low-fat foods are modified to enhance their texture, so that they mimic higher fat foods.
+
+Stevia is one of many sugar mimetics. Microparticulation of protein and oleogelation are just two methods for making fat mimetics. These mimetics make it easier to make foods that mimic other foods.
 
 # Previous
 
