@@ -1,6 +1,7 @@
 +++
 title = "Iconic Programming"
 date = 2024-12-29
+updated = 2024-12-31
 draft = false
 
 [taxonomies]
@@ -21,7 +22,7 @@ outdate_warn = false
 
 Programming in which the program **resembles** what it does.
 
-{% note(header="Note") %} 
+{% note(header='Note on usage of the term "icon"') %} 
 In [semiotics](https://en.wikipedia.org/wiki/Semiotics), a distinction is made
 between icons and symbols. Symbols are associated with what they reference by
 convention, while icons are associated through resemblance.
@@ -72,7 +73,7 @@ pointer does: _it is pointy because it points_.
 Neither language is fully iconic, as they use combinations of both symbols and
 icons, and that's perfectly fine!
 
-{% note(header="Icons and Context") %} 
+{% tip(header="Icons in context") %} 
 The meaning of an icon depends on the context of its use. We can use `^` to
 represent a pointer to a memory location or to represent the roof of a house.
 In another context, it may function as a symbol, such as its use in `2^3`,
@@ -101,6 +102,43 @@ resulting spatial arrangement of particles.
 
 The (genius) creators of SPLAT and SpaceTode rightly emphasise the _spatial_
 aspect of their work, but I also think _resemblance_ is a salient factor.
+
+{% important(header="The shape of programs") %} 
+Through the use of indentation, text can be made to more
+closely resemble the data structure it represents, such
+as when a hierarchical tree-like structure is encoded
+in JSON:
+
+```json
+{
+  "name": "root branch",
+  "subbranches": [
+    {
+      "name": "subbranch 1",
+      "subbranches": [
+        {
+          "name": "leaf 1",
+          "leaves": []
+        },
+        {
+          "name": "leaf 2",
+          "leaves": []
+        }
+      ]
+    },
+    {
+      "name": "subbranch 2",
+      "subbranches": [
+        {
+          "name": "leaf 3",
+          "leaves": []
+        }
+      ]
+    }
+  ]
+}
+```
+{% end %}
 
 ## Comments illuminate
 
@@ -169,9 +207,24 @@ A language does not need to be fully iconic, but can leverage icons to make
 abstract concepts more concrete. An excellent example here is the use of the
 pointy `^` for pointers in Odin and Pascal.
 
+{% tip(header="Pipes can be pipey") %} 
+Just as pointers can be pointy, pipes can be pipey.
+In Unix-like systems, the `|` or "pipe" is used to compose
+a pipeline of commands.
+
+```bash
+cat log.txt | grep "error" | sort | uniq
+```
+
+The `|` certainly resembles a pipe, although I could not find any
+evidence of this being a reason for its original selection.
+{% end %}
+
+{% question(header="") %} 
 There is something powerful about the idea of "resemblance".
-How can programs be made to feel more like what they do?
+How can programs be made to look and feel more like what they do?
 What important non-visual resemblances exist and can they be captured?
+{% end %}
 
 ## References
 
