@@ -46,6 +46,8 @@ Low-fat foods are modified to enhance their texture, so that they mimic the luxu
 
 Stevia is one of many sugar "mimetics". Microparticulation of protein and oleogelation are just two methods for making fat mimetics. These mimetics make it easier to make foods that mimic other foods.
 
+Given the latest science and technology, a common instinct seems to be: let's recreate the already-existing.
+
 # Previous
 
 <details style="padding-left:0">
