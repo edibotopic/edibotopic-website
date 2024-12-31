@@ -24,23 +24,25 @@ A place for easy and regular logging of imperfect thoughts, usually from my phon
 
 _January 1st_
 
-Free-from foods mimic the foods that contain what they are free from.
+Free-from foods mimic the properties of foods that contain whatever they are free from. The success of a gluten-free bread is in its resemblance to a gluten-containing bread.
 
-Minimally-processed foods mimic foods that have not been processed.
+Minimally-processed foods mimic foods that have undergone little to no processing, consider:
 
-Plant-based milk is manufactured to mimic animal milk.
+> The presence of visual sediment [in this processed product] is a natural indicator that our juice is not processed by homogenisation
 
-When 3D printing became available, food scientists immediately thought: maybe this can help us mimic meat.
+Plant-based milk is manufactured with fortificants (calcium) and thickeners (gellan) to mimic animal milk.
 
-Infant formula is formulated to mimic human breast milk.
+When 3D printers became more available, food scientists immediately thought _maybe this can help us mimic meat_, not _maybe this can make something new_.
 
-Cocoa-reduced chocolate muffins are designed to mimic the taste profile of high-cocoa muffins.
+Infant formula is formulated to mimic human breast milk. This "humanisation" is a biomickry from a source biological system (bovine) to a target (human).
+
+Meal-replacers mimic the nutritional profile -- if not the textural complexity or cultural function -- of meals.
 
 High-protein drinks are modified to reduce mouth coating, so that they mimic the texture of low-protein drinks.
 
-Low-fat foods are modified to enhance their texture, so that they mimic higher fat foods.
+Low-fat foods are modified to enhance their texture, so that they have a luxurious quality similar to higher fat foods.
 
-Stevia is one of many sugar mimetics. Microparticulation of protein and oleogelation are just two methods for making fat mimetics. These mimetics make it easier to make foods that mimic other foods.
+Stevia is one of many sugar "mimetics". Microparticulation of protein and oleogelation are just two methods for making fat mimetics. These mimetics make it easier to make foods that mimic other foods.
 
 # Previous
 
