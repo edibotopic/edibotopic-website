@@ -20,7 +20,25 @@ A place for easy and regular logging of imperfect thoughts, usually from my phon
 
 # 2025
 
-No entries yet...
+## On the mimetic character of food technology
+
+_January 1st_
+
+Free-from foods mimic the foods that contain what they are free from.
+
+Minimally-processed foods mimic foods that have not been processed.
+
+Vegan milk is manufactured to mimic animal milk.
+
+When 3D printing became available, food scientists immediately thought: maybe this can help us mimic meat.
+
+Infant formula is formulated to mimic human breast milk.
+
+Cocoa-reduced chocolate muffins are designed to mimic the taste profile of high-cocoa muffins.
+
+High-protein drinks are modified to reduce mouth coating, so that they mimic the texture of low-protein drinks.
+
+Low-fat foods are modified to enhance their texture, so that they mimic higher fat foods.
 
 # Previous
 
