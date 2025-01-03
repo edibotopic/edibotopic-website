@@ -20,6 +20,26 @@ A place for easy and regular logging of imperfect thoughts, usually from my phon
 
 # 2025
 
+## New secret projects
+
+_January 3rd_
+
+I'm thinking again about a new secret project.
+
+I want it to stay secret too, so that it is difficult to trace to whatever I've been doing publicly through edibotopic or curtsy rehearsed.
+
+When I first made a website, I wanted it to be a place that captured all aspects of myself. That came at a time when I felt like my academic career was flattening that messiness into something too narrow.
+
+It's been somewhat successful but not completely. There are thing I write or make that I don't want here and that I don't want entangled with my biography. There are things I want to emerge as if out of nowhere.
+
+I've always been attracted to the possibility for anonymity or pseudonymity that the internet presents. There's a lot of pressure on that now, because there are too many people that conceal themselves so that they can be actively harmful.
+
+What attracts me most is the idea of reimagining oneself, or what one can offer, in the confined reality of an internet profile. This might seem like a trivial observation but I've never quite done it myself.
+
+Unfortunately, there's a kind of infrastructural work involved in maintaining separate, distinct online identities. Depending on how far you go, there can be new emails, new domains, new branding, new websites, new Git(Hub) configurations, etc.
+
+I spent some of the Winter drafting ideas for this project and getting the technology in place. Here's hoping I don't get bogged down in infrastructure.
+
 ## On the mimetic character of food technology
 
 _January 1st_
