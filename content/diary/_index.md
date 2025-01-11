@@ -20,6 +20,36 @@ A place for easy and regular logging of imperfect thoughts, usually from my phon
 
 # 2025
 
+## Names my father calls me
+
+_January 11th_
+
+"Shane"
+
+My name.
+
+"Sean"
+
+The irish version of my name, and of my grandfather's name, John.
+
+"Vincent"
+
+The middlename I used for scientific publications, which prompted my father to use it in reference to the argumentative Irish journalist and broadcaster, Vincent Browne.
+
+"Seamus"
+
+The name of my PhD supervisor.
+
+"Old straight-back"
+
+A jibe at my supposedly good posture.
+
+"Death-grip"
+
+A jibe at an alleged tendency of mine to hold onto materials and equipment for too long when helping people carry them around building sites.
+
+...
+
 ## New secret projects
 
 _January 3rd_
