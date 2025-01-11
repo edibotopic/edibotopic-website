@@ -24,27 +24,27 @@ A place for easy and regular logging of imperfect thoughts, usually from my phon
 
 _January 11th_
 
-"Shane"
+"Shane":
 
 My name.
 
-"Sean"
+"Sean":
 
 The irish version of my name, and of my grandfather's name, John.
 
-"Vincent"
+"Vincent":
 
 The middlename I used for scientific publications, which prompted my father to use it in reference to the argumentative Irish journalist and broadcaster, Vincent Browne.
 
-"Seamus"
+"Seamus":
 
 The name of my PhD supervisor.
 
-"Old straight-back"
+"Old straight-back":
 
 A jibe at my supposedly good posture.
 
-"Death-grip"
+"Death-grip":
 
 A jibe at an alleged tendency of mine to hold onto materials and equipment for too long when helping people carry them around building sites.
 
