@@ -20,6 +20,20 @@ A place for easy and regular logging of imperfect thoughts, usually from my phon
 
 # 2025
 
+## Rusted over
+
+_January 19th_
+
+I had a pair of roller skates.
+
+My friend would visit and we'd each wear one skate.
+
+We'd roll down the slope and around the house.
+
+Dipping the wheels in water made us go faster.
+
+It went on like this until they both rusted over.
+
 ## Names my father calls me
 
 _January 11th_
