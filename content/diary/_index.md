@@ -24,15 +24,13 @@ A place for easy and regular logging of imperfect thoughts, usually from my phon
 
 _January 19th_
 
-I had a pair of roller skates.
+There was only one pair of roller skates between us.
 
-My friend would visit and we'd each wear one skate.
-
-We'd roll down the slope and around the house.
+My friend and I would each take a skate.
 
 Dipping the wheels in water made us go faster.
 
-It went on like this until they both rusted over.
+We raced one-legged on dipped wheels until the skates rusted over.
 
 ## Names my father calls me
 
