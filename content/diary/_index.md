@@ -20,6 +20,22 @@ A place for easy and regular logging of imperfect thoughts, usually from my phon
 
 # 2025
 
+## Selfhosting wikis
+
+_February 4th_
+
+I've been experimenting a lot with selfhosting wikis from a home server.
+
+My current setup involves local "admin" instances and public "readonly" instances.
+
+One wiki would essentially replace the wiki-lite Notes part of this website and the other one is for a secret project.
+
+They would probably crumble if they ever had serious traffic but I don't care for now.
+
+The main advantage is the speed of writing/thinking the (personal) wiki format promotes.
+
+That's probably nothing new but I never really played around with wikis.
+
 ## Rusted over
 
 _January 19th_
