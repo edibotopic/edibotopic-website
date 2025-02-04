@@ -42,12 +42,12 @@ links = [
 ]
 
 [[project]]
-name = "DSF-racket"
-desc = "A simple tool written in Racket for visualising and iterating spatial topologies represented in symbolic notation based on the Dispersed System Formalism."
-tags = ["software", "science"]
+name = "Scientific publications"
+desc = "Over 60 publications on the science and technology of food systems."
+tags = ["research", "science"]
 links = [
-	{name = "source", url = "https://github.com/edibotopic/dsf-racket/"},
-	{name = "blog", url = "https://edibotopic.com/blog/doing/dsf-racket/"}
+	{name = "GoogleScholar", url = "https://scholar.google.com/citations?user=aw1EnaIAAAAJ&hl=en"},
+	{name = "ResearchGate", url = "https://www.researchgate.net/profile/Shane-Crowley"},
 ]
 
 [[project]]
@@ -64,15 +64,6 @@ desc = "Four-year project on a sports nutrition beverage where I co-wrote the pr
 tags = ["research", "science"]
 links = [
 	{name = "Project overview", url = "https://www.ucc.ie/en/vitamind/history/rubuselite/"},
-]
-
-[[project]]
-name = "Scientific publications"
-desc = "Over 60 publications on the science and technology of food systems."
-tags = ["research", "science"]
-links = [
-	{name = "GoogleScholar", url = "https://scholar.google.com/citations?user=aw1EnaIAAAAJ&hl=en"},
-	{name = "ResearchGate", url = "https://www.researchgate.net/profile/Shane-Crowley"},
 ]
 
 [[project]]

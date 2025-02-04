@@ -1,6 +1,6 @@
 base_url = "https://edibotopic.com"      # Domain name of your website
 title = "edibotopic"
-description = "food | technology | philosophy"
+description = ""
 default_language = "en"
 theme = "serene"
 output_dir = "docs"
@@ -34,9 +34,9 @@ anchors = "on"
 
 [extra]
 
-name = "Shane Crowley"                # Your name
+name = "shane"                # Your name
 id = "edibotopic"                     # Your id / username / handle
-bio = "Food | Technology | Philosophy"# Your bio
+bio = "site in transition..."# Your bio
 avatar = "img/avatar.svg"            # Your avatar
 links = [                             # Your links
     {name = "GitHub", icon = "github", url = "https://github.com/edibotopic"},
@@ -51,11 +51,11 @@ recent_more = true
 recent_more_text = "more »"
 
 sections = [
-    { name = "work", path = "/work", is_external = false },
-    { name = "notes", path = "/notes", is_external = false },
-    { name = "blog", path = "/blog", is_external = false },
-    { name = "diary", path = "/diary", is_external = false },
-    { name = "shelf", path = "/shelf", is_external = false },
+    { name = "projects", path = "/projects", is_external = false },
+    # { name = "notes", path = "/notes", is_external = false },
+    # { name = "blog", path = "/blog", is_external = false },
+    # { name = "diary", path = "/diary", is_external = false },
+    # { name = "shelf", path = "/shelf", is_external = false },
     # { name = "music", path = "https://curtsyrehearsed.bandcamp.com/", is_external = true },
     # { name = "github", path = "https://github.com/<your-username>", is_external = true },
 ]

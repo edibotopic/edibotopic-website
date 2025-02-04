@@ -5,14 +5,10 @@ template = 'home.html'
 lang = 'en'
 +++
 
-I'm a technical author in the software industry.
-For many years I was a teacher and researcher in food technology.
+This site is being replaced, reimagined or removed.
+I haven't decided yet.
 
-Here I write notes on whatever interests me, maintain a semi-regular diary and
-occasionally publish longer blogs.
+The blog, diary and notes sections are no longer active.
 
-The structure of the site — what goes where — is still something I'm working
-out.
-
-If you would like to collaborate on anything just send an email to
-[edibotopic@gmail.com](mailto:edibotopic@gmail.com).
+If I know a page is occasionally linked from other sites, I
+will try to keep it available.
