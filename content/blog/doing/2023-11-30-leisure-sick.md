@@ -1,7 +1,7 @@
 +++
 title = "Trying Arroost"
 date = 2023-12-02
-updated = 2024-09-21
+updated = 2025-02-19
 draft = false
 weight = 0
 
