@@ -44,20 +44,17 @@ in Summer 2022.
 
 That encouraged me to take the music more seriously, which also caused me to lose interest!
 I had become sick of my leisure activity and planned to wind down the Curtsy Rehearsed project, until I discovered Lu Wilson's [Arroost](https://arroost.com/).
-Arroost unlocked music-making for me again, resulting in a burst
-of creativity that hasn't really let up:
+It unlocked music-making for me, and eventually I made a few good things again:
 
 - [Newly Sincere](https://curtsyrehearsed.bandcamp.com/album/newly-sincere) (March 2024)
 - [Punctums](https://curtsyrehearsed.bandcamp.com/album/punctums) (March 2024)
-- [Rurality](https://curtsyrehearsed.bandcamp.com/album/rurality) (April 2024)
-- [Indirection](https://curtsyrehearsed.bandcamp.com/album/indirection) (April 2024)
-- [Rosacea](https://curtsyrehearsed.bandcamp.com/album/rosacea) (April 2024)
-- [Paradise Syndrome](https://curtsyrehearsed.bandcamp.com/album/paradise-syndrome) (July 2024)
 - [Kinds of Summer](https://curtsyrehearsed.bandcamp.com/album/kinds-of-summer) (August 2024)
 
-Arroost was a new way of making music for me.
+Arroost was a new way of making music.
 It made the process more light and joyful than what had become painstaking, hours-long
 [DAW](https://en.wikipedia.org/wiki/Digital_audio_workstation) sessions.
+
+When I returned to DAWs to make the music linked above, I did so with some of that Arroostian looseness.
 
 # Arrows to Sounds
 
@@ -193,4 +190,8 @@ I think Arroost got me back to a place where I _could_ make something again.
 - [Arroost](https://arroost.com/)
 - [Lu's essay on Arroost](https://www.todepond.com/report/arroost/)
 - [Some notes I wrote on blockers](https://edibotopic.com/notes/blockers/)
-- [My music on BandCamp](https://curtsyrehearsed.bandcamp.com/) 
+- [My music on BandCamp](https://curtsyrehearsed.bandcamp.com/)
+
+---
+
+Since I wrote this, the Curtsy Rehearsed project died again. I still make music but now it's for a secret project that may never materialise.
