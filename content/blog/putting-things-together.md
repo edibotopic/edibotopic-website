@@ -24,9 +24,9 @@ the collages together with music, which was itself put together from samples.
 2. Cut them up and piece them together ([Inkscape](https://inkscape.org/))
 3. Colourise and filter ([Pixelover](https://pixelover.io/))
 
-## Paradise Syndrome
+## Leisure Sick
 
-The first collage was for [Paradise Syndrome](https://curtsyrehearsed.bandcamp.com/album/paradise-syndrome-2).
+The first collage was for [Leisure Sick](https://curtsyrehearsed.bandcamp.com/album/leisure-sick).
 
 This album has definite muzak vibes that evoke shopping malls
 and your-doctor-recommends-these-cigarettes advertisements.

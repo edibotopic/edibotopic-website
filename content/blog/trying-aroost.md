@@ -41,7 +41,7 @@ and I've never stopped making music since.
 - [Formal Garden](https://curtsyrehearsed.bandcamp.com/album/formal-garden) (July 2025)
 - [Trash Heat](https://curtsyrehearsed.bandcamp.com/album/trash-heat) (July 2025)
 - [Tough Centras](https://curtsyrehearsed.bandcamp.com/album/tough-centras) (June 2025)
-- [Paradise Syndrome](https://curtsyrehearsed.bandcamp.com/album/paradise-syndrome-2) (June 2025)
+- [Leisure Sick](https://curtsyrehearsed.bandcamp.com/album/leisure-sick) (June 2025)
 - [Calmlies](https://curtsyrehearsed.bandcamp.com/album/calmlies) (April 2025)
 - [Laconics](https://curtsyrehearsed.bandcamp.com/album/laconics) (April 2025)
 - [Mulcahy](https://curtsyrehearsed.bandcamp.com/album/mulcahy) (March 2025)

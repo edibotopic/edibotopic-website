@@ -1,5 +1,5 @@
 +++
-title = "Versioning student work to emphasise process"
+title = "Versioning for student work"
 description = "Using versioning in student assignments"
 aliases = ["/blog/explaining/versioning-student-work/"]
 date = 2023-07-15
