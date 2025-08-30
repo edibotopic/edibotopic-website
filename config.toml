@@ -20,12 +20,12 @@ taxonomies = [{ name = "tags" }, { name = "categories" }]
 
 [markdown]
 highlight_code = true
-highlight_theme = "css"
+highlight_theme = "boron"
 extra_syntaxes_and_themes = ["themes/serene/highlight_themes"]
-highlight_themes_css = [
-  { theme = "serene-light", filename = "hl-light.css" },
-  { theme = "serene-dark", filename = "hl-dark.css" },
-]
+# highlight_themes_css = [
+#   { theme = "serene-light", filename = "hl-light.css" },
+#   { theme = "serene-dark", filename = "hl-dark.css" },
+# ]
 render_emoji = false
 external_links_target_blank = false
 external_links_no_follow = true
@@ -43,6 +43,9 @@ anchors = "on"
 
 sections = [
   { name = "blog", path = "/blog", is_external = false },
+  { name = "toys", path = "/toys", is_external = false },
+  { name = "music", path = "/music", is_external = false },
+  { name = "experience", path = "/experience", is_external = false },
   # { name = "tags", path = "/tags", is_external = false },
   # { name = "github", path = "https://github.com/<your-username>", is_external = true },
 ]
@@ -51,8 +54,8 @@ blog_section_path = "/blog"
 back_link_text = "Back" # Text of the back button
 force_theme = false # false | "light" | "dark"
 
-footer_copyright = "© 2025 <your-name>"
-footer_credits = true # Whether to show "Built with zola and serene" in footer
+footer_copyright = "© 2025 Shane Crowley"
+footer_credits = false # Whether to show "Built with zola and serene" in footer
 
 not_found_error_text = "404 Not Found"
 not_found_recover_text = "« back to home »"

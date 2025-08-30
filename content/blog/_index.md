@@ -1,6 +1,6 @@
 +++
-title = "My Blog"
-description = "My blog site."
+title = "Edibotopic blog"
+description = "Edibotopic blog."
 sort_by = "date"
 template = "blog.html"
 page_template = "post.html"
@@ -11,7 +11,7 @@ generate_feeds = true
 lang = "en"
 
 title = "Posts"
-subtitle = "I write about ...."
+subtitle = "There is a lot missing here currently, due to repeated site migrations..."
 
 date_format = "%b %-d, %Y"
 
