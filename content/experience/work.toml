@@ -1,0 +1,61 @@
+[[collection]]
+type = "card"
+# icon = "/assets/icon-deepseek.svg"
+title = "Canonical"
+subtitle = "Technical Author"
+date = "2024-present"
+content = """\
+I'm a member of the Ubuntu Desktop team.
+
+I lead documentation strategy for Ubuntu on WSL and Enterprise Desktop.
+
+I work closely with engineers and designers, and contribute to UX decisions for
+our products.
+"""
+
+[[collection]]
+type = "card"
+# icon = "/assets/icon-openai.png"
+title = "University College Cork"
+subtitle = "Lecturer & Researcher (tenured)"
+date = "2017-2024"
+content = """\
+I coordinated research projects focused on food processing and food structure.
+
+As a principal investigator, I helped secure 1.5 million in research funding.
+
+I gave over 700 hours of lectures to undergraduates and postgraduate students.
+"""
+
+[[collection]]
+type = "card"
+# icon = "/assets/icon-openai.png"
+title = "University College Cork"
+subtitle = "Postdoctoral Researcher"
+date = "2016-2017"
+content = """\
+Completed short research project on formulated nutritional products and
+contributed to the writing of a research grant proposal.
+"""
+
+[[collection]]
+type = "card"
+# icon = "/assets/icon-openai.png"
+title = "University of Wisconsin-Madison, USA"
+subtitle = "Fulbright Scholar"
+date = "2014-2015"
+content = """\
+Research projects on the production of calcium phosphate and protein-mineral
+interactions.
+"""
+
+[[collection]]
+type = "card"
+# icon = "/assets/icon-openai.png"
+title = "Macphie of Glenbervie"
+subtitle = "R&D Technologist"
+date = "2011-2012"
+content = """\
+Implemented reformulation technology that contributed to 300K in annual
+savings for the company.
+"""
