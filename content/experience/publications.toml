@@ -1,0 +1,33 @@
+[[collection]]
+type = "card"
+feature = true
+link = "https://pubs.acs.org/doi/10.1021/acs.jchemed.2c01201"
+title = "Designing an open-source interactive simulation of Stokes’ law"
+subtitle = "Shane V Crowley"
+content = """\
+This paper outlines the design of an interactive simulation of Stokes’ law, which is used frequently in the study of particle sedimentation and flotation. The software application includes dynamic visualizations and statistical outputs. The application and its source code are made freely available for inspection and modification by educators and students.
+
+*Journal of Chemical Education, 2023*
+"""
+
+[[collection]]
+type = "card"
+link = "https://onlinelibrary.wiley.com/doi/10.1111/1471-0307.12987"
+title = "The influence of milk with different compositions on the bioavailability of blackberry polyphenols in model sports nutrition beverages"
+subtitle = "Tessa M van de Langerijt, Yvonne C O'Callaghan, Katerina Tzima, Alice Lucey, Nora M O'Brien, James A O'Mahony, Dilip K Rai, Shane V Crowley"
+content = """\
+This study aimed to determine whether the fat and protein content in dairy‐fruit blends prepared using full‐fat, semi‐skimmed, skimmed or high‐protein milk in combination with freeze‐dried blackberry puree influenced the bioaccessibility and bioavailability of blackberry polyphenols and organic acids. 
+
+*International Journal of Dairy Technology, 2023*
+"""
+
+[[collection]]
+type = "card"
+link = "https://www.taylorfrancis.com/chapters/edit/10.4324/9781003143567-5/alchemical-cyborgian-imaginings-technoscientific-discourse-relating-holistic-turns-food-processing-personalised-nutrition-shane-crowley"
+title = "Alchemical and cyborgian imaginings in technoscientific discourse relating to holistic turns in food processing and personalised nutrition"
+subtitle = "Shane V Crowley"
+content = """\
+This chapter highlights how contemporary food scientists and engineers are manipulating not only matter but also metaphor, thereby endowing themselves with the power to shape future conceptions of food, the body, and the social world.
+
+*Metaphor, Sustainability, Transformation, 2021*
+"""
