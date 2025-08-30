@@ -1,0 +1,13 @@
+[[collection]]
+type = "art"
+img = "/figs/writeHeightUI.webp"
+title = "WriteHeight"
+link = "https://edibotopic.github.io/write-height/"
+content = "A web tool for converting grayscale images into 3D models that can be downloaded into multiple formats for use in games and printing. Made with vanilla JavaScript using the Babylon.js library."
+
+[[collection]]
+type = "art"
+img = "/figs/stokesLawUI.webp"
+title = "Stokes’ law visualiser"
+link = "Stokes’ law visualiser"
+content = "An interactive particle simulation to teach the principles of Stokes’ law. Stokes’ law is commonly used to understand the and floating of particles in a variety of industries. Subject of a [paper](https://pubs.acs.org/doi/full/10.1021/acs.jchemed.2c01201) in the *Journal of Chemical Education*."
