@@ -10,9 +10,13 @@ generate_feeds = true
 [extra]
 lang = "en"
 
-title = "Posts"
-subtitle = "There is a lot missing here currently, due to repeated site migrations..."
-
+title = "Notes"
+subtitle = """\
+Anything I write here is a personal exploration of a topic. My goal is to
+develop my own thoughts. I'm not trying to tell people what to do or give them
+advice. All is provisional and subject to update. If it happens to be
+interesting to you, great. I'd love to hear about that.
+"""
 date_format = "%b %-d, %Y"
 
 categorized = false # posts can be categorized

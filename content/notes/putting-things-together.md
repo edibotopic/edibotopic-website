@@ -12,8 +12,8 @@ banner = "./eluded-final.webp"
 toc = true
 +++
 
-As I get older, the sense I have of my own interests is becoming more simple.
-I think that I like simply _putting things together_.
+As I get older, the sense I have of my own interests is becoming more simple. I
+think that I mostly like _putting things together_.
 
 Recently, I started putting images together to make collages, so I could put
 the collages together with music, which was itself put together from samples.

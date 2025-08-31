@@ -17,8 +17,8 @@ Sometimes we have a fear of _fixing_ the meaning of an idea. We
 think that while our idea remains unfixed, it has maximum
 potential and scope.
 
-Everyone else is left with the problem of interpreting our idea. When trying
-to build things together, this ambiguity can be a significant impediment to
+Everyone else is left with the problem of interpreting our idea. When trying to
+build things together, this ambiguity can be a significant impediment to
 progress.
 
 This problem often manifests as a discomfort with definitions.
@@ -40,20 +40,15 @@ things like:
 
 "Paint the _plinth_[^2]."
 
-At first, I didn't know what he was talking about.
+At first, I didn't know what he was talking about. He would then just **point**
+at the thing and say: "That." In this way, he connected the term and the
+concept. This was sufficient for me to get the work done.
 
-He would then just **point** at the thing and say: "That."
+My brother had given an **ostensive** definition. 
 
-In this way, he connected the term and the concept.
-This was sufficient for me to get the work done.
-
-My brother had given an **ostensive** definition.
-
-Not every thing is as easy to point at, like invisible atoms,
-abstract concepts and future solutions.
-
-Even if we can point at something, we may not have sufficient understanding to
-solve certain problems relating to that thing.
+Not every thing is as easy to point at, like invisible atoms, abstract concepts
+and future solutions. Even if we can point at something, we may not have
+sufficient understanding to solve certain problems relating to that thing.
 
 If I can sand an architrave it does not mean I can design an algorithm for
 creating varied architrave designs. For that, I would need a more precise

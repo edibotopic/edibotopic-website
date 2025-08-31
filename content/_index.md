@@ -27,8 +27,7 @@ date_format = "%b %-d, %Y"
 
 I'm Shane.
 
-I work as a technical author in the software industry. For a long time before
-that I was a university academic in food technology.
+I work as a technical author in the software industry. For many years, I was an
+academic food scientist.
 
-Here I'll keep track of projects, write notes on current interests and
-occasionally publish longer blogs.
+Here, I keep track of projects and write notes on current interests.
