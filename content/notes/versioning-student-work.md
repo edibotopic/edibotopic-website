@@ -280,25 +280,24 @@ them down. Extracting key information on a topic and combining them
 into an overview is often far more effective than merely reading about
 the topic.
 
-Although writing is a process, student work is often corrected as a
-static artifact. The final version is assessed and deemed a reflection
-of that underlying process. In an era of Large Language Models, there
-is an increasing probability that this final version is the only
-version and it was drafted by an undetectable AI.
+Although writing is a process, student work is typically corrected as a
+static artifact. The final version is assessed as a culmination of that underlying process. In an era of Large Language Models, there
+is a non-negligable probability that any final version is the only
+version, and it was written by an AI.
 
 Perhaps then the process of writing — the thing that we value — needs to be
 re-emphasised. An analog solution is simply to require students to perform
-their writing in-person. However, this is not always a fair, accessible or
+their writing in-person. That, however, is not always a fair, accessible or
 practical approach. Serious essays, literature reviews and group projects often
 involve many hours of work, dead-ends and revisions. It is not feasible to
 translate this process to an in-person scenario, and it is also not aligned
 with a workplace that is increasinly digitalised and dispersed.
 
-To work effectively, both student and teachers have to buy into the idea that
-versioning helps them both. It helps students to structure their writing
+To work effectively, student and teachers have to buy into the idea that
+versioning is mutually beneficial. It helps students to structure their writing
 process, protects them against lost work and helps keep track of their
 collaborations. For teachers, they gain insights into the student's writing
-process and find additional opportunities for discussion.
+process that provide avenues for feedback and discussion.
 
 ## Notes
 
