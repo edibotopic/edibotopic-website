@@ -41,6 +41,9 @@ anchors = "on"
 
 [extra]
 
+repo = "https://github.com/edibotopic/edibotopic-website"
+branch = "master"
+
 sections = [
   { name = "notes", path = "/notes", is_external = false },
   { name = "toys", path = "/toys", is_external = false },

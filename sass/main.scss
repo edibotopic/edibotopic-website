@@ -1270,7 +1270,7 @@ footer {
     gap: 4px;
     margin: 11px 0;
 
-    #rss-btn,
+    .foot-btn,
     #theme-toggle {
       -webkit-tap-highlight-color: transparent;
       border: none;
@@ -1283,7 +1283,7 @@ footer {
       }
     }
 
-    #rss-btn {
+    .foot-btn {
       padding: 4px 0;
       font-size: 0.85em;
       line-height: 18px;
