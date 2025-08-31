@@ -58,18 +58,18 @@ a:focus-visible {
 
 .prose {
   h1 {
-    font-size: 1.15em;
+    font-size: 1.45em;
     font-weight: bolder;
     margin: 1.5em 0 0.5em;
   }
 
   h2 {
-    font-size: 1.1em;
+    font-size: 1.30em;
     margin: 1.5em 0 0.5em;
   }
 
   h3, h4, h5, h6 {
-    font-size: 1em;
+    font-size: 1.10em;
     margin: 2.5em 0 0.5em;
   }
 
@@ -809,7 +809,7 @@ body.prose-page {
 
   .collection.art {
     --art-h: 160px;
-    --art-w: 115px;
+    --art-w: 195px;
 
     margin: 2em 0;
     display: flex;
