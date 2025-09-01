@@ -13,23 +13,21 @@ banner = "atoms.gif"
 toc = true
 +++
 
-Sometimes we have a fear of _fixing_ the meaning of an idea. We
-think that while our idea remains unfixed, it has maximum
+We often have a fear of _fixing_ the meaning of an idea,
+thinking that while our idea remains unfixed, it has maximum
 potential and scope.
 
-Everyone else is left with the problem of interpreting our idea. When trying to
-build things together, this ambiguity can be a significant impediment to
+Everyone then has the problem of interpreting our idea. When trying to
+build things together, such ambiguity can be a significant impediment to
 progress.
 
 This problem often manifests as a discomfort with definitions.
-The worry is that a definition can fix an idea in the wrong
+The worry is that a definition may fix an idea in the wrong
 state, or deprive us of access to many (implicit) definitions at
 once.
 
-It's generally better to know what we're communicating about.
-There are many kinds of definition that can help us achieve
-this, and any particular definition does not have to remain
-fixed.
+In general, it's better to know what we're talking about.
+There are many kinds of definition that can help us, and any definition that we choose does not have to remain fixed for long.
 
 ## Pointing
 
@@ -40,9 +38,9 @@ things like:
 
 "Paint the _plinth_[^2]."
 
-At first, I didn't know what he was talking about. He would then just **point**
-at the thing and say: "That." In this way, he connected the term and the
-concept. This was sufficient for me to get the work done.
+I didn't know what he was talking about, until he would just **point**
+at the thing and say: "That.". He had connected the term and the
+concept, and this was sufficient for me to get the work done.
 
 My brother had given an **ostensive** definition. 
 
@@ -58,19 +56,15 @@ An ostensive definition can sometimes take the form of _exemplars_:
 
 > My definition of "robust" is _that codebase_
 
-An exemplar of a concept (good writing) is not the same as a concrete
-instantiation (sanded architrave). It exemplifies by adhering to some profile
-of attributes that we value, which may go unstated:
+An exemplar suggests a profile
+of attributes that we should value, which may be demonstrated implicitly by pointing.
 
-> ...it has stood the test of time... it is used in production... it hasn't had
-> a serious bug in years...
-
-We might find it easier to agree on our exemplars if we have been explicit
+We find it easier to reach a stable consensus on our exemplars if we have been explicit
 about our notion of "goodness", which takes us beyond mere pointing.
 
 ## Dictioneering
 
-The concept of a _definition_ is often associated with the **lexical** definition.
+The concept of a _definition_ is usually associated with the **lexical** definition.
 This is the kind of definition that we find in a dictionary.
 
 When I taught science at university, I would sometimes ask students to define a
@@ -91,7 +85,7 @@ referred to when a term is used in a conventional way.
 A university graduate or skilled professional usually has knowledge of a
 particular subject far beyond the conventional meaning. The usage of an expert
 or craftsperson may even deviate substantially from the everyday sense of a
-term[^3].
+term [^3].
 
 The best students defined the concept of a micelle in relation to the
 coursework that was being examined. They needed to develop a definition that
@@ -131,11 +125,11 @@ An act is normative when it relates to values. For example, we might opt for
 something more beautiful, moral or useful.
 {% end %}
 
-Milk can be defined conventionally as a _nutritious white liquid_ or in the language of colloid science an _oil-in-water emulsion_. When a food scientist knows that milk can be precisely defined as an emulsion, they can apply general principles from colloid science to understand that system - this is valuable because the scientist values specific ends over others, like measurement, prediction and understanding.
+Milk can be defined conventionally as a _nutritious white liquid_ or in the language of colloid science an _oil-in-water emulsion_. When a food scientist knows that milk can be precisely defined as an emulsion, they can apply general principles from colloid science to understand that system — this is valuable because the scientist values specific ends over others, like measurement, prediction and understanding.
 
 ## Stipulating
 
-To overcome obstacles we sometimes need a **stipulative** definition.
+To overcome obstacles in our thinking we sometimes need a **stipulative** definition.
 
 Conceptual obstacles can include:
 
@@ -143,17 +137,17 @@ Conceptual obstacles can include:
 * Lacking a shared understanding of a system
 * A philosophical impasse about our goals
 
-A stipulation can be provisional and even false but still valuable. The value
-of the stipulation is as much about the process that it initiates and its
-foundational role in the building of a cohesive structure or paradigm.
+A stipulation can be provisional, and even false, yet still valuable. The value
+of the stipulation is in the process that it initiates and its
+foundational role in the building of a coherent conceptual model.
 
 If someone confuses your stipulation for an absolute definition then the
 exchange of ideas may prematurely collapse, so you need to communicate
-your intention.
+your intention clearly.
 
 Stipulating a flat world could be an interesting design prompt.
 It should be minimally controversial as long as people know that
-you are talking about game development and not geophysics.
+you are talking about — say — game development, rather than geophysics.
 
 ```javascript
 let world_is_flat = true // this is fine
@@ -169,19 +163,18 @@ A stipulation can be thought of as a _What if?_ question:
 
 ## Operationalising
 
-When I worked in food science laboratories, I said things like:
+When I planned scientific experiments with researchers, we would talk like this:
 
 > For the sample vegan cheese replacers, "melted" was defined as
-> the state when the G" value is observed to exceed the G' value
+> the state when the `G"` value is observed to exceed the `G'` value
 > during oscillatory shear
 
-This is an operational definition, which makes a concept easier
+This is an **operational** definition, which makes a concept easier
 to measure and/or quantify. In this case, it makes it easy for
-those versed in rheology[^4], who know that G" and G' represent
+those versed in rheology [^4], who know that `G"` and `G'` represent
 liquid-like and solid-like behaviour, to quantify melting.
 
-One of the most famous operational definitions is associated with Alan Turing,
-and can be stated as:
+One of the most famous operational definitions is associated with Alan Turing, and can be stated as:
 
 > A machine is intelligent if and only if a human evaluator cannot distinguish between the machine and its human interlocutor when reviewing a text transcript of their conversation
 
