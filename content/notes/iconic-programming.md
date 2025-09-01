@@ -131,37 +131,18 @@ APL code inscrutable, it's probably not solely owing to its use of icons.
 ⍉2∘⊥⍣¯1⍳2*3
 ```
 
-## Not just blocks
+## Not just boxes
 
 Visual programming is often contrasted with conventional, text-based
-programming. Visual programs typically rely on graphical elements (boxes,
-nodes, blocks), which can be dragged and connected. These interfaces can be
+programming. Visual programs typically rely on graphical elements, like boxes, which can be dragged and connected. These interfaces can be
 more convenient for specific users or for particular use-cases.
 
-In semiotic terms, icons _resemble what they represent_,
-yet the concept of "resemblance" is not only visual.
+Icons _resemble what they represent_, while a box is symbolic, an abstraction.
 
-> Mary resembles her father in her temperament
-
-> The stimulatory effects of coffee resemble that of tea
-
-> All games share a family resemblance with each other
-
-> The dog-owner's hand gesture resembles the action he expects of the dog
-
-Consider also that:
-
-* Programming visually/graphically does not require any icons. The most common
-building blocks are `nodes` and `edges`, which are fundamentally abstract.
-
-* Programming with icons does not require a graphical user interface.
+Programming with icons does not require a graphical user interface.
 I can type or write `^ ^ ^` to represent a mountain range without a GUI.
 
-* Programming with icons does not require a spatial interpretation. Prefixing a
-comment with `⍝` is a subtle reminder that its effect should resemble a process
-of illumination.
-
-Here are some icons that I can type, and how they might be interpreted in a given domain:
+Here are some other icons and a spatial interpretation:
 
 * `^` pointer
 * `!` filter
@@ -172,17 +153,20 @@ Here are some icons that I can type, and how they might be interpreted in a give
 * `/` gradient
 * `@` atom
 
+The concept of "resemblance" is not necessarily spatial:
+
+> The stimulatory effects of coffee resemble that of tea
+
+> Conceptually, all games share a family resemblance with each other
+
 ## Why icons?
 
 I might like to program with icons because they have an immediate conceptual
-similarity to what I am trying to make. I might like to leverage this
-similarity while still using a keyboard and plain text. Whether such a language
-is readable or effective depends on the language design.
+similarity to what I am trying to make, and the immediate mechanical simplicity of being typeable by keyboard.
 
-A needless multiplication of symbols does not need to necessarily result. One
+This does not have to result in a needless multiplication of symbols. One
 difficulty would be in selecting a finite set of icons for highly generalisable
-ideas. Ideas like parthood, connection and enclosure are highly general, span
-many contexts and can be combined in many ways.
+ideas. For example, ideas like parthood, connection and enclosure are highly general, span many contexts and can be combined in many ways.
 
 A language does not need to be fully iconic, but can leverage icons to make
 abstract concepts more concrete. An excellent example here is the use of the
@@ -222,7 +206,7 @@ iconic aspects.
 * [Lu Wilson's SpaceTode](https://github.com/TodePond/SpaceTode): a spatial
 programming language, which I think has some iconic aspects.
 
-## Notes
+---
 
 [^1]: Nubiola, J., & Barrena, S. (2012). Drawings, Diagrams and Reasonableness
     in Charles S. Peirce's Letters during his First Visit to Europe (1870-71).
