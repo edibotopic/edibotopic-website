@@ -299,7 +299,7 @@ process, protects them against lost work and helps keep track of their
 collaborations. For teachers, they gain insights into the student's writing
 process that provide avenues for feedback and discussion.
 
-## Notes
+---
 
 [^1]: Google Docs limits users to _40 named versions_. They should be
 used judiciously, especially on collaborative projects.
