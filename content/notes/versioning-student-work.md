@@ -3,7 +3,7 @@ title = "Versioning for student work"
 description = "Using versioning in student assignments"
 aliases = ["/blog/explaining/versioning-student-work/"]
 date = 2023-07-15
-updated = 2025-06-09
+updated = 2025-09-13
 draft = false
 
 [taxonomies]
@@ -32,8 +32,58 @@ in versioning but may not be familiar with the concept.
 
 ## Motivation
 
+Students are asked to write because writing is considered useful.
+Muddled thoughts can be clarified once an attempt is made to write
+them down. Extracting key information on a topic and combining them
+into an overview is often far more effective than merely reading about
+the topic.
+
+Although writing is a process, student work is often corrected as a
+static artifact. The final version is assessed and deemed a reflection
+of that underlying process. In an era of Large Language Models, there
+is an increasing probability that this final version is the only
+version and it was drafted by an undetectable AI.
+
+Perhaps then the process of writing — the thing that we value — needs to be
+re-emphasised. An analog solution is simply to require students to perform
+their writing in-person. However, this is not always a fair, accessible or
+practical approach. Serious essays, literature reviews and group projects often
+involve many hours of work, dead-ends and revisions. It is not feasible to
+translate this process to an in-person scenario, and it is also not aligned
+with a workplace that is increasinly digitalised and dispersed.
+
+To work effectively, student and teachers alike have to buy into the idea that
+versioning helps them both. It helps students to structure their writing
+process, protects them against lost work, and keeps track of their
+collaborations. It helps teachers gain insights into the student's writing
+process and uncovers opportunities for feedback.
+
+## Background
+
+Working on any large project often demands working with versions. When
+writing a paper, you typically have multiple drafts. It can be
+useful to distinguish these with appropriate names. For example:
+`myDraft1.docx`, `myDraft2.docx`, and so on. This is a simple form of
+version control, although it gets messy. The first scientific paper that
+I published had 13 drafts!
+
+Another problem with this approach is that it becomes difficult to actually
+compare across the versions. If draft 12 and 13 each have dozens of pages
+and numerous changes, how can you actually find what you changed?
+
+Version control systems — in simple terms — allow you to edit only a single
+file while storing a history of its different versions, any of which can be
+restored at a later time.
+
+## Getting started with versioning
+
+Git is probably the most popular version control system among writers of
+computer programs and technical documentation. Git is typically used in
+conjunction with GitHub, a web-based platform for hosting versioned projects
+and structuring collaboration. Git, however, has a steep learning curve.
+
 [Google Docs](https://docs.google.com/) is one of the easiest ways to get
-started with versioning. It is not _the best_ system — especially compared to
+started with versioning. It may not be _the best_ system — especially compared to
 a dedicated tool like [Git](https://git-scm.com/) — but
 it works and is easy-to-use. 
 
@@ -50,9 +100,7 @@ Versioning is not a general solution for plagiarism and AI usage, although it
 can be considered a hurdle — to be combined with others — against
 ineffective approaches to writing.
 
-## How-to
-
-### Use versioning as a student
+## Use versioning as a student
 
 Create a new Google Docs file and give it an appropriate name, such as
 `AIandFoodPaper`.
@@ -87,7 +135,7 @@ When you select a version, any edits (additions, deletions) are
 If a major error is introduced in a project, a previous version can be restored
 at any time.
 
-### Examples
+### Examples of versioning
 
 Named versions should typically involve a substantial, self-contained
 change.
@@ -168,9 +216,7 @@ of unstructured work across the entire paper that is then grouped into
 one version. Each time you approach your project, you should be
 thinking: "What specific task am I focusing on now".
 
-### Use versioning as a teacher
-
-#### Submission of work
+## Use versioning as a teacher
 
 To make the version history accessible, students need to share the actual
 Google Docs file. 
@@ -196,10 +242,10 @@ suitable format.
 
 In `File > Download` both Word (.docx) and .pdf formats are available.
 
-#### Review
+### Reviewing work
 
 The version history is a supplement to the assessment process. A good
-version history might demonstrate:
+version history might be expected to demonstrate:
 
 - Consistent work on the project over time
 - Evidence of iteration and editing of own writing
@@ -215,7 +261,7 @@ evaluate the process behind the writing.
 When feedback on writing is a part of your assessment process, the version
 history provides a useful reference point for both student and teacher.
 
-#### "How many versions?"
+---
 
 Students might ask the question:
 
@@ -234,70 +280,6 @@ including additions, deletions, rewordings, citations and clarifications, might
 be more compelling evidence of effort. If the students get the impression that
 they are trying to hit a number, rather than approach their writing in a
 structured manner, then the exercise is a waste of everyone's time.
-
-## Background
-
-### Version control systems
-
-There are version control _systems_, _tools_ and _philosophies_. To
-keep things simple: version control involves assigning a unique number
-or identifier to different versions of your project.
-
-When you update your computer or phone you move from an older to a
-newer version of the operating system. A move from Windows 10 to 11 or
-Android 12 to 13 usually involves several major changes to the
-underlying code that users are advised to adopt. Behind-the-scenes,
-programmers usually have more intricate versioning systems, with many
-minor versions existing between major releases.
-
-Git is probably the most popular version control system among writers
-of computer programs and technical documentation. Git is typically
-used in conjunction with GitHub, a web-based platform for hosting
-versioned projects and structuring collaboration.
-
-### Projects are iterative
-
-Working on any large project often demands working with versions. When
-writing a paper, you typically have multiple drafts. It can be
-useful to distinguish these with appropriate names. For example:
-`myDraft1.docx`, `myDraft2.docx`, and so on. This is a simple form of
-version control, although it gets messy. The first scientific paper that
-I published had 13 drafts!
-
-Another problem with this approach is that it becomes difficult to actually
-compare across the versions. If draft 12 and 13 each have dozens of pages
-and numerous changes, how can you actually find what you changed?
-
-Version control systems — in simple terms — allow you to edit only a single
-file while storing a history of its different versions, any of which can be
-restored.
-
-## Conclusion
-
-Students are asked to write because writing is considered useful.
-Muddled thoughts can be clarified once an attempt is made to write
-them down. Extracting key information on a topic and combining them
-into an overview is often far more effective than merely reading about
-the topic.
-
-Although writing is a process, student work is typically corrected as a
-static artifact. The final version is assessed as a culmination of that underlying process. In an era of Large Language Models, there
-is a non-negligable probability that any final version is the only
-version, and it was written by an AI.
-
-Perhaps then the process of writing — the thing that we value — needs to be
-re-emphasised. An analog solution is simply to require students to perform
-their writing in-person. That, however, is not always a fair, accessible or
-practical approach. Serious essays, literature reviews and group projects often
-involve many hours of work, dead-ends and revisions. It is not feasible to
-translate this process to an in-person scenario, and it is also not aligned
-with a workplace that is increasinly digitalised and dispersed.
-
-To work effectively, student and teachers have to buy into the idea that
-versioning is mutually beneficial. It helps students to structure their writing
-process, protects them against lost work and helps keep track of their
-collaborations. For teachers, they gain insights into the student's writing
-process that provide avenues for feedback and discussion.
 
 ---
 
