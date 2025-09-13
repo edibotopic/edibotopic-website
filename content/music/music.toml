@@ -1,5 +1,11 @@
 [[collection]]
 type = "art_simple"
+img = "/art/dollops.jpg"
+link = "https://curtsyrehearsed.bandcamp.com/album/dollops"
+title = "Dollops"
+
+[[collection]]
+type = "art_simple"
 img = "/art/formal-garden.jpg"
 link = "https://curtsyrehearsed.bandcamp.com/album/formal-garden"
 title = "Formal Garden"
