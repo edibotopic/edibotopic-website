@@ -125,50 +125,8 @@ of the given `macro` level.
 | Technology  | Components | Sub-assemblies | Interfaces  |
 | Software  | Low-level code | High-level code | User interfaces  |
 
-When there is an explanatory gap between two or more levels, the ontological
-concept of "emergence" may be invoked. Here, there are a set of coincident
-events but no established relation between them. Crucially, this does not mean
-that the relation will never be known, only that it remains to be discovered.
-
-In summary, we often have questions of the form "what $x_1$ is the cause of $x_0$?":
-
-$$x_1? \to x_0$$
-
-The $x_0$ could be a scientific observation, a personal goal, or a problem to
-fix at the `macro` level.
-
-In **analysis**, the causes or preconditions at the micro-level are identified.
-For example, a specimen known to exhibit an effect of interest is scrutinised
-with special instruments. To explain why salt has an associated taste we might
-measure its chemical dissociation in saliva, which enables the transmission of
-signals to the brain. Salts may be observed to have different intensities of
-saltiness, prompting measurement of conductivity as the different salts
-dissolve into solution.
-
-<!--NOTE: three LaTeX (t-b) are Macro, Transition, Micro -->
-$$ \Huge 
-{{Salt \atop \downarrow} \atop Na^+ }
-{{\to \atop \ } \atop \to}
-{{taste \atop \uparrow} \atop signal}
-$$
-
-In **synthesis**, the effect (or outcome) is generated under specific
-conditions. Inventing technology can help society make progress. Such progress
-is bolstered further when an invention has a concrete implementation as a
-product. This facilitates exposure to the market, which initiates mechanisms of
-feedback that can improve the implementation. Accelerating progress is not just
-about getting products to market, it's also about creating conditions for
-invention and feedback.
-
-<!--NOTE: three LaTeX (t-b) are Macro, Transition, Micro -->
-$$ \Huge 
-{{Product \atop \uparrow} \atop Invent }
-{{\to \atop \ } \atop \to}
-{{Market \atop \downarrow} \atop Progress}
-$$
-
-The appearance of emergent properties may highlight an inappropriate conceptual
-or methodological framing. For example, water can be interpreted on a strictly
+When there is an explanatory gap between two or more levels, the concept of "emergence" may be invoked. Here, there are a set of coincident
+events but no established relation between them. Crucially, this does not mean that the relation will never be known, only that it remains to be discovered. The appearance of emergent properties may highlight an inappropriate conceptual or methodological framing. For example, water can be interpreted on a strictly
 molecular basis as being composed of two kinds of elements existing in a
 certain relative proportion and structured by particular forces. This is the
 `micro` level. Yet, at the macro level, water has properties like viscosity and
@@ -177,8 +135,14 @@ chemistry. For this reason, scientific fields like rheology are oriented
 towards developing specific methodologies appropriate to a relatively `macro`
 level.
 
-We are not confined to the any one level. The study of any complex system often
-requires moving between analysis and synthesis.
+In summary, we often have questions of the form "what $x_1$ is the cause of $x_0$?":
+
+$$x_1? \to x_0$$
+
+The $x_0$ could be a scientific observation, a personal goal, or a functional error at the `macro` level.
+
+During an investigation, the causes or preconditions at the micro-level are analysed, which enables the synthesis of an explanation at the macro-level.
+We are not confined to any one level. The study of any complex system requires moving between analysis and synthesis.
 
 <!--NOTE: three LaTeX (t-b) are Macro, Transition, Micro -->
 $$\Large
@@ -190,8 +154,8 @@ $$\Large
 $$
 
 The utility of having a deeper explanation of a phenomenon is not always clear.
-When learning chemistry, we might hear about some everyday phenomenon and then
-be provided with a chemical explanation. While it is nice to learn new
+When learning chemistry, we hear about some everyday phenomenon and are then
+provided with a chemical explanation. While it is nice to learn new
 information, what power does it give us?
 
 Consider the case of pink tea. With some varieties of green tea, it is possible
