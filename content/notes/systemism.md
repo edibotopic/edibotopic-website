@@ -20,16 +20,16 @@ connotation, whereas reductionism is often levelled as a criticism.
 
 Domains that are interpreted as emphasising analysis, most notably science, are
 labelled "reductionist", when their approach is taken to be missing something.
-In recent years, a critique of food and nutritional science which argued that
+In recent years, a critique of food and nutritional science that argued that
 they were guilty of "nutritional reductionism", gained significant traction.
 The critics instead advocated for various kinds of holism.
 
 The dichotomy between holism and reductionism may be false. A scientist who
 appreciates the beauty of plants is more likely to become interested in their
-analysis. An artist that is aware of the geometrical patterns in nature may
+analysis. An artist who is aware of the geometrical patterns in nature may
 incorporate them into their artwork. While there are scientific disciplines
 that focus on parts (molecular biology), there are also those focused on wholes
-(synthetic biology), and many scientists that move between these poles.
+(synthetic biology), and many scientists that oscillate between them.
 
 There is a verticality in how we contrast holism and reductionism. We imagine
 experiencing the whole at a "high level" and the parts at a "low level". At the
@@ -39,17 +39,15 @@ whole, with our immediate experience being displaced by a symbolic language of
 atoms, bits, molecules, and nutrients.
 
 Instead, reductionism can be thought of as a narrowing of perspective. In that
-sense, holism itself is a kind of reductionism, as it narrows our perspective
-to the whole, a particular level of analysis. Just as we can be "nutritional
-reductionists" (reducing food to nutrients), we can also be "sensory
+sense, holism itself is a kind of reductionism, as it narrows our perspective to the whole, a particular level of analysis. Just as we can be "nutritional reductionists" (reducing food to nutrients), we can also be "sensory
 reductionists" (reducing food to sense experience) or "cultural reductionists"
 (reducing food to its socio-cultural role). Each of these is a legimitimate way
 to analyse food but none of them is total.
 
 To be more clear, we can think of two general kinds of reduction:
 
-* **Macro-reduction**: from parts to wholes (holism)
-* **Micro-reduction**: from wholes to parts (reductionism)
+* **Macro-reduction**: narrowing from parts to wholes (holism)
+* **Micro-reduction**: narrowing from wholes to parts (reductionism)
 
 Science often begins with the experience of an interesting phenomenon. A
 scientist then attempts to study its underlying causes. When the analysis is
