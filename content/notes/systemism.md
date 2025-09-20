@@ -19,10 +19,13 @@ called "reductionist" when their method is taken to filter out important
 aspects of the world. In recent years, a critique of food and nutritional
 scientists, which argued that they were guilty of "nutritional reductionism",
 gained significant traction. The critics instead advocated for various kinds of
-holism. The artist is an archetypal holist, experiencing the world and
-integrating multiple aspects of that experience in their art.
+holism.
 
-The dichotomy between holism and reductionism may be false. A scientist who
+If the scientist is the archetypal reductionist, then the archetypal holist is
+the artist, experiencing the world as it is given and integrating multiple
+aspects of that experience into their art.
+
+The dichotomy between holism and reductionism is usually false. A scientist who
 appreciates the holistic beauty of plants is more likely to become interested
 in their analysis. An artist who is aware of the geometrical patterns in the
 parts of nature may incorporate them into their artwork. While there are
