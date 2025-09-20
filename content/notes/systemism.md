@@ -15,17 +15,20 @@ A worldview that privileges the former is called "holism", and the latter
 connotation, whereas reductionism is often levelled as a criticism.
 
 Domains that are interpreted as emphasising analysis, most notably science, are
-called "reductionist" when their approach is taken to filter out important
-factors. In recent years, a critique of food and nutritional scientists, which
-argued that they were guilty of "nutritional reductionism", gained significant
-traction. The critics instead advocated for various kinds of holism.
+called "reductionist" when their method is taken to filter out important
+aspects of the world. In recent years, a critique of food and nutritional
+scientists, which argued that they were guilty of "nutritional reductionism",
+gained significant traction. The critics instead advocated for various kinds of
+holism. The artist is an archetypal holist, experiencing the world and
+integrating multiple aspects of that experience in their art.
 
 The dichotomy between holism and reductionism may be false. A scientist who
-appreciates the beauty of plants is more likely to become interested in their
-analysis. An artist who is aware of the geometrical patterns in nature may
-incorporate them into their artwork. While there are scientific disciplines
-that focus on parts (molecular biology), there are also those focused on wholes
-(synthetic biology), and many scientists that oscillate between them.
+appreciates the holistic beauty of plants is more likely to become interested
+in their analysis. An artist who is aware of the geometrical patterns in the
+parts of nature may incorporate them into their artwork. While there are
+scientific disciplines that focus on parts (molecular biology), there are also
+those focused on wholes (synthetic biology), and many scientists that oscillate
+between them.
 
 There is a verticality in how we contrast holism and reductionism. We imagine
 experiencing the whole at a "high level" and the parts at a "low level". At the
@@ -35,7 +38,9 @@ whole, with our immediate experience being displaced by a symbolic language of
 atoms, bits, molecules, and nutrients.
 
 Instead, reductionism can be thought of as a narrowing of perspective. In that
-sense, holism itself is a kind of reductionism, as it narrows our perspective to the whole, a particular level of analysis. Just as we can be "nutritional reductionists" (reducing food to nutrients), we can also be "sensory
+sense, holism itself is a kind of reductionism, as it narrows our perspective
+to the whole, a particular level of analysis. Just as we can be "nutritional
+reductionists" (reducing food to nutrients), we can also be "sensory
 reductionists" (reducing food to sense experience) or "cultural reductionists"
 (reducing food to its socio-cultural role). Each of these is a legimitimate way
 to analyse food but none of them is total.
@@ -58,11 +63,11 @@ analyse the causes of that problem. The development process is a continuous
 loop between the parts that make up the program and that whole experience that
 the user encounters.
 
-The Argentian philosopher Mario Bunge used the term "systemism" to refer to an
-epistemology of systematic explanations that bridges holism and reductionism.
-Bunge was skeptical of both holism and reductionism when used in isolation:
-reductionists are at risk of irrelevance, while holists are prone to
-superficiality.
+The Argentinian philosopher Mario Bunge used the term "systemism" to refer to
+an epistemology of systematic explanations that bridges holism and
+reductionism. Bunge was skeptical of both holism and reductionism when used in
+isolation: reductionists are at risk of fragmentation, while holists are prone
+to superficiality.
 
 Imagine that you have made a _causal_ observation of some kind. This could be that:
 
@@ -131,8 +136,10 @@ In summary, we often have questions of the form "what $x_1$ is the cause of $x_0
 
 $$x_1? \to x_0$$
 
-The $x_0$ could be a scientific observation, a personal goal, or some problem to
-fix at the `macro` level.
+The $x_0$ could be a scientific observation, a software bug, or a meal
+preparation. The study or engineering of the relevant system often requires
+moving between stages of analysis and synthesis. From such a process, we develop
+deep explanations.
 
 In **analysis**, we do a top-down study of the micro-level causes. To explain
 why [salt
@@ -179,15 +186,6 @@ turbulence, which are difficult to predict based on strict appeals to molecular
 chemistry. For this reason, scientific fields like rheology are oriented
 towards developing specific methodologies appropriate to a relatively `macro`
 level.
-
-In summary, we often have questions of the form "what $x_1$ is the cause of $x_0$?":
-
-$$x_1? \to x_0$$
-
-The $x_0$ could be a scientific observation, a software bug, or a meal
-preparation. The study or engineering of the relevant system often requires
-moving between stages of analysis and synthesis. From such a process we develop
-deep explanations.
 
 $$
 \displaystyle
