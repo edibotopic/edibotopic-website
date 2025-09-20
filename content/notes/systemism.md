@@ -2,7 +2,7 @@
 title = "Systemism"
 description = "Merging holism and reductionism"
 draft = false
-date = 2025-09-20
+date = 2025-09-13
 [taxonomies]
 tags = ["systems", "philosophy", "epistemology", "science"]
 [extra]
