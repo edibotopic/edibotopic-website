@@ -34,9 +34,9 @@ There are many kinds of definition that can help us, and any definition that we 
 When I worked on construction sites with my brother — a painter — he would say
 things like:
 
-"Sand the _architrave_[^1]."
+"Sand the _architrave_ [^1]."
 
-"Paint the _plinth_[^2]."
+"Paint the _plinth_ [^2]."
 
 I didn't know what he was talking about, until he would just **point**
 at the thing and say: "That.". He had connected the term and the

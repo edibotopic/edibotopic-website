@@ -110,6 +110,10 @@ a:focus-visible {
     }
   }
 
+  .footnote-reference a {
+    border-bottom: 0px solid var(--primary-color);
+  }
+
   img {
     max-width: 100%;
     display: block;
@@ -1844,3 +1848,4 @@ template {
 [hidden] {
   display: none;
 }
+

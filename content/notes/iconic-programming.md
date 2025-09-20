@@ -45,7 +45,7 @@ let drawBigCircle = (r) => {
 
 ## Pointers are pointy
 
-In a letter to his wife from 1870[^1], Charles Sanders Peirce used simple illustrations to
+In a letter to his wife from 1870 [^1], Charles Sanders Peirce used simple illustrations to
 convey what he encountered in his European travels, including Mount Etna, the
 craters of which are themselves small mountains.
 
@@ -77,7 +77,7 @@ The [Odin](https://odin-lang.org/) documentation states as justification:
 > — my italics
 
 The syntax for pointer in Odin and Pascal **resembles the concept of what a
-pointer does**: _it is pointy because it points_[^2].
+pointer does**: _it is pointy because it points_ [^2].
 
 Neither language is fully iconic, as they use combinations of both symbols and
 icons. The mnemonic and expressive benefits of icons can be leveraged without a

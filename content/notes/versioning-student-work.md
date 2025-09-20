@@ -111,7 +111,7 @@ draft, select:
 
 `File > Version History > Name Current Version`
 
-Give a **descriptive name** to the version[^1]. In this case, it
+Give a **descriptive name** to the version [^1]. In this case, it
 could be:
 
 > Drafted a project structure for AI and Food paper
@@ -127,7 +127,7 @@ This can be viewed by you or anyone else with edit access:
 
 Versions are grouped by month and include details, such as the version
 name, date/time saved and version author. Contributions by different
-authors to the same file will be highlighted in a unique colour[^2].
+authors to the same file will be highlighted in a unique colour [^2].
 
 When you select a version, any edits (additions, deletions) are
  displayed.
