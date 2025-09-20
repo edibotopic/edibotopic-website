@@ -28,9 +28,8 @@ The equation can be rearranged to solve for viscosity:
 
 $$\mu = \frac{D^2 \cdot (\rho_{ball} - \rho_{liquid}) \cdot g }{18 \cdot v}$$
 
-With a ball of known physical dimensions and a liquid of known density, a
-stopwatch and ruler can be used to calculate the viscosity based on a
-measurement of the ball's velocity.
+With a ball of known physical dimensions and a liquid of known density, the viscosity can be calculated based on
+measurement of the ball's velocity with a stopwatch and ruler.
 
 This is known as the "falling ball" method.
 
