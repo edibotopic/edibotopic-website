@@ -1,6 +1,6 @@
 [[collection]]
 type = "card"
-# icon = "/assets/icon-deepseek.svg"
+icon = "/assets/icon-canonical.svg"
 title = "Canonical"
 subtitle = "Technical Author"
 date = "2024-present"
@@ -15,7 +15,7 @@ our products.
 
 [[collection]]
 type = "card"
-# icon = "/assets/icon-openai.png"
+icon = "/assets/icon-ucc.svg"
 title = "University College Cork"
 subtitle = "Lecturer & Researcher (tenured)"
 date = "2017-2024"
@@ -29,7 +29,7 @@ I gave over 700 hours of lectures to undergraduates and postgraduate students.
 
 [[collection]]
 type = "card"
-# icon = "/assets/icon-openai.png"
+icon = "/assets/icon-ucc.svg"
 title = "University College Cork"
 subtitle = "Postdoctoral Researcher"
 date = "2016-2017"
@@ -40,7 +40,7 @@ contributed to the writing of research grant proposals.
 
 [[collection]]
 type = "card"
-# icon = "/assets/icon-openai.png"
+icon = "/assets/icon-uw.svg"
 title = "University of Wisconsin-Madison, USA"
 subtitle = "Fulbright Scholar"
 date = "2014-2015"
@@ -51,7 +51,7 @@ interactions.
 
 [[collection]]
 type = "card"
-# icon = "/assets/icon-openai.png"
+# icon = "/assets/icon-ucc.svg"
 title = "Macphie of Glenbervie"
 subtitle = "R&D Technologist"
 date = "2011-2012"
