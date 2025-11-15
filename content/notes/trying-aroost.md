@@ -39,7 +39,7 @@ and I've never stopped making music since.
 
 - [Dollops](https://curtsyrehearsed.bandcamp.com/album/dollops) (August 2025)
 - [Formal Garden](https://curtsyrehearsed.bandcamp.com/album/formal-garden) (July 2025)
-- [Trash Heat](https://curtsyrehearsed.bandcamp.com/album/trash-heat) (July 2025)
+- [Cop Synths](https://curtsyrehearsed.bandcamp.com/album/cop-synths) (July 2025)
 - [Tough Centras](https://curtsyrehearsed.bandcamp.com/album/tough-centras) (June 2025)
 - [Leisure Sick](https://curtsyrehearsed.bandcamp.com/album/leisure-sick) (June 2025)
 - [Calmlies](https://curtsyrehearsed.bandcamp.com/album/calmlies) (April 2025)

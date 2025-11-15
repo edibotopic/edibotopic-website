@@ -45,9 +45,9 @@ _Search terms: sixties; americana; lino; utopia; motel._
 
 ![final album art using first collage](/figs/eluded-final.webp)
 
-## Trash heat
+## Cop synths
 
-The second collage was for [Trash Heat](https://curtsyrehearsed.bandcamp.com/album/trash-heat).
+The second collage was for [Cop Synths](https://curtsyrehearsed.bandcamp.com/album/cop-synths).
 
 This sounds like a soundtrack to a lost eighties action movie, with corrupt cops
 and over-the-top criminality.
