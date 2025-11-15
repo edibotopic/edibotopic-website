@@ -11,3 +11,10 @@ img = "/figs/stokesLawUI.webp"
 title = "Stokes’ law visualiser"
 link = "https://edibotopic.github.io/stokes-law/"
 content = "Interactive particle simulation to teach the principles of Stokes’ law."
+
+[[collection]]
+type = "art"
+img = "/figs/tierListUI.webp"
+title = "TierList"
+link = "https://edibotopic.github.io/tier-list/"
+content = "Tool that is sufficient to make good tier lists."
