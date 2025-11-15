@@ -45,7 +45,7 @@ sense, holism itself is a kind of reductionism, as it narrows our perspective
 to the whole, a particular level of analysis. Just as we can be "nutritional
 reductionists" (reducing food to nutrients), we can also be "sensory
 reductionists" (reducing food to sense experience) or "cultural reductionists"
-(reducing food to its socio-cultural role). Each of these is a legimitimate way
+(reducing food to its socio-cultural role). Each of these is a legitimate way
 to analyse food but none of them is total.
 
 To be more clear, we can think of two general kinds of reduction, each amounting
