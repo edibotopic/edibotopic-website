@@ -1663,6 +1663,88 @@ body.not-found {
 }
 
 
+/* experience tabs (CSS-only)
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+// Hide radio buttons visually but keep them accessible
+.tab-radio {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.experience-tabs {
+  display: flex;
+  gap: 0.5em;
+  margin: 2em 0 1.5em;
+  border-bottom: 2px solid var(--text-decoration-color);
+  flex-wrap: wrap;
+}
+
+.tab-button {
+  background: transparent;
+  border: none;
+  padding: 0.75em 1.5em;
+  font-size: 1em;
+  color: var(--text-pale-color);
+  cursor: pointer;
+  position: relative;
+  transition: color 0.2s;
+  user-select: none;
+
+  @media (max-width: 425px) {
+    padding: 0.6em 1em;
+    font-size: 0.9em;
+  }
+
+  &:hover {
+    color: var(--primary-color);
+  }
+}
+
+// Show active tab indicator when radio is checked
+#tab-work:checked ~ .experience-tabs label[for="tab-work"],
+#tab-publications:checked ~ .experience-tabs label[for="tab-publications"],
+#tab-education:checked ~ .experience-tabs label[for="tab-education"] {
+  color: var(--primary-color);
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: var(--primary-color);
+  }
+}
+
+// Hide all panels by default
+.tab-panel {
+  display: none;
+
+  h2 {
+    margin-top: 0.5em;
+  }
+}
+
+// Show panels based on which radio is checked
+#tab-work:checked ~ .tab-panel[data-tab="work"],
+#tab-publications:checked ~ .tab-panel[data-tab="publications"],
+#tab-education:checked ~ .tab-panel[data-tab="education"] {
+  display: block;
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 /* normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
