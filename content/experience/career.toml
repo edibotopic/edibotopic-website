@@ -34,8 +34,8 @@ title = "University College Cork"
 subtitle = "Postdoctoral Researcher"
 date = "2016-2017"
 content = """\
-Completed short research project on formulated nutritional products and
-contributed to the writing of a research grant proposal.
+I completed a short research project on formulated nutritional products and
+contributed to the writing of research grant proposals.
 """
 
 [[collection]]
@@ -45,7 +45,7 @@ title = "University of Wisconsin-Madison, USA"
 subtitle = "Fulbright Scholar"
 date = "2014-2015"
 content = """\
-Research projects on the production of calcium phosphate and protein-mineral
+I did research on the production of calcium phosphate and protein-mineral
 interactions.
 """
 
@@ -56,6 +56,6 @@ title = "Macphie of Glenbervie"
 subtitle = "R&D Technologist"
 date = "2011-2012"
 content = """\
-Implemented reformulation technology that contributed to 300K in annual
+I implemented reformulation technology that contributed to 300K in annual
 savings for the company.
 """

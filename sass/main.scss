@@ -1703,7 +1703,7 @@ body.not-found {
 }
 
 // Show active tab indicator when radio is checked
-#tab-work:checked ~ .experience-tabs label[for="tab-work"],
+#tab-career:checked ~ .experience-tabs label[for="tab-career"],
 #tab-publications:checked ~ .experience-tabs label[for="tab-publications"],
 #tab-education:checked ~ .experience-tabs label[for="tab-education"] {
   color: var(--primary-color);
@@ -1729,7 +1729,7 @@ body.not-found {
 }
 
 // Show panels based on which radio is checked
-#tab-work:checked ~ .tab-panel[data-tab="work"],
+#tab-career:checked ~ .tab-panel[data-tab="career"],
 #tab-publications:checked ~ .tab-panel[data-tab="publications"],
 #tab-education:checked ~ .tab-panel[data-tab="education"] {
   display: block;
