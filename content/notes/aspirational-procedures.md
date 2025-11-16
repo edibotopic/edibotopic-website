@@ -9,8 +9,7 @@ tags = ["software", "documentation", "writing"]
 math = false
 +++
 
-In technical writing, the assumption is typically that a user reads a guide to
-help them navigate a specific problem that they are encountering.
+In technical writing, the assumption is typically that a user reads a guide when trying to solve a problem.
 
 While this is certainly an important case for a writer to accommodate, it is
 surely not the only way a reader experiences a guide.
@@ -32,8 +31,6 @@ This could be because:
 a problem
 
 In any of these cases, an excellent guide is not merely accurate and functional, but also compelling: the guide makes me want to try the software. The software can't
-fulfill this role: it can't anticipate itself.
+fulfill this role, because it can't anticipate itself.
 
-A guide may exhibit the simplicity, beauty, or power of a feature so well, that
-I later install and start using the software without ever actively following
-the guide, yet the guide has still been successful.
+A guide may exhibit the simplicity, beauty, or power of a sequence of actions so well, that I later install and start using the software without ever actively following the guide, yet the guide has still been successful.
