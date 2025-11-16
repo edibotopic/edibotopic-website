@@ -14,9 +14,8 @@ In technical writing, the assumption is typically that a user reads a guide when
 While this is certainly an important case for a writer to accommodate, it is
 surely not the only way a reader experiences a guide.
 
-I often read guides passively. I don't actively follow the instructions.
-Instead, I'm determining whether I will follow the guide, or I'm imagining
-myself following the guide.
+I often read guides passively. I don't actively execute the instructions.
+Instead, I'm determining whether it's worthwhile to take the steps described, or I'm imagining the satisfaction of completing the instructions.
 
 They are like aspirational procedures: things that I might like to do if they
 seem doable and worth doing.
