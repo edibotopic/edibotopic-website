@@ -14,8 +14,8 @@ In technical writing, the assumption is typically that a user reads a guide when
 While this is certainly an important case for a writer to accommodate, it is
 surely not the only way a reader experiences a guide.
 
-I often read guides passively. I don't actively execute the instructions.
-Instead, I'm determining whether it's worthwhile to take the steps described, or I'm imagining the satisfaction of completing the instructions.
+I often read guides passively, without actively executing the instructions.
+Instead, I'm determining whether it's worthwhile to take the steps described, or I'm imagining the satisfaction of completing the entire sequence.
 
 They are like aspirational procedures: things that I might like to do if they
 seem doable and worth doing.
@@ -32,4 +32,4 @@ a problem
 In any of these cases, an excellent guide is not merely accurate and functional, but also compelling: the guide makes me want to try the software. The software can't
 fulfill this role, because it can't anticipate itself.
 
-A guide may exhibit the simplicity, beauty, or power of a sequence of actions so well, that I later install and start using the software without ever actively following the guide, yet the guide has still been successful.
+A guide may exhibit the simplicity, beauty, or power of a sequence of actions so well, that I later install and start using the software without ever actively following the guide, and yet the guide has still been successful.
