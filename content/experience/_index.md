@@ -34,12 +34,10 @@ For more information, have a look at my
 
 I've published about 60 articles in journals and books. I have been cited over 1800 times, with four of my articles receiving over 100 citations.
 
-Here are some examples:
+For a full list, see my [Google Scholar
+profile](https://scholar.google.com/citations?hl=en&user=vWZ2uMAAAAAJ&view_op=list_works).
 
 {{ collection(file="publications.toml") }}
-
-For more, visit my [Google Scholar
-profile](https://scholar.google.com/citations?hl=en&user=vWZ2uMAAAAAJ&view_op=list_works).
 
 </div>
 
