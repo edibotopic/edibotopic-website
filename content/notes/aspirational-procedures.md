@@ -10,14 +10,14 @@ math = false
 +++
 
 In technical writing, the assumption is typically that a user reads a guide to
-help them solve a problem.
+help them navigate a specific problem that they are encountering.
 
 While this is certainly an important case for a writer to accommodate, it is
-surely not the only way a reader encounters a guide.
+surely not the only way a reader experiences a guide.
 
 I often read guides passively. I don't actively follow the instructions.
 Instead, I'm determining whether I will follow the guide, or I'm imagining
-following the guide.
+myself following the guide.
 
 They are like aspirational procedures: things that I might like to do if they
 seem doable and worth doing.
@@ -31,8 +31,7 @@ This could be because:
 * I'm comparing the guide to others to learn about different ways to solve
 a problem
 
-In any of these cases, an excellent guide is not merely correct, but also
-compelling: the guide makes me want to try the software. The software can't
+In any of these cases, an excellent guide is not merely accurate and functional, but also compelling: the guide makes me want to try the software. The software can't
 fulfill this role: it can't anticipate itself.
 
 A guide may exhibit the simplicity, beauty, or power of a feature so well, that
