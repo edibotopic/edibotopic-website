@@ -20,7 +20,7 @@ subtitle = "I've been a teacher, researcher, and technical author."
 
 <div class="tab-panel" data-tab="career">
 
-I was a tenured University academic for almost eight years
+I was a University academic for almost eight years
 before transitioning into the software industry.
 
 {{ collection(file="career.toml") }}
@@ -32,9 +32,7 @@ For more information, have a look at my
 
 <div class="tab-panel" data-tab="publications">
 
-I've published over 60 articles on topics ranging from educational software and
-food science to philosophy. My publications have been cited over 1800 times.
-Four of my articles have over 100 citations.
+I've published about 60 articles in journals and books. I have been cited over 1800 times, with four of my articles receiving over 100 citations.
 
 Here are some examples:
 
@@ -47,8 +45,7 @@ profile](https://scholar.google.com/citations?hl=en&user=vWZ2uMAAAAAJ&view_op=li
 
 <div class="tab-panel" data-tab="education">
 
-My PhD is in food science but I have also pursued formal education in
-philosophy, computer science, and education.
+My PhD is in food science but I have also studied philosophy, computer science, and education.
 
 {{ collection(file="education.toml") }}
 
