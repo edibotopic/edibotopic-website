@@ -24,7 +24,7 @@ $$v = \frac{D^2 \cdot(\Delta \rho) \cdot g }{18 \cdot \mu}$$
 
 ## Measurement of viscosity
 
-The equation can be rearranged to solve for viscosity:
+The equation can be rearranged to solve for the viscosity if the solvent:
 
 $$\mu = \frac{D^2 \cdot (\rho_{ball} - \rho_{liquid}) \cdot g }{18 \cdot v}$$
 
@@ -36,17 +36,15 @@ This is known as the "falling ball" method.
 ## Practical uses
 
 The equation can be used to identify the key parameters that influence how a
-group of particles fall or rise due to gravity. This can be used to develop
+group of particles fall or rise due to gravity. This is useful for developing
 strategies to make the separation of a material from a liquid happen more
 quickly or slowly.
 
 In manufacturing, some processes are designed to either promote *or*
 prevent the physical separation of particles from liquids, for example:
 
-* Homogenisation: reduces the size of particles to prevent destabilisation,
-increasing the stability of a commercial beverage
-* Flocculation: aggregates particles together to increase destabilisation,
-enabling the removal of impurities from water
+* Homogenisation: reduces the size of particles to slow the rate of their sedimentation, thereby increasing the stability of a commercial beverage
+* Flocculation: aggregates particles together to increase their sedimentation rate, enabling the removal of impurities from water
 
 ## Simulation
 
