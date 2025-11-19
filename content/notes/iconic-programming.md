@@ -101,11 +101,11 @@ In the more accessible [SpaceTode](https://github.com/TodePond/SpaceTode) — a
 output: particles that fall.
 
 Taken together, the *set* of characters is itself iconic: **the rule resembles
-the causal event that it generates**
+the causal event that it generates**.
 
 The creators of SPLAT ([Dave Ackley](https://www.cs.unm.edu/~ackley/)) and
 SpaceTode ([Lu Wilson](https://www.todepond.com/)) rightly emphasise the
-_spatial_ aspect of their work, but I also think _resemblance_ is a salient
+_spatial_ aspect of their work, but I also think _resemblance_ is a notable
 characteristic.
 
 ## Comments illuminate
@@ -142,7 +142,7 @@ Icons _resemble what they represent_, while a box is symbolic, an abstraction.
 Programming with icons does not require a graphical user interface.
 I can type or write `^ ^ ^` to represent a mountain range without a GUI.
 
-Here are some other icons and a spatial interpretation:
+Here are some other icons with possible spatial interpretations:
 
 * `^` pointer
 * `!` filter
@@ -162,11 +162,11 @@ The concept of "resemblance" is not necessarily spatial:
 ## Why icons?
 
 I might like to program with icons because they have an immediate conceptual
-similarity to what I am trying to make, and the immediate mechanical simplicity of being typeable by keyboard.
+similarity to what I am trying to make, and the immediate mechanical simplicity of that which can be typed.
 
-This does not have to result in a needless multiplication of symbols. One
-difficulty would be in selecting a finite set of icons for highly generalisable
-ideas. For example, ideas like parthood, connection and enclosure are highly general, span many contexts and can be combined in many ways.
+This does not have to result in a needless multiplication of symbols, but there is a
+non-trivial challenge in selecting a finite set of icons that can capture highly generalisable
+ideas. For example, ideas like parthood, connection and enclosure are highly general, span numerous contexts and can be combined in many ways.
 
 A language does not need to be fully iconic, but can leverage icons to make
 abstract concepts more concrete. An excellent example here is the use of the
