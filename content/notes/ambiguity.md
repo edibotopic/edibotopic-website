@@ -11,8 +11,19 @@ math = true
 
 We perceive something as ambiguous when it allows for two or more plausible interpretations.
 
-{% note(title="Draft") %} 
+{% warning(title="Warning") %} 
 This is a draft and is subject to revision.
+{% end %}
+
+{% note(title="Todo") %} 
+Some additional things to consider including:
+
+* Indeterminacy vs. ambiguity
+* Iteration/failure
+* Next/back 
+* State/representation
+* Idempotency/toggles
+* References
 {% end %}
 
 ## Ambiguity in language
