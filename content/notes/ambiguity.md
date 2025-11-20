@@ -19,6 +19,7 @@ This is a draft and is subject to revision.
 Some additional things to consider including:
 
 * Indeterminacy vs. ambiguity
+* Ambiguity as compression
 * Iteration/failure
 * Next/back 
 * State/representation
