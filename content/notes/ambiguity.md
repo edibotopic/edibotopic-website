@@ -11,7 +11,7 @@ math = true
 
 We perceive something as ambiguous when it allows for two or more plausible interpretations.
 
-{% warning(title="Warning") %} 
+{% note(title="Draft") %} 
 This is a draft and is subject to revision.
 {% end %}
 
