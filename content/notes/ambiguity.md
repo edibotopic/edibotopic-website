@@ -9,7 +9,7 @@ tags = ["ambiguity", "language", "design"]
 math = true
 +++
 
-We perceive something as ambiguous when it can be interpreted in two or more ways.
+We perceive something as ambiguous when it allows for two or more plausible interpretations.
 
 {% note(title="Draft") %} 
 This is a draft and is subject to revision.
