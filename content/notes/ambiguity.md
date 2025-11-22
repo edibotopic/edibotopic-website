@@ -73,13 +73,13 @@ Ambiguity can arise in different phases of learning and discovery:
 Ambiguity can be dangerous. When operating industrial machinery, an ambiguous
 instruction can be fatal.
 
-Yet, not all ambiguous instructions are so consequential. When a recipe prompts
+Not all ambiguous instructions are so consequential. When a recipe prompts
 us to add seasoning "to taste", the instruction is ambiguous with respect to the
 quantity, but it is unlikely to harm us. Moreover, it grants us the agency to
 experiment and determine our preferred quantity.
 
 Similarly, critics talk of artistic works that "respect their audience", often
-meaning that an artist acknowledges that their audience has degree of tolerance
+meaning that an artist acknowledges that their audience has some degree of tolerance
 for ambiguity.
 
 ## Ambiguity and discovery
