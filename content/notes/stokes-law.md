@@ -24,7 +24,7 @@ $$v = \frac{D^2 \cdot(\Delta \rho) \cdot g }{18 \cdot \mu}$$
 
 ## Measurement of viscosity
 
-The equation can be rearranged to solve for the viscosity if the solvent:
+The equation can be rearranged to solve for the viscosity of the solvent:
 
 $$\mu = \frac{D^2 \cdot (\rho_{ball} - \rho_{liquid}) \cdot g }{18 \cdot v}$$
 
