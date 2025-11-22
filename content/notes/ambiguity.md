@@ -108,7 +108,7 @@ by the user, even if the design is intentional and useful. As one becomes
 skilled, the sense of ambiguity may be replaced with a sense of possibility.
 
 A technology is discoverable when it enables the resolution of its own
-ambiguity. This typically coincides with the user recognising the intention of
+ambiguity. This may coincide with the user recognising the intention of
 the designer.
 
 ## Ambiguity in reality
