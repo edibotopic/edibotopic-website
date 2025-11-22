@@ -30,7 +30,7 @@ Some additional things to consider including:
 ## Ambiguity in language
 
 The causes of ambiguity are not restricted to language, but types of
-ambiguity are well-defined in the domain of linguistics.
+ambiguity are well-defined in that domain, so it's a good place to start.
 
 **Lexical** ambiguity occurs when a word has multiple meanings. In the case
 of homonyms, a word can have multiple, unrelated meanings (river _bank_, money
