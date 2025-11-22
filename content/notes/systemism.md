@@ -151,7 +151,7 @@ with known dissolution rates and get people to evaluate their saltiness.
 We form a complete picture, in which the shapes of salt crystals influence
 their dissolution rate, affecting the dissociation of salt into $Na^+$ and
 $Cl^-$ ions, which interact with taste receptors on the tongue and initiate the
-firing of signals to the brains that result in the perception of different
+firing of signals to the brain that result in the perception of different
 intensitities of saltiness:
 
 $$
@@ -160,7 +160,7 @@ $$
 {\displaystyle {\text{taste} \atop \uparrow} \atop \text{signal}}
 $$
 
-Systemism is not restricted to chemistry. The invention of technology helps
+The invention of technology helps
 people make progress. Such progress is scaled to a societal level when an
 invention has a concrete implementation as a product. This exposes it to the
 market, which initiates mechanisms of feedback that improve the implementation.
