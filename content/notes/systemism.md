@@ -10,43 +10,39 @@ math = true
 +++
 
 We can experience a system as a whole or analyse it into its constituent parts.
-A worldview that privileges the former is called "holism", and the latter
-"reductionism". In everyday conversation, holism typically carries a positive
-connotation, whereas reductionism is often levelled as a criticism.
+The worldview that privileges the first is called "holism", the second "reductionism". In everyday ife, holism typically has a positive
+connotation, while reductionism is viewed negatively.
 
 Domains that are interpreted as emphasising analysis, most notably science, are
 called "reductionist" when their method is taken to filter out important
 aspects of the world. In recent years, a critique of food and nutritional
 scientists, which argued that they were guilty of "nutritional reductionism",
-gained significant traction. The critics instead advocated for various kinds of
-holism.
+gained significant traction. The critics instead advocating for holism, often advancing an explicit skepticism of analysis.
 
-If the scientist is the archetypal reductionist, then the archetypal holist is
-the artist, experiencing the world as it is given and integrating multiple
+If the scientist is the archetypal reductionist, the archetypal holist might be the artist, who experiences the world as it is given and integrates multiple
 aspects of that experience into their art.
 
 The dichotomy between holism and reductionism is usually false. A scientist who
 appreciates the holistic beauty of plants is more likely to become interested
 in their analysis. An artist who is aware of the geometrical patterns in the
-parts of nature may incorporate them into their artwork. While there are
+parts of nature can incorporate them into their artistic vision. While there are
 scientific disciplines that focus on parts (molecular biology), there are also
-those focused on wholes (synthetic biology), and many scientists that oscillate
-between them.
+those focused on wholes (synthetic biology), and many scientists that oscillate between these frames.
 
 There is a verticality in how we contrast holism and reductionism. We imagine
 experiencing the whole at a "high level" and the parts at a "low level". At the
 higher level, we can "take everything in" but at the low level we "miss the big
-picture". Even stronger, some argue that analysis risks _destroying_ the
-whole, with our immediate experience being displaced by a symbolic language of
+picture". Even stronger, some argue that analysis risks actively _destroying_ the
+whole, with our immediate experience being somehow displaced by a symbolic language of
 atoms, bits, molecules, and nutrients.
 
-Instead, reductionism can be thought of as a narrowing of perspective. In that
+Reductionism can instead be thought of as a narrowing of perspective. In that
 sense, holism itself is a kind of reductionism, as it narrows our perspective
 to the whole, a particular level of analysis. Just as we can be "nutritional
 reductionists" (reducing food to nutrients), we can also be "sensory
 reductionists" (reducing food to sense experience) or "cultural reductionists"
 (reducing food to its socio-cultural role). Each of these is a legitimate way
-to analyse food but none of them is total.
+to analyse food but none of them provides a totalising account.
 
 To be more clear, we can think of two general kinds of reduction, each amounting
 to a narrowing of perspective:
@@ -69,8 +65,7 @@ the user encounters.
 The Argentinian philosopher Mario Bunge used the term "systemism" to refer to
 an epistemology of systematic explanations that bridges holism and
 reductionism. Bunge was skeptical of both holism and reductionism when used in
-isolation: reductionists are at risk of fragmentation, while holists are prone
-to superficiality.
+isolation: reductionists are at risk of fragmenting knowledge, while holists are prone to superficiality.
 
 Imagine that you have made a _causal_ observation of some kind. This could be that:
 
@@ -88,17 +83,17 @@ $$
 $$
 
 At the bottom there is another causal relation $A_1 \to B_1$ occupying the
-`micro` level. The micro is relatively less salient or immediate, and may
+`micro` level. The micro is less salient or immediate, and may
 require deep reasoning or the use of instruments:
 
 - How is the button implemented and does it produce the bug?
-- Which type of chemicals did I mix and what reaction was generated?
+- Which type of chemicals were added and what reaction was generated?
 
-Moving between the two levels — micro and macro — is characteristic of:
+Moving between the two levels — micro and macro — during active discovery is characteristic by:
 
 * **Analysis**: determining the micro-level causes responsible for macro-level
    effects
-* **Synthesis**: creating macro-level effects through manipulation of
+* **Synthesis**: observing macro-level effects through manipulation of
    micro-level components
 
 After restricting ourselves to a single level of analysis in our methodology,
@@ -132,15 +127,14 @@ When there is an explanatory gap between two or more levels, the ontological
 concept of "emergence" is invoked. Here, there are a set of coincident events
 but no established relation between them. Crucially, this does not mean that
 the relation will never be known, only that it remains to be discovered; for
-example, the apparent emergence of a blue colour in a mixture is displaced by a
-mechanistic explanation when we study the underlying chemistry.
+example, the "mystery" behind the emergence of a blue colour in a mixture is displaced by a
+mechanistic explanation when we establish the underlying chemistry.
 
 In summary, we often have questions of the form "what $x_1$ is the cause of $x_0$?":
 
 $$x_1? \to x_0$$
 
-The $x_0$ could be a scientific observation, a software bug, or a meal
-preparation. The study or engineering of the relevant system often requires
+The $x_0$ could be a scientific observation, a software bug, or an everyday experience. The study or engineering of the relevant system often requires
 moving between stages of analysis and synthesis. From such a process, we develop
 deep explanations.
 
