@@ -2,29 +2,17 @@
 title = "On ambiguity"
 description = "Types and uses of ambiguity"
 draft = false
-date = 2025-11-19
+date = 2025-11-23
 [taxonomies]
 tags = ["ambiguity", "language", "design"]
 [extra]
-math = true
+math = false
 +++
 
 We perceive something as ambiguous when it allows for two or more plausible interpretations.
 
 {% note(title="Draft") %} 
 This is a draft and is subject to revision.
-{% end %}
-
-{% note(title="Todo") %} 
-Some additional things to consider including:
-
-* Indeterminacy vs. ambiguity
-* Ambiguity as compression
-* Iteration/failure
-* Next/back 
-* State/representation
-* Idempotency/toggles
-* References
 {% end %}
 
 ## Ambiguity in language
@@ -59,7 +47,7 @@ the ending of the movie mean? Why did they wear that particular outfit? What is
 causing that smoke in the distance?
 
 In general, an ambiguity involves a one-to-many relationship between what is
-perceived and the set of its possible interpretations.
+perceived and the set of its possible interpretations [^1].
 
 Ambiguity can arise in different phases of learning and discovery:
 
@@ -82,7 +70,7 @@ Similarly, critics talk of artistic works that "respect their audience", often
 meaning that an artist acknowledges that their audience has some degree of tolerance
 for ambiguity.
 
-## Ambiguity and discovery
+## Ambiguity for discovery
 
 Ambiguity can be understood as a necessary stage in the activity of discovery.
 
@@ -111,6 +99,10 @@ A technology is discoverable when it enables the resolution of its own
 ambiguity. This may coincide with the user recognising the intention of
 the designer.
 
+> [The] machine’s complexity was tied less to its esoteric technical
+characteristics than to mundane difficulties of interpretation characteristic of
+any unfamiliar artifact. [^2]
+
 ## Ambiguity in reality
 
 Things that exist in reality have been referred to as "ambiguous".
@@ -135,23 +127,53 @@ Both ambiguity and generalisation involve one-to-many relationships:
 * **Ambiguity**: one perception with many possible interpretations
 * **Generalisation**: one class with many possible instances
 
-The distinction is that the interpretations in a case of ambiguity ($A$) are
-mutually independent, whereas the instances in a generalisation ($G$) are
-members of some class (note to author: there may be some analogy here to the
-distinction between homonymy and polysemy).
+The distinction is that the interpretations in a case of ambiguity are mutually
+independent, whereas the instances in a generalisation are members of some
+class.
 
-$$A: a \rightarrow \\{x, y,..., z\\}$$
-$$G: g \rightarrow C, \ C = \\{g_1, g_2,..., g_n\\}$$
+<!-- $$A: a \rightarrow \\{x, y,..., z\\}$$ -->
+<!-- $$G: g \rightarrow C, \ C = \\{g_1, g_2,..., g_n\\}$$ -->
 
 A generalisation assumes some model that explains the class and its membership.
 Without an understanding of the model, a generalisation may have the appearance
 of an ambiguity.
+
+## Ambiguity and indeterminacy
+
+An indeterminate expression refers to a thing without specifying all of its
+properties [^3].
+
+> You need a Windows 11 machine to follow this tutorial.
+
+— does not specify whether the Windows 11 machine is physical or virtual
+
+> Click "Save" to persist the data from your session.
+
+— does not specify where the session data is persisted
+
+In both cases, there is no obvious ambiguity with respect to the Windows 11
+machine or the session data.
 
 ## Ambiguity in documentation
 
 The general view is that ambiguity in documentation should be eliminated, so
 that the user can reliably and safely follow a given document. This is almost
 certainly good advice in most cases.
+
+### Relative ambiguity
+
+It may not be possible to eliminate ambiguity (or indeterminacy) from a user
+interface or its documentation.
+
+Documentation can, however, be written in a way that is unambiguous relative to
+the user interface.
+
+This frees designers to leverage the virtues of ambiguity, such as increased
+semantic compression and improved user agency.
+
+Documentation balances against the inevitable ambiguities of an interface.
+
+### Dynamic ambiguity
 
 Another way of thinking of a technical document, is that its reading should
 result in a progressive reduction in ambiguity; thus, for example, a document may
@@ -169,3 +191,12 @@ ambiguity, and thereby empowering the user to explore new possibilities.
 > Tell all the truth but tell it slant
 >
 > — Emily Dickinson
+
+## References
+
+[^1]: Garcia, A., & Medinilla, N. (2007). The ambiguity criterion in software design.
+Retrieved from author's [ResearchGate](https://www.researchgate.net/publication/228853962_The_ambiguity_criterion_in_software_design)
+
+[^2]: Suchman, L. A. (2007). _Human-Machine Reconfigurations_. New York: Cambridge. pp. 9.
+
+[^3]: Gillon, B. S. (1990). Ambiguity, generality, and indeterminacy: tests and definitions. _Synthese_, 85: 391-416
