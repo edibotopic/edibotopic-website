@@ -2,7 +2,8 @@
 title = "On ambiguity"
 description = "Types and uses of ambiguity"
 draft = false
-date = 2025-11-23
+date = 2025-11-19
+updated = 2025-11-23
 [taxonomies]
 tags = ["ambiguity", "language", "design"]
 [extra]
