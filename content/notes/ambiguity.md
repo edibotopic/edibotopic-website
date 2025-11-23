@@ -165,13 +165,13 @@ certainly good advice in most cases.
 It may not be possible to eliminate ambiguity (or indeterminacy) from a user
 interface or its documentation.
 
-Documentation can, however, be written in a way that is unambiguous relative to
+Documentation can, however, be written in a way that is less ambiguous relative to
 the user interface.
 
 This frees designers to leverage the virtues of ambiguity, such as increased
-semantic compression and improved user agency.
+semantic compression, reduced visual clutter, and improved user agency.
 
-Documentation balances against the inevitable ambiguities of an interface.
+Documentation balances against, and allows for, ambiguities in an interface.
 
 ### Dynamic ambiguity
 
