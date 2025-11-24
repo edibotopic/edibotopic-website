@@ -169,8 +169,7 @@ interface or its documentation.
 Documentation can, however, be written in a way that is less ambiguous relative to
 the user interface.
 
-This frees designers to leverage the virtues of ambiguity, such as increased
-semantic compression, reduced visual clutter, and improved user agency.
+This frees designers to leverage the virtues of ambiguity, such as efficiency of representation, while respecting user agency.
 
 Documentation balances against, and allows for, ambiguities in an interface.
 
