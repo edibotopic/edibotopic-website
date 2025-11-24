@@ -153,7 +153,7 @@ properties [^3].
 — does not specify where the session data is persisted
 
 In both cases, there is no obvious ambiguity with respect to the Windows 11
-machine or the session data.
+machine or the session data, they are just not exhaustively described.
 
 ## Ambiguity in documentation
 
