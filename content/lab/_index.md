@@ -1,11 +1,11 @@
 +++
-title = "Experiments"
-description = "Personal projects for the sake of making and learning."
+title = "Lab"
+description = "Experiments for the sake of making and learning."
 template = "prose.html"
 
 [extra]
-title = "Experiments"
-subtitle = "Personal projects for the sake of making and learning."
+title = "Lab"
+subtitle = "Experiments for the sake of making and learning."
 +++
 
 ## Software

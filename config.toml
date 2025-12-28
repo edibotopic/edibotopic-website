@@ -46,7 +46,7 @@ branch = "master"
 
 sections = [
   { name = "notes", path = "/notes", is_external = false },
-  { name = "experiments", path = "/experiments", is_external = false },
+  { name = "lab", path = "/lab", is_external = false },
   { name = "resume", path = "/resume", is_external = false },
   { name = "portfolio", path = "/portfolio", is_external = false },
   # { name = "tags", path = "/tags", is_external = false },
