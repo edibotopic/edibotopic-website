@@ -1,10 +1,10 @@
 +++
-title = "Experience"
+title = "Resume"
 description = "Jobs, publications, and education."
 template = "prose.html"
 
 [extra]
-title = "Experience"
+title = "Resume"
 subtitle = "I've been a teacher, researcher, and technical author."
 +++
 

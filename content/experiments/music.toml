@@ -57,21 +57,3 @@ type = "art_simple"
 img = "/art/insistence.jpg"
 link = "https://curtsyrehearsed.bandcamp.com/album/insistence"
 title = "Insistence"
-
-[[collection]]
-type = "art_simple"
-img = "/art/newly-sincere.jpg"
-link = "https://curtsyrehearsed.bandcamp.com/album/newly-sincere"
-title = "Newly Sincere"
-
-[[collection]]
-type = "art_simple"
-img = "/art/micro-noirs.jpg"
-link = "https://curtsyrehearsed.bandcamp.com/album/micro-noirs"
-title = "Micro Noirs"
-
-[[collection]]
-type = "art_simple"
-img = "/art/micro-saliences.jpg"
-link = "https://curtsyrehearsed.bandcamp.com/album/micro-saliences"
-title = "Micro Saliences"

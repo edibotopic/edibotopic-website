@@ -1,0 +1,58 @@
+{% import "macros/prose.html" as macros %}
+{% extends "_base.html" %}
+
+{% block page %}prose-page{% endblock page%}
+{% block lang %}{% if section.extra.lang %}{{ section.extra.lang }}{% else %}{{ section.lang }}{% endif %}{% endblock lang %}
+{% block title %}{{ section.title }}{% endblock title %}
+{% block desc %}
+  {% if section.description %}
+    {% set desc = section.description %}
+  {% else %}
+    {% set desc = config.description %}
+  {% endif %}
+  <meta name="description" content="{{ desc }}">
+{% endblock desc %}
+
+{% block content %}
+<div id="wrapper">
+  <main>
+    {{ macros::back_link(path = get_url(path="/")) }}
+    {% include "_section_title.html" %}
+    <div>
+      <div class="portfolio-list">
+        {% for page in section.pages %}
+        <div class="portfolio-card">
+          {% if page.extra.image %}
+          <a class="portfolio-image" href="{{ page.permalink }}">
+            {% set img_path = page.path ~ page.extra.image %}
+            <img src="{{ get_url(path=img_path) }}" alt="{{ page.title }}" />
+          </a>
+          {% endif %}
+          <div class="portfolio-content">
+            <h2 class="portfolio-title"><a class="instant" href="{{ page.permalink }}">{{ page.title }}</a></h2>
+            {% if page.description %}
+            <p class="portfolio-description">{{ page.description }}</p>
+            {% endif %}
+            {% if page.extra.tags %}
+            <div class="portfolio-tags">
+              {% for tag in page.extra.tags %}
+              <span class="tag">{{ tag }}</span>
+              {% endfor %}
+            </div>
+            {% endif %}
+            <div class="portfolio-meta">
+              {% if page.extra.publication_name and page.extra.publication_url %}
+              <span class="publication">{{ page.extra.publication_name }}. Originally published at <a class="publication-url instant" href="{{ page.extra.publication_url }}" target="_blank" rel="noreferrer noopener">{{ page.extra.publication_url }}</a></span>
+              {% elif page.extra.publication_name %}
+              <span class="publication">{{ page.extra.publication_name }}</span>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% include "_footer.html" %}
+  </main>
+</div>
+{% endblock content %}

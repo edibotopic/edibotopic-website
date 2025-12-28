@@ -80,7 +80,10 @@
     {% endif %}
   </aside>
   <main>
-    {{ macros::back_link(path = get_url(path=section.path)) }}
+    {%- set parent_path = page.components | slice(end=-1) | join(sep="/") -%}
+    {%- set page_section_path = parent_path ~ "/_index.md" -%}
+    {%- set page_section = get_section(path=page_section_path, metadata_only=true) -%}
+    {{ macros::back_link(path = get_url(path=page_section.path)) }}
 
     <div>
       {% if page.extra.copy is defined %}{% set allow_copy = page.extra.copy %}{% else %}{% set allow_copy = section.extra.copy %}{% endif %}

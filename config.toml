@@ -46,9 +46,9 @@ branch = "master"
 
 sections = [
   { name = "notes", path = "/notes", is_external = false },
-  { name = "toys", path = "/toys", is_external = false },
-  { name = "music", path = "/music", is_external = false },
-  { name = "experience", path = "/experience", is_external = false },
+  { name = "experiments", path = "/experiments", is_external = false },
+  { name = "resume", path = "/resume", is_external = false },
+  { name = "portfolio", path = "/portfolio", is_external = false },
   # { name = "tags", path = "/tags", is_external = false },
   # { name = "github", path = "https://github.com/<your-username>", is_external = true },
 ]
