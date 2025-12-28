@@ -10,8 +10,8 @@ footer = false
 # If you don't want to display id/bio/avatar, simply comment out that line
 name = "Shane Crowley"
 id = "edibotopic"
-bio = "technical author, food scientist, audio sampler"
-# avatar = "img/avatar.svg"
+bio = "technical author, food scientist"
+avatar = "img/avatar.svg"
 links = [
     { name = "GitHub", icon = "github", url = "https://github.com/edibotopic" },
     { name = "Contact", icon = "email", url = "mailto:edibotopic@gmail.com" },
