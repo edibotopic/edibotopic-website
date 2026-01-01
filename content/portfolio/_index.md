@@ -1,6 +1,6 @@
 +++
 title = "Portfolio"
-description = "Technical writing and documentation projects."
+description = "I'm a versatile technical communicator and coordinator of writing projects."
 sort_by = "date"
 template = "portfolio.html"
 page_template = "post.html"
@@ -9,7 +9,7 @@ page_template = "post.html"
 lang = "en"
 
 title = "Portfolio"
-subtitle = "Technical communication and documentation projects."
+subtitle = "I'm a versatile technical communicator and coordinator of writing projects."
 date_format = "%b %-d, %Y"
 
 toc = false

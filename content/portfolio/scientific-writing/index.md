@@ -1,7 +1,7 @@
 +++
 title = "Scientific writing"
 description = "I published dozens of scientific articles."
-date = 2024-01-15
+date = 2024-02-01
 
 [extra]
 image = "/stokes.png"
