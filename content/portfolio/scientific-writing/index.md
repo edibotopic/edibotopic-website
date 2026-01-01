@@ -1,6 +1,6 @@
 +++
 title = "Scientific writing"
-description = "I published over sixty scientific articles, as a researcher and principal investigator."
+description = "I published dozens of scientific articles."
 date = 2024-01-15
 
 [extra]

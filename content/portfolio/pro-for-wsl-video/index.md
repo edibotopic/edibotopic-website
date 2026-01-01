@@ -5,7 +5,7 @@ date = 2025-12-25
 
 [extra]
 image = "/pro-for-wsl-video-thumbnail.png"
-publication_name = "Pictured: still from launch video of Pro for WSL"
+publication_name = "Pictured: launch video of Pro for WSL"
 publication_url = "canonical.com/blog/canonical-announces-ubuntu-pro-for-wsl"
 tags = ["Windows", "Ubuntu", "Security", "Video"]
 +++

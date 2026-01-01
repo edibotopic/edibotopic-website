@@ -1,6 +1,6 @@
 +++
 title = "Developer documentation"
-description = "I wrote developer guides for using Go on Ubuntu, covering installation, setup, and debugging."
+description = "I wrote dev docs for using Go on Ubuntu."
 date = 2024-03-20
 
 [extra]
@@ -23,13 +23,13 @@ This tutorial shows how to build, run, and debug Go programs on Ubuntu. For inst
 1. Create a project directory and change into it:
 
     ```bash
-    mkdir heygo && cd heygo
+    $ mkdir heygo && cd heygo
     ```
 
 2. Initialize the project as a Go module. When initializing a module, provide the URL of a repository for hosting the source. For testing purposes, use a generic URL:
 
     ```bash
-    go mod init youruser.github.com/heygo
+    $ go mod init youruser.github.com/heygo
     ```
 
    The `go mod init` command creates a `go.mod` file in the project root that tracks the version of Go used for the program and any external dependencies.
@@ -40,7 +40,7 @@ This tutorial shows how to build, run, and debug Go programs on Ubuntu. For inst
 
 3. Create a `heygo.go` file with the following content:
 
-    ```go
+    ```go,linenos
     package main
 
     import "fmt"
@@ -55,7 +55,7 @@ This tutorial shows how to build, run, and debug Go programs on Ubuntu. For inst
 4. To compile and run your program, use the `go run` command. If you pass the current directory as an argument (`.`), the Go compiler automatically finds the main package and main function during the build:
 
     ```bash
-    go run .
+    $ go run .
     ```
 
    This outputs:
@@ -67,24 +67,28 @@ This tutorial shows how to build, run, and debug Go programs on Ubuntu. For inst
 5. To build a binary of your program that can run on its own, use the `go build` command:
 
     ```bash
-    go build .
+    $ go build .
     ```
 
-    This creates a new executable file called `heygo` in the current directory:
+    This creates a new executable file called `heygo` in the current directory.
+
+    Confirm that by listing files in the firectory:
 
     ```bash
     $ ls
+    ```
 
+    This should output:
+
+    ```none
     go.mod  heygo  heygo.go
     ```
 
-    The `heygo` binary can be run on its own:
+    Running the `heygo` binary should print "Hey Go!":
 
 
     ```bash
     $ ./heygo
-
-    Hey Go!
     ```
 
 
@@ -100,15 +104,13 @@ To set the environment for a Windows AMD64 build, first set the `GOOS` and `GOAR
 export GOOS=windows GOARCH=amd64
 ```
 
-This causes `go build` to create a `hello.exe` binary that runs on Windows:
+This causes `go build` to create a `heygo.exe` binary that runs on Windows:
 
 ```bash
-go build .
+$ go build . && ls
 ```
 
-```bash
-$ ls
-
+```none
 go.mod  heygo  heygo.exe  heygo.go
 ```
 
@@ -117,13 +119,13 @@ go.mod  heygo  heygo.exe  heygo.go
 For a full list of targets, run:
 
 ```bash
-go tool dist list
+$ go tool dist list
 ```
 
 For this example, filter the output to Windows and Linux on `amd`:
 
 ```bash
-go tool dist list | grep 'amd' | grep -E 'windows|linux'
+$ go tool dist list | grep 'amd' | grep -E 'windows|linux'
 ```
 
 Create a `Makefile` that automatically sets the build environment and creates executable binaries for both Windows and Linux platforms:
@@ -161,7 +163,7 @@ $ ./heygo_linux_amd64
 If you encounter a `Command 'make' not found` error, install [make](https://www.gnu.org/software/make/) by running:
 
 ```bash
-sudo apt install make -y
+$ sudo apt install make -y
 ```
 
 Then run `make all` again.
@@ -214,7 +216,7 @@ Tooling built in Go, including `go vet` and `gofmt`, can be used to debug and fo
 4. Running `gofmt` with the `-w` parameter on the file identifies formatting issues and writes necessary changes to the file:
 
     ```bash
-    gofmt -w heygoV2.go
+    $ gofmt -w heygoV2.go
     ```
 
    In this case, unneeded semicolons are removed from the `import` line, and the call to the print method in the `main` function is indented correctly:
@@ -266,7 +268,7 @@ Tooling built in Go, including `go vet` and `gofmt`, can be used to debug and fo
 2. Initiate a debugging session with Delve by running `dlv debug` on the file:
 
     ```bash
-    dlv debug main.go
+    $ dlv debug main.go
     ```
 
    This puts you in an interactive debugging session. You can interact with the debugger by entering commands after the `(dlv)` prompt:

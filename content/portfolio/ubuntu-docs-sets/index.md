@@ -1,6 +1,6 @@
 +++
 title = "Documentation strategy and coordination"
-description = "I coordinated documentation for multiple Ubuntu projects."
+description = "I coordinated docs for Ubuntu projects."
 date = 2026-01-01
 
 [extra]
@@ -11,13 +11,12 @@ tags = ["WSL", "authd", "ADSys", "docs"]
 +++
 
 {% tip(title="My role in developing this documentation") %} 
-I was embedded in multiple engineering teams, where I developed
+While embedded in multiple engineering teams, I developed
 documentation strategy, implemented documentation tooling, and
 contributed original documentation.
 {% end %}
 
-The three main documentation projects I was responsible for are
-linked below:
+I was primarily responsible for three main documentation projects:
 
 * [Ubuntu on WSL](https://documentation.ubuntu.com/wsl/stable/): the Ubuntu distribution for the Windows Subsystem for Linux (WSL)
 * [authd](https://documentation.ubuntu.com/authd/stable-docs/): a tool for cloud authentication on Ubuntu

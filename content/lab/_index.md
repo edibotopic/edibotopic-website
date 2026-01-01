@@ -20,7 +20,7 @@ For more, have a look at my [GitHub](https://github.com/edibotopic).
 
 ## Music
 
-I make sample-based music and sound collages on [BandCamp](https://curtsyrehearsed.bandcamp.com/).
+I made sample-based music and sound collages on [BandCamp](https://curtsyrehearsed.bandcamp.com/).
 
 {{ collection(file="music.toml") }}
 
