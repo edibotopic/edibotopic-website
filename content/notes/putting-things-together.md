@@ -2,13 +2,11 @@
 title = "Putting things together"
 description = "On doing collages"
 date = 2025-07-09
+draft = true
 [taxonomies]
 tags = ["art", "music"]
-categories = ["Featured"]
+categories = ["Archive"]
 [extra]
-accent_color = "violet"
-accent_color_dark = "violet"
-banner = "./eluded-final.webp"
 toc = true
 +++
 
