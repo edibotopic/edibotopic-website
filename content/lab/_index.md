@@ -10,17 +10,15 @@ subtitle = "Experiments for the sake of making and learning."
 
 ## Software
 
-I have published some small, open-source tools on [GitHub](https://github.com/edibotopic).
+I published some small, open-source tools on [GitHub](https://github.com/edibotopic).
 
 {{ collection(file="toys.toml") }}
-
-For more, have a look at my [GitHub](https://github.com/edibotopic).
 
 ---
 
 ## Music
 
-I made sample-based music and sound collages on [BandCamp](https://curtsyrehearsed.bandcamp.com/).
+I previously made sample-based music and sound collages on [BandCamp](https://curtsyrehearsed.bandcamp.com/).
 
 {{ collection(file="music.toml") }}
 
