@@ -195,7 +195,7 @@ As a language, Python often has multiple ways to achieve the same thing --- in
 such cases, which one is "obvious"?
 
 Nonetheless, these aphorisms strike many Python developers as reasonable and
-they are better understood as general principles that warrant reflection.
+they are best understood as general principles that warrant reflection.
 
 > Aphorisms provoke debate; they don’t promote dogma. 
 > Though they’re short, aphorisms spur considered reflection, not Pavlovian partisanship [^5].
