@@ -10,7 +10,7 @@ tags = ["ambiguity", "language", "design"]
 math = false
 +++
 
-We perceive something as ambiguous when it allows for two or more plausible interpretations.
+We perceive something as ambiguous when it allows for two or more plausible interpretations [^1].
 
 {% note(title="In progress") %} 
 This is an ongoing exploration of a topic that I am still updating periodically.
@@ -20,10 +20,7 @@ What does this button do? How did the audience respond to my talk? What did
 the ending of the movie mean? Why did they wear that particular outfit? What is
 causing that smoke in the distance?
 
-In general, an ambiguity involves a one-to-many relationship between what is
-perceived and the set of its possible interpretations [^1].
-
-This page includes some thoughts about ambiguity across different domains.
+This page includes some thoughts about ambiguity in different domains.
 
 ## Ambiguity in language
 
