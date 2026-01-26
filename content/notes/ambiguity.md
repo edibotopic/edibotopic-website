@@ -12,9 +12,8 @@ math = false
 
 We perceive something as ambiguous when it allows for two or more plausible interpretations.
 
-{% note(title="Note") %} 
-This is an exploration of the topic of ambiguity.
-I am still updating it periodically.
+{% note(title="In progress") %} 
+This is an ongoing exploration of a topic that I am still updating periodically.
 {% end %}
 
 What does this button do? How did the audience respond to my talk? What did
