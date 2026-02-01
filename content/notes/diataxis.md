@@ -8,7 +8,7 @@ date = 2024-11-08
 stage = "short"
 
 [taxonomies]
-tags = ["documentation", "Theory"]
+tags = ["writing", "Structure"]
 +++
 
 An approach to technical documentation that divides content into four types:
