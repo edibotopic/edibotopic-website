@@ -14,7 +14,6 @@ bio = "technical author, food scientist"
 avatar = "img/avatar.svg"
 links = [
     { name = "GitHub", icon = "github", url = "https://github.com/edibotopic" },
-    { name = "Contact", icon = "email", url = "mailto:edibotopic@gmail.com" },
 ]
 
 # Show a few recent posts in home page

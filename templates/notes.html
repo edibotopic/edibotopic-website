@@ -1,0 +1,55 @@
+{% import "macros/prose.html" as macros %}
+{% import "macros/search.html" as search_macros %}
+{% import "macros/tree.html" as tree_macros %}
+{% extends "_base.html" %}
+
+{% block page %}notes{% endblock page%}
+{% block lang %}{% if section.extra.lang %}{{ section.extra.lang }}{% else %}{{ section.lang }}{% endif %}{% endblock lang %}
+{% block title %}{{ section.title }}{% endblock title %}
+{% block desc %}
+  {% if section.description %}
+    {% set desc = section.description %}
+  {% else %}
+    {% set desc = config.description %}
+  {% endif %}
+  <meta name="description" content="{{ desc }}">
+{% endblock desc %}
+
+{% block content %}
+<div id="wrapper">
+  {{ macros::back_link(path = get_url(path="/"), current_path = section.path) }}
+  {% include "_section_title.html" %}
+  <main class="layout-list">
+    
+    <div class="search-and-key">
+      {{ search_macros::search() }}
+      
+      <div class="maturity-key">
+        <div class="key-title">Tree key:</div>
+        <div class="key-item">
+          <span class="key-line key-mature"></span>
+          <span class="key-label">Mature</span>
+        </div>
+        <div class="key-item">
+          <span class="key-line key-short"></span>
+          <span class="key-label">Short</span>
+        </div>
+        <div class="key-item">
+          <span class="key-line key-tenuous"></span>
+          <span class="key-label">Tenuous</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="notes-meta">
+      <span>{{ section.pages | length }} notes</span>
+    </div>
+    
+    {{ tree_macros::notes_tree(notes=section.pages) }}
+    
+  </main>
+  {% include "_footer.html" %}
+</div>
+
+<script src="https://unpkg.com/elasticlunr@0.9.5/elasticlunr.min.js"></script>
+{% endblock content %}

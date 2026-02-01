@@ -1,19 +1,17 @@
 +++
-title = "Edibotopic blog"
-description = "Edibotopic blog."
+title = "Edibotopic notes"
+description = "Edibotopic notes."
 sort_by = "date"
-template = "blog.html"
-page_template = "post.html"
+template = "notes.html"
+page_template = "note.html"
 insert_anchor_links = "right"
-generate_feeds = true
+generate_feeds = false
 
 [extra]
 lang = "en"
 
 title = "Notes"
-subtitle = """\
-I'm going to try speaking some reckless words, and I want you to listen recklessly — Zhuangzi
-"""
+subtitle = "Notes on various topics."
 date_format = "%b %-d, %Y"
 
 categorized = false # posts can be categorized
