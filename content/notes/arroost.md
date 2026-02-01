@@ -10,9 +10,10 @@ tags = ["tools"]
 Arroost is a visual, node-based environment for live audio sampling and manipulation created by Lu Wilson.
 
 Key features:
-- Real-time audio processing with visual node graph
-- Loop-based sampling workflow
-- Experimental music creation tool
-- Browser-based interface
+
+- Browser-based
+- Sequence samples with nodes and edges
+- Create loops
+- Modulate pitch and offset
 
 Related: [Trying arroost](/blog/trying-aroost/)
