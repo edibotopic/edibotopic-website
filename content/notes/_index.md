@@ -1,7 +1,7 @@
 +++
 title = "Edibotopic notes"
 description = "Edibotopic notes."
-sort_by = "date"
+sort_by = "title"
 template = "notes.html"
 page_template = "note.html"
 insert_anchor_links = "right"
