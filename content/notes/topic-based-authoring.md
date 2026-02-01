@@ -8,7 +8,7 @@ date = 2025-11-17
 stage = "short"
 
 [taxonomies]
-tags = ["documentation", "Structured authoring"]
+tags = ["writing", "Structured authoring"]
 +++
 
 Topic-based authoring is a writing approach that organizes content into self-contained, reusable topics.
