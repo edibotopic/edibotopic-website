@@ -8,7 +8,7 @@ date = 2025-11-17
 stage = "short"
 
 [taxonomies]
-tags = ["documentation", "Knowledge management"]
+tags = ["writing", "Knowledge management"]
 +++
 
 A [PKMS](/notes/pkms) for one person.
