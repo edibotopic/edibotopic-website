@@ -8,7 +8,7 @@ date = 2025-12-22
 stage = "short"
 
 [taxonomies]
-tags = ["documentation", "Structured authoring"]
+tags = ["writing", "Structured authoring"]
 +++
 
 Information mapping is a type of structured authoring developed by Robert E. Horn.
