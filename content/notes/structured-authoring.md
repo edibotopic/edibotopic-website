@@ -8,7 +8,7 @@ date = 2025-12-22
 stage = "short"
 
 [taxonomies]
-tags = ["documentation"]
+tags = ["writing"]
 +++
 
 Structured authoring is an approach to creating content using predefined structures, patterns, and rules.
