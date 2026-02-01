@@ -28,7 +28,6 @@
     {% if config.extra.repo %}
     {% if config.extra.branch %}
     {% set edit_url = config.extra.repo ~ "/edit/" ~ config.extra.branch ~ "/content/" ~ page.relative_path %}
-    <span> | </span>
     <a class="foot-btn" href="{{ edit_url }}" target="_blank" rel="noopener noreferrer">Edit</a>
 
     {% endif %}
@@ -38,10 +37,14 @@
     {% if not config.extra.force_theme %}
     {% set moon_icon = load_data(path="icon/moon.svg") %}
     {% set sun_icon = load_data(path="icon/sun.svg") %}
-    <button id="theme-toggle" aria-label="theme switch">
+    <button id="theme-toggle" aria-label="theme switch" style="display: none;">
       <span class="moon-icon">{{ moon_icon | safe }}</span>
       <span class="sun-icon">{{ sun_icon | safe }}</span>
     </button>
+    <script>
+      // Show theme toggle since JS is enabled
+      document.getElementById('theme-toggle').style.display = '';
+    </script>
     {% endif %}
   </div>
 </footer>

@@ -6,8 +6,6 @@ draft = true
 [taxonomies]
 tags = ["art", "music"]
 categories = ["Archive"]
-[extra]
-toc = true
 +++
 
 As I get older, the sense I have of my own interests is becoming more simple. I

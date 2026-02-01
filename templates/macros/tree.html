@@ -1,0 +1,108 @@
+{% macro notes_tree(notes) %}
+<div class="notes-tree">
+  <div class="tree">
+    
+    {# Organize notes by topic (first tag) #}
+    {% for topic, topic_notes in notes | sort(attribute="taxonomies.tags.0") | group_by(attribute="taxonomies.tags.0") %}
+      {% if topic %}
+      
+      <div class="tree-category">
+      {# Topic header #}
+      <div class="tree-topic">
+        {{ topic }} <span class="count">({{ topic_notes | length }})</span>
+      </div>
+      
+      <ul class="tree-list">
+        {# Display top-level notes (single tag only) #}
+        {% for note in topic_notes | sort(attribute="title") %}
+          {% if note.taxonomies.tags | length == 1 %}
+        <li{% if note.extra.stage %} class="stage-{{ note.extra.stage }}"{% endif %}>
+          <a href="{{ note.permalink }}" class="instant">{{ note.title }}</a>
+          
+          {# Check if this note has children (second tag matches this note's title) #}
+          {% set note_title_lower = note.title | lower %}
+          {% set_global children = [] %}
+          {% for potential_child in topic_notes | sort(attribute="title") %}
+            {% if potential_child.taxonomies.tags | length > 1 %}
+              {% if potential_child.taxonomies.tags.1 | lower == note_title_lower %}
+                {% set_global children = children | concat(with=[potential_child]) %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          
+          {# Render nested children if they exist #}
+          {% if children | length > 0 %}
+          <ul class="tree-list tree-nested">
+            {% for child in children %}
+            <li{% if child.extra.stage %} class="stage-{{ child.extra.stage }}"{% endif %}><a href="{{ child.permalink }}" class="instant">{{ child.title }}</a></li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </li>
+          {% endif %}
+        {% endfor %}
+        
+        {# Handle orphaned subtopics (second tag has no matching parent note) #}
+        {% set_global seen_orphan_subtopics = [] %}
+        {% for note in topic_notes %}
+          {% if note.taxonomies.tags | length > 1 %}
+            {% set subtopic = note.taxonomies.tags.1 %}
+            
+            {# Only process each unique subtopic once #}
+            {% if subtopic not in seen_orphan_subtopics %}
+              {% set_global seen_orphan_subtopics = seen_orphan_subtopics | concat(with=[subtopic]) %}
+              
+              {# Check if a parent note exists #}
+              {% set_global parent_exists = false %}
+              {% for potential_parent in topic_notes %}
+                {% if potential_parent.taxonomies.tags | length == 1 %}
+                  {% if potential_parent.title | lower == subtopic | lower %}
+                    {% set_global parent_exists = true %}
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+              
+              {# Display orphaned subtopic and its children #}
+              {% if not parent_exists %}
+        <li class="tree-subtopic">
+          <span>{{ subtopic }}</span>
+          <ul class="tree-list tree-nested">
+                {% for child in topic_notes | sort(attribute="title") %}
+                  {% if child.taxonomies.tags | length > 1 and child.taxonomies.tags.1 == subtopic %}
+            <li{% if child.extra.stage %} class="stage-{{ child.extra.stage }}"{% endif %}><a href="{{ child.permalink }}" class="instant">{{ child.title }}</a></li>
+                  {% endif %}
+                {% endfor %}
+          </ul>
+        </li>
+              {% endif %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+      </div>
+      
+      {% endif %}
+    {% endfor %}
+    
+    {# Display uncategorized notes (no tags) #}
+    {% set_global uncategorized = [] %}
+    {% for note in notes | sort(attribute="title") %}
+      {% if not note.taxonomies.tags or note.taxonomies.tags | length == 0 %}
+        {% set_global uncategorized = uncategorized | concat(with=[note]) %}
+      {% endif %}
+    {% endfor %}
+    
+    {% if uncategorized | length > 0 %}
+    <div class="tree-category">
+    <div class="tree-topic">Uncategorised <span class="count">({{ uncategorized | length }})</span></div>
+    <ul class="tree-list">
+      {% for note in uncategorized %}
+      <li{% if note.extra.stage %} class="stage-{{ note.extra.stage }}"{% endif %}><a href="{{ note.permalink }}" class="instant">{{ note.title }}</a></li>
+      {% endfor %}
+    </ul>
+    </div>
+    {% endif %}
+    
+  </div>
+</div>
+{% endmacro %}

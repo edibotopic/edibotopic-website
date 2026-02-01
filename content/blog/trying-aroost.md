@@ -7,11 +7,6 @@ updated = 2025-08-25
 [taxonomies]
 tags = ["music", "tools"]
 categories = ["Notable"]
-[extra]
-accent_color = "#7186a8"
-accent_color_dark = "#5273a8"
-banner = "arroostUI.webp"
-toc = true
 +++
 
 I've been playing around with an early version of Arroost, a node-based tool

@@ -6,11 +6,6 @@ date = 2025-04-22
 [taxonomies]
 tags = ["programming", "semiotics"]
 categories = ["Featured"]
-[extra]
-accent_color = "#d13300"
-accent_color_dark = "#e89928"
-banner = "peirce-drawings.webp"
-toc = true
 +++
 
 Iconic programming is the writing of programs that **resemble** what they do.

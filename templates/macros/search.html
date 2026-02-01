@@ -1,0 +1,130 @@
+{% macro search() %}
+<div class="notes-search" style="display: none;" id="notes-search-wrapper">
+  <input type="text" id="search-input" placeholder="Filter notes..." autocomplete="off">
+</div>
+
+<script>
+// Show search box since JS is enabled
+document.getElementById('notes-search-wrapper').style.display = 'block';
+
+let searchIndex = null;
+
+fetch('/search_index.en.js')
+  .then(response => response.text())
+  .then(text => {
+    eval(text);
+    searchIndex = elasticlunr.Index.load(window.searchIndex);
+  })
+  .catch(error => console.error('Search error:', error));
+
+const searchInput = document.getElementById('search-input');
+
+if (searchInput) {
+  searchInput.addEventListener('input', function(e) {
+    const query = e.target.value.trim().toLowerCase();
+    
+    // Get all tree items (notes in the tree)
+    const allNoteLinks = document.querySelectorAll('.tree-list a');
+    const allTopicSections = document.querySelectorAll('.tree-topic');
+    
+    if (query.length === 0) {
+      // Show everything
+      allNoteLinks.forEach(link => {
+        link.closest('li').style.display = '';
+      });
+      allTopicSections.forEach(section => {
+        section.style.display = '';
+      });
+      // Show all parent/subtopic nodes
+      document.querySelectorAll('.tree-subtopic').forEach(node => {
+        node.style.display = '';
+      });
+      // Show all category wrappers
+      document.querySelectorAll('.tree-category').forEach(cat => {
+        cat.style.display = '';
+      });
+      return;
+    }
+    
+    if (!searchIndex) {
+      return;
+    }
+    
+    // Search and get matching note URLs
+    const results = searchIndex.search(query, {
+      fields: {
+        title: {boost: 2},
+        body: {boost: 1}
+      },
+      expand: true,
+      bool: "OR"
+    })
+    .filter(result => result.ref.includes('/notes/'));
+    
+    const matchingUrls = new Set(results.map(r => r.ref));
+    
+    // Also do a simple substring match on titles for better partial matching
+    allNoteLinks.forEach(link => {
+      const title = link.textContent.toLowerCase();
+      if (title.includes(query)) {
+        matchingUrls.add(link.getAttribute('href'));
+      }
+    });
+    
+    // Hide/show notes based on matches
+    allNoteLinks.forEach(link => {
+      const href = link.getAttribute('href');
+      if (matchingUrls.has(href)) {
+        link.closest('li').style.display = '';
+      } else {
+        link.closest('li').style.display = 'none';
+      }
+    });
+    
+    // Hide parent nodes (with nested lists) that have no visible children
+    document.querySelectorAll('.tree-list > li').forEach(parentLi => {
+      const nestedList = parentLi.querySelector('.tree-nested');
+      if (nestedList) {
+        const visibleChildren = Array.from(nestedList.querySelectorAll('li')).some(
+          li => li.style.display !== 'none'
+        );
+        parentLi.style.display = visibleChildren ? '' : 'none';
+      }
+    });
+    
+    // Hide subtopic nodes that have no visible children
+    document.querySelectorAll('.tree-subtopic').forEach(subtopic => {
+      const nestedList = subtopic.querySelector('.tree-nested');
+      if (nestedList) {
+        const visibleChildren = Array.from(nestedList.querySelectorAll('li')).some(
+          li => li.style.display !== 'none'
+        );
+        subtopic.style.display = visibleChildren ? '' : 'none';
+      }
+    });
+    
+    // Hide topic sections that have no visible children
+    document.querySelectorAll('.tree-category').forEach(category => {
+      const visibleItems = category.querySelectorAll('.tree-list li');
+      let visibleCount = 0;
+      visibleItems.forEach(li => {
+        if (li.style.display !== 'none') {
+          visibleCount++;
+        }
+      });
+      
+      if (visibleCount > 0) {
+        category.style.display = '';
+        // Update count in the category header
+        const countSpan = category.querySelector('.count');
+        if (countSpan) {
+          countSpan.textContent = `(${visibleCount})`;
+        }
+      } else {
+        category.style.display = 'none';
+      }
+    });
+  });
+}
+</script>
+{% endmacro %}

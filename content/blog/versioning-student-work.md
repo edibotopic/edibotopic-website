@@ -9,11 +9,6 @@ draft = false
 [taxonomies]
 categories = ["Archived"]
 tags = ["teaching", "instruction"]
-
-[extra]
-accent_color = "#00000"
-accent_color_dark = "#0gf00"
-toc = true
 +++
 
 Version control is a powerful tool commonly used in large software

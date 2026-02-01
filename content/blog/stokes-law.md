@@ -4,7 +4,7 @@ description = "On the sinking and floating of particles"
 draft = false
 date = 2025-09-21
 [taxonomies]
-tags = ["science", "teaching", "colloids", "simulation"]
+tags = ["science"]
 [extra]
 math = true
 +++

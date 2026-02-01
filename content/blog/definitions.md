@@ -5,12 +5,7 @@ draft = false
 date = 2025-04-27
 aliases = ["/notes/definitions/"]
 [taxonomies]
-tags = ["philosophy", "communication"]
-[extra]
-accent_color = "#609f7a"
-accent_color_dark = "#88b48e"
-banner = "atoms.gif"
-toc = true
+tags = ["philosophy"]
 +++
 
 We often have a fear of _fixing_ the meaning of an idea,

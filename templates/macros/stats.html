@@ -1,0 +1,41 @@
+{% macro recent_activity(notes, limit=5) %}
+{% set sorted_notes = notes | sort(attribute="date") | reverse %}
+{% set recent = sorted_notes | slice(end=limit) %}
+
+<div class="recent-notes">
+  <h3>Recent</h3>
+  <ul>
+    {% for note in recent %}
+    <li>
+      <a href="{{ note.permalink }}" class="instant">{{ note.title }}</a>
+      <span class="date">{{ note.date | date(format="%b %d") }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endmacro %}
+
+{% macro topic_distribution(notes) %}
+{% set_global categorized_notes = [] %}
+
+{% for note in notes %}
+  {% if note.taxonomies.tags and note.taxonomies.tags | length > 0 %}
+    {% set_global categorized_notes = categorized_notes | concat(with=[note]) %}
+  {% endif %}
+{% endfor %}
+
+{% if categorized_notes | length > 0 %}
+<div class="topic-stats">
+  <h3>Topics</h3>
+  <ul>
+    {% for topic, topic_notes in categorized_notes | group_by(attribute="taxonomies.tags.0") %}
+    {% set count = topic_notes | length %}
+    <li>
+      <span>{{ topic }}</span>
+      <span class="count">{{ count }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+{% endmacro %}
