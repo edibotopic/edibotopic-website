@@ -8,7 +8,7 @@ date = 2025-12-22
 stage = "short"
 
 [taxonomies]
-tags = ["documentation", "Documentation theorists"]
+tags = ["writing", "Documentation theorists"]
 +++
 
 Developed the concept of [information mapping](/notes/information-mapping), a type of [structured authoring](/notes/structured-authoring).
