@@ -8,7 +8,7 @@ date = 2025-11-17
 stage = "short"
 
 [taxonomies]
-tags = ["documentation", "Knowledge management"]
+tags = ["writing", "Knowledge management"]
 +++
 
 A personal knowledge management system (PKMS) is any system for an individual to organise knowledge outside of their own head.
