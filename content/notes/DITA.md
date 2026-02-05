@@ -4,9 +4,6 @@ description = "Darwin Information Typing Architecture"
 draft = false
 date = 2026-02-05
 
-[extra]
-stage = "short"
-
 [taxonomies]
 tags = ["writing", "Structured authoring"]
 +++

@@ -4,9 +4,6 @@ description = "Frameworks describing types of information in documentaion."
 draft = false
 date = 2025-12-22
 
-[extra]
-stage = "short"
-
 [taxonomies]
 tags = ["writing", "Structured authoring"]
 +++
