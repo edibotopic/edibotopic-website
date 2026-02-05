@@ -1,7 +1,7 @@
 +++
 title = "Wiki"
 description = "Collaborative platform with strong inter-connections"
-draft = false
+draft = true
 date = 2025-11-17
 
 [extra]

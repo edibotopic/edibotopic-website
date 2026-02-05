@@ -1,7 +1,7 @@
 +++
 title = "PKMS"
 description = "Personal knowledge management system for individuals"
-draft = false
+draft = true
 date = 2025-11-17
 
 [extra]

@@ -3,6 +3,7 @@ title = "Diataxis"
 description = "Framework dividing documentation into four types"
 draft = false
 date = 2024-11-08
+updated = 2026-02-05
 
 [extra]
 stage = "short"

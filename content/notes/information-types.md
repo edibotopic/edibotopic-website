@@ -2,7 +2,7 @@
 title = "Information types"
 description = "Frameworks describing types of information in documentaion."
 draft = false
-date = 2025-12-22
+date = 2026-02-05
 
 [taxonomies]
 tags = ["writing", "Structured authoring"]

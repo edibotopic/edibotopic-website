@@ -11,6 +11,9 @@ stage = "short"
 tags = ["philosophy"]
 +++
 
-Multistability is a phenomenon in which two unrelated perceptions impress themselves on someone at the same time.
+Multistability is a phenomenon in which two unrelated perceptions impress
+themselves on someone at the same time.
 
 The salience of each perception may alternate for the perceiver.
+
+This results in a state of stable ambiguity.

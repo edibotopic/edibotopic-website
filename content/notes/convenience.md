@@ -1,7 +1,7 @@
 +++
 title = "Convenience"
 description = "The ease and comfort with which a process can be undertaken"
-draft = false
+draft = true
 date = 2024-11-08
 
 [extra]

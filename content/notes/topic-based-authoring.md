@@ -3,6 +3,7 @@ title = "Topic-based authoring"
 description = "Writing organized around discrete topics"
 draft = false
 date = 2025-11-17
+updated = 2026-02-05
 
 [extra]
 stage = "short"

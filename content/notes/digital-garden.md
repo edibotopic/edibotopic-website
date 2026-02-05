@@ -1,7 +1,7 @@
 +++
 title = "Digital garden"
 description = "Personal digital space cultivated and maintained organically"
-draft = false
+draft = true
 date = 2025-11-17
 
 [extra]
