@@ -1,7 +1,7 @@
 +++
 title = "Second brain"
 description = "A PKMS for one person"
-draft = false
+draft = true
 date = 2025-11-17
 
 [extra]
