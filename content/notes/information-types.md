@@ -34,7 +34,7 @@ Indeed, DITA can be extended with additional types, while Diataxis is a fixed fo
 
 | Extra DITA types      | Equivalent Diataxis types   | Description                                  |
 |-----------------------|-----------------------------|----------------------------------------------|
-| Troubleshooting       | How-to                      | Goal-oriented tasks with a corrective goal   |
+| Troubleshooting       | How-to                      | Tasks with a corrective goal   |
 | Glossary              | Reference                   | Collection of terms included in a reference  |
 | Learning & Training   | Tutorial                    | A guided learning experience                 |
 
