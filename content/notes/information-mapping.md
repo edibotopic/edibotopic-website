@@ -11,7 +11,7 @@ tags = ["writing", "Structured authoring"]
 
 Information mapping is a type of [structured
 authoring](/notes/structured-authoring) developed by [Robert E.
-Horn](/notes/robert-e-horn).
+Horn](https://en.wikipedia.org/wiki/Robert_E._Horn).
 
 It is a system for identifying, categorizing, and connecting information in a
 document. Originally, it was developed for learning-oriented references.

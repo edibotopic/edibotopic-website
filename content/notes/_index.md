@@ -11,7 +11,7 @@ generate_feeds = false
 lang = "en"
 
 title = "Notes"
-subtitle = "These notes are in the early stages of development and are being actively updated."
+subtitle = "These notes are in the early stages of development."
 date_format = "%b %-d, %Y"
 
 categorized = false # posts can be categorized
