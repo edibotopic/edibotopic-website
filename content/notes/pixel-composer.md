@@ -13,5 +13,5 @@ tags = ["technology", "Tools"]
 
 [Pixel Composer](https://pixel-composer.com/) is a node-based tool for pixel graphics and animation.
 
-It can be used for the prodedural generation of game assets.
+It can be used for the procedural generation of 2D and 3D game assets.
 
