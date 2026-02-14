@@ -25,3 +25,6 @@ I was primarily responsible for three main documentation projects:
 Each project used Sphinx with MyST-flavoured markdown.
 The sources were hosted publically on GitHub.
 The documentation was published using Read the Docs.
+
+I also led a project to rebuild the [Ubuntu wiki](https://discourse.ubuntu.com/t/a-new-ubuntu-wiki-part-1-announcement/72729).
+This was a large cross-team effort, encompassing information architecture, wiki tooling, archiving, and community engagement.
