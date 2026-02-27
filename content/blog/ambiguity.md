@@ -3,18 +3,14 @@ title = "On ambiguity"
 description = "Types and uses of ambiguity"
 draft = false
 date = 2025-11-19
-updated = 2026-01-25
+updated = 2026-02-27
 [taxonomies]
-tags = ["philosophy"]
+tags = ["philosophy", "writing"]
 [extra]
 math = false
 +++
 
 We perceive something as ambiguous when it allows for two or more plausible interpretations [^1].
-
-{% note(title="In progress") %} 
-This is an ongoing exploration of a topic that I am still updating periodically.
-{% end %}
 
 What does this button do? How did the audience respond to my talk? What did
 the ending of the movie mean? Why did they wear that particular outfit? What is
@@ -196,15 +192,28 @@ they are best understood as general principles that warrant reflection.
 > Aphorisms provoke debate; they don’t promote dogma. 
 > Though they’re short, aphorisms spur considered reflection, not Pavlovian partisanship [^5].
 
-## Ambiguity in poetics
+## Ambiguity and mental processing
 
-{% note(title="TODO") %} 
-See [Seven Types of Ambiguity](https://en.wikipedia.org/wiki/Seven_Types_of_Ambiguity)
-{% end %}
+Ambiguity is a feature of many creative works, which attract varying interpretations.
 
 > Tell all the truth but tell it slant
 >
 > — Emily Dickinson
+
+The book [Seven Types of Ambiguity](https://en.wikipedia.org/wiki/Seven_Types_of_Ambiguity) suggests some forms of ambiguity in literary works that reflect the mindset of the author.
+
+Types 4 to 7 are when:
+
+* Alternative meanings combine to make clear a complicated state of mind in the author.
+* A fortunate confusion arises, as when the author is discovering an idea in the act of writing.
+* What is said is contradictory or irrelevant and the reader is forced to invent interpretations.
+* Full contradiction occurs, marking a division in the author's mind.
+
+In art, this can surely lead to interesting effects and biographical insights.
+
+For technical writing, it is a reminder that any difficulty in resding a text can be caused by an author who is confused or in the process of becoming less confused. 
+
+This is one way in which writing is a useful act, in that it reveals such confusions and prompts their correction, often through collaboration.
 
 ## References
 
