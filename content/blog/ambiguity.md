@@ -174,8 +174,7 @@ An aphorism is a short phrase that expresses some general truth.
 While they are often syntactically clear, they can be interpreted many ways,
 and are therefore ambiguous.
 
-Aphorisms are mostly associated with philosophers like Schopenhauer [^4], but they
-do appear in programming culture. One of the most famous examples is the
+Aphorisms are mostly associated with philosophers like Schopenhauer [^4], but programmers use them too. A good example is the
 [Zen of Python](https://peps.python.org/pep-0020/), which includes aphorisms like:
 
 * Simple is better than complex.
@@ -211,7 +210,7 @@ Types 4 to 7 are when:
 
 In art, this can surely lead to interesting effects and biographical insights.
 
-For technical writing, it is a reminder that any difficulty in resding a text can be caused by an author who is confused or in the process of becoming less confused. 
+For technical writing, it is a reminder that any difficulty in reading a text can be caused by an author who is confused or in the process of overcoming their confusion. 
 
 This is one way in which writing is a useful act, in that it reveals such confusions and prompts their correction, often through collaboration.
 
