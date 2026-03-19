@@ -15,3 +15,8 @@ tags = ["technology", "Tools"]
 
 It can be used for the procedural generation of 2D and 3D game assets.
 
+One interesting feature of the tool is its tutorials, which are themselves Pixel Composer projects.
+A markup language is included that has useful affordances for users learning the interface, for example:
+
+* References to UI elements that highlight the relevant UI elements when hovered
+* Keybindings that are highlighted when a user uses the keybinding

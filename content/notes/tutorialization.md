@@ -22,3 +22,5 @@ tutorialization, because the player should intuitively discover how to play the
 game. Similar arguments are made about design in general (i.e., the ideal
 flatpack desk does not require a manual to build as it teaches you how to build
 it).
+
+_Note to self: It's interesting to consider the opposite: detutorialization._
