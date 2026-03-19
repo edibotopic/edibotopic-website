@@ -43,7 +43,7 @@ In contrast, the editing experience in a wiki goes like this:
 At least that's how it ideally works. In reality, wikis often have additional
 restrictions. You may need to become a trusted contributor for your edits to be
 public. There are even wikis that require contributors to go through the GitHub
-interface, so their edits can be formally reviewed, and, rejected if necessary.
+interface, so the edits can be formally reviewed, and, rejected if necessary.
 At that point, the wiki can begin to feel less like a wiki.
 
 That an SSG can contain internal links does also not fully capture the role of
