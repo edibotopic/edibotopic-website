@@ -1,9 +1,9 @@
 +++
-title = "Definitions and fixedness"
+title = "Survey of definitions"
 description = "On different kinds of definition"
 draft = false
+aliases = ["/blog/definitions/"]
 date = 2025-04-27
-aliases = ["/notes/definitions/"]
 [taxonomies]
 tags = ["philosophy"]
 +++
@@ -21,8 +21,8 @@ The worry is that a definition may fix an idea in the wrong
 state, or deprive us of access to many (implicit) definitions at
 once.
 
-In general, it's better to know what we're talking about.
-There are many kinds of definition that can help us, and any definition that we choose does not have to remain fixed for long.
+But, at a point in time, it's better to know what we're talking about than to
+not know, and definitions can help in this regard.
 
 ## Pointing
 

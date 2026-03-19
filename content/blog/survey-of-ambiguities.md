@@ -1,7 +1,8 @@
 +++
-title = "On ambiguity"
+title = "Survey of ambiguities"
 description = "Types and uses of ambiguity"
 draft = false
+aliases = ["/blog/ambiguity/"]
 date = 2025-11-19
 updated = 2026-02-27
 [taxonomies]
@@ -208,11 +209,11 @@ Types 4 to 7 are when:
 * What is said is contradictory or irrelevant and the reader is forced to invent interpretations.
 * Full contradiction occurs, marking a division in the author's mind.
 
-In art, this can surely lead to interesting effects and biographical insights.
+Interpreting art can then yield psychological and biographical insights about the author.
 
-For technical writing, it is a reminder that any difficulty in reading a text can be caused by an author who is confused or in the process of overcoming their confusion. 
-
-This is one way in which writing is a useful act, in that it reveals such confusions and prompts their correction, often through collaboration.
+When collaborating on a writing project, these ambiguities can make the writing
+difficult to read, making us question whether one or both of us misunderstand
+the ideas.
 
 ## References
 
