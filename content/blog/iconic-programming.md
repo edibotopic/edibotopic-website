@@ -132,12 +132,12 @@ Visual programming is often contrasted with conventional, text-based
 programming. Visual programs typically rely on graphical elements, like boxes, which can be dragged and connected. These interfaces can be
 more convenient for specific users or for particular use-cases.
 
-Icons _resemble what they represent_, while a box is symbolic, an abstraction.
+Icons _resemble what they represent_, while a box is symbolic — an abstraction.
 
 Programming with icons does not require a graphical user interface.
 I can type or write `^ ^ ^` to represent a mountain range without a GUI.
 
-Here are some other icons with possible spatial interpretations:
+Here are some other icons with possible spatial interpretations that may be intuitive too you:
 
 * `^` pointer
 * `!` filter
@@ -147,6 +147,7 @@ Here are some other icons with possible spatial interpretations:
 * `#` grid
 * `/` gradient
 * `@` atom
+* `%` boundary
 
 The concept of "resemblance" is not necessarily spatial:
 
