@@ -20,6 +20,6 @@ involve transforming the original concept.
 
 Philosophers have suggested certain conditions for a successful explication,
 including that the new concept is more clear and useful, but also that the new
-concept can be substituted for the original concept while still making sense.
+concept can be substituted for the old concept without a loss in the original meaning.
 
 [^1]: In the lingo of analytic philosophy, an _explicandum_ is replaced by an _explicatum_.
