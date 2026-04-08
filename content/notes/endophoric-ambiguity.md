@@ -3,6 +3,7 @@ title = "Endophoric ambiguity"
 description = "Ambiguity from unclear references within a text"
 draft = false
 date = 2026-01-31
+updated = 2026-04-09
 
 [extra]
 stage = "mature"
@@ -13,7 +14,7 @@ tags = ["philosophy", "Ambiguity"]
 
 Endophoric ambiguity occurs when a reference within a text could refer to multiple independent parts of that same text.
 
-Example: "From the example above..." when there are multiple preceding examples:
+Example: "From the example above..." when there are multiple examples located _above_:
 
 _Which specific example is being referenced?_
 
