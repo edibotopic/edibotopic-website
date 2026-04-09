@@ -14,10 +14,10 @@ tags = ["philosophy", "Ambiguity"]
 
 Endophoric ambiguity occurs when a reference within a text could refer to multiple independent parts of that same text.
 
-Example: "From the example above..." when there are multiple examples located _above_:
+An illustration of this would be the phrase "From the example above..." when there are multiple examples located _above_ that phrase.
 
-_Which specific example is being referenced?_
+This type of ambiguity may occur in technical documentation, where it can be resolved through more specific, internal references (e.g., "From Example 2.3...", "In the `hello.go` example snippet.", "As shown in the `<linked-example>`").
 
-This type of ambiguity is common in technical writing and can be resolved through more specific references (e.g., "From Example 2.3...", "In the `hello.go` example snippet.").
+In focused, goal-oriented writing --- like a guide --- it should not be necessary for a reader to backtrack over text that they have already read, which obviates the need for internal references.
 
 Related: [On ambiguity](/blog/ambiguity)
