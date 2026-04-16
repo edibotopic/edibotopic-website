@@ -1,7 +1,7 @@
 +++
 title = "Tutorialization"
 description = "Making a section of a game a learning experience about the game itself."
-draft = false
+draft = true
 date = 2026-02-09
 
 [extra]
