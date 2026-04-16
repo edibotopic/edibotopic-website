@@ -3,7 +3,7 @@ title = "Vertical slice"
 description = "A selective demonstration of all major features of a game. "
 draft = false
 date = 2026-02-09
-date = 2026-04-16
+updated = 2026-04-16
 
 [extra]
 stage = "short"
