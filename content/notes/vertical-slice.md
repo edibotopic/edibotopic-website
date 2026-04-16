@@ -3,6 +3,7 @@ title = "Vertical slice"
 description = "A selective demonstration of all major features of a game. "
 draft = false
 date = 2026-02-09
+date = 2026-04-16
 
 [extra]
 stage = "short"
@@ -11,17 +12,11 @@ stage = "short"
 tags = ["technology", "Design"]
 +++
 
-A vertical slice is a demo of a game's major features, without being an
-exhaustive account.
+A vertical slice is a preview of a game's major features, without being an
+exhaustive demonstration of its content and mechanics.
 
-The introductory chapter or level may only be a limited showcase of the game.
+The vertical slice may combine aspects of the early-, mid-, and late-game, to suggest integration and progression across the playong experience.
 
-The vertical slice combines aspects of early-, mid-, and late-game, so that
-players develop a more holistic experience of the game's design.
+An opening tutorial level can be a kind of vertical slice, familiarising us with the systems of a game while compelling us forward.
 
-An opening of a game may itself be a kind of vertical slice, providing the player
-with a glimpse of the game's possibilities and compelling them forward.
-
----
-
-Outside of games, tutorials in general may function as vertical slices. A tutorial for a software tool is a learning experience that reveals and integrates its various functions, but it is not a complete account of its functionality.
+Tutorials are not restricted to games. A tutorial for a complex software application may also be understood as a vertical slice. It teaches the user a limited set of core functionalities, while compelling them forward beyond the tutorial to learn more.
