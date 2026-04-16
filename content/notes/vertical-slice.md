@@ -15,8 +15,8 @@ tags = ["technology", "Design"]
 A vertical slice is a preview of a game's major features, without being an
 exhaustive demonstration of its content and mechanics.
 
-The vertical slice may combine aspects of the early-, mid-, and late-game, to suggest integration and progression across the playong experience.
+The vertical slice may combine aspects of the early-, mid-, and late-game, to suggest integration and progression across the whole playing experience.
 
-An opening tutorial level can be a kind of vertical slice, familiarising us with the systems of a game while compelling us forward.
+An opening tutorial level can be a kind of vertical slice, familiarising us with the systems of a game and pointing to their future signficance, while compelling us to the next step.
 
-Tutorials are not restricted to games. A tutorial for a complex software application may also be understood as a vertical slice. It teaches the user a limited set of core functionalities, while compelling them forward beyond the tutorial to learn more.
+A tutorial for a complex software application or piece of equipment may also be understood as a vertical slice. It teaches the user a finite set of core functionalities, while anticipating integrations and complexities beyond the tutorial.
