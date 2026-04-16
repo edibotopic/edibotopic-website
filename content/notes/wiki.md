@@ -3,6 +3,7 @@ title = "Wiki"
 description = "Collaborative platform with strong inter-connections"
 draft = false
 date = 2025-11-17
+updated = 2026-04-16
 
 [extra]
 stage = "short"
@@ -11,17 +12,15 @@ stage = "short"
 tags = ["writing", "Knowledge management"]
 +++
 
-A platform for collaborating on writing that is characterised by its
-openness, speed of contribution, and heavy reliance on internal links.
+An online platform for collaborating on published information. It is characterised by its
+openness, speed/ease of contribution, and heavy internal cross-linking.
 
-For documentation, it's useful to distinguish between a wiki and a static
+In the context of documentation, it's useful to distinguish between a wiki and a static
 site generator (SSG), like Sphinx.
 
-On its face, an SSG seems to have the same benefits: the source can be open on
-GitHub; pages can be cross-linked; an edit button can be added to pages for
-less technical users.
+On its face, an SSG seems to offer similar benefits if configured appropriately. Openness: the source can be available in a repository. Speed/ease: an edit button can be added for less technical users. Cross-linking: these can also be used heavily on conventional documentation sites.
 
-This comparison is usually shallow. When a user clicks "edit", they are typically
+A static docs site can be furnished with wiki-like affordances, while not fully replicating the wiki experience. When a user clicks "edit", they are typically
 taken to a second website (e.g., GitHub). They are then immediately presented with
 language that could be unfamiliar:
 
@@ -32,9 +31,9 @@ language that could be unfamiliar:
 
 If they proceed, they need to commit changes to their new fork. Where is this
 "new fork"? What does it mean to "commit"?? How will the changes get from their
-fork back into the project??? Each point of confusion risks losing a contributor.
+fork back into the project???
 
-In contrast, the editing experience in a wiki goes like this:
+In contrast, the editing experience in a wiki is essentially:
 
 * Click "edit"
 * Edit in place
@@ -42,23 +41,21 @@ In contrast, the editing experience in a wiki goes like this:
 
 At least that's how it ideally works. In reality, wikis often have additional
 restrictions. You may need to become a trusted contributor for your edits to be
-public. There are even wikis that require contributors to go through the GitHub
-interface, so the edits can be formally reviewed, and, rejected if necessary.
-At that point, the wiki can begin to feel less like a wiki.
+public. There are even wikis that require contributors to go through a GitHub
+interface, so the edits can be formally reviewed.
 
 That an SSG can contain internal links does also not fully capture the role of
-linking in a wiki. Consider some of the features related to links alone in a
-popular wiki engine like MediaWiki:
+links in a wiki and the features available to support them. In a popular wiki engine like MediaWiki, there is:
 
-* Wanted links: links that have been created but don't point to a real page
-* Creating pages through wanted pages: only requires clicking on the link
+* The wanted link: links that have been created but don't point to a real page
+* Page-creation through wanted pages: only requires clicking on the link
 * Autocompletion for links: typing `[[` will suggest links within the site
 * Link-based indexing: indexes of wanted pages, orphan pages (no links from), dead-end pages (no links to)
 
-Linking is a deeply integrated feature of the wiki editing experience. Linking
+Linking is a deeply integrated feature of the wiki editor's and administrator's experience. Linking
 with another page is made easy and fast. Links become a quality parameter: why
-is nobody linking to this page? Wanted links are a prompt to create more pages.
+is nobody linking to this page? There are types of links with specific functions: wanted links are a prompt to create new pages.
 
-In recent years, there has been growth in personal wiki technologies, like Obsidian.
-Many of the features that people love in a tool like Obsidian can be found in older
+In recent years, there has been growth in personal, offline wiki technologies, like Obsidian.
+Many of the features that people love in a tool like Obsidian can also be found in older
 technology, like MediaWiki.
