@@ -16,7 +16,7 @@ Explication is the refinement of an inexact or ambiguous concept with
 a more precise and/or useful concept [^1].
 
 This is a normative act, in that it applies value judgements about what properties a concept _should_ have and what uses it _ought_ to serve. The judgement can be context- or domain-specific and
-involve a significant transformation of the original concept.
+result in a significant transformation of an everyday concept.
 
 Philosophers have argued over the conditions necessary for a successful explication. These include the aforementioned increase of clarity and utility, but also a requirement that the new
 concept be substitutable for the old concept, while preserving sufficient continuity of meaning.
