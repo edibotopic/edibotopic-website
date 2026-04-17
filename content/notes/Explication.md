@@ -12,8 +12,8 @@ stage = "short"
 tags = ["philosophy", "Epistemology"]
 +++
 
-Explication is the refinement of an extant and inexact or ambiguous concept with
-a new and more precise or useful concept [^1].
+Explication is the refinement of an inexact or ambiguous concept with
+a more precise and/or useful concept [^1].
 
 This is a normative act, in that it applies value judgements about what properties a concept _should_ have and what uses it _ought_ to serve. This can be context- or domain-specific and
 involve a significant transformation of the original concept.
