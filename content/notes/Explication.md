@@ -23,6 +23,6 @@ concept be substitutable for the old concept, while preserving sufficient contin
 
 In everyday terms, milk is a white drink. A food scientist can refine the concept of milk further; for example, milk is an oil-in-water emulsion that appears opaque because the oil droplets (and casein) scatter light. Although the scientist's account is more precise, it is still continuous with the ordinary concept of "milk". A new term is not required in this case. Both child and scientist alike understand the instruction "drink your milk". 
 
-Armed with their particular definitions, scientists can do useful things, like identify milk as the structural inverse of butter (a water-in-oil emulsion). In this sense, explicating a concept can help us think what was previously unthinkable.
+Armed with their own special definitions, scientists can do useful things, like identify milk as the structural inverse of butter (a water-in-oil emulsion). In this sense, explicating a concept can help us think what was previously unthinkable.
 
 [^1]: In the lingo of analytic philosophy, an _explicandum_ is replaced by an _explicatum_.
